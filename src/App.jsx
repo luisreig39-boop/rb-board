@@ -1,5 +1,6 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { WinratesView } from "./WinratesView.jsx";
+import { LegendStatsView } from "./LegendStatsView.jsx";
 
 const API_BASE = "https://api.riftcodex.com";
 const PAGE_SIZE = 100;
@@ -476,6 +477,7 @@ function Header({ view, setView, cards, syncCards, syncing, progress, lastUpdate
         <button className={view === "decks" ? "active" : ""} onClick={() => setView("decks")}>Mazos</button>
         <button className={view === "stats" ? "active" : ""} onClick={() => setView("stats")}>Stats</button>
         <button className={view === "winrates" ? "active" : ""} onClick={() => setView("winrates")}>Winrates</button>
+        <button className={view === "legends" ? "active" : ""} onClick={() => setView("legends")}>Leyendas</button>
       </nav>
       <div className="headerActions">
         {syncing && <span className="syncText">{progress.loaded}/{progress.total || "?"}</span>}
@@ -1105,9 +1107,10 @@ export default function App() {
         clearCards={clearCards}
       />
       {error && <div className="errorBanner"><strong>Error:</strong> {error}. Si Riftcodex está caído, prueba más tarde o conserva la caché local.</div>}
-      {view !== "winrates" && !cards.length && syncing && <EmptyState title="Cargando cartas" text={`Descargadas ${progress.loaded}/${progress.total || "?"}. La primera carga puede tardar un poco.`} />}
-      {view !== "winrates" && !cards.length && !syncing && <EmptyState title="No hay cartas cargadas" text="Pulsa Actualizar cartas para descargar la base de datos." action={<button className="primary" onClick={syncCards}>Actualizar cartas</button>} />}
+      {view !== "winrates" && view !== "legends" && !cards.length && syncing && <EmptyState title="Cargando cartas" text={`Descargadas ${progress.loaded}/${progress.total || "?"}. La primera carga puede tardar un poco.`} />}
+      {view !== "winrates" && view !== "legends" && !cards.length && !syncing && <EmptyState title="No hay cartas cargadas" text="Pulsa Actualizar cartas para descargar la base de datos." action={<button className="primary" onClick={syncCards}>Actualizar cartas</button>} />}
       {view === "winrates" && <WinratesView />}
+      {view === "legends" && <LegendStatsView />}
       {cards.length > 0 && view === "collection" && <CollectionView cards={cards} collection={collection} setCollection={setCollection} prices={prices} priceMeta={priceMeta} />}
       {cards.length > 0 && view === "decks" && <DecksView cards={cards} collection={collection} decks={decks} setDecks={setDecks} prices={prices} />}
       {cards.length > 0 && view === "stats" && <StatsView cards={cards} collection={collection} decks={decks} prices={prices} />}
