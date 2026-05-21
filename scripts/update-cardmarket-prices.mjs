@@ -2,6 +2,15 @@ import { readFile, writeFile, mkdir } from "node:fs/promises";
 import path from "node:path";
 
 const RIFTCODEX_API = "https://api.riftcodex.com/cards";
+
+const RIFTCODEX_HEADERS = {
+  "Accept": "application/json,text/plain,*/*",
+  "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+  "Accept-Language": "es-ES,es;q=0.9,en;q=0.8",
+  "Origin": "https://luisreig39-boop.github.io",
+  "Referer": "https://luisreig39-boop.github.io/rb-board/"
+};
+
 const CARDMARKET_BASE = "https://www.cardmarket.com/es/Riftbound/Products/Singles";
 const OUT_FILE = path.resolve("public/data/cardmarket-prices.json");
 
@@ -132,8 +141,19 @@ async function fetchAllCards() {
   const cards = [];
   for (let page = 1; page < 250; page += 1) {
     const url = `${RIFTCODEX_API}?size=100&page=${page}&sort=set_id&dir=1`;
-    const res = await fetch(url, { headers: { Accept: "application/json" } });
-    if (!res.ok) throw new Error(`Riftcodex respondió ${res.status}`);
+    let res = await fetch(url, { headers: RIFTCODEX_HEADERS });
+
+    if (res.status === 403) {
+  const fallbackUrl = `${RIFTCODEX_API}?size=100&page=${page}`;
+  console.warn(`Riftcodex respondió 403 con sort. Probando fallback: ${fallbackUrl}`);
+  res = await fetch(fallbackUrl, { headers: RIFTCODEX_HEADERS });
+    }
+
+    if (!res.ok) {
+  const body = await res.text().catch(() => "");
+  throw new Error(`Riftcodex respondió ${res.status}. ${body.slice(0, 300)}`);
+    }
+    
     const data = await res.json();
     const items = Array.isArray(data) ? data : data.items || data.data || data.results || [];
     cards.push(...items.map(normalizeCard));
