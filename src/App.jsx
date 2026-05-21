@@ -1107,6 +1107,7 @@ export default function App() {
       {error && <div className="errorBanner"><strong>Error:</strong> {error}. Si Riftcodex está caído, prueba más tarde o conserva la caché local.</div>}
       {!cards.length && syncing && <EmptyState title="Cargando cartas" text={`Descargadas ${progress.loaded}/${progress.total || "?"}. La primera carga puede tardar un poco.`} />}
       {!cards.length && !syncing && <EmptyState title="No hay cartas cargadas" text="Pulsa Actualizar cartas para descargar la base de datos." action={<button className="primary" onClick={syncCards}>Actualizar cartas</button>} />}
+      {view === "winrates" && <WinratesView />}
       {cards.length > 0 && view === "collection" && <CollectionView cards={cards} collection={collection} setCollection={setCollection} prices={prices} priceMeta={priceMeta} />}
       {cards.length > 0 && view === "decks" && <DecksView cards={cards} collection={collection} decks={decks} setDecks={setDecks} prices={prices} />}
       {cards.length > 0 && view === "stats" && <StatsView cards={cards} collection={collection} decks={decks} prices={prices} />}
