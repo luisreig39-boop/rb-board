@@ -1,0 +1,19 @@
+{
+  "meta": {
+    "generatedAt": "example",
+    "source": "example",
+    "totalTargets": 1
+  },
+  "targets": [
+    {
+      "key": "unl:unl-001:sacrifice",
+      "name": "Sacrifice",
+      "setId": "UNL",
+      "setSlug": "Unleashed",
+      "publicCode": "UNL-001",
+      "riftboundId": "UNL-001",
+      "cardSlug": "Sacrifice",
+      "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Unleashed/Sacrifice"
+    }
+  ]
+}
