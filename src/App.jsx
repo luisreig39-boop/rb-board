@@ -40,6 +40,9 @@ const EMPTY_FILTERS = {
   ownership: "all",
   minEnergy: "",
   maxEnergy: "",
+  priceStatus: "all",
+  minPrice: "",
+  maxPrice: "",
   onlyMeta: "all",
   zone: "all",
 };
@@ -80,8 +83,17 @@ function normalizeId(value) {
   return String(value || "")
     .trim()
     .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
     .replace(/[^a-z0-9]+/g, "-")
     .replace(/(^-|-$)/g, "");
+}
+
+function buildPriceKey({ setId, publicCode, riftboundId, name }) {
+  const code = normalizeId(publicCode || riftboundId || "");
+  const safeSet = normalizeId(setId || "no-set");
+  const safeName = normalizeId(name || "sin-nombre");
+  return `${safeSet}:${code || safeName}:${safeName}`;
 }
 
 function normalizeCard(raw) {
@@ -135,6 +147,7 @@ function normalizeCard(raw) {
     raw,
   };
 
+  card.priceKey = buildPriceKey(card);
   card.imageCandidates = buildImageCandidates(card);
   card.deckZone = inferDeckZone(card);
   card.searchBlob = [
@@ -228,6 +241,36 @@ function formatNumber(value) {
   return new Intl.NumberFormat("es-ES").format(value || 0);
 }
 
+function formatCurrency(value) {
+  if (value === null || value === undefined || value === "") return "—";
+  return new Intl.NumberFormat("es-ES", { style: "currency", currency: "EUR" }).format(Number(value));
+}
+
+function getCardPrice(prices, card) {
+  if (!card || !prices) return null;
+  return prices[card.priceKey] || prices[card.id] || prices[card.publicCode] || prices[card.riftboundId] || null;
+}
+
+function getPriceValue(prices, card) {
+  const price = getCardPrice(prices, card);
+  const value = Number(price?.priceFrom);
+  return Number.isFinite(value) ? value : null;
+}
+
+function getCollectionValue(cards, collection, prices) {
+  return cards.reduce((sum, card) => sum + (collection[card.id] || 0) * (getPriceValue(prices, card) || 0), 0);
+}
+
+function getDeckValue(deck, cardsById, prices) {
+  const all = { ...(deck?.cards || {}), ...(deck?.sideboard || {}) };
+  return Object.entries(all).reduce((sum, [id, qty]) => sum + Number(qty || 0) * (getPriceValue(prices, cardsById.get(id)) || 0), 0);
+}
+
+function priceUpdatedLabel(price) {
+  if (!price?.updatedAt) return "";
+  return new Date(price.updatedAt).toLocaleDateString("es-ES");
+}
+
 function toggleListValue(list, value) {
   return list.includes(value) ? list.filter((x) => x !== value) : [...list, value];
 }
@@ -238,11 +281,13 @@ function matchesMultiFilter(cardValue, selected) {
   return values.some((v) => selected.includes(v));
 }
 
-function applyFilters(cards, filters, collection) {
+function applyFilters(cards, filters, collection, prices = {}) {
   const q = filters.query.trim().toLowerCase();
   const tagQ = filters.tags.trim().toLowerCase();
   const minEnergy = filters.minEnergy === "" ? null : Number(filters.minEnergy);
   const maxEnergy = filters.maxEnergy === "" ? null : Number(filters.maxEnergy);
+  const minPrice = filters.minPrice === "" ? null : Number(String(filters.minPrice).replace(",", "."));
+  const maxPrice = filters.maxPrice === "" ? null : Number(String(filters.maxPrice).replace(",", "."));
 
   return cards.filter((card) => {
     if (q && !card.searchBlob.includes(q)) return false;
@@ -263,18 +308,29 @@ function applyFilters(cards, filters, collection) {
 
     if (filters.onlyMeta === "alternate" && !card.metadata.alternateArt) return false;
     if (filters.onlyMeta === "overnumbered" && !card.metadata.overnumbered) return false;
+    if (filters.priceStatus !== "all") {
+      const value = getPriceValue(prices, card);
+      if (filters.priceStatus === "priced" && value === null) return false;
+      if (filters.priceStatus === "unpriced" && value !== null) return false;
+    }
+    const priceValue = getPriceValue(prices, card);
+    if (minPrice !== null && (priceValue === null || priceValue < minPrice)) return false;
+    if (maxPrice !== null && (priceValue === null || priceValue > maxPrice)) return false;
+
     if (filters.onlyMeta === "signature" && !card.metadata.signature) return false;
 
     return true;
   });
 }
 
-function sortCards(cards, sortBy) {
+function sortCards(cards, sortBy, prices = {}) {
   const list = [...cards];
   if (sortBy === "name") return list.sort((a, b) => a.name.localeCompare(b.name));
   if (sortBy === "rarity") return list.sort((a, b) => a.rarity.localeCompare(b.rarity) || sortCardsDefault(a, b));
   if (sortBy === "energy") return list.sort((a, b) => (a.energy ?? 99) - (b.energy ?? 99) || a.name.localeCompare(b.name));
   if (sortBy === "power") return list.sort((a, b) => (b.power ?? -1) - (a.power ?? -1) || a.name.localeCompare(b.name));
+  if (sortBy === "priceAsc") return list.sort((a, b) => (getPriceValue(prices, a) ?? 999999) - (getPriceValue(prices, b) ?? 999999) || sortCardsDefault(a, b));
+  if (sortBy === "priceDesc") return list.sort((a, b) => (getPriceValue(prices, b) ?? -1) - (getPriceValue(prices, a) ?? -1) || sortCardsDefault(a, b));
   return list.sort(sortCardsDefault);
 }
 
@@ -399,7 +455,7 @@ function ImageWithFallback({ card, className = "", alt }) {
   );
 }
 
-function Header({ view, setView, cards, syncCards, syncing, progress, lastUpdated, clearCards }) {
+function Header({ view, setView, cards, syncCards, syncing, progress, lastUpdated, priceMeta, clearCards }) {
   return (
     <header className="appHeader">
       <div>
@@ -410,7 +466,8 @@ function Header({ view, setView, cards, syncCards, syncing, progress, lastUpdate
         </div>
         <p className="muted small">
           {cards.length ? `${formatNumber(cards.length)} cartas cargadas` : "Sin cartas cargadas"}
-          {lastUpdated ? ` · actualizado ${new Date(lastUpdated).toLocaleString("es-ES")}` : ""}
+          {lastUpdated ? ` · cartas ${new Date(lastUpdated).toLocaleString("es-ES")}` : ""}
+          {priceMeta?.updatedAt ? ` · precios ${new Date(priceMeta.updatedAt).toLocaleDateString("es-ES")}` : ""}
         </p>
       </div>
       <nav className="topNav">
@@ -427,7 +484,7 @@ function Header({ view, setView, cards, syncCards, syncing, progress, lastUpdate
   );
 }
 
-function FilterPanel({ cards, filters, setFilters, sortBy, setSortBy }) {
+function FilterPanel({ cards, filters, setFilters, sortBy, setSortBy, prices = {} }) {
   const options = useMemo(() => ({
     sets: unique(cards.map((c) => c.setId)).sort(),
     domains: unique(cards.flatMap((c) => c.domains)).sort(),
@@ -453,6 +510,8 @@ function FilterPanel({ cards, filters, setFilters, sortBy, setSortBy }) {
           <option value="rarity">Orden: rareza</option>
           <option value="energy">Orden: energía</option>
           <option value="power">Orden: poder</option>
+          <option value="priceAsc">Orden: precio bajo</option>
+          <option value="priceDesc">Orden: precio alto</option>
         </select>
         <button className="ghost" onClick={() => setFilters(EMPTY_FILTERS)}>Reset</button>
       </div>
@@ -486,6 +545,22 @@ function FilterPanel({ cards, filters, setFilters, sortBy, setSortBy }) {
         <label>
           Energía max.
           <input type="number" value={filters.maxEnergy} min="0" onChange={(e) => setFilters((f) => ({ ...f, maxEnergy: e.target.value }))} />
+        </label>
+        <label>
+          Precio
+          <select value={filters.priceStatus} onChange={(e) => setFilters((f) => ({ ...f, priceStatus: e.target.value }))}>
+            <option value="all">Todas</option>
+            <option value="priced">Con precio</option>
+            <option value="unpriced">Sin precio</option>
+          </select>
+        </label>
+        <label>
+          Precio min.
+          <input type="number" step="0.01" value={filters.minPrice} min="0" onChange={(e) => setFilters((f) => ({ ...f, minPrice: e.target.value }))} />
+        </label>
+        <label>
+          Precio max.
+          <input type="number" step="0.01" value={filters.maxPrice} min="0" onChange={(e) => setFilters((f) => ({ ...f, maxPrice: e.target.value }))} />
         </label>
         <label>
           Tags
@@ -526,13 +601,13 @@ function FilterGroup({ title, values, selected, onToggle, colorMap = {} }) {
   );
 }
 
-function CollectionView({ cards, collection, setCollection }) {
+function CollectionView({ cards, collection, setCollection, prices = {}, priceMeta = {} }) {
   const [filters, setFilters] = useState(EMPTY_FILTERS);
   const [sortBy, setSortBy] = useState("number");
   const [selected, setSelected] = useState(null);
 
-  const visible = useMemo(() => sortCards(applyFilters(cards, filters, collection), sortBy), [cards, filters, collection, sortBy]);
-  const stats = useMemo(() => getCollectionStats(cards, collection), [cards, collection]);
+  const visible = useMemo(() => sortCards(applyFilters(cards, filters, collection, prices), sortBy, prices), [cards, filters, collection, sortBy, prices]);
+  const stats = useMemo(() => getCollectionStats(cards, collection, prices), [cards, collection, prices]);
 
   const updateQty = useCallback((cardId, qty) => {
     setCollection((prev) => {
@@ -561,12 +636,14 @@ function CollectionView({ cards, collection, setCollection }) {
           <div className="bigStat">{stats.ownedUnique}<span>/{stats.total}</span></div>
           <div className="progress"><span style={{ width: `${stats.percent}%` }} /></div>
           <p className="muted small">{stats.percent}% de colección · {stats.ownedQty} cartas totales registradas</p>
+          <p className="valueLine">Valor estimado: <strong>{formatCurrency(stats.value)}</strong></p>
+          <p className="muted tiny">Precios Cardmarket: vendedor España · carta EN · NM · desde. {priceMeta?.updatedAt ? `Actualizado ${new Date(priceMeta.updatedAt).toLocaleDateString("es-ES")}` : "Sin actualización todavía."}</p>
           <div className="miniActions">
             <button className="ghost" onClick={exportCollection}>Exportar colección</button>
             <label className="ghost fileButton">Importar<input type="file" accept="application/json" onChange={importCollection} /></label>
           </div>
         </section>
-        <FilterPanel cards={cards} filters={filters} setFilters={setFilters} sortBy={sortBy} setSortBy={setSortBy} />
+        <FilterPanel cards={cards} filters={filters} setFilters={setFilters} sortBy={sortBy} setSortBy={setSortBy} prices={prices} />
       </aside>
 
       <section className="contentArea">
@@ -582,25 +659,27 @@ function CollectionView({ cards, collection, setCollection }) {
               qty={collection[card.id] || 0}
               onQty={updateQty}
               onOpen={setSelected}
+              price={getCardPrice(prices, card)}
             />
           ))}
         </div>
         {!visible.length && <EmptyState title="No hay cartas con esos filtros" text="Prueba a quitar algún filtro o pulsa Reset." />}
       </section>
 
-      {selected && <CardModal card={selected} qty={collection[selected.id] || 0} onQty={updateQty} onClose={() => setSelected(null)} />}
+      {selected && <CardModal card={selected} qty={collection[selected.id] || 0} onQty={updateQty} onClose={() => setSelected(null)} price={getCardPrice(prices, selected)} />}
     </main>
   );
 }
 
-function getCollectionStats(cards, collection) {
+function getCollectionStats(cards, collection, prices = {}) {
   const total = cards.length;
   const ownedUnique = cards.filter((c) => (collection[c.id] || 0) > 0).length;
   const ownedQty = Object.values(collection).reduce((sum, n) => sum + Number(n || 0), 0);
-  return { total, ownedUnique, ownedQty, percent: total ? Math.round((ownedUnique / total) * 100) : 0 };
+  const value = getCollectionValue(cards, collection, prices);
+  return { total, ownedUnique, ownedQty, value, percent: total ? Math.round((ownedUnique / total) * 100) : 0 };
 }
 
-function CardTile({ card, qty, onQty, onOpen }) {
+function CardTile({ card, qty, onQty, onOpen, price }) {
   const domainColor = DOMAIN_COLORS[card.domains[0]] || "#c8b891";
   return (
     <article className={`cardTile ${qty > 0 ? "owned" : "missing"}`} style={{ "--domain": domainColor }}>
@@ -611,6 +690,7 @@ function CardTile({ card, qty, onQty, onOpen }) {
       <div className="cardInfo">
         <button className="cardName" onClick={() => onOpen(card)}>{card.name}</button>
         <span className="cardMeta">{card.publicCode || card.riftboundId} · {card.type}{card.supertype ? ` · ${card.supertype}` : ""}</span>
+        <span className={price?.priceFrom ? "cardPrice hasPrice" : "cardPrice"}>{price?.priceFrom ? `desde ${formatCurrency(price.priceFrom)}` : "sin precio"}</span>
         <div className="qtyControls">
           <button onClick={() => onQty(card.id, qty - 1)}>−</button>
           <input value={qty} onChange={(e) => onQty(card.id, e.target.value)} inputMode="numeric" />
@@ -621,7 +701,7 @@ function CardTile({ card, qty, onQty, onOpen }) {
   );
 }
 
-function CardModal({ card, qty, onQty, onClose }) {
+function CardModal({ card, qty, onQty, onClose, price }) {
   const domainColor = DOMAIN_COLORS[card.domains[0]] || "#c8b891";
   return (
     <div className="modalOverlay" onClick={onClose}>
@@ -649,6 +729,12 @@ function CardModal({ card, qty, onQty, onClose }) {
           {card.flavour && <p className="flavourText">“{card.flavour}”</p>}
           {card.tags.length > 0 && <p className="muted small">Tags: {card.tags.join(", ")}</p>}
           {card.artist && <p className="muted small">Artista: {card.artist}</p>}
+          <div className="priceBox">
+            <span>Precio Cardmarket</span>
+            <strong>{price?.priceFrom ? `desde ${formatCurrency(price.priceFrom)}` : "Sin precio detectado"}</strong>
+            <small>Vendedor España · carta en inglés · Near Mint · no foil. {priceUpdatedLabel(price) ? `Actualizado ${priceUpdatedLabel(price)}.` : ""}</small>
+            {price?.url && <a href={price.url} target="_blank" rel="noreferrer">Ver en Cardmarket</a>}
+          </div>
           <div className="modalActions">
             <button onClick={() => onQty(card.id, qty - 1)}>−</button>
             <strong>{qty}</strong>
@@ -665,7 +751,7 @@ function Stat({ label, value }) {
   return <div><span>{label}</span><strong>{value}</strong></div>;
 }
 
-function DecksView({ cards, collection, decks, setDecks }) {
+function DecksView({ cards, collection, decks, setDecks, prices = {} }) {
   const cardsById = useMemo(() => new Map(cards.map((c) => [c.id, c])), [cards]);
   const [activeId, setActiveId] = useState(decks[0]?.id || "");
   const [builderFilters, setBuilderFilters] = useState({ ...EMPTY_FILTERS, ownership: "owned" });
@@ -678,7 +764,7 @@ function DecksView({ cards, collection, decks, setDecks }) {
   }, [decks, activeId]);
 
   const activeDeck = decks.find((d) => d.id === activeId) || null;
-  const builderCards = useMemo(() => sortCards(applyFilters(cards, builderFilters, collection), sortBy), [cards, builderFilters, collection, sortBy]);
+  const builderCards = useMemo(() => sortCards(applyFilters(cards, builderFilters, collection, prices), sortBy, prices), [cards, builderFilters, collection, sortBy, prices]);
 
   const updateDeck = (deck) => setDecks((prev) => prev.map((d) => (d.id === deck.id ? cleanDeckCards(deck) : d)));
 
@@ -774,14 +860,14 @@ function DecksView({ cards, collection, decks, setDecks }) {
                 <button className="ghost danger" onClick={() => deleteDeck(activeDeck.id)}>Eliminar</button>
               </div>
             </div>
-            <DeckValidation deck={activeDeck} collection={collection} cardsById={cardsById} />
-            <DeckZones deck={activeDeck} cardsById={cardsById} collection={collection} onRemove={removeCard} />
+            <DeckValidation deck={activeDeck} collection={collection} cardsById={cardsById} prices={prices} />
+            <DeckZones deck={activeDeck} cardsById={cardsById} collection={collection} onRemove={removeCard} prices={prices} />
             <label className="notesLabel">Notas del mazo<textarea value={activeDeck.notes || ""} onChange={(e) => setDeckNotes(e.target.value)} placeholder="Plan de juego, matchups, cambios pendientes..." /></label>
           </section>
 
           <aside className="builderPanel panel">
             <h2>Añadir cartas</h2>
-            <FilterPanel cards={cards} filters={builderFilters} setFilters={setBuilderFilters} sortBy={sortBy} setSortBy={setSortBy} />
+            <FilterPanel cards={cards} filters={builderFilters} setFilters={setBuilderFilters} sortBy={sortBy} setSortBy={setSortBy} prices={prices} />
             <div className="builderGrid">
               {builderCards.map((card) => {
                 const used = getCardQtyInDeck(activeDeck, card.id);
@@ -791,7 +877,7 @@ function DecksView({ cards, collection, decks, setDecks }) {
                     <button className="builderCardMain" onClick={() => addCard(card)}>
                       <ImageWithFallback card={card} className="builderImage" />
                       <span>{card.name}</span>
-                      <small>{used}/{owned || "∞"} · {ZONES[card.deckZone]?.short}</small>
+                      <small>{used}/{owned || "∞"} · {ZONES[card.deckZone]?.short} · {getPriceValue(prices, card) !== null ? formatCurrency(getPriceValue(prices, card)) : "sin precio"}</small>
                     </button>
                     <div className="builderCardActions">
                       <button onClick={() => addCard(card)}>+ zona</button>
@@ -808,7 +894,7 @@ function DecksView({ cards, collection, decks, setDecks }) {
   );
 }
 
-function DeckValidation({ deck, collection, cardsById }) {
+function DeckValidation({ deck, collection, cardsById, prices = {} }) {
   const counts = zoneCounts(deck, cardsById);
   const issues = [];
   for (const [zone, info] of Object.entries(ZONES)) {
@@ -828,14 +914,17 @@ function DeckValidation({ deck, collection, cardsById }) {
     if (used > owned) issues.push(`Faltan ${used - owned} × ${card.name}`);
   }
 
+  const deckValue = getDeckValue(deck, cardsById, prices);
+
   return (
     <div className={`validation ${issues.length ? "warn" : "ok"}`}>
       {issues.length ? <><strong>Revisión:</strong> {issues.slice(0, 6).join(" · ")}{issues.length > 6 ? "..." : ""}</> : "Mazo completo con tu colección actual."}
+      <span className="deckValue">Valor estimado: {formatCurrency(deckValue)}</span>
     </div>
   );
 }
 
-function DeckZones({ deck, cardsById, collection, onRemove }) {
+function DeckZones({ deck, cardsById, collection, onRemove, prices = {} }) {
   const counts = zoneCounts(deck, cardsById);
   return (
     <div className="deckZones">
@@ -853,6 +942,7 @@ function DeckZones({ deck, cardsById, collection, onRemove }) {
                 <span className="deckQty">{qty}×</span>
                 <span className="deckCardName">{card.name}</span>
                 <span className="deckCode">{card.publicCode || card.riftboundId}</span>
+                <span className="deckPrice">{getPriceValue(prices, card) !== null ? formatCurrency(getPriceValue(prices, card) * qty) : "—"}</span>
                 <button onClick={() => onRemove(card.id, mapKey)}>−</button>
               </div>
             )) : <p className="muted small">Sin cartas todavía.</p>}
@@ -863,19 +953,20 @@ function DeckZones({ deck, cardsById, collection, onRemove }) {
   );
 }
 
-function StatsView({ cards, collection, decks }) {
+function StatsView({ cards, collection, decks, prices = {} }) {
   const statsBySet = useMemo(() => {
     const map = new Map();
     cards.forEach((card) => {
       const key = card.setId || "?";
-      if (!map.has(key)) map.set(key, { label: card.setLabel, total: 0, owned: 0, qty: 0 });
+      if (!map.has(key)) map.set(key, { label: card.setLabel, total: 0, owned: 0, qty: 0, value: 0 });
       const item = map.get(key);
       item.total += 1;
       if ((collection[card.id] || 0) > 0) item.owned += 1;
       item.qty += collection[card.id] || 0;
+      item.value += (collection[card.id] || 0) * (getPriceValue(prices, card) || 0);
     });
     return [...map.entries()].sort(([a], [b]) => a.localeCompare(b));
-  }, [cards, collection]);
+  }, [cards, collection, prices]);
 
   const statsByRarity = useMemo(() => {
     const map = new Map();
@@ -901,6 +992,7 @@ function StatsView({ cards, collection, decks }) {
                 <strong>{setId}</strong>
                 <span>{data.label}</span>
                 <span>{data.owned}/{data.total}</span>
+                <span>{formatCurrency(data.value)}</span>
                 <div className="progress"><span style={{ width: `${pct}%` }} /></div>
                 <span>{pct}%</span>
               </div>
@@ -920,6 +1012,7 @@ function StatsView({ cards, collection, decks }) {
       <section className="panel">
         <h2>Mazos guardados</h2>
         <p className="bigStat">{decks.length}</p>
+        <p className="valueLine">Valor estimado colección: <strong>{formatCurrency(getCollectionValue(cards, collection, prices))}</strong></p>
         <p className="muted">Los datos se guardan en este navegador. Exporta tu colección o mazos si vas a cambiar de ordenador.</p>
       </section>
     </main>
@@ -945,10 +1038,12 @@ function downloadText(filename, text) {
 }
 
 export default function App() {
-  const [cards, setCards] = useState(() => loadLocal(STORAGE.cards, []));
+  const [cards, setCards] = useState(() => loadLocal(STORAGE.cards, []).map((card) => ({ ...card, priceKey: card.priceKey || buildPriceKey(card) })));
   const [collection, setCollection] = useState(() => loadLocal(STORAGE.collection, {}));
   const [decks, setDecks] = useState(() => loadLocal(STORAGE.decks, []));
   const [settings, setSettings] = useState(() => loadLocal(STORAGE.settings, { lastUpdated: "" }));
+  const [prices, setPrices] = useState({});
+  const [priceMeta, setPriceMeta] = useState({});
   const [view, setView] = useState("collection");
   const [syncing, setSyncing] = useState(false);
   const [progress, setProgress] = useState({ loaded: 0, total: 0, page: 0 });
@@ -957,6 +1052,17 @@ export default function App() {
   useEffect(() => saveLocal(STORAGE.collection, collection), [collection]);
   useEffect(() => saveLocal(STORAGE.decks, decks), [decks]);
   useEffect(() => saveLocal(STORAGE.settings, settings), [settings]);
+  useEffect(() => {
+    fetch(`${import.meta.env.BASE_URL}data/cardmarket-prices.json`, { cache: "no-store" })
+      .then((res) => res.ok ? res.json() : null)
+      .then((data) => {
+        if (!data) return;
+        setPrices(data.prices || {});
+        setPriceMeta(data.meta || {});
+      })
+      .catch(() => {});
+  }, []);
+
   useEffect(() => {
     if (!cards.length) syncCards();
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -993,14 +1099,15 @@ export default function App() {
         syncing={syncing}
         progress={progress}
         lastUpdated={settings.lastUpdated}
+        priceMeta={priceMeta}
         clearCards={clearCards}
       />
       {error && <div className="errorBanner"><strong>Error:</strong> {error}. Si Riftcodex está caído, prueba más tarde o conserva la caché local.</div>}
       {!cards.length && syncing && <EmptyState title="Cargando cartas" text={`Descargadas ${progress.loaded}/${progress.total || "?"}. La primera carga puede tardar un poco.`} />}
       {!cards.length && !syncing && <EmptyState title="No hay cartas cargadas" text="Pulsa Actualizar cartas para descargar la base de datos." action={<button className="primary" onClick={syncCards}>Actualizar cartas</button>} />}
-      {cards.length > 0 && view === "collection" && <CollectionView cards={cards} collection={collection} setCollection={setCollection} />}
-      {cards.length > 0 && view === "decks" && <DecksView cards={cards} collection={collection} decks={decks} setDecks={setDecks} />}
-      {cards.length > 0 && view === "stats" && <StatsView cards={cards} collection={collection} decks={decks} />}
+      {cards.length > 0 && view === "collection" && <CollectionView cards={cards} collection={collection} setCollection={setCollection} prices={prices} priceMeta={priceMeta} />}
+      {cards.length > 0 && view === "decks" && <DecksView cards={cards} collection={collection} decks={decks} setDecks={setDecks} prices={prices} />}
+      {cards.length > 0 && view === "stats" && <StatsView cards={cards} collection={collection} decks={decks} prices={prices} />}
     </div>
   );
 }

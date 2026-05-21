@@ -1,0 +1,9 @@
+{
+  "meta": {
+    "updatedAt": null,
+    "source": "Cardmarket",
+    "filters": "España + carta en inglés + Near Mint + no foil/no signed/no altered",
+    "note": "Este archivo se actualiza con GitHub Actions. Los precios son orientativos y pueden fallar si Cardmarket cambia su HTML."
+  },
+  "prices": {}
+}

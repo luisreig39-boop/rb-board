@@ -242,7 +242,7 @@ button:disabled { cursor: not-allowed; opacity: 0.55; }
 .deckZone { border: 1px solid var(--line); border-radius: 18px; padding: 12px; background: rgba(10,15,28,0.5); }
 .deckZone h3 { display: flex; justify-content: space-between; margin: 0 0 8px; color: var(--gold); }
 .deckZone h3 span { color: var(--muted); font-size: 13px; }
-.deckRow { display: grid; grid-template-columns: 44px 1fr auto 34px; gap: 8px; align-items: center; padding: 7px 0; border-top: 1px solid rgba(255,255,255,0.055); }
+.deckRow { display: grid; grid-template-columns: 44px 1fr auto auto 34px; gap: 8px; align-items: center; padding: 7px 0; border-top: 1px solid rgba(255,255,255,0.055); }
 .deckRow.missingOwned { color: #fecaca; }
 .deckQty { color: var(--gold); font-weight: 900; }
 .deckCardName { font-weight: 700; }
@@ -267,7 +267,7 @@ button:disabled { cursor: not-allowed; opacity: 0.55; }
 }
 .statsPage h2 { margin-top: 0; }
 .tableLike { display: grid; gap: 8px; }
-.tableRow { display: grid; grid-template-columns: 80px 1fr 90px minmax(120px, 260px) 60px; gap: 10px; align-items: center; padding: 10px; border: 1px solid var(--line); border-radius: 14px; background: rgba(10,15,28,0.46); }
+.tableRow { display: grid; grid-template-columns: 80px 1fr 90px 90px minmax(120px, 260px) 60px; gap: 10px; align-items: center; padding: 10px; border: 1px solid var(--line); border-radius: 14px; background: rgba(10,15,28,0.46); }
 .tableLike.compact .tableRow { grid-template-columns: 1fr 90px minmax(120px, 260px) 60px; }
 
 .emptyState {
@@ -305,8 +305,9 @@ button:disabled { cursor: not-allowed; opacity: 0.55; }
   .deckHeader { display: grid; }
   .deckNameInput { max-width: none; }
   .deckActions { display: grid; grid-template-columns: 1fr 1fr; }
-  .deckRow { grid-template-columns: 38px 1fr 32px; }
+  .deckRow { grid-template-columns: 38px 1fr 54px 32px; }
   .deckCode { display: none; }
+  .deckPrice { font-size: 11px; }
   .tableRow, .tableLike.compact .tableRow { grid-template-columns: 1fr; }
   .miniActions { grid-template-columns: 1fr; }
 }
@@ -314,3 +315,17 @@ button:disabled { cursor: not-allowed; opacity: 0.55; }
 .builderCardActions { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; padding: 0 8px 8px; }
 .builderCardActions button { border: 1px solid var(--line); background: #0a0f1c; color: var(--text); border-radius: 9px; padding: 6px; font-size: 11px; }
 .builderCardActions button:hover { border-color: var(--gold); }
+
+.valueLine { margin: 10px 0 0; color: var(--text); font-size: 13px; }
+.valueLine strong { color: var(--gold); font-size: 16px; }
+.tiny { font-size: 11px; }
+.cardPrice { display: inline-flex; align-items: center; width: fit-content; border: 1px solid var(--line); border-radius: 999px; padding: 3px 8px; color: var(--muted); font-size: 11px; margin-top: 6px; }
+.cardPrice.hasPrice { color: #bbf7d0; background: rgba(34,197,94,.10); border-color: rgba(34,197,94,.28); }
+.priceBox { margin: 14px 0; border: 1px solid rgba(200,184,145,.24); background: rgba(200,184,145,.07); border-radius: 16px; padding: 12px; display: grid; gap: 4px; }
+.priceBox span { color: var(--muted); font-size: 11px; text-transform: uppercase; letter-spacing: .08em; }
+.priceBox strong { color: var(--gold); font-size: 22px; }
+.priceBox small { color: var(--muted); line-height: 1.4; }
+.priceBox a { color: var(--gold); font-weight: 800; text-decoration: none; margin-top: 4px; }
+.priceBox a:hover { text-decoration: underline; }
+.deckValue { display: block; margin-top: 6px; color: var(--text); font-weight: 800; }
+.deckPrice { color: #bbf7d0; font-size: 12px; font-weight: 800; white-space: nowrap; }
