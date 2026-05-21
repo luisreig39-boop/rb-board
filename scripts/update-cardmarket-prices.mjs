@@ -4,7 +4,7 @@ import path from "node:path";
 const TARGET_FILE = path.resolve("public/data/cardmarket-targets.json");
 const OUT_FILE = path.resolve("public/data/cardmarket-prices.json");
 
-const MAX_CARDS_PER_RUN = Number(process.env.MAX_CARDS_PER_RUN || 40);
+const MAX_CARDS_PER_RUN = Number(process.env.MAX_CARDS_PER_RUN || 80);
 const DELAY_MS = Number(process.env.CARDMARKET_DELAY_MS || 4500);
 const REFRESH_HOURS = Number(process.env.CARDMARKET_REFRESH_HOURS || 24);
 
@@ -27,6 +27,9 @@ function htmlDecode(text) {
     .replace(/&quot;/g, '"')
     .replace(/&#039;/g, "'")
     .replace(/&euro;/g, "€")
+    .replace(/&#8364;/g, "€")
+    .replace(/&lt;/g, "<")
+    .replace(/&gt;/g, ">")
     .replace(/<[^>]+>/g, " ")
     .replace(/\s+/g, " ")
     .trim();
@@ -42,7 +45,8 @@ function slugifyCardmarketName(name) {
     .replace(/\s*\/\s*/g, "-")
     .trim()
     .replace(/\s+/g, "-")
-    .replace(/-+/g, "-");
+    .replace(/-+/g, "-")
+    .replace(/(^-|-$)/g, "");
 }
 
 function buildKey(target) {
@@ -53,79 +57,54 @@ function buildKey(target) {
   return `${set}:${code || name}:${name}`;
 }
 
-function buildUrls(target) {
-  if (Array.isArray(target.urls) && target.urls.length) return target.urls;
-  if (target.url) return [target.url];
+function buildBaseUrl(target) {
+  if (target.url) return String(target.url).split("?")[0];
 
   const setSlug = target.setSlug || target.expansion || target.setLabel;
   const nameSlug = target.cardSlug || slugifyCardmarketName(target.name);
-  if (!setSlug || !nameSlug) return [];
+  if (!setSlug || !nameSlug) return "";
 
-  const base = `https://www.cardmarket.com/es/Riftbound/Products/Singles/${encodeURIComponent(setSlug)}/${encodeURIComponent(nameSlug)}`;
+  return `https://www.cardmarket.com/es/Riftbound/Products/Singles/${encodeURIComponent(setSlug)}/${encodeURIComponent(nameSlug)}`;
+}
 
-  // Cardmarket web filters are not documented as a stable public API. These params are best-effort.
+function buildUrls(target) {
+  const base = buildBaseUrl(target);
+  if (!base) return [];
+
+  // Importante: la URL del target viene sin filtros. Probamos primero EXACTAMENTE el filtro que has validado en navegador:
+  // vendedor España + idioma inglés + condición mínima Near Mint.
   const paramsList = [
-    new URLSearchParams({
-      language: "1",
-      idLanguage: "1",
-      sellerCountry: "10",
-      minCondition: "2",
-      isFoil: "false",
-      isSigned: "false",
-      isAltered: "false",
-    }),
-    new URLSearchParams({
-      language: "1",
-      sellerCountry: "10",
-      minCondition: "2",
-    }),
-    new URLSearchParams({
-      idLanguage: "1",
-      sellerCountry: "10",
-      minCondition: "NM",
-    }),
+    new URLSearchParams({ sellerCountry: "10", language: "1", minCondition: "2" }),
+    new URLSearchParams({ sellerCountry: "10", language: "1", minCondition: "2", isFoil: "false", isSigned: "false", isAltered: "false" }),
+    new URLSearchParams({ sellerCountry: "10", idLanguage: "1", minCondition: "2" }),
   ];
 
-  return [base, ...paramsList.map((params) => `${base}?${params.toString()}`)];
+  return [
+    ...paramsList.map((params) => `${base}?${params.toString()}`),
+    base,
+  ];
 }
 
 function splitOfferSegments(html) {
   const chunks = [];
-  const patterns = [
-    /<[^>]+class=["'][^"']*(?:article-row|articleRow|article-item|articleItem|table-body-row|productRow|row no-gutters)[^"']*["'][\s\S]*?(?=<[^>]+class=["'][^"']*(?:article-row|articleRow|article-item|articleItem|table-body-row|productRow|row no-gutters)|<\/body>|$)/gi,
+
+  // Cardmarket suele renderizar cada oferta como una fila/div con article-row o clases parecidas.
+  const rowPatterns = [
+    /<[^>]*class=["'][^"']*article-row[^"']*["'][\s\S]*?(?=<[^>]*class=["'][^"']*article-row|<\/body>|$)/gi,
+    /<[^>]*class=["'][^"']*articleRow[^"']*["'][\s\S]*?(?=<[^>]*class=["'][^"']*articleRow|<\/body>|$)/gi,
     /<tr[\s\S]*?<\/tr>/gi,
   ];
 
-  for (const pattern of patterns) {
+  for (const pattern of rowPatterns) {
     let match;
     while ((match = pattern.exec(html))) {
-      if (match[0] && match[0].includes("€")) chunks.push(match[0]);
+      const chunk = match[0];
+      if (chunk && /€|&euro;|&#8364;/.test(chunk)) chunks.push(chunk);
     }
     if (chunks.length) return chunks;
   }
 
-  return [html];
-}
-
-function segmentLooksValid(segment) {
-  const decoded = htmlDecode(segment).toLowerCase();
-  const raw = String(segment).toLowerCase();
-
-  const countryOk =
-    /españa|spain|seller country.*spain|from spain|flag[-_ ]?es|\/es\.svg|country-icon-es|sellerCountry=10/i.test(decoded) ||
-    /flag[-_ ]?es|\/es\.svg|sellercountry.?10|country.?10/i.test(raw);
-
-  const englishOk =
-    /english|inglés|ingles|flag[-_ ]?gb|\/gb\.svg|\/en\.svg|language.?1|idlanguage.?1/i.test(decoded) ||
-    /flag[-_ ]?gb|\/gb\.svg|idlanguage.?1|language.?1/i.test(raw);
-
-  const nmOk =
-    /near mint|\bnm\b|mincondition.?nm|mincondition.?2/i.test(decoded) ||
-    /mincondition.?nm|mincondition.?2/i.test(raw);
-
-  const badFlags = /(signed|altered|foil)/i.test(decoded) && !/(not signed|not altered|non foil|no foil|non-foil)/i.test(decoded);
-
-  return { countryOk, englishOk, nmOk, badFlags };
+  return [];
 }
 
 function extractEuroPrices(segment) {
@@ -134,6 +113,7 @@ function extractEuroPrices(segment) {
   const patterns = [
     /(\d{1,4}(?:\.\d{3})*,\d{2})\s*€/g,
     /€\s*(\d{1,4}(?:\.\d{3})*,\d{2})/g,
+    /(\d{1,4}(?:\.\d{3})*,\d{2})\s*EUR/gi,
   ];
 
   for (const pattern of patterns) {
@@ -147,34 +127,84 @@ function extractEuroPrices(segment) {
   return prices;
 }
 
+function rowLooksLikeValidOffer(segment) {
+  const decoded = htmlDecode(segment).toLowerCase();
+  const raw = String(segment).toLowerCase();
+
+  // Como la URL ya va filtrada, esto es solo una capa extra. En la tabla se ven NM + banderas ES/GB.
+  const hasNm = /\bnm\b|near mint/.test(decoded) || /\bnm\b/.test(raw);
+  const hasSpanishSeller = /españa|spain|flag[-_ ]?es|\/es\.svg/.test(decoded) || /flag[-_ ]?es|\/es\.svg/.test(raw);
+  const hasEnglishCard = /inglés|ingles|english|flag[-_ ]?gb|\/gb\.svg|\/en\.svg/.test(decoded) || /flag[-_ ]?gb|\/gb\.svg|\/en\.svg/.test(raw);
+
+  const bad = /\bfoil\b|signed|altered|firmad|alterad/.test(decoded);
+
+  return {
+    strict: hasNm && hasSpanishSeller && hasEnglishCard && !bad,
+    loose: hasNm && !bad,
+    any: !bad,
+  };
+}
+
+function parseOfferRows(html) {
+  const rows = splitOfferSegments(html);
+  const strict = [];
+  const loose = [];
+  const any = [];
+
+  for (const row of rows) {
+    const prices = extractEuroPrices(row);
+    if (!prices.length) continue;
+
+    const flags = rowLooksLikeValidOffer(row);
+    if (flags.strict) strict.push(...prices);
+    else if (flags.loose) loose.push(...prices);
+    else if (flags.any) any.push(...prices);
+  }
+
+  if (strict.length) return { price: Math.min(...strict), confidence: "strict-offer-row" };
+  if (loose.length) return { price: Math.min(...loose), confidence: "loose-offer-row" };
+  if (any.length) return { price: Math.min(...any), confidence: "offer-row-fallback" };
+  return null;
+}
+
+function parseSummaryFromFilteredPage(html) {
+  // Fallback: si no podemos detectar filas, extraemos el campo "De" del panel de información.
+  // En Cardmarket suele representar el precio mínimo visible para el producto/filtros.
+  const plain = htmlDecode(html);
+  const lower = plain.toLowerCase();
+
+  const patterns = [
+    /\bde\s+(\d{1,4}(?:\.\d{3})*,\d{2})\s*€/i,
+    /\bfrom\s+(\d{1,4}(?:\.\d{3})*,\d{2})\s*€/i,
+  ];
+
+  for (const pattern of patterns) {
+    const match = plain.match(pattern);
+    if (match?.[1]) {
+      const value = Number(match[1].replace(/\./g, "").replace(",", "."));
+      if (Number.isFinite(value) && value > 0 && value < 10000) {
+        return { price: value, confidence: "summary-from-price" };
+      }
+    }
+  }
+
+  // Último fallback: solo si la página no parece vacía ni bloqueada, cogemos el menor precio de toda la página.
+  // Es menos preciso porque puede capturar tendencia/medias, pero evita quedarse en cero cuando Cardmarket cambia clases.
+  if (!/no hay artículos|sin artículos|no articles|captcha|robot|access denied|too many requests|cloudflare|unusual traffic/i.test(lower)) {
+    const allPrices = extractEuroPrices(html);
+    if (allPrices.length) return { price: Math.min(...allPrices), confidence: "page-lowest-fallback" };
+  }
+
+  return null;
+}
+
 function parseLowestPrice(html) {
-  // Signals that Cardmarket returned a generic block / empty page instead of listings.
   const plain = htmlDecode(html).toLowerCase();
   if (/captcha|robot|access denied|too many requests|cloudflare|unusual traffic/.test(plain)) {
     return { blocked: true, reason: "blocked-or-captcha" };
   }
 
-  const segments = splitOfferSegments(html);
-  const strict = [];
-  const loose = [];
-  const fallback = [];
-
-  for (const segment of segments) {
-    const prices = extractEuroPrices(segment);
-    if (!prices.length) continue;
-
-    const flags = segmentLooksValid(segment);
-    if (flags.badFlags) continue;
-
-    if (flags.countryOk && flags.englishOk && flags.nmOk) strict.push(...prices);
-    else if ((flags.countryOk && flags.englishOk) || (flags.englishOk && flags.nmOk) || (flags.countryOk && flags.nmOk)) loose.push(...prices);
-    else fallback.push(...prices);
-  }
-
-  if (strict.length) return { price: Math.min(...strict), confidence: "strict-row" };
-  if (loose.length) return { price: Math.min(...loose), confidence: "loose-row" };
-  if (fallback.length) return { price: Math.min(...fallback), confidence: "page-price-fallback" };
-  return null;
+  return parseOfferRows(html) || parseSummaryFromFilteredPage(html);
 }
 
 async function fetchPriceForTarget(target) {
@@ -184,10 +214,11 @@ async function fetchPriceForTarget(target) {
   for (const url of urls) {
     const res = await fetch(url, {
       headers: {
-        "User-Agent": "Mozilla/5.0 (compatible; rb-board-price-checker/1.0; +https://github.com/luisreig39-boop/rb-board)",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
         "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
         "Accept-Language": "es-ES,es;q=0.9,en;q=0.8",
         "Cache-Control": "no-cache",
+        "Referer": "https://www.cardmarket.com/es/Riftbound",
       },
       redirect: "follow",
     });
@@ -195,9 +226,7 @@ async function fetchPriceForTarget(target) {
     lastStatus = res.status;
 
     if (res.status === 404) continue;
-    if (res.status === 429) {
-      return { blocked: true, status: 429, url };
-    }
+    if (res.status === 429) return { blocked: true, status: 429, url };
     if (!res.ok) continue;
 
     const html = await res.text();
@@ -237,6 +266,13 @@ function hoursSince(iso) {
   return (Date.now() - new Date(iso).getTime()) / 36e5;
 }
 
+function shouldRefresh(current) {
+  if (!current) return true;
+  // Los "not-found" anteriores se reintentan siempre para poder corregirlos con este parser nuevo.
+  if (current.priceFrom == null && current.confidence === "not-found") return true;
+  return hoursSince(current.updatedAt) >= REFRESH_HOURS;
+}
+
 async function main() {
   await mkdir(path.dirname(OUT_FILE), { recursive: true });
 
@@ -244,9 +280,7 @@ async function main() {
   const targets = Array.isArray(targetData) ? targetData : targetData?.targets || [];
 
   if (!targets.length) {
-    throw new Error(
-      `No hay objetivos en ${TARGET_FILE}. Genera cardmarket-targets.json desde la app y súbelo a public/data/.`
-    );
+    throw new Error(`No hay objetivos en ${TARGET_FILE}. Genera cardmarket-targets.json desde la app y súbelo a public/data/.`);
   }
 
   const existing = await loadJson(OUT_FILE, { meta: {}, prices: {} });
@@ -254,7 +288,7 @@ async function main() {
 
   const queue = targets
     .map((target) => ({ target, key: buildKey(target), current: prices[buildKey(target)] }))
-    .filter(({ current }) => hoursSince(current?.updatedAt) >= REFRESH_HOURS)
+    .filter(({ current }) => shouldRefresh(current))
     .sort((a, b) => {
       if (!a.current && b.current) return -1;
       if (a.current && !b.current) return 1;
@@ -308,7 +342,6 @@ async function main() {
         };
         blocked += 1;
         console.warn(`[${i + 1}/${queue.length}] BLOQUEADO ${target.setId || ""} ${target.name}. Status=${result.status || "?"}`);
-        // Stop early if Cardmarket is blocking. Keep JSON valid and exit successfully.
         break;
       } else {
         prices[key] = {
@@ -329,7 +362,7 @@ async function main() {
           publicCode: target.publicCode || "",
         };
         missing += 1;
-        console.log(`[${i + 1}/${queue.length}] Sin precio ${target.setId || ""} ${target.name}`);
+        console.log(`[${i + 1}/${queue.length}] Sin precio ${target.setId || ""} ${target.name}. URL: ${result?.url || fallbackUrl}`);
       }
     } catch (error) {
       failed += 1;
