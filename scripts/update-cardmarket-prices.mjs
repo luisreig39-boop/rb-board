@@ -259,11 +259,21 @@ async function fetchPriceForTarget(target) {
 
     lastStatus = res.status;
 
+   const html = await res.text();
+
+    if (DEBUG && !firstHtmlSaved) {
+      await maybeSaveDebugHtml(target, url, html, {
+        status: res.status,
+        ok: res.ok,
+        headers: Object.fromEntries(res.headers.entries()),
+      });
+      firstHtmlSaved = true;
+    }
+    
     if (res.status === 404) continue;
     if (res.status === 429) return { blocked: true, status: 429, url };
     if (!res.ok) continue;
-
-    const html = await res.text();
+    
     const parsed = parseLowestPrice(html);
     bestDebug = parsed?.debug || bestDebug;
 
