@@ -4,9 +4,19 @@ import path from "node:path";
 const TARGET_FILE = path.resolve("public/data/cardmarket-targets.json");
 const OUT_FILE = path.resolve("public/data/cardmarket-prices.json");
 
-const MAX_CARDS_PER_RUN = Number(process.env.MAX_CARDS_PER_RUN || 80);
+const MAX_CARDS_PER_RUN = Number(process.env.MAX_CARDS_PER_RUN || 40);
 const DELAY_MS = Number(process.env.CARDMARKET_DELAY_MS || 4500);
 const REFRESH_HOURS = Number(process.env.CARDMARKET_REFRESH_HOURS || 24);
+
+// v1 rápida: precio FOIL, porque en Riftbound algunas rarezas son siempre foil.
+// Para NM usamos minCondition=2. minCondition=3 en Cardmarket equivale a "Excellent" o mejor.
+const PRICE_VARIANT = "foil";
+const CARDMARKET_FILTERS = {
+  sellerCountry: "10", // España
+  language: "1",      // Inglés
+  minCondition: "2",  // Near Mint o mejor
+  isFoil: "Y",        // Foil
+};
 
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
@@ -26,10 +36,14 @@ function htmlDecode(text) {
     .replace(/&amp;/g, "&")
     .replace(/&quot;/g, '"')
     .replace(/&#039;/g, "'")
+    .replace(/&apos;/g, "'")
     .replace(/&euro;/g, "€")
-    .replace(/&#8364;/g, "€")
-    .replace(/&lt;/g, "<")
-    .replace(/&gt;/g, ">")
+    .replace(/&aacute;/g, "á")
+    .replace(/&eacute;/g, "é")
+    .replace(/&iacute;/g, "í")
+    .replace(/&oacute;/g, "ó")
+    .replace(/&uacute;/g, "ú")
+    .replace(/&ntilde;/g, "ñ")
     .replace(/<[^>]+>/g, " ")
     .replace(/\s+/g, " ")
     .trim();
@@ -45,8 +59,7 @@ function slugifyCardmarketName(name) {
     .replace(/\s*\/\s*/g, "-")
     .trim()
     .replace(/\s+/g, "-")
-    .replace(/-+/g, "-")
-    .replace(/(^-|-$)/g, "");
+    .replace(/-+/g, "-");
 }
 
 function buildKey(target) {
@@ -57,8 +70,8 @@ function buildKey(target) {
   return `${set}:${code || name}:${name}`;
 }
 
-function buildBaseUrl(target) {
-  if (target.url) return String(target.url).split("?")[0];
+function baseUrlForTarget(target) {
+  if (target.url) return target.url.split("?")[0];
 
   const setSlug = target.setSlug || target.expansion || target.setLabel;
   const nameSlug = target.cardSlug || slugifyCardmarketName(target.name);
@@ -68,43 +81,38 @@ function buildBaseUrl(target) {
 }
 
 function buildUrls(target) {
-  const base = buildBaseUrl(target);
+  const base = baseUrlForTarget(target);
   if (!base) return [];
 
-  // Importante: la URL del target viene sin filtros. Probamos primero EXACTAMENTE el filtro que has validado en navegador:
-  // vendedor España + idioma inglés + condición mínima Near Mint.
-  const paramsList = [
-    new URLSearchParams({ sellerCountry: "10", language: "1", minCondition: "2" }),
-    new URLSearchParams({ sellerCountry: "10", language: "1", minCondition: "2", isFoil: "false", isSigned: "false", isAltered: "false" }),
-    new URLSearchParams({ sellerCountry: "10", idLanguage: "1", minCondition: "2" }),
+  const preferred = new URLSearchParams(CARDMARKET_FILTERS);
+
+  // Fallbacks por si Cardmarket ignora algún alias de parámetro.
+  const fallbacks = [
+    new URLSearchParams({ sellerCountry: "10", language: "1", minCondition: "2", isFoil: "Y" }),
+    new URLSearchParams({ sellerCountry: "10", idLanguage: "1", minCondition: "2", isFoil: "Y" }),
+    new URLSearchParams({ sellerCountry: "10", language: "1", minCondition: "2", isFoil: "true" }),
   ];
 
-  return [
-    ...paramsList.map((params) => `${base}?${params.toString()}`),
-    base,
-  ];
+  return [`${base}?${preferred.toString()}`, ...fallbacks.map((params) => `${base}?${params.toString()}`), base];
 }
 
-function splitOfferSegments(html) {
-  const chunks = [];
-
-  // Cardmarket suele renderizar cada oferta como una fila/div con article-row o clases parecidas.
-  const rowPatterns = [
-    /<[^>]*class=["'][^"']*article-row[^"']*["'][\s\S]*?(?=<[^>]*class=["'][^"']*article-row|<\/body>|$)/gi,
-    /<[^>]*class=["'][^"']*articleRow[^"']*["'][\s\S]*?(?=<[^>]*class=["'][^"']*articleRow|<\/body>|$)/gi,
-    /<tr[\s\S]*?<\/tr>/gi,
-  ];
-
-  for (const pattern of rowPatterns) {
-    let match;
-    while ((match = pattern.exec(html))) {
-      const chunk = match[0];
-      if (chunk && /€|&euro;|&#8364;/.test(chunk)) chunks.push(chunk);
-    }
-    if (chunks.length) return chunks;
+function splitArticleRows(html) {
+  const rows = [];
+  const pattern = /<div\s+id=["']articleRow[^"']*["'][\s\S]*?(?=<div\s+id=["']articleRow|<\/section>|<div\s+class=["']pagination|$)/gi;
+  let match;
+  while ((match = pattern.exec(html))) {
+    if (match[0]?.includes("€")) rows.push(match[0]);
   }
 
-  return [];
+  if (rows.length) return rows;
+
+  // Fallback por si cambia el id pero mantiene clase.
+  const pattern2 = /<div[^>]+class=["'][^"']*article-row[^"']*["'][\s\S]*?(?=<div[^>]+class=["'][^"']*article-row|<\/section>|$)/gi;
+  while ((match = pattern2.exec(html))) {
+    if (match[0]?.includes("€")) rows.push(match[0]);
+  }
+
+  return rows;
 }
 
 function extractEuroPrices(segment) {
@@ -113,7 +121,6 @@ function extractEuroPrices(segment) {
   const patterns = [
     /(\d{1,4}(?:\.\d{3})*,\d{2})\s*€/g,
     /€\s*(\d{1,4}(?:\.\d{3})*,\d{2})/g,
-    /(\d{1,4}(?:\.\d{3})*,\d{2})\s*EUR/gi,
   ];
 
   for (const pattern of patterns) {
@@ -127,98 +134,89 @@ function extractEuroPrices(segment) {
   return prices;
 }
 
-function rowLooksLikeValidOffer(segment) {
-  const decoded = htmlDecode(segment).toLowerCase();
-  const raw = String(segment).toLowerCase();
+function rowFlags(row) {
+  const decoded = htmlDecode(row).toLowerCase();
+  const raw = String(row || "").toLowerCase();
 
-  // Como la URL ya va filtrada, esto es solo una capa extra. En la tabla se ven NM + banderas ES/GB.
-  const hasNm = /\bnm\b|near mint/.test(decoded) || /\bnm\b/.test(raw);
-  const hasSpanishSeller = /españa|spain|flag[-_ ]?es|\/es\.svg/.test(decoded) || /flag[-_ ]?es|\/es\.svg/.test(raw);
-  const hasEnglishCard = /inglés|ingles|english|flag[-_ ]?gb|\/gb\.svg|\/en\.svg/.test(decoded) || /flag[-_ ]?gb|\/gb\.svg|\/en\.svg/.test(raw);
+  const isSpain =
+    /ubicación del artículo:\s*españa|ubicacion del articulo:\s*espana|location of the item:\s*spain|spain|españa/.test(decoded) ||
+    /aria-label=["'][^"']*españa|data-bs-original-title=["'][^"']*españa|background-position:\s*-176px\s+-70px/.test(raw);
 
-  const bad = /\bfoil\b|signed|altered|firmad|alterad/.test(decoded);
+  const isEnglish =
+    /inglés|ingles|english/.test(decoded) ||
+    /aria-label=["'][^"']*inglés|aria-label=["'][^"']*ingles|aria-label=["'][^"']*english|data-original-title=["']inglés|data-bs-original-title=["']inglés/.test(raw);
 
+  const isNM =
+    /near mint|\bnm\b/.test(decoded) ||
+    /condition-nm|data-bs-original-title=["']near mint|data-original-title=["']near mint/.test(raw);
+
+  const isFoil =
+    /\bfoil\b/.test(decoded) ||
+    /aria-label=["']foil|data-bs-original-title=["']foil|data-original-title=["']foil|st_specialicon|specialicon/.test(raw);
+
+  const isAltered = /altered|alterada|alterado/.test(decoded);
+  const isSigned = /signed|firmada|firmado/.test(decoded);
+
+  return { isSpain, isEnglish, isNM, isFoil, isAltered, isSigned };
+}
+
+function rowIsValidForWantedFoil(row) {
+  const flags = rowFlags(row);
+  return flags.isSpain && flags.isEnglish && flags.isNM && flags.isFoil && !flags.isAltered && !flags.isSigned;
+}
+
+function diagnosticsForHtml(html) {
+  const rows = splitArticleRows(html);
+  const prices = rows.flatMap(extractEuroPrices);
+  const flags = rows.map(rowFlags);
   return {
-    strict: hasNm && hasSpanishSeller && hasEnglishCard && !bad,
-    loose: hasNm && !bad,
-    any: !bad,
+    rows: rows.length,
+    euros: prices.length,
+    spainRows: flags.filter((f) => f.isSpain).length,
+    englishRows: flags.filter((f) => f.isEnglish).length,
+    nmRows: flags.filter((f) => f.isNM).length,
+    foilRows: flags.filter((f) => f.isFoil).length,
+    validFoilRows: rows.filter(rowIsValidForWantedFoil).length,
   };
 }
 
-function parseOfferRows(html) {
-  const rows = splitOfferSegments(html);
-  const strict = [];
-  const loose = [];
-  const any = [];
-
-  for (const row of rows) {
-    const prices = extractEuroPrices(row);
-    if (!prices.length) continue;
-
-    const flags = rowLooksLikeValidOffer(row);
-    if (flags.strict) strict.push(...prices);
-    else if (flags.loose) loose.push(...prices);
-    else if (flags.any) any.push(...prices);
-  }
-
-  if (strict.length) return { price: Math.min(...strict), confidence: "strict-offer-row" };
-  if (loose.length) return { price: Math.min(...loose), confidence: "loose-offer-row" };
-  if (any.length) return { price: Math.min(...any), confidence: "offer-row-fallback" };
-  return null;
-}
-
-function parseSummaryFromFilteredPage(html) {
-  // Fallback: si no podemos detectar filas, extraemos el campo "De" del panel de información.
-  // En Cardmarket suele representar el precio mínimo visible para el producto/filtros.
-  const plain = htmlDecode(html);
-  const lower = plain.toLowerCase();
-
-  const patterns = [
-    /\bde\s+(\d{1,4}(?:\.\d{3})*,\d{2})\s*€/i,
-    /\bfrom\s+(\d{1,4}(?:\.\d{3})*,\d{2})\s*€/i,
-  ];
-
-  for (const pattern of patterns) {
-    const match = plain.match(pattern);
-    if (match?.[1]) {
-      const value = Number(match[1].replace(/\./g, "").replace(",", "."));
-      if (Number.isFinite(value) && value > 0 && value < 10000) {
-        return { price: value, confidence: "summary-from-price" };
-      }
-    }
-  }
-
-  // Último fallback: solo si la página no parece vacía ni bloqueada, cogemos el menor precio de toda la página.
-  // Es menos preciso porque puede capturar tendencia/medias, pero evita quedarse en cero cuando Cardmarket cambia clases.
-  if (!/no hay artículos|sin artículos|no articles|captcha|robot|access denied|too many requests|cloudflare|unusual traffic/i.test(lower)) {
-    const allPrices = extractEuroPrices(html);
-    if (allPrices.length) return { price: Math.min(...allPrices), confidence: "page-lowest-fallback" };
-  }
-
-  return null;
-}
-
-function parseLowestPrice(html) {
+function parseLowestFoilPrice(html) {
   const plain = htmlDecode(html).toLowerCase();
   if (/captcha|robot|access denied|too many requests|cloudflare|unusual traffic/.test(plain)) {
     return { blocked: true, reason: "blocked-or-captcha" };
   }
 
-  return parseOfferRows(html) || parseSummaryFromFilteredPage(html);
+  const rows = splitArticleRows(html);
+  const strictPrices = [];
+
+  for (const row of rows) {
+    if (!rowIsValidForWantedFoil(row)) continue;
+    strictPrices.push(...extractEuroPrices(row));
+  }
+
+  if (strictPrices.length) {
+    return {
+      price: Math.min(...strictPrices),
+      confidence: "strict-row-es-en-nm-foil",
+      debug: diagnosticsForHtml(html),
+    };
+  }
+
+  return { notFound: true, debug: diagnosticsForHtml(html) };
 }
 
 async function fetchPriceForTarget(target) {
   const urls = buildUrls(target);
   let lastStatus = null;
+  let lastDebug = null;
 
   for (const url of urls) {
     const res = await fetch(url, {
       headers: {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
         "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
         "Accept-Language": "es-ES,es;q=0.9,en;q=0.8",
         "Cache-Control": "no-cache",
-        "Referer": "https://www.cardmarket.com/es/Riftbound",
       },
       redirect: "follow",
     });
@@ -230,7 +228,8 @@ async function fetchPriceForTarget(target) {
     if (!res.ok) continue;
 
     const html = await res.text();
-    const parsed = parseLowestPrice(html);
+    const parsed = parseLowestFoilPrice(html);
+    lastDebug = parsed?.debug || lastDebug;
 
     if (parsed?.blocked) return { blocked: true, status: res.status, url, reason: parsed.reason };
 
@@ -243,14 +242,16 @@ async function fetchPriceForTarget(target) {
         sellerCountry: "ES",
         cardLanguage: "EN",
         condition: "NM",
-        foil: false,
+        foil: true,
+        variant: PRICE_VARIANT,
         confidence: parsed.confidence,
+        debug: parsed.debug,
         updatedAt: new Date().toISOString(),
       };
     }
   }
 
-  return { notFound: true, status: lastStatus, url: urls[0] || "" };
+  return { notFound: true, status: lastStatus, url: urls[0] || "", debug: lastDebug };
 }
 
 async function loadJson(file, fallback) {
@@ -268,9 +269,19 @@ function hoursSince(iso) {
 
 function shouldRefresh(current) {
   if (!current) return true;
-  // Los "not-found" anteriores se reintentan siempre para poder corregirlos con este parser nuevo.
-  if (current.priceFrom == null && current.confidence === "not-found") return true;
+
+  // Reintenta siempre los not-found/bloqueados/filtrados para que un cambio de parser se aplique sin esperar 24h.
+  if (!Number.isFinite(Number(current.priceFrom))) return true;
+
+  // Si el precio anterior no era foil, refrescamos.
+  if (current.foil !== true || current.variant !== PRICE_VARIANT) return true;
+
   return hoursSince(current.updatedAt) >= REFRESH_HOURS;
+}
+
+function debugToString(debug) {
+  if (!debug) return "";
+  return `rows=${debug.rows} euros=${debug.euros} es=${debug.spainRows} en=${debug.englishRows} nm=${debug.nmRows} foil=${debug.foilRows} validFoil=${debug.validFoilRows}`;
 }
 
 async function main() {
@@ -292,12 +303,16 @@ async function main() {
     .sort((a, b) => {
       if (!a.current && b.current) return -1;
       if (a.current && !b.current) return 1;
+      const av = Number.isFinite(Number(a.current?.priceFrom)) ? 1 : 0;
+      const bv = Number.isFinite(Number(b.current?.priceFrom)) ? 1 : 0;
+      if (av !== bv) return av - bv;
       return hoursSince(b.current?.updatedAt) - hoursSince(a.current?.updatedAt);
     })
     .slice(0, MAX_CARDS_PER_RUN);
 
   console.log(`Targets disponibles: ${targets.length}`);
   console.log(`A actualizar en esta ejecución: ${queue.length}/${MAX_CARDS_PER_RUN}`);
+  console.log(`Modo precio: FOIL · España · Inglés · Near Mint · isFoil=Y`);
 
   let ok = 0;
   let missing = 0;
@@ -321,7 +336,7 @@ async function main() {
           publicCode: target.publicCode || "",
         };
         ok += 1;
-        console.log(`[${i + 1}/${queue.length}] OK ${target.setId || ""} ${target.name}: ${result.priceFrom}€ (${result.confidence})`);
+        console.log(`[${i + 1}/${queue.length}] OK FOIL ${target.setId || ""} ${target.name}: ${result.priceFrom}€ (${result.confidence}) ${debugToString(result.debug)}`);
       } else if (result?.blocked) {
         prices[key] = {
           priceFrom: null,
@@ -331,7 +346,8 @@ async function main() {
           sellerCountry: "ES",
           cardLanguage: "EN",
           condition: "NM",
-          foil: false,
+          foil: true,
+          variant: PRICE_VARIANT,
           confidence: result.status === 429 ? "rate-limited" : "blocked-or-captcha",
           updatedAt: new Date().toISOString(),
           key,
@@ -352,8 +368,10 @@ async function main() {
           sellerCountry: "ES",
           cardLanguage: "EN",
           condition: "NM",
-          foil: false,
-          confidence: "not-found",
+          foil: true,
+          variant: PRICE_VARIANT,
+          confidence: "not-found-foil",
+          debug: result?.debug || null,
           updatedAt: new Date().toISOString(),
           key,
           cardName: target.name,
@@ -362,7 +380,7 @@ async function main() {
           publicCode: target.publicCode || "",
         };
         missing += 1;
-        console.log(`[${i + 1}/${queue.length}] Sin precio ${target.setId || ""} ${target.name}. URL: ${result?.url || fallbackUrl}`);
+        console.log(`[${i + 1}/${queue.length}] Sin precio FOIL ${target.setId || ""} ${target.name}. URL: ${result?.url || fallbackUrl} ${debugToString(result?.debug)}`);
       }
     } catch (error) {
       failed += 1;
@@ -378,7 +396,8 @@ async function main() {
     meta: {
       updatedAt: new Date().toISOString(),
       source: "Cardmarket",
-      filters: "España + carta en inglés + Near Mint + no foil/no signed/no altered",
+      filters: "España + carta en inglés + Near Mint + foil",
+      variant: PRICE_VARIANT,
       maxCardsPerRun: MAX_CARDS_PER_RUN,
       refreshHours: REFRESH_HOURS,
       totalTargets: targets.length,
