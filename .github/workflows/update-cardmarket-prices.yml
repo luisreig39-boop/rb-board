@@ -1,0 +1,44 @@
+name: Update Cardmarket prices
+
+on:
+  schedule:
+    - cron: "17 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-prices:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Update prices
+        run: node scripts/update-cardmarket-prices.mjs
+        env:
+          MAX_CARDS_PER_RUN: 80
+          CARDMARKET_DELAY_MS: 1800
+          CARDMARKET_REFRESH_HOURS: 24
+
+      - name: Commit price data if changed
+        run: |
+          if [[ -n "$(git status --porcelain public/data/cardmarket-prices.json)" ]]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add public/data/cardmarket-prices.json
+            git commit -m "Update Cardmarket prices"
+            git push
+          else
+            echo "No price changes to commit"
+          fi
