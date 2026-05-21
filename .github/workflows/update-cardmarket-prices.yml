@@ -35,14 +35,20 @@ jobs:
           CARDMARKET_MIN_CONDITION: 2
           CARDMARKET_DEBUG: 1
 
-      - name: Commit price data if changed
+       - name: Commit price data if changed
         run: |
-          if [[ -n "$(git status --porcelain public/data/cardmarket-prices.json public/data/cardmarket-debug)" ]]; then
-            git config user.name "github-actions[bot]"
-            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add public/data/cardmarket-prices.json public/data/cardmarket-debug || true
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add public/data/cardmarket-prices.json
+
+          if [ -d "public/data/cardmarket-debug" ]; then
+            git add public/data/cardmarket-debug
+          fi
+
+          if git diff --cached --quiet; then
+            echo "No price changes to commit"
+          else
             git commit -m "Update Cardmarket prices"
             git push
-          else
-            echo "No price changes to commit"
           fi
