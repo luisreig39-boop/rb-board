@@ -4,19 +4,17 @@ import path from "node:path";
 const TARGET_FILE = path.resolve("public/data/cardmarket-targets.json");
 const OUT_FILE = path.resolve("public/data/cardmarket-prices.json");
 
-const MAX_CARDS_PER_RUN = Number(process.env.MAX_CARDS_PER_RUN || 40);
+const MAX_CARDS_PER_RUN = Number(process.env.MAX_CARDS_PER_RUN || 80);
 const DELAY_MS = Number(process.env.CARDMARKET_DELAY_MS || 4500);
 const REFRESH_HOURS = Number(process.env.CARDMARKET_REFRESH_HOURS || 24);
 
-// v1 rápida: precio FOIL, porque en Riftbound algunas rarezas son siempre foil.
-// Para NM usamos minCondition=2. minCondition=3 en Cardmarket equivale a "Excellent" o mejor.
-const PRICE_VARIANT = "foil";
-const CARDMARKET_FILTERS = {
-  sellerCountry: "10", // España
-  language: "1",      // Inglés
-  minCondition: "2",  // Near Mint o mejor
-  isFoil: "Y",        // Foil
-};
+// Modo actual: precio FOIL.
+// Motivo: en Riftbound hay rarezas que en Cardmarket aparecen siempre como foil.
+// La app sigue leyendo priceFrom, así que no hay que tocar la interfaz para que muestre "desde X €".
+const PRICE_MODE = String(process.env.CARDMARKET_PRICE_MODE || "foil").toLowerCase(); // foil | nonfoil | any
+const MIN_CONDITION = String(process.env.CARDMARKET_MIN_CONDITION || "2"); // 2 = Near Mint en Cardmarket web
+const SELLER_COUNTRY = String(process.env.CARDMARKET_SELLER_COUNTRY || "10"); // 10 = España
+const LANGUAGE = String(process.env.CARDMARKET_LANGUAGE || "1"); // 1 = Inglés
 
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
@@ -30,6 +28,10 @@ function normalizeId(value) {
     .replace(/(^-|-$)/g, "");
 }
 
+function stripTags(value) {
+  return String(value || "").replace(/<[^>]+>/g, " ");
+}
+
 function htmlDecode(text) {
   return String(text || "")
     .replace(/&nbsp;/g, " ")
@@ -38,15 +40,12 @@ function htmlDecode(text) {
     .replace(/&#039;/g, "'")
     .replace(/&apos;/g, "'")
     .replace(/&euro;/g, "€")
-    .replace(/&aacute;/g, "á")
-    .replace(/&eacute;/g, "é")
-    .replace(/&iacute;/g, "í")
-    .replace(/&oacute;/g, "ó")
-    .replace(/&uacute;/g, "ú")
-    .replace(/&ntilde;/g, "ñ")
-    .replace(/<[^>]+>/g, " ")
     .replace(/\s+/g, " ")
     .trim();
+}
+
+function textFromHtml(html) {
+  return htmlDecode(stripTags(html));
 }
 
 function slugifyCardmarketName(name) {
@@ -70,8 +69,8 @@ function buildKey(target) {
   return `${set}:${code || name}:${name}`;
 }
 
-function baseUrlForTarget(target) {
-  if (target.url) return target.url.split("?")[0];
+function canonicalBaseUrl(target) {
+  if (target.url) return String(target.url).split("?")[0];
 
   const setSlug = target.setSlug || target.expansion || target.setLabel;
   const nameSlug = target.cardSlug || slugifyCardmarketName(target.name);
@@ -80,43 +79,41 @@ function baseUrlForTarget(target) {
   return `https://www.cardmarket.com/es/Riftbound/Products/Singles/${encodeURIComponent(setSlug)}/${encodeURIComponent(nameSlug)}`;
 }
 
+function withParams(base, paramsObj) {
+  const params = new URLSearchParams(paramsObj);
+  return `${base}?${params.toString()}`;
+}
+
 function buildUrls(target) {
-  const base = baseUrlForTarget(target);
+  const base = canonicalBaseUrl(target);
   if (!base) return [];
 
-  const preferred = new URLSearchParams(CARDMARKET_FILTERS);
+  const foilParam =
+    PRICE_MODE === "foil" ? "Y" :
+    PRICE_MODE === "nonfoil" ? "N" :
+    "";
 
-  // Fallbacks por si Cardmarket ignora algún alias de parámetro.
-  const fallbacks = [
-    new URLSearchParams({ sellerCountry: "10", language: "1", minCondition: "2", isFoil: "Y" }),
-    new URLSearchParams({ sellerCountry: "10", idLanguage: "1", minCondition: "2", isFoil: "Y" }),
-    new URLSearchParams({ sellerCountry: "10", language: "1", minCondition: "2", isFoil: "true" }),
-  ];
+  const common = {
+    sellerCountry: SELLER_COUNTRY,
+    language: LANGUAGE,
+    minCondition: MIN_CONDITION,
+  };
 
-  return [`${base}?${preferred.toString()}`, ...fallbacks.map((params) => `${base}?${params.toString()}`), base];
-}
+  const urls = [];
 
-function splitArticleRows(html) {
-  const rows = [];
-  const pattern = /<div\s+id=["']articleRow[^"']*["'][\s\S]*?(?=<div\s+id=["']articleRow|<\/section>|<div\s+class=["']pagination|$)/gi;
-  let match;
-  while ((match = pattern.exec(html))) {
-    if (match[0]?.includes("€")) rows.push(match[0]);
+  if (foilParam) {
+    urls.push(withParams(base, { ...common, isFoil: foilParam }));
   }
 
-  if (rows.length) return rows;
+  // Fallbacks. Se dejan al final por si Cardmarket ignora alguno de los filtros.
+  urls.push(withParams(base, common));
+  urls.push(base);
 
-  // Fallback por si cambia el id pero mantiene clase.
-  const pattern2 = /<div[^>]+class=["'][^"']*article-row[^"']*["'][\s\S]*?(?=<div[^>]+class=["'][^"']*article-row|<\/section>|$)/gi;
-  while ((match = pattern2.exec(html))) {
-    if (match[0]?.includes("€")) rows.push(match[0]);
-  }
-
-  return rows;
+  return [...new Set(urls)];
 }
 
-function extractEuroPrices(segment) {
-  const decoded = htmlDecode(segment);
+function extractEuroPrices(raw) {
+  const decoded = htmlDecode(raw);
   const prices = [];
   const patterns = [
     /(\d{1,4}(?:\.\d{3})*,\d{2})\s*€/g,
@@ -134,75 +131,155 @@ function extractEuroPrices(segment) {
   return prices;
 }
 
-function rowFlags(row) {
-  const decoded = htmlDecode(row).toLowerCase();
-  const raw = String(row || "").toLowerCase();
+function splitArticleRows(html) {
+  const starts = [];
+  const startPattern = /<div[^>]+id=["']articleRow\d+["'][^>]*class=["'][^"']*article-row[^"']*["'][^>]*>/gi;
+  let match;
+  while ((match = startPattern.exec(html))) {
+    starts.push(match.index);
+  }
 
-  const isSpain =
-    /ubicación del artículo:\s*españa|ubicacion del articulo:\s*espana|location of the item:\s*spain|spain|españa/.test(decoded) ||
-    /aria-label=["'][^"']*españa|data-bs-original-title=["'][^"']*españa|background-position:\s*-176px\s+-70px/.test(raw);
+  if (!starts.length) return [];
 
-  const isEnglish =
-    /inglés|ingles|english/.test(decoded) ||
-    /aria-label=["'][^"']*inglés|aria-label=["'][^"']*ingles|aria-label=["'][^"']*english|data-original-title=["']inglés|data-bs-original-title=["']inglés/.test(raw);
-
-  const isNM =
-    /near mint|\bnm\b/.test(decoded) ||
-    /condition-nm|data-bs-original-title=["']near mint|data-original-title=["']near mint/.test(raw);
-
-  const isFoil =
-    /\bfoil\b/.test(decoded) ||
-    /aria-label=["']foil|data-bs-original-title=["']foil|data-original-title=["']foil|st_specialicon|specialicon/.test(raw);
-
-  const isAltered = /altered|alterada|alterado/.test(decoded);
-  const isSigned = /signed|firmada|firmado/.test(decoded);
-
-  return { isSpain, isEnglish, isNM, isFoil, isAltered, isSigned };
+  const rows = [];
+  for (let i = 0; i < starts.length; i += 1) {
+    const start = starts[i];
+    const end = starts[i + 1] || html.indexOf("</section>", start);
+    rows.push(html.slice(start, end > start ? end : html.length));
+  }
+  return rows;
 }
 
-function rowIsValidForWantedFoil(row) {
-  const flags = rowFlags(row);
-  return flags.isSpain && flags.isEnglish && flags.isNM && flags.isFoil && !flags.isAltered && !flags.isSigned;
+function rowSignals(row) {
+  const raw = String(row || "");
+  const plain = textFromHtml(raw).toLowerCase();
+
+  const countryOk =
+    /ubicaci[oó]n del art[ií]culo:\s*españa/i.test(raw) ||
+    /aria-label=["'][^"']*españa/i.test(raw) ||
+    /data-bs-original-title=["'][^"']*españa/i.test(raw) ||
+    /\bespaña\b|\bspain\b/i.test(plain);
+
+  const englishOk =
+    /aria-label=["']ingl[eé]s["']/i.test(raw) ||
+    /data-original-title=["']ingl[eé]s["']/i.test(raw) ||
+    /data-bs-original-title=["']ingl[eé]s["']/i.test(raw) ||
+    /\bingl[eé]s\b|\benglish\b/i.test(plain);
+
+  const nmOk =
+    /condition-nm/i.test(raw) ||
+    /data-bs-original-title=["']near mint["']/i.test(raw) ||
+    /aria-label=["']near mint["']/i.test(raw) ||
+    /(?:^|\s)nm(?:\s|$)/i.test(plain) ||
+    /\bnear mint\b/i.test(plain);
+
+  const foilOk =
+    /aria-label=["']foil["']/i.test(raw) ||
+    /data-original-title=["']foil["']/i.test(raw) ||
+    /data-bs-original-title=["']foil["']/i.test(raw) ||
+    /st_SpecialIcon/i.test(raw) ||
+    /\bfoil\b/i.test(plain);
+
+  return { countryOk, englishOk, nmOk, foilOk };
 }
 
-function diagnosticsForHtml(html) {
-  const rows = splitArticleRows(html);
-  const prices = rows.flatMap(extractEuroPrices);
-  const flags = rows.map(rowFlags);
-  return {
-    rows: rows.length,
-    euros: prices.length,
-    spainRows: flags.filter((f) => f.isSpain).length,
-    englishRows: flags.filter((f) => f.isEnglish).length,
-    nmRows: flags.filter((f) => f.isNM).length,
-    foilRows: flags.filter((f) => f.isFoil).length,
-    validFoilRows: rows.filter(rowIsValidForWantedFoil).length,
-  };
+function rowMatchesMode(signals) {
+  if (PRICE_MODE === "foil") return signals.foilOk;
+  if (PRICE_MODE === "nonfoil") return !signals.foilOk;
+  return true;
 }
 
-function parseLowestFoilPrice(html) {
-  const plain = htmlDecode(html).toLowerCase();
+function parseSummaryFromPrice(html) {
+  // Cardmarket muestra el precio resumen como:
+  // <dt>De</dt><dd>10,00 €</dd>
+  const patterns = [
+    /<dt[^>]*>\s*De\s*<\/dt>\s*<dd[^>]*>([\s\S]*?)<\/dd>/i,
+    /<dt[^>]*>\s*From\s*<\/dt>\s*<dd[^>]*>([\s\S]*?)<\/dd>/i,
+  ];
+
+  for (const pattern of patterns) {
+    const match = html.match(pattern);
+    if (!match) continue;
+    const prices = extractEuroPrices(match[1]);
+    if (prices.length) {
+      return Math.min(...prices);
+    }
+  }
+
+  return null;
+}
+
+function parseLowestPrice(html) {
+  const plain = textFromHtml(html).toLowerCase();
+
   if (/captcha|robot|access denied|too many requests|cloudflare|unusual traffic/.test(plain)) {
     return { blocked: true, reason: "blocked-or-captcha" };
   }
 
   const rows = splitArticleRows(html);
   const strictPrices = [];
+  const rowPrices = [];
+
+  let rowsWithEuro = 0;
+  let rowsSpain = 0;
+  let rowsEnglish = 0;
+  let rowsNm = 0;
+  let rowsFoil = 0;
+  let rowsMode = 0;
+  let rowsStrict = 0;
 
   for (const row of rows) {
-    if (!rowIsValidForWantedFoil(row)) continue;
-    strictPrices.push(...extractEuroPrices(row));
+    const prices = extractEuroPrices(row);
+    if (prices.length) rowsWithEuro += 1;
+
+    const signals = rowSignals(row);
+    if (signals.countryOk) rowsSpain += 1;
+    if (signals.englishOk) rowsEnglish += 1;
+    if (signals.nmOk) rowsNm += 1;
+    if (signals.foilOk) rowsFoil += 1;
+    if (rowMatchesMode(signals)) rowsMode += 1;
+
+    if (prices.length) {
+      rowPrices.push(...prices);
+    }
+
+    if (prices.length && signals.countryOk && signals.englishOk && signals.nmOk && rowMatchesMode(signals)) {
+      strictPrices.push(Math.min(...prices));
+      rowsStrict += 1;
+    }
   }
 
   if (strictPrices.length) {
     return {
       price: Math.min(...strictPrices),
-      confidence: "strict-row-es-en-nm-foil",
-      debug: diagnosticsForHtml(html),
+      confidence: `strict-row-es-en-nm-${PRICE_MODE}`,
+      debug: { rows: rows.length, rowsWithEuro, rowsSpain, rowsEnglish, rowsNm, rowsFoil, rowsMode, rowsStrict },
     };
   }
 
-  return { notFound: true, debug: diagnosticsForHtml(html) };
+  // Si la URL ya está filtrada por Cardmarket, "De" suele reflejar los filtros aplicados.
+  // Esto es especialmente útil cuando el HTML cambia o las filas tienen atributos difíciles de leer.
+  const summaryFrom = parseSummaryFromPrice(html);
+  if (Number.isFinite(summaryFrom)) {
+    return {
+      price: summaryFrom,
+      confidence: `summary-de-filtered-${PRICE_MODE}`,
+      debug: { rows: rows.length, rowsWithEuro, rowsSpain, rowsEnglish, rowsNm, rowsFoil, rowsMode, rowsStrict, summaryFrom },
+    };
+  }
+
+  if (rowPrices.length) {
+    return {
+      price: Math.min(...rowPrices),
+      confidence: `row-price-fallback-${PRICE_MODE}`,
+      debug: { rows: rows.length, rowsWithEuro, rowsSpain, rowsEnglish, rowsNm, rowsFoil, rowsMode, rowsStrict },
+    };
+  }
+
+  return {
+    price: null,
+    debug: { rows: rows.length, rowsWithEuro, rowsSpain, rowsEnglish, rowsNm, rowsFoil, rowsMode, rowsStrict, summaryFrom },
+  };
 }
 
 async function fetchPriceForTarget(target) {
@@ -213,7 +290,7 @@ async function fetchPriceForTarget(target) {
   for (const url of urls) {
     const res = await fetch(url, {
       headers: {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
         "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
         "Accept-Language": "es-ES,es;q=0.9,en;q=0.8",
         "Cache-Control": "no-cache",
@@ -224,26 +301,29 @@ async function fetchPriceForTarget(target) {
     lastStatus = res.status;
 
     if (res.status === 404) continue;
-    if (res.status === 429) return { blocked: true, status: 429, url };
+    if (res.status === 429) {
+      return { blocked: true, status: 429, url };
+    }
     if (!res.ok) continue;
 
     const html = await res.text();
-    const parsed = parseLowestFoilPrice(html);
-    lastDebug = parsed?.debug || lastDebug;
+    const parsed = parseLowestPrice(html);
+    lastDebug = parsed?.debug || null;
 
-    if (parsed?.blocked) return { blocked: true, status: res.status, url, reason: parsed.reason };
+    if (parsed?.blocked) return { blocked: true, status: res.status, url, reason: parsed.reason, debug: parsed.debug };
 
-    if (parsed?.price) {
+    if (parsed?.price != null) {
       return {
         priceFrom: Number(parsed.price.toFixed(2)),
+        priceMode: PRICE_MODE,
         currency: "EUR",
-        url: url.split("?")[0],
+        url,
+        baseUrl: url.split("?")[0],
         source: "Cardmarket",
         sellerCountry: "ES",
         cardLanguage: "EN",
-        condition: "NM",
-        foil: true,
-        variant: PRICE_VARIANT,
+        condition: MIN_CONDITION === "2" ? "NM" : MIN_CONDITION,
+        foil: PRICE_MODE === "foil" ? true : PRICE_MODE === "nonfoil" ? false : null,
         confidence: parsed.confidence,
         debug: parsed.debug,
         updatedAt: new Date().toISOString(),
@@ -269,19 +349,9 @@ function hoursSince(iso) {
 
 function shouldRefresh(current) {
   if (!current) return true;
-
-  // Reintenta siempre los not-found/bloqueados/filtrados para que un cambio de parser se aplique sin esperar 24h.
-  if (!Number.isFinite(Number(current.priceFrom))) return true;
-
-  // Si el precio anterior no era foil, refrescamos.
-  if (current.foil !== true || current.variant !== PRICE_VARIANT) return true;
-
+  if (!Number.isFinite(Number(current.priceFrom))) return true; // reintenta sin precio
+  if (current.priceMode !== PRICE_MODE) return true; // cambiamos de nonfoil a foil, etc.
   return hoursSince(current.updatedAt) >= REFRESH_HOURS;
-}
-
-function debugToString(debug) {
-  if (!debug) return "";
-  return `rows=${debug.rows} euros=${debug.euros} es=${debug.spainRows} en=${debug.englishRows} nm=${debug.nmRows} foil=${debug.foilRows} validFoil=${debug.validFoilRows}`;
 }
 
 async function main() {
@@ -312,7 +382,7 @@ async function main() {
 
   console.log(`Targets disponibles: ${targets.length}`);
   console.log(`A actualizar en esta ejecución: ${queue.length}/${MAX_CARDS_PER_RUN}`);
-  console.log(`Modo precio: FOIL · España · Inglés · Near Mint · isFoil=Y`);
+  console.log(`Modo precio: ${PRICE_MODE.toUpperCase()} · España · Inglés · Near Mint · isFoil=${PRICE_MODE === "foil" ? "Y" : PRICE_MODE === "nonfoil" ? "N" : "ANY"}`);
 
   let ok = 0;
   let missing = 0;
@@ -336,19 +406,21 @@ async function main() {
           publicCode: target.publicCode || "",
         };
         ok += 1;
-        console.log(`[${i + 1}/${queue.length}] OK FOIL ${target.setId || ""} ${target.name}: ${result.priceFrom}€ (${result.confidence}) ${debugToString(result.debug)}`);
+        console.log(`[${i + 1}/${queue.length}] OK ${PRICE_MODE.toUpperCase()} ${target.setId || ""} ${target.name}: ${result.priceFrom}€ (${result.confidence})`);
       } else if (result?.blocked) {
         prices[key] = {
           priceFrom: null,
+          priceMode: PRICE_MODE,
           currency: "EUR",
           url: result.url || fallbackUrl,
+          baseUrl: (result.url || fallbackUrl).split("?")[0],
           source: "Cardmarket",
           sellerCountry: "ES",
           cardLanguage: "EN",
           condition: "NM",
-          foil: true,
-          variant: PRICE_VARIANT,
+          foil: PRICE_MODE === "foil",
           confidence: result.status === 429 ? "rate-limited" : "blocked-or-captcha",
+          debug: result.debug || null,
           updatedAt: new Date().toISOString(),
           key,
           cardName: target.name,
@@ -362,15 +434,16 @@ async function main() {
       } else {
         prices[key] = {
           priceFrom: null,
+          priceMode: PRICE_MODE,
           currency: "EUR",
           url: result?.url || fallbackUrl,
+          baseUrl: (result?.url || fallbackUrl).split("?")[0],
           source: "Cardmarket",
           sellerCountry: "ES",
           cardLanguage: "EN",
           condition: "NM",
-          foil: true,
-          variant: PRICE_VARIANT,
-          confidence: "not-found-foil",
+          foil: PRICE_MODE === "foil",
+          confidence: "not-found",
           debug: result?.debug || null,
           updatedAt: new Date().toISOString(),
           key,
@@ -380,7 +453,9 @@ async function main() {
           publicCode: target.publicCode || "",
         };
         missing += 1;
-        console.log(`[${i + 1}/${queue.length}] Sin precio FOIL ${target.setId || ""} ${target.name}. URL: ${result?.url || fallbackUrl} ${debugToString(result?.debug)}`);
+        const d = result?.debug;
+        const debugLine = d ? ` rows=${d.rows} euros=${d.rowsWithEuro} es=${d.rowsSpain} en=${d.rowsEnglish} nm=${d.rowsNm} foil=${d.rowsFoil} mode=${d.rowsMode} strict=${d.rowsStrict} summary=${d.summaryFrom ?? "-"}` : "";
+        console.log(`[${i + 1}/${queue.length}] Sin precio ${PRICE_MODE.toUpperCase()} ${target.setId || ""} ${target.name}.${debugLine} URL: ${result?.url || fallbackUrl}`);
       }
     } catch (error) {
       failed += 1;
@@ -396,8 +471,8 @@ async function main() {
     meta: {
       updatedAt: new Date().toISOString(),
       source: "Cardmarket",
-      filters: "España + carta en inglés + Near Mint + foil",
-      variant: PRICE_VARIANT,
+      priceMode: PRICE_MODE,
+      filters: `España + carta en inglés + Near Mint + ${PRICE_MODE === "foil" ? "foil" : PRICE_MODE === "nonfoil" ? "no foil" : "cualquier foil"}`,
       maxCardsPerRun: MAX_CARDS_PER_RUN,
       refreshHours: REFRESH_HOURS,
       totalTargets: targets.length,
