@@ -1,0 +1,8549 @@
+{
+  "meta": {
+    "name": "Unleashed Metagame",
+    "source": "Riftdecks scrapeado a Excel por usuario",
+    "dateRange": "all",
+    "relevance": 3,
+    "generatedAt": "2026-05-21",
+    "totalChampions": 39,
+    "totalTournaments": 21,
+    "notes": "Datos convertidos desde Riftbound_Unleashed_Aggregate.xlsx. Matriz direccional: fila = leyenda seleccionada, columna = rival."
+  },
+  "champions": [
+    {
+      "rank": 1,
+      "name": "Sivir",
+      "tier": "S",
+      "winrate": 59.9,
+      "matches": 359,
+      "tournaments": 10,
+      "confidence": "Alta"
+    },
+    {
+      "rank": 2,
+      "name": "Master Yi",
+      "tier": "S",
+      "winrate": 57.8,
+      "matches": 1336,
+      "tournaments": 23,
+      "confidence": "Alta"
+    },
+    {
+      "rank": 3,
+      "name": "Irelia",
+      "tier": "S",
+      "winrate": 56.1,
+      "matches": 1038,
+      "tournaments": 16,
+      "confidence": "Alta"
+    },
+    {
+      "rank": 4,
+      "name": "Draven",
+      "tier": "S",
+      "winrate": 55.4,
+      "matches": 430,
+      "tournaments": 12,
+      "confidence": "Alta"
+    },
+    {
+      "rank": 5,
+      "name": "Miss Fortune",
+      "tier": "S",
+      "winrate": 55.1,
+      "matches": 819,
+      "tournaments": 12,
+      "confidence": "Alta"
+    },
+    {
+      "rank": 6,
+      "name": "Azir",
+      "tier": "A",
+      "winrate": 54.7,
+      "matches": 584,
+      "tournaments": 17,
+      "confidence": "Alta"
+    },
+    {
+      "rank": 7,
+      "name": "Sett",
+      "tier": "A",
+      "winrate": 53.8,
+      "matches": 270,
+      "tournaments": 11,
+      "confidence": "Alta"
+    },
+    {
+      "rank": 8,
+      "name": "Darius",
+      "tier": "A",
+      "winrate": 52.4,
+      "matches": 194,
+      "tournaments": 6,
+      "confidence": "Media"
+    },
+    {
+      "rank": 9,
+      "name": "Leblanc",
+      "tier": "A",
+      "winrate": 52.0,
+      "matches": 1233,
+      "tournaments": 16,
+      "confidence": "Alta"
+    },
+    {
+      "rank": 10,
+      "name": "Diana",
+      "tier": "B",
+      "winrate": 51.5,
+      "matches": 798,
+      "tournaments": 15,
+      "confidence": "Alta"
+    },
+    {
+      "rank": 11,
+      "name": "Annie",
+      "tier": "B",
+      "winrate": 51.4,
+      "matches": 356,
+      "tournaments": 11,
+      "confidence": "Alta"
+    },
+    {
+      "rank": 12,
+      "name": "Ezreal",
+      "tier": "B",
+      "winrate": 51.4,
+      "matches": 473,
+      "tournaments": 16,
+      "confidence": "Alta"
+    },
+    {
+      "rank": 13,
+      "name": "Rengar",
+      "tier": "B",
+      "winrate": 51.3,
+      "matches": 408,
+      "tournaments": 11,
+      "confidence": "Alta"
+    },
+    {
+      "rank": 14,
+      "name": "Vex",
+      "tier": "B",
+      "winrate": 51.1,
+      "matches": 693,
+      "tournaments": 16,
+      "confidence": "Alta"
+    },
+    {
+      "rank": 15,
+      "name": "Viktor",
+      "tier": "B",
+      "winrate": 51.0,
+      "matches": 521,
+      "tournaments": 12,
+      "confidence": "Alta"
+    },
+    {
+      "rank": 16,
+      "name": "Khazix",
+      "tier": "B",
+      "winrate": 49.9,
+      "matches": 355,
+      "tournaments": 12,
+      "confidence": "Alta"
+    },
+    {
+      "rank": 17,
+      "name": "Poppy",
+      "tier": "B",
+      "winrate": 49.1,
+      "matches": 403,
+      "tournaments": 9,
+      "confidence": "Alta"
+    },
+    {
+      "rank": 18,
+      "name": "Lucian",
+      "tier": "C",
+      "winrate": 48.7,
+      "matches": 277,
+      "tournaments": 11,
+      "confidence": "Alta"
+    },
+    {
+      "rank": 19,
+      "name": "Lillia",
+      "tier": "C",
+      "winrate": 48.3,
+      "matches": 504,
+      "tournaments": 16,
+      "confidence": "Alta"
+    },
+    {
+      "rank": 20,
+      "name": "Jax",
+      "tier": "C",
+      "winrate": 47.4,
+      "matches": 155,
+      "tournaments": 5,
+      "confidence": "Media"
+    },
+    {
+      "rank": 21,
+      "name": "Fiora",
+      "tier": "C",
+      "winrate": 47.2,
+      "matches": 466,
+      "tournaments": 12,
+      "confidence": "Alta"
+    },
+    {
+      "rank": 22,
+      "name": "Kai'sa",
+      "tier": "C",
+      "winrate": 47.1,
+      "matches": 361,
+      "tournaments": 8,
+      "confidence": "Alta"
+    },
+    {
+      "rank": 23,
+      "name": "Rumble",
+      "tier": "C",
+      "winrate": 46.9,
+      "matches": 96,
+      "tournaments": 5,
+      "confidence": "Media"
+    },
+    {
+      "rank": 24,
+      "name": "Vi",
+      "tier": "D",
+      "winrate": 43.9,
+      "matches": 142,
+      "tournaments": 3,
+      "confidence": "Media"
+    },
+    {
+      "rank": 25,
+      "name": "Jhin",
+      "tier": "D",
+      "winrate": 43.6,
+      "matches": 123,
+      "tournaments": 3,
+      "confidence": "Media"
+    },
+    {
+      "rank": 26,
+      "name": "Volibear",
+      "tier": "D",
+      "winrate": 43.5,
+      "matches": 202,
+      "tournaments": 7,
+      "confidence": "Alta"
+    },
+    {
+      "rank": 27,
+      "name": "Ivern",
+      "tier": "D",
+      "winrate": 43.2,
+      "matches": 169,
+      "tournaments": 8,
+      "confidence": "Media"
+    },
+    {
+      "rank": 28,
+      "name": "Lee Sin",
+      "tier": "D",
+      "winrate": 42.3,
+      "matches": 160,
+      "tournaments": 3,
+      "confidence": "Media"
+    },
+    {
+      "rank": 29,
+      "name": "Ornn",
+      "tier": "D",
+      "winrate": 42.3,
+      "matches": 288,
+      "tournaments": 11,
+      "confidence": "Alta"
+    },
+    {
+      "rank": 30,
+      "name": "Ahri",
+      "tier": "D",
+      "winrate": 42.1,
+      "matches": 301,
+      "tournaments": 8,
+      "confidence": "Alta"
+    },
+    {
+      "rank": 31,
+      "name": "Teemo",
+      "tier": "D",
+      "winrate": 41.7,
+      "matches": 272,
+      "tournaments": 10,
+      "confidence": "Alta"
+    },
+    {
+      "rank": 32,
+      "name": "Renata Glasc",
+      "tier": "D",
+      "winrate": 41.5,
+      "matches": 109,
+      "tournaments": 3,
+      "confidence": "Media"
+    },
+    {
+      "rank": 33,
+      "name": "Reksai",
+      "tier": "D",
+      "winrate": 41.5,
+      "matches": 184,
+      "tournaments": 8,
+      "confidence": "Media"
+    },
+    {
+      "rank": 34,
+      "name": "Garen",
+      "tier": "D",
+      "winrate": 39.8,
+      "matches": 75,
+      "tournaments": 3,
+      "confidence": "Media"
+    },
+    {
+      "rank": 35,
+      "name": "Lux",
+      "tier": "D",
+      "winrate": 39.6,
+      "matches": 157,
+      "tournaments": 4,
+      "confidence": "Media"
+    },
+    {
+      "rank": 36,
+      "name": "Pyke",
+      "tier": "D",
+      "winrate": 37.9,
+      "matches": 392,
+      "tournaments": 12,
+      "confidence": "Alta"
+    },
+    {
+      "rank": 37,
+      "name": "Yasuo",
+      "tier": "D",
+      "winrate": 37.5,
+      "matches": 160,
+      "tournaments": 4,
+      "confidence": "Media"
+    },
+    {
+      "rank": 38,
+      "name": "Leona",
+      "tier": "D",
+      "winrate": 36.4,
+      "matches": 259,
+      "tournaments": 7,
+      "confidence": "Alta"
+    },
+    {
+      "rank": 39,
+      "name": "Jinx",
+      "tier": "D",
+      "winrate": 35.4,
+      "matches": 161,
+      "tournaments": 3,
+      "confidence": "Media"
+    }
+  ],
+  "matrix": {
+    "Sivir": {
+      "Sivir": {
+        "winrate": null,
+        "games": null,
+        "label": "--"
+      },
+      "Master Yi": {
+        "winrate": 76.0,
+        "games": 17,
+        "label": "76% (17g)"
+      },
+      "Irelia": {
+        "winrate": 53.0,
+        "games": 34,
+        "label": "53% (34g)"
+      },
+      "Draven": {
+        "winrate": 73.0,
+        "games": 11,
+        "label": "73% (11g)"
+      },
+      "Miss Fortune": {
+        "winrate": 73.0,
+        "games": 15,
+        "label": "73% (15g)"
+      },
+      "Azir": {
+        "winrate": 56.0,
+        "games": 9,
+        "label": "56% (9g)"
+      },
+      "Sett": {
+        "winrate": 75.0,
+        "games": 4,
+        "label": "75% (4g)"
+      },
+      "Darius": {
+        "winrate": 40.0,
+        "games": 5,
+        "label": "40% (5g)"
+      },
+      "Leblanc": {
+        "winrate": 43.0,
+        "games": 37,
+        "label": "43% (37g)"
+      },
+      "Diana": {
+        "winrate": 55.0,
+        "games": 31,
+        "label": "55% (31g)"
+      },
+      "Annie": {
+        "winrate": 20.0,
+        "games": 5,
+        "label": "20% (5g)"
+      },
+      "Ezreal": {
+        "winrate": 60.0,
+        "games": 10,
+        "label": "60% (10g)"
+      },
+      "Rengar": {
+        "winrate": 44.0,
+        "games": 9,
+        "label": "44% (9g)"
+      },
+      "Vex": {
+        "winrate": 69.0,
+        "games": 23,
+        "label": "69% (23g)"
+      },
+      "Viktor": {
+        "winrate": 22.0,
+        "games": 14,
+        "label": "22% (14g)"
+      },
+      "Khazix": {
+        "winrate": 62.0,
+        "games": 8,
+        "label": "62% (8g)"
+      },
+      "Poppy": {
+        "winrate": 50.0,
+        "games": 10,
+        "label": "50% (10g)"
+      },
+      "Lucian": {
+        "winrate": 57.0,
+        "games": 7,
+        "label": "57% (7g)"
+      },
+      "Lillia": {
+        "winrate": 60.0,
+        "games": 10,
+        "label": "60% (10g)"
+      },
+      "Jax": {
+        "winrate": 0.0,
+        "games": 2,
+        "label": "0% (2g)"
+      },
+      "Fiora": {
+        "winrate": 57.0,
+        "games": 14,
+        "label": "57% (14g)"
+      },
+      "Kai'sa": {
+        "winrate": 56.0,
+        "games": 9,
+        "label": "56% (9g)"
+      },
+      "Rumble": {
+        "winrate": 100.0,
+        "games": 1,
+        "label": "100% (1g)"
+      },
+      "Vi": {
+        "winrate": 67.0,
+        "games": 3,
+        "label": "67% (3g)"
+      },
+      "Jhin": {
+        "winrate": 100.0,
+        "games": 4,
+        "label": "100% (4g)"
+      },
+      "Volibear": {
+        "winrate": 60.0,
+        "games": 5,
+        "label": "60% (5g)"
+      },
+      "Ivern": {
+        "winrate": 67.0,
+        "games": 3,
+        "label": "67% (3g)"
+      },
+      "Lee Sin": {
+        "winrate": 100.0,
+        "games": 2,
+        "label": "100% (2g)"
+      },
+      "Ornn": {
+        "winrate": 100.0,
+        "games": 4,
+        "label": "100% (4g)"
+      },
+      "Ahri": {
+        "winrate": 80.0,
+        "games": 5,
+        "label": "80% (5g)"
+      },
+      "Teemo": {
+        "winrate": 80.0,
+        "games": 5,
+        "label": "80% (5g)"
+      },
+      "Renata Glasc": {
+        "winrate": 50.0,
+        "games": 2,
+        "label": "50% (2g)"
+      },
+      "Reksai": {
+        "winrate": 0.0,
+        "games": 3,
+        "label": "0% (3g)"
+      },
+      "Garen": {
+        "winrate": 100.0,
+        "games": 1,
+        "label": "100% (1g)"
+      },
+      "Lux": {
+        "winrate": 67.0,
+        "games": 6,
+        "label": "67% (6g)"
+      },
+      "Pyke": {
+        "winrate": 100.0,
+        "games": 1,
+        "label": "100% (1g)"
+      },
+      "Yasuo": {
+        "winrate": 75.0,
+        "games": 4,
+        "label": "75% (4g)"
+      },
+      "Leona": {
+        "winrate": 84.0,
+        "games": 6,
+        "label": "84% (6g)"
+      },
+      "Jinx": {
+        "winrate": 83.0,
+        "games": 6,
+        "label": "83% (6g)"
+      }
+    },
+    "Master Yi": {
+      "Sivir": {
+        "winrate": 17.0,
+        "games": 30,
+        "label": "17% (30g)"
+      },
+      "Master Yi": {
+        "winrate": null,
+        "games": null,
+        "label": "--"
+      },
+      "Irelia": {
+        "winrate": 48.0,
+        "games": 97,
+        "label": "48% (97g)"
+      },
+      "Draven": {
+        "winrate": 41.0,
+        "games": 41,
+        "label": "41% (41g)"
+      },
+      "Miss Fortune": {
+        "winrate": 31.0,
+        "games": 78,
+        "label": "31% (78g)"
+      },
+      "Azir": {
+        "winrate": 64.0,
+        "games": 63,
+        "label": "64% (63g)"
+      },
+      "Sett": {
+        "winrate": 43.0,
+        "games": 23,
+        "label": "43% (23g)"
+      },
+      "Darius": {
+        "winrate": 48.0,
+        "games": 23,
+        "label": "48% (23g)"
+      },
+      "Leblanc": {
+        "winrate": 56.0,
+        "games": 134,
+        "label": "56% (134g)"
+      },
+      "Diana": {
+        "winrate": 60.0,
+        "games": 75,
+        "label": "60% (75g)"
+      },
+      "Annie": {
+        "winrate": 64.0,
+        "games": 44,
+        "label": "64% (44g)"
+      },
+      "Ezreal": {
+        "winrate": 68.0,
+        "games": 47,
+        "label": "68% (47g)"
+      },
+      "Rengar": {
+        "winrate": 53.0,
+        "games": 34,
+        "label": "53% (34g)"
+      },
+      "Vex": {
+        "winrate": 55.0,
+        "games": 74,
+        "label": "55% (74g)"
+      },
+      "Viktor": {
+        "winrate": 68.0,
+        "games": 60,
+        "label": "68% (60g)"
+      },
+      "Khazix": {
+        "winrate": 70.0,
+        "games": 23,
+        "label": "70% (23g)"
+      },
+      "Poppy": {
+        "winrate": 60.0,
+        "games": 47,
+        "label": "60% (47g)"
+      },
+      "Lucian": {
+        "winrate": 42.0,
+        "games": 24,
+        "label": "42% (24g)"
+      },
+      "Lillia": {
+        "winrate": 74.0,
+        "games": 43,
+        "label": "74% (43g)"
+      },
+      "Jax": {
+        "winrate": 60.0,
+        "games": 15,
+        "label": "60% (15g)"
+      },
+      "Fiora": {
+        "winrate": 66.0,
+        "games": 35,
+        "label": "66% (35g)"
+      },
+      "Kai'sa": {
+        "winrate": 54.0,
+        "games": 35,
+        "label": "54% (35g)"
+      },
+      "Rumble": {
+        "winrate": 70.0,
+        "games": 10,
+        "label": "70% (10g)"
+      },
+      "Vi": {
+        "winrate": 29.0,
+        "games": 7,
+        "label": "29% (7g)"
+      },
+      "Jhin": {
+        "winrate": 100.0,
+        "games": 10,
+        "label": "100% (10g)"
+      },
+      "Volibear": {
+        "winrate": 56.0,
+        "games": 16,
+        "label": "56% (16g)"
+      },
+      "Ivern": {
+        "winrate": 50.0,
+        "games": 14,
+        "label": "50% (14g)"
+      },
+      "Lee Sin": {
+        "winrate": 57.0,
+        "games": 7,
+        "label": "57% (7g)"
+      },
+      "Ornn": {
+        "winrate": 86.0,
+        "games": 22,
+        "label": "86% (22g)"
+      },
+      "Ahri": {
+        "winrate": 67.0,
+        "games": 30,
+        "label": "67% (30g)"
+      },
+      "Teemo": {
+        "winrate": 63.0,
+        "games": 27,
+        "label": "63% (27g)"
+      },
+      "Renata Glasc": {
+        "winrate": 67.0,
+        "games": 3,
+        "label": "67% (3g)"
+      },
+      "Reksai": {
+        "winrate": 73.0,
+        "games": 22,
+        "label": "73% (22g)"
+      },
+      "Garen": {
+        "winrate": 100.0,
+        "games": 5,
+        "label": "100% (5g)"
+      },
+      "Lux": {
+        "winrate": 50.0,
+        "games": 12,
+        "label": "50% (12g)"
+      },
+      "Pyke": {
+        "winrate": 78.0,
+        "games": 36,
+        "label": "78% (36g)"
+      },
+      "Yasuo": {
+        "winrate": 91.0,
+        "games": 11,
+        "label": "91% (11g)"
+      },
+      "Leona": {
+        "winrate": 45.0,
+        "games": 22,
+        "label": "45% (22g)"
+      },
+      "Jinx": {
+        "winrate": 77.0,
+        "games": 13,
+        "label": "77% (13g)"
+      }
+    },
+    "Irelia": {
+      "Sivir": {
+        "winrate": 47.0,
+        "games": 34,
+        "label": "47% (34g)"
+      },
+      "Master Yi": {
+        "winrate": 55.0,
+        "games": 45,
+        "label": "55% (45g)"
+      },
+      "Irelia": {
+        "winrate": null,
+        "games": null,
+        "label": "--"
+      },
+      "Draven": {
+        "winrate": 74.0,
+        "games": 31,
+        "label": "74% (31g)"
+      },
+      "Miss Fortune": {
+        "winrate": 50.0,
+        "games": 58,
+        "label": "50% (58g)"
+      },
+      "Azir": {
+        "winrate": 45.0,
+        "games": 44,
+        "label": "45% (44g)"
+      },
+      "Sett": {
+        "winrate": 55.0,
+        "games": 22,
+        "label": "55% (22g)"
+      },
+      "Darius": {
+        "winrate": 59.0,
+        "games": 17,
+        "label": "59% (17g)"
+      },
+      "Leblanc": {
+        "winrate": 65.0,
+        "games": 94,
+        "label": "65% (94g)"
+      },
+      "Diana": {
+        "winrate": 63.0,
+        "games": 59,
+        "label": "63% (59g)"
+      },
+      "Annie": {
+        "winrate": 63.0,
+        "games": 22,
+        "label": "63% (22g)"
+      },
+      "Ezreal": {
+        "winrate": 61.0,
+        "games": 41,
+        "label": "61% (41g)"
+      },
+      "Rengar": {
+        "winrate": 52.0,
+        "games": 31,
+        "label": "52% (31g)"
+      },
+      "Vex": {
+        "winrate": 54.0,
+        "games": 59,
+        "label": "54% (59g)"
+      },
+      "Viktor": {
+        "winrate": 42.0,
+        "games": 43,
+        "label": "42% (43g)"
+      },
+      "Khazix": {
+        "winrate": 45.0,
+        "games": 31,
+        "label": "45% (31g)"
+      },
+      "Poppy": {
+        "winrate": 57.0,
+        "games": 35,
+        "label": "57% (35g)"
+      },
+      "Lucian": {
+        "winrate": 50.0,
+        "games": 20,
+        "label": "50% (20g)"
+      },
+      "Lillia": {
+        "winrate": 59.0,
+        "games": 37,
+        "label": "59% (37g)"
+      },
+      "Jax": {
+        "winrate": 58.0,
+        "games": 12,
+        "label": "58% (12g)"
+      },
+      "Fiora": {
+        "winrate": 48.0,
+        "games": 25,
+        "label": "48% (25g)"
+      },
+      "Kai'sa": {
+        "winrate": 65.0,
+        "games": 31,
+        "label": "65% (31g)"
+      },
+      "Rumble": {
+        "winrate": 25.0,
+        "games": 4,
+        "label": "25% (4g)"
+      },
+      "Vi": {
+        "winrate": 44.0,
+        "games": 9,
+        "label": "44% (9g)"
+      },
+      "Jhin": {
+        "winrate": 80.0,
+        "games": 5,
+        "label": "80% (5g)"
+      },
+      "Volibear": {
+        "winrate": 45.0,
+        "games": 9,
+        "label": "45% (9g)"
+      },
+      "Ivern": {
+        "winrate": 20.0,
+        "games": 10,
+        "label": "20% (10g)"
+      },
+      "Lee Sin": {
+        "winrate": 64.0,
+        "games": 11,
+        "label": "64% (11g)"
+      },
+      "Ornn": {
+        "winrate": 57.0,
+        "games": 14,
+        "label": "57% (14g)"
+      },
+      "Ahri": {
+        "winrate": 62.0,
+        "games": 16,
+        "label": "62% (16g)"
+      },
+      "Teemo": {
+        "winrate": 77.0,
+        "games": 13,
+        "label": "77% (13g)"
+      },
+      "Renata Glasc": {
+        "winrate": 50.0,
+        "games": 6,
+        "label": "50% (6g)"
+      },
+      "Reksai": {
+        "winrate": 47.0,
+        "games": 15,
+        "label": "47% (15g)"
+      },
+      "Garen": {
+        "winrate": 50.0,
+        "games": 6,
+        "label": "50% (6g)"
+      },
+      "Lux": {
+        "winrate": 75.0,
+        "games": 8,
+        "label": "75% (8g)"
+      },
+      "Pyke": {
+        "winrate": 67.0,
+        "games": 24,
+        "label": "67% (24g)"
+      },
+      "Yasuo": {
+        "winrate": 50.0,
+        "games": 12,
+        "label": "50% (12g)"
+      },
+      "Leona": {
+        "winrate": 69.0,
+        "games": 16,
+        "label": "69% (16g)"
+      },
+      "Jinx": {
+        "winrate": 66.0,
+        "games": 9,
+        "label": "66% (9g)"
+      }
+    },
+    "Draven": {
+      "Sivir": {
+        "winrate": 27.0,
+        "games": 11,
+        "label": "27% (11g)"
+      },
+      "Master Yi": {
+        "winrate": 63.0,
+        "games": 16,
+        "label": "63% (16g)"
+      },
+      "Irelia": {
+        "winrate": 26.0,
+        "games": 31,
+        "label": "26% (31g)"
+      },
+      "Draven": {
+        "winrate": null,
+        "games": null,
+        "label": "--"
+      },
+      "Miss Fortune": {
+        "winrate": 15.0,
+        "games": 20,
+        "label": "15% (20g)"
+      },
+      "Azir": {
+        "winrate": 65.0,
+        "games": 23,
+        "label": "65% (23g)"
+      },
+      "Sett": {
+        "winrate": 56.0,
+        "games": 9,
+        "label": "56% (9g)"
+      },
+      "Darius": {
+        "winrate": 60.0,
+        "games": 5,
+        "label": "60% (5g)"
+      },
+      "Leblanc": {
+        "winrate": 54.0,
+        "games": 28,
+        "label": "54% (28g)"
+      },
+      "Diana": {
+        "winrate": 44.0,
+        "games": 34,
+        "label": "44% (34g)"
+      },
+      "Annie": {
+        "winrate": 47.0,
+        "games": 15,
+        "label": "47% (15g)"
+      },
+      "Ezreal": {
+        "winrate": 46.0,
+        "games": 13,
+        "label": "46% (13g)"
+      },
+      "Rengar": {
+        "winrate": 73.0,
+        "games": 15,
+        "label": "73% (15g)"
+      },
+      "Vex": {
+        "winrate": 62.0,
+        "games": 21,
+        "label": "62% (21g)"
+      },
+      "Viktor": {
+        "winrate": 93.0,
+        "games": 15,
+        "label": "93% (15g)"
+      },
+      "Khazix": {
+        "winrate": 33.0,
+        "games": 12,
+        "label": "33% (12g)"
+      },
+      "Poppy": {
+        "winrate": 50.0,
+        "games": 12,
+        "label": "50% (12g)"
+      },
+      "Lucian": {
+        "winrate": 63.0,
+        "games": 8,
+        "label": "63% (8g)"
+      },
+      "Lillia": {
+        "winrate": 85.0,
+        "games": 13,
+        "label": "85% (13g)"
+      },
+      "Jax": {
+        "winrate": 71.0,
+        "games": 7,
+        "label": "71% (7g)"
+      },
+      "Fiora": {
+        "winrate": 62.0,
+        "games": 13,
+        "label": "62% (13g)"
+      },
+      "Kai'sa": {
+        "winrate": 100.0,
+        "games": 5,
+        "label": "100% (5g)"
+      },
+      "Rumble": {
+        "winrate": 33.0,
+        "games": 3,
+        "label": "33% (3g)"
+      },
+      "Vi": {
+        "winrate": 50.0,
+        "games": 2,
+        "label": "50% (2g)"
+      },
+      "Jhin": {
+        "winrate": 67.0,
+        "games": 3,
+        "label": "67% (3g)"
+      },
+      "Volibear": {
+        "winrate": 33.0,
+        "games": 6,
+        "label": "33% (6g)"
+      },
+      "Ivern": {
+        "winrate": 100.0,
+        "games": 3,
+        "label": "100% (3g)"
+      },
+      "Lee Sin": {
+        "winrate": 50.0,
+        "games": 6,
+        "label": "50% (6g)"
+      },
+      "Ornn": {
+        "winrate": 75.0,
+        "games": 4,
+        "label": "75% (4g)"
+      },
+      "Ahri": {
+        "winrate": 0.0,
+        "games": 5,
+        "label": "0% (5g)"
+      },
+      "Teemo": {
+        "winrate": 75.0,
+        "games": 4,
+        "label": "75% (4g)"
+      },
+      "Renata Glasc": {
+        "winrate": 100.0,
+        "games": 2,
+        "label": "100% (2g)"
+      },
+      "Reksai": {
+        "winrate": 67.0,
+        "games": 6,
+        "label": "67% (6g)"
+      },
+      "Garen": {
+        "winrate": null,
+        "games": null,
+        "label": "--"
+      },
+      "Lux": {
+        "winrate": 89.0,
+        "games": 9,
+        "label": "89% (9g)"
+      },
+      "Pyke": {
+        "winrate": 71.0,
+        "games": 7,
+        "label": "71% (7g)"
+      },
+      "Yasuo": {
+        "winrate": 100.0,
+        "games": 3,
+        "label": "100% (3g)"
+      },
+      "Leona": {
+        "winrate": 90.0,
+        "games": 10,
+        "label": "90% (10g)"
+      },
+      "Jinx": {
+        "winrate": 75.0,
+        "games": 4,
+        "label": "75% (4g)"
+      }
+    },
+    "Miss Fortune": {
+      "Sivir": {
+        "winrate": 27.0,
+        "games": 15,
+        "label": "27% (15g)"
+      },
+      "Master Yi": {
+        "winrate": 71.0,
+        "games": 35,
+        "label": "71% (35g)"
+      },
+      "Irelia": {
+        "winrate": 50.0,
+        "games": 58,
+        "label": "50% (58g)"
+      },
+      "Draven": {
+        "winrate": 85.0,
+        "games": 20,
+        "label": "85% (20g)"
+      },
+      "Miss Fortune": {
+        "winrate": null,
+        "games": null,
+        "label": "--"
+      },
+      "Azir": {
+        "winrate": 41.0,
+        "games": 56,
+        "label": "41% (56g)"
+      },
+      "Sett": {
+        "winrate": 63.0,
+        "games": 16,
+        "label": "63% (16g)"
+      },
+      "Darius": {
+        "winrate": 29.0,
+        "games": 7,
+        "label": "29% (7g)"
+      },
+      "Leblanc": {
+        "winrate": 35.0,
+        "games": 86,
+        "label": "35% (86g)"
+      },
+      "Diana": {
+        "winrate": 61.0,
+        "games": 54,
+        "label": "61% (54g)"
+      },
+      "Annie": {
+        "winrate": 47.0,
+        "games": 15,
+        "label": "47% (15g)"
+      },
+      "Ezreal": {
+        "winrate": 43.0,
+        "games": 26,
+        "label": "43% (26g)"
+      },
+      "Rengar": {
+        "winrate": 46.0,
+        "games": 26,
+        "label": "46% (26g)"
+      },
+      "Vex": {
+        "winrate": 62.0,
+        "games": 29,
+        "label": "62% (29g)"
+      },
+      "Viktor": {
+        "winrate": 30.0,
+        "games": 27,
+        "label": "30% (27g)"
+      },
+      "Khazix": {
+        "winrate": 56.0,
+        "games": 18,
+        "label": "56% (18g)"
+      },
+      "Poppy": {
+        "winrate": 24.0,
+        "games": 21,
+        "label": "24% (21g)"
+      },
+      "Lucian": {
+        "winrate": 56.0,
+        "games": 23,
+        "label": "56% (23g)"
+      },
+      "Lillia": {
+        "winrate": 66.0,
+        "games": 18,
+        "label": "66% (18g)"
+      },
+      "Jax": {
+        "winrate": 44.0,
+        "games": 9,
+        "label": "44% (9g)"
+      },
+      "Fiora": {
+        "winrate": 65.0,
+        "games": 34,
+        "label": "65% (34g)"
+      },
+      "Kai'sa": {
+        "winrate": 52.0,
+        "games": 27,
+        "label": "52% (27g)"
+      },
+      "Rumble": {
+        "winrate": 67.0,
+        "games": 3,
+        "label": "67% (3g)"
+      },
+      "Vi": {
+        "winrate": 100.0,
+        "games": 5,
+        "label": "100% (5g)"
+      },
+      "Jhin": {
+        "winrate": 100.0,
+        "games": 4,
+        "label": "100% (4g)"
+      },
+      "Volibear": {
+        "winrate": 67.0,
+        "games": 9,
+        "label": "67% (9g)"
+      },
+      "Ivern": {
+        "winrate": 75.0,
+        "games": 12,
+        "label": "75% (12g)"
+      },
+      "Lee Sin": {
+        "winrate": 100.0,
+        "games": 6,
+        "label": "100% (6g)"
+      },
+      "Ornn": {
+        "winrate": 75.0,
+        "games": 12,
+        "label": "75% (12g)"
+      },
+      "Ahri": {
+        "winrate": 80.0,
+        "games": 15,
+        "label": "80% (15g)"
+      },
+      "Teemo": {
+        "winrate": 62.0,
+        "games": 16,
+        "label": "62% (16g)"
+      },
+      "Renata Glasc": {
+        "winrate": 80.0,
+        "games": 5,
+        "label": "80% (5g)"
+      },
+      "Reksai": {
+        "winrate": 60.0,
+        "games": 5,
+        "label": "60% (5g)"
+      },
+      "Garen": {
+        "winrate": 60.0,
+        "games": 5,
+        "label": "60% (5g)"
+      },
+      "Lux": {
+        "winrate": 40.0,
+        "games": 5,
+        "label": "40% (5g)"
+      },
+      "Pyke": {
+        "winrate": 75.0,
+        "games": 24,
+        "label": "75% (24g)"
+      },
+      "Yasuo": {
+        "winrate": 60.0,
+        "games": 10,
+        "label": "60% (10g)"
+      },
+      "Leona": {
+        "winrate": 64.0,
+        "games": 11,
+        "label": "64% (11g)"
+      },
+      "Jinx": {
+        "winrate": 57.0,
+        "games": 7,
+        "label": "57% (7g)"
+      }
+    },
+    "Azir": {
+      "Sivir": {
+        "winrate": 44.0,
+        "games": 9,
+        "label": "44% (9g)"
+      },
+      "Master Yi": {
+        "winrate": 46.0,
+        "games": 24,
+        "label": "46% (24g)"
+      },
+      "Irelia": {
+        "winrate": 55.0,
+        "games": 44,
+        "label": "55% (44g)"
+      },
+      "Draven": {
+        "winrate": 35.0,
+        "games": 23,
+        "label": "35% (23g)"
+      },
+      "Miss Fortune": {
+        "winrate": 59.0,
+        "games": 56,
+        "label": "59% (56g)"
+      },
+      "Azir": {
+        "winrate": null,
+        "games": null,
+        "label": "--"
+      },
+      "Sett": {
+        "winrate": 40.0,
+        "games": 10,
+        "label": "40% (10g)"
+      },
+      "Darius": {
+        "winrate": 40.0,
+        "games": 5,
+        "label": "40% (5g)"
+      },
+      "Leblanc": {
+        "winrate": 52.0,
+        "games": 58,
+        "label": "52% (58g)"
+      },
+      "Diana": {
+        "winrate": 59.0,
+        "games": 24,
+        "label": "59% (24g)"
+      },
+      "Annie": {
+        "winrate": 41.0,
+        "games": 17,
+        "label": "41% (17g)"
+      },
+      "Ezreal": {
+        "winrate": 53.0,
+        "games": 17,
+        "label": "53% (17g)"
+      },
+      "Rengar": {
+        "winrate": 46.0,
+        "games": 13,
+        "label": "46% (13g)"
+      },
+      "Vex": {
+        "winrate": 60.0,
+        "games": 32,
+        "label": "60% (32g)"
+      },
+      "Viktor": {
+        "winrate": 71.0,
+        "games": 14,
+        "label": "71% (14g)"
+      },
+      "Khazix": {
+        "winrate": 44.0,
+        "games": 9,
+        "label": "44% (9g)"
+      },
+      "Poppy": {
+        "winrate": 53.0,
+        "games": 15,
+        "label": "53% (15g)"
+      },
+      "Lucian": {
+        "winrate": 83.0,
+        "games": 6,
+        "label": "83% (6g)"
+      },
+      "Lillia": {
+        "winrate": 38.0,
+        "games": 16,
+        "label": "38% (16g)"
+      },
+      "Jax": {
+        "winrate": 50.0,
+        "games": 6,
+        "label": "50% (6g)"
+      },
+      "Fiora": {
+        "winrate": 60.0,
+        "games": 25,
+        "label": "60% (25g)"
+      },
+      "Kai'sa": {
+        "winrate": 81.0,
+        "games": 16,
+        "label": "81% (16g)"
+      },
+      "Rumble": {
+        "winrate": 75.0,
+        "games": 4,
+        "label": "75% (4g)"
+      },
+      "Vi": {
+        "winrate": 72.0,
+        "games": 7,
+        "label": "72% (7g)"
+      },
+      "Jhin": {
+        "winrate": 100.0,
+        "games": 2,
+        "label": "100% (2g)"
+      },
+      "Volibear": {
+        "winrate": 78.0,
+        "games": 9,
+        "label": "78% (9g)"
+      },
+      "Ivern": {
+        "winrate": 50.0,
+        "games": 2,
+        "label": "50% (2g)"
+      },
+      "Lee Sin": {
+        "winrate": 50.0,
+        "games": 2,
+        "label": "50% (2g)"
+      },
+      "Ornn": {
+        "winrate": 46.0,
+        "games": 13,
+        "label": "46% (13g)"
+      },
+      "Ahri": {
+        "winrate": 71.0,
+        "games": 7,
+        "label": "71% (7g)"
+      },
+      "Teemo": {
+        "winrate": 67.0,
+        "games": 9,
+        "label": "67% (9g)"
+      },
+      "Renata Glasc": {
+        "winrate": 100.0,
+        "games": 2,
+        "label": "100% (2g)"
+      },
+      "Reksai": {
+        "winrate": 71.0,
+        "games": 7,
+        "label": "71% (7g)"
+      },
+      "Garen": {
+        "winrate": 100.0,
+        "games": 1,
+        "label": "100% (1g)"
+      },
+      "Lux": {
+        "winrate": 100.0,
+        "games": 5,
+        "label": "100% (5g)"
+      },
+      "Pyke": {
+        "winrate": 59.0,
+        "games": 17,
+        "label": "59% (17g)"
+      },
+      "Yasuo": {
+        "winrate": 67.0,
+        "games": 3,
+        "label": "67% (3g)"
+      },
+      "Leona": {
+        "winrate": 78.0,
+        "games": 9,
+        "label": "78% (9g)"
+      },
+      "Jinx": {
+        "winrate": 60.0,
+        "games": 5,
+        "label": "60% (5g)"
+      }
+    },
+    "Sett": {
+      "Sivir": {
+        "winrate": 25.0,
+        "games": 4,
+        "label": "25% (4g)"
+      },
+      "Master Yi": {
+        "winrate": 50.0,
+        "games": 8,
+        "label": "50% (8g)"
+      },
+      "Irelia": {
+        "winrate": 45.0,
+        "games": 22,
+        "label": "45% (22g)"
+      },
+      "Draven": {
+        "winrate": 44.0,
+        "games": 9,
+        "label": "44% (9g)"
+      },
+      "Miss Fortune": {
+        "winrate": 37.0,
+        "games": 16,
+        "label": "37% (16g)"
+      },
+      "Azir": {
+        "winrate": 60.0,
+        "games": 10,
+        "label": "60% (10g)"
+      },
+      "Sett": {
+        "winrate": null,
+        "games": null,
+        "label": "--"
+      },
+      "Darius": {
+        "winrate": 0.0,
+        "games": 1,
+        "label": "0% (1g)"
+      },
+      "Leblanc": {
+        "winrate": 56.0,
+        "games": 16,
+        "label": "56% (16g)"
+      },
+      "Diana": {
+        "winrate": 40.0,
+        "games": 15,
+        "label": "40% (15g)"
+      },
+      "Annie": {
+        "winrate": 100.0,
+        "games": 5,
+        "label": "100% (5g)"
+      },
+      "Ezreal": {
+        "winrate": 66.0,
+        "games": 6,
+        "label": "66% (6g)"
+      },
+      "Rengar": {
+        "winrate": 62.0,
+        "games": 8,
+        "label": "62% (8g)"
+      },
+      "Vex": {
+        "winrate": 50.0,
+        "games": 4,
+        "label": "50% (4g)"
+      },
+      "Viktor": {
+        "winrate": 57.0,
+        "games": 7,
+        "label": "57% (7g)"
+      },
+      "Khazix": {
+        "winrate": 86.0,
+        "games": 7,
+        "label": "86% (7g)"
+      },
+      "Poppy": {
+        "winrate": 40.0,
+        "games": 5,
+        "label": "40% (5g)"
+      },
+      "Lucian": {
+        "winrate": 75.0,
+        "games": 4,
+        "label": "75% (4g)"
+      },
+      "Lillia": {
+        "winrate": 44.0,
+        "games": 16,
+        "label": "44% (16g)"
+      },
+      "Jax": {
+        "winrate": 50.0,
+        "games": 2,
+        "label": "50% (2g)"
+      },
+      "Fiora": {
+        "winrate": 45.0,
+        "games": 11,
+        "label": "45% (11g)"
+      },
+      "Kai'sa": {
+        "winrate": 57.0,
+        "games": 7,
+        "label": "57% (7g)"
+      },
+      "Rumble": {
+        "winrate": 50.0,
+        "games": 2,
+        "label": "50% (2g)"
+      },
+      "Vi": {
+        "winrate": 50.0,
+        "games": 4,
+        "label": "50% (4g)"
+      },
+      "Jhin": {
+        "winrate": 67.0,
+        "games": 3,
+        "label": "67% (3g)"
+      },
+      "Volibear": {
+        "winrate": 50.0,
+        "games": 2,
+        "label": "50% (2g)"
+      },
+      "Ivern": {
+        "winrate": 75.0,
+        "games": 4,
+        "label": "75% (4g)"
+      },
+      "Lee Sin": {
+        "winrate": 0.0,
+        "games": 2,
+        "label": "0% (2g)"
+      },
+      "Ornn": {
+        "winrate": 67.0,
+        "games": 3,
+        "label": "67% (3g)"
+      },
+      "Ahri": {
+        "winrate": 30.0,
+        "games": 10,
+        "label": "30% (10g)"
+      },
+      "Teemo": {
+        "winrate": 58.0,
+        "games": 12,
+        "label": "58% (12g)"
+      },
+      "Renata Glasc": {
+        "winrate": 75.0,
+        "games": 4,
+        "label": "75% (4g)"
+      },
+      "Reksai": {
+        "winrate": 75.0,
+        "games": 8,
+        "label": "75% (8g)"
+      },
+      "Garen": {
+        "winrate": 67.0,
+        "games": 3,
+        "label": "67% (3g)"
+      },
+      "Lux": {
+        "winrate": 67.0,
+        "games": 3,
+        "label": "67% (3g)"
+      },
+      "Pyke": {
+        "winrate": 50.0,
+        "games": 6,
+        "label": "50% (6g)"
+      },
+      "Yasuo": {
+        "winrate": null,
+        "games": null,
+        "label": "--"
+      },
+      "Leona": {
+        "winrate": 100.0,
+        "games": 2,
+        "label": "100% (2g)"
+      },
+      "Jinx": {
+        "winrate": 100.0,
+        "games": 2,
+        "label": "100% (2g)"
+      }
+    },
+    "Darius": {
+      "Sivir": {
+        "winrate": 60.0,
+        "games": 5,
+        "label": "60% (5g)"
+      },
+      "Master Yi": {
+        "winrate": 54.0,
+        "games": 11,
+        "label": "54% (11g)"
+      },
+      "Irelia": {
+        "winrate": 41.0,
+        "games": 17,
+        "label": "41% (17g)"
+      },
+      "Draven": {
+        "winrate": 40.0,
+        "games": 5,
+        "label": "40% (5g)"
+      },
+      "Miss Fortune": {
+        "winrate": 71.0,
+        "games": 7,
+        "label": "71% (7g)"
+      },
+      "Azir": {
+        "winrate": 60.0,
+        "games": 5,
+        "label": "60% (5g)"
+      },
+      "Sett": {
+        "winrate": 100.0,
+        "games": 1,
+        "label": "100% (1g)"
+      },
+      "Darius": {
+        "winrate": null,
+        "games": null,
+        "label": "--"
+      },
+      "Leblanc": {
+        "winrate": 36.0,
+        "games": 14,
+        "label": "36% (14g)"
+      },
+      "Diana": {
+        "winrate": 50.0,
+        "games": 10,
+        "label": "50% (10g)"
+      },
+      "Annie": {
+        "winrate": 0.0,
+        "games": 3,
+        "label": "0% (3g)"
+      },
+      "Ezreal": {
+        "winrate": 60.0,
+        "games": 5,
+        "label": "60% (5g)"
+      },
+      "Rengar": {
+        "winrate": 29.0,
+        "games": 7,
+        "label": "29% (7g)"
+      },
+      "Vex": {
+        "winrate": 75.0,
+        "games": 12,
+        "label": "75% (12g)"
+      },
+      "Viktor": {
+        "winrate": 0.0,
+        "games": 3,
+        "label": "0% (3g)"
+      },
+      "Khazix": {
+        "winrate": 0.0,
+        "games": 2,
+        "label": "0% (2g)"
+      },
+      "Poppy": {
+        "winrate": 75.0,
+        "games": 8,
+        "label": "75% (8g)"
+      },
+      "Lucian": {
+        "winrate": 75.0,
+        "games": 4,
+        "label": "75% (4g)"
+      },
+      "Lillia": {
+        "winrate": 0.0,
+        "games": 3,
+        "label": "0% (3g)"
+      },
+      "Jax": {
+        "winrate": 100.0,
+        "games": 2,
+        "label": "100% (2g)"
+      },
+      "Fiora": {
+        "winrate": 50.0,
+        "games": 2,
+        "label": "50% (2g)"
+      },
+      "Kai'sa": {
+        "winrate": 80.0,
+        "games": 5,
+        "label": "80% (5g)"
+      },
+      "Rumble": {
+        "winrate": 0.0,
+        "games": 2,
+        "label": "0% (2g)"
+      },
+      "Vi": {
+        "winrate": null,
+        "games": null,
+        "label": "--"
+      },
+      "Jhin": {
+        "winrate": 33.0,
+        "games": 3,
+        "label": "33% (3g)"
+      },
+      "Volibear": {
+        "winrate": 100.0,
+        "games": 1,
+        "label": "100% (1g)"
+      },
+      "Ivern": {
+        "winrate": 100.0,
+        "games": 1,
+        "label": "100% (1g)"
+      },
+      "Lee Sin": {
+        "winrate": 100.0,
+        "games": 2,
+        "label": "100% (2g)"
+      },
+      "Ornn": {
+        "winrate": 75.0,
+        "games": 8,
+        "label": "75% (8g)"
+      },
+      "Ahri": {
+        "winrate": 50.0,
+        "games": 6,
+        "label": "50% (6g)"
+      },
+      "Teemo": {
+        "winrate": 0.0,
+        "games": 3,
+        "label": "0% (3g)"
+      },
+      "Renata Glasc": {
+        "winrate": 67.0,
+        "games": 3,
+        "label": "67% (3g)"
+      },
+      "Reksai": {
+        "winrate": 20.0,
+        "games": 5,
+        "label": "20% (5g)"
+      },
+      "Garen": {
+        "winrate": 100.0,
+        "games": 1,
+        "label": "100% (1g)"
+      },
+      "Lux": {
+        "winrate": 100.0,
+        "games": 2,
+        "label": "100% (2g)"
+      },
+      "Pyke": {
+        "winrate": 57.0,
+        "games": 7,
+        "label": "57% (7g)"
+      },
+      "Yasuo": {
+        "winrate": 100.0,
+        "games": 1,
+        "label": "100% (1g)"
+      },
+      "Leona": {
+        "winrate": 60.0,
+        "games": 5,
+        "label": "60% (5g)"
+      },
+      "Jinx": {
+        "winrate": null,
+        "games": null,
+        "label": "--"
+      }
+    },
+    "Leblanc": {
+      "Sivir": {
+        "winrate": 57.0,
+        "games": 37,
+        "label": "57% (37g)"
+      },
+      "Master Yi": {
+        "winrate": 43.0,
+        "games": 61,
+        "label": "43% (61g)"
+      },
+      "Irelia": {
+        "winrate": 35.0,
+        "games": 94,
+        "label": "35% (94g)"
+      },
+      "Draven": {
+        "winrate": 46.0,
+        "games": 28,
+        "label": "46% (28g)"
+      },
+      "Miss Fortune": {
+        "winrate": 65.0,
+        "games": 86,
+        "label": "65% (86g)"
+      },
+      "Azir": {
+        "winrate": 48.0,
+        "games": 58,
+        "label": "48% (58g)"
+      },
+      "Sett": {
+        "winrate": 44.0,
+        "games": 16,
+        "label": "44% (16g)"
+      },
+      "Darius": {
+        "winrate": 64.0,
+        "games": 14,
+        "label": "64% (14g)"
+      },
+      "Leblanc": {
+        "winrate": null,
+        "games": null,
+        "label": "--"
+      },
+      "Diana": {
+        "winrate": 44.0,
+        "games": 59,
+        "label": "44% (59g)"
+      },
+      "Annie": {
+        "winrate": 54.0,
+        "games": 26,
+        "label": "54% (26g)"
+      },
+      "Ezreal": {
+        "winrate": 33.0,
+        "games": 39,
+        "label": "33% (39g)"
+      },
+      "Rengar": {
+        "winrate": 54.0,
+        "games": 43,
+        "label": "54% (43g)"
+      },
+      "Vex": {
+        "winrate": 32.0,
+        "games": 68,
+        "label": "32% (68g)"
+      },
+      "Viktor": {
+        "winrate": 69.0,
+        "games": 45,
+        "label": "69% (45g)"
+      },
+      "Khazix": {
+        "winrate": 45.0,
+        "games": 31,
+        "label": "45% (31g)"
+      },
+      "Poppy": {
+        "winrate": 58.0,
+        "games": 33,
+        "label": "58% (33g)"
+      },
+      "Lucian": {
+        "winrate": 68.0,
+        "games": 31,
+        "label": "68% (31g)"
+      },
+      "Lillia": {
+        "winrate": 60.0,
+        "games": 58,
+        "label": "60% (58g)"
+      },
+      "Jax": {
+        "winrate": 40.0,
+        "games": 10,
+        "label": "40% (10g)"
+      },
+      "Fiora": {
+        "winrate": 58.0,
+        "games": 36,
+        "label": "58% (36g)"
+      },
+      "Kai'sa": {
+        "winrate": 36.0,
+        "games": 25,
+        "label": "36% (25g)"
+      },
+      "Rumble": {
+        "winrate": 56.0,
+        "games": 9,
+        "label": "56% (9g)"
+      },
+      "Vi": {
+        "winrate": 43.0,
+        "games": 14,
+        "label": "43% (14g)"
+      },
+      "Jhin": {
+        "winrate": 43.0,
+        "games": 14,
+        "label": "43% (14g)"
+      },
+      "Volibear": {
+        "winrate": 67.0,
+        "games": 21,
+        "label": "67% (21g)"
+      },
+      "Ivern": {
+        "winrate": 65.0,
+        "games": 14,
+        "label": "65% (14g)"
+      },
+      "Lee Sin": {
+        "winrate": 72.0,
+        "games": 11,
+        "label": "72% (11g)"
+      },
+      "Ornn": {
+        "winrate": 57.0,
+        "games": 28,
+        "label": "57% (28g)"
+      },
+      "Ahri": {
+        "winrate": 72.0,
+        "games": 25,
+        "label": "72% (25g)"
+      },
+      "Teemo": {
+        "winrate": 65.0,
+        "games": 20,
+        "label": "65% (20g)"
+      },
+      "Renata Glasc": {
+        "winrate": 44.0,
+        "games": 9,
+        "label": "44% (9g)"
+      },
+      "Reksai": {
+        "winrate": 73.0,
+        "games": 15,
+        "label": "73% (15g)"
+      },
+      "Garen": {
+        "winrate": 25.0,
+        "games": 4,
+        "label": "25% (4g)"
+      },
+      "Lux": {
+        "winrate": 100.0,
+        "games": 9,
+        "label": "100% (9g)"
+      },
+      "Pyke": {
+        "winrate": 68.0,
+        "games": 31,
+        "label": "68% (31g)"
+      },
+      "Yasuo": {
+        "winrate": 50.0,
+        "games": 12,
+        "label": "50% (12g)"
+      },
+      "Leona": {
+        "winrate": 66.0,
+        "games": 18,
+        "label": "66% (18g)"
+      },
+      "Jinx": {
+        "winrate": 40.0,
+        "games": 5,
+        "label": "40% (5g)"
+      }
+    },
+    "Diana": {
+      "Sivir": {
+        "winrate": 45.0,
+        "games": 31,
+        "label": "45% (31g)"
+      },
+      "Master Yi": {
+        "winrate": 36.0,
+        "games": 36,
+        "label": "36% (36g)"
+      },
+      "Irelia": {
+        "winrate": 37.0,
+        "games": 59,
+        "label": "37% (59g)"
+      },
+      "Draven": {
+        "winrate": 56.0,
+        "games": 34,
+        "label": "56% (34g)"
+      },
+      "Miss Fortune": {
+        "winrate": 39.0,
+        "games": 54,
+        "label": "39% (54g)"
+      },
+      "Azir": {
+        "winrate": 42.0,
+        "games": 24,
+        "label": "42% (24g)"
+      },
+      "Sett": {
+        "winrate": 60.0,
+        "games": 15,
+        "label": "60% (15g)"
+      },
+      "Darius": {
+        "winrate": 50.0,
+        "games": 10,
+        "label": "50% (10g)"
+      },
+      "Leblanc": {
+        "winrate": 56.0,
+        "games": 59,
+        "label": "56% (59g)"
+      },
+      "Diana": {
+        "winrate": null,
+        "games": null,
+        "label": "--"
+      },
+      "Annie": {
+        "winrate": 53.0,
+        "games": 19,
+        "label": "53% (19g)"
+      },
+      "Ezreal": {
+        "winrate": 45.0,
+        "games": 31,
+        "label": "45% (31g)"
+      },
+      "Rengar": {
+        "winrate": 55.0,
+        "games": 20,
+        "label": "55% (20g)"
+      },
+      "Vex": {
+        "winrate": 58.0,
+        "games": 31,
+        "label": "58% (31g)"
+      },
+      "Viktor": {
+        "winrate": 48.0,
+        "games": 27,
+        "label": "48% (27g)"
+      },
+      "Khazix": {
+        "winrate": 67.0,
+        "games": 18,
+        "label": "67% (18g)"
+      },
+      "Poppy": {
+        "winrate": 71.0,
+        "games": 17,
+        "label": "71% (17g)"
+      },
+      "Lucian": {
+        "winrate": 45.0,
+        "games": 18,
+        "label": "45% (18g)"
+      },
+      "Lillia": {
+        "winrate": 66.0,
+        "games": 29,
+        "label": "66% (29g)"
+      },
+      "Jax": {
+        "winrate": 34.0,
+        "games": 6,
+        "label": "34% (6g)"
+      },
+      "Fiora": {
+        "winrate": 58.0,
+        "games": 26,
+        "label": "58% (26g)"
+      },
+      "Kai'sa": {
+        "winrate": 25.0,
+        "games": 16,
+        "label": "25% (16g)"
+      },
+      "Rumble": {
+        "winrate": 67.0,
+        "games": 3,
+        "label": "67% (3g)"
+      },
+      "Vi": {
+        "winrate": 83.0,
+        "games": 6,
+        "label": "83% (6g)"
+      },
+      "Jhin": {
+        "winrate": 56.0,
+        "games": 9,
+        "label": "56% (9g)"
+      },
+      "Volibear": {
+        "winrate": 36.0,
+        "games": 11,
+        "label": "36% (11g)"
+      },
+      "Ivern": {
+        "winrate": 44.0,
+        "games": 9,
+        "label": "44% (9g)"
+      },
+      "Lee Sin": {
+        "winrate": 80.0,
+        "games": 5,
+        "label": "80% (5g)"
+      },
+      "Ornn": {
+        "winrate": 68.0,
+        "games": 19,
+        "label": "68% (19g)"
+      },
+      "Ahri": {
+        "winrate": 59.0,
+        "games": 17,
+        "label": "59% (17g)"
+      },
+      "Teemo": {
+        "winrate": 59.0,
+        "games": 17,
+        "label": "59% (17g)"
+      },
+      "Renata Glasc": {
+        "winrate": 50.0,
+        "games": 2,
+        "label": "50% (2g)"
+      },
+      "Reksai": {
+        "winrate": 50.0,
+        "games": 8,
+        "label": "50% (8g)"
+      },
+      "Garen": {
+        "winrate": 67.0,
+        "games": 3,
+        "label": "67% (3g)"
+      },
+      "Lux": {
+        "winrate": 50.0,
+        "games": 8,
+        "label": "50% (8g)"
+      },
+      "Pyke": {
+        "winrate": 53.0,
+        "games": 30,
+        "label": "53% (30g)"
+      },
+      "Yasuo": {
+        "winrate": 100.0,
+        "games": 6,
+        "label": "100% (6g)"
+      },
+      "Leona": {
+        "winrate": 79.0,
+        "games": 14,
+        "label": "79% (14g)"
+      },
+      "Jinx": {
+        "winrate": 88.0,
+        "games": 8,
+        "label": "88% (8g)"
+      }
+    },
+    "Annie": {
+      "Sivir": {
+        "winrate": 80.0,
+        "games": 5,
+        "label": "80% (5g)"
+      },
+      "Master Yi": {
+        "winrate": 35.0,
+        "games": 20,
+        "label": "35% (20g)"
+      },
+      "Irelia": {
+        "winrate": 37.0,
+        "games": 22,
+        "label": "37% (22g)"
+      },
+      "Draven": {
+        "winrate": 53.0,
+        "games": 15,
+        "label": "53% (15g)"
+      },
+      "Miss Fortune": {
+        "winrate": 53.0,
+        "games": 15,
+        "label": "53% (15g)"
+      },
+      "Azir": {
+        "winrate": 59.0,
+        "games": 17,
+        "label": "59% (17g)"
+      },
+      "Sett": {
+        "winrate": 0.0,
+        "games": 5,
+        "label": "0% (5g)"
+      },
+      "Darius": {
+        "winrate": 100.0,
+        "games": 3,
+        "label": "100% (3g)"
+      },
+      "Leblanc": {
+        "winrate": 46.0,
+        "games": 26,
+        "label": "46% (26g)"
+      },
+      "Diana": {
+        "winrate": 47.0,
+        "games": 19,
+        "label": "47% (19g)"
+      },
+      "Annie": {
+        "winrate": null,
+        "games": null,
+        "label": "--"
+      },
+      "Ezreal": {
+        "winrate": 62.0,
+        "games": 13,
+        "label": "62% (13g)"
+      },
+      "Rengar": {
+        "winrate": 11.0,
+        "games": 9,
+        "label": "11% (9g)"
+      },
+      "Vex": {
+        "winrate": 58.0,
+        "games": 19,
+        "label": "58% (19g)"
+      },
+      "Viktor": {
+        "winrate": 38.0,
+        "games": 8,
+        "label": "38% (8g)"
+      },
+      "Khazix": {
+        "winrate": 69.0,
+        "games": 13,
+        "label": "69% (13g)"
+      },
+      "Poppy": {
+        "winrate": 67.0,
+        "games": 3,
+        "label": "67% (3g)"
+      },
+      "Lucian": {
+        "winrate": 56.0,
+        "games": 9,
+        "label": "56% (9g)"
+      },
+      "Lillia": {
+        "winrate": 76.0,
+        "games": 17,
+        "label": "76% (17g)"
+      },
+      "Jax": {
+        "winrate": 100.0,
+        "games": 1,
+        "label": "100% (1g)"
+      },
+      "Fiora": {
+        "winrate": 20.0,
+        "games": 10,
+        "label": "20% (10g)"
+      },
+      "Kai'sa": {
+        "winrate": 56.0,
+        "games": 9,
+        "label": "56% (9g)"
+      },
+      "Rumble": {
+        "winrate": 50.0,
+        "games": 4,
+        "label": "50% (4g)"
+      },
+      "Vi": {
+        "winrate": 100.0,
+        "games": 3,
+        "label": "100% (3g)"
+      },
+      "Jhin": {
+        "winrate": 33.0,
+        "games": 3,
+        "label": "33% (3g)"
+      },
+      "Volibear": {
+        "winrate": 33.0,
+        "games": 3,
+        "label": "33% (3g)"
+      },
+      "Ivern": {
+        "winrate": 33.0,
+        "games": 3,
+        "label": "33% (3g)"
+      },
+      "Lee Sin": {
+        "winrate": 100.0,
+        "games": 4,
+        "label": "100% (4g)"
+      },
+      "Ornn": {
+        "winrate": 67.0,
+        "games": 6,
+        "label": "67% (6g)"
+      },
+      "Ahri": {
+        "winrate": 0.0,
+        "games": 4,
+        "label": "0% (4g)"
+      },
+      "Teemo": {
+        "winrate": 71.0,
+        "games": 7,
+        "label": "71% (7g)"
+      },
+      "Renata Glasc": {
+        "winrate": 50.0,
+        "games": 2,
+        "label": "50% (2g)"
+      },
+      "Reksai": {
+        "winrate": 75.0,
+        "games": 4,
+        "label": "75% (4g)"
+      },
+      "Garen": {
+        "winrate": 100.0,
+        "games": 1,
+        "label": "100% (1g)"
+      },
+      "Lux": {
+        "winrate": 0.0,
+        "games": 1,
+        "label": "0% (1g)"
+      },
+      "Pyke": {
+        "winrate": 58.0,
+        "games": 12,
+        "label": "58% (12g)"
+      },
+      "Yasuo": {
+        "winrate": 62.0,
+        "games": 8,
+        "label": "62% (8g)"
+      },
+      "Leona": {
+        "winrate": 67.0,
+        "games": 6,
+        "label": "67% (6g)"
+      },
+      "Jinx": {
+        "winrate": 100.0,
+        "games": 1,
+        "label": "100% (1g)"
+      }
+    },
+    "Ezreal": {
+      "Sivir": {
+        "winrate": 40.0,
+        "games": 10,
+        "label": "40% (10g)"
+      },
+      "Master Yi": {
+        "winrate": 26.0,
+        "games": 27,
+        "label": "26% (27g)"
+      },
+      "Irelia": {
+        "winrate": 39.0,
+        "games": 41,
+        "label": "39% (41g)"
+      },
+      "Draven": {
+        "winrate": 54.0,
+        "games": 13,
+        "label": "54% (13g)"
+      },
+      "Miss Fortune": {
+        "winrate": 58.0,
+        "games": 26,
+        "label": "58% (26g)"
+      },
+      "Azir": {
+        "winrate": 47.0,
+        "games": 17,
+        "label": "47% (17g)"
+      },
+      "Sett": {
+        "winrate": 34.0,
+        "games": 6,
+        "label": "34% (6g)"
+      },
+      "Darius": {
+        "winrate": 40.0,
+        "games": 5,
+        "label": "40% (5g)"
+      },
+      "Leblanc": {
+        "winrate": 67.0,
+        "games": 39,
+        "label": "67% (39g)"
+      },
+      "Diana": {
+        "winrate": 55.0,
+        "games": 31,
+        "label": "55% (31g)"
+      },
+      "Annie": {
+        "winrate": 38.0,
+        "games": 13,
+        "label": "38% (13g)"
+      },
+      "Ezreal": {
+        "winrate": null,
+        "games": null,
+        "label": "--"
+      },
+      "Rengar": {
+        "winrate": 53.0,
+        "games": 15,
+        "label": "53% (15g)"
+      },
+      "Vex": {
+        "winrate": 69.0,
+        "games": 26,
+        "label": "69% (26g)"
+      },
+      "Viktor": {
+        "winrate": 56.0,
+        "games": 9,
+        "label": "56% (9g)"
+      },
+      "Khazix": {
+        "winrate": 53.0,
+        "games": 15,
+        "label": "53% (15g)"
+      },
+      "Poppy": {
+        "winrate": 83.0,
+        "games": 12,
+        "label": "83% (12g)"
+      },
+      "Lucian": {
+        "winrate": 25.0,
+        "games": 8,
+        "label": "25% (8g)"
+      },
+      "Lillia": {
+        "winrate": 33.0,
+        "games": 18,
+        "label": "33% (18g)"
+      },
+      "Jax": {
+        "winrate": 33.0,
+        "games": 3,
+        "label": "33% (3g)"
+      },
+      "Fiora": {
+        "winrate": 69.0,
+        "games": 13,
+        "label": "69% (13g)"
+      },
+      "Kai'sa": {
+        "winrate": 71.0,
+        "games": 7,
+        "label": "71% (7g)"
+      },
+      "Rumble": {
+        "winrate": 50.0,
+        "games": 2,
+        "label": "50% (2g)"
+      },
+      "Vi": {
+        "winrate": 50.0,
+        "games": 6,
+        "label": "50% (6g)"
+      },
+      "Jhin": {
+        "winrate": 50.0,
+        "games": 6,
+        "label": "50% (6g)"
+      },
+      "Volibear": {
+        "winrate": 11.0,
+        "games": 9,
+        "label": "11% (9g)"
+      },
+      "Ivern": {
+        "winrate": 25.0,
+        "games": 4,
+        "label": "25% (4g)"
+      },
+      "Lee Sin": {
+        "winrate": 67.0,
+        "games": 3,
+        "label": "67% (3g)"
+      },
+      "Ornn": {
+        "winrate": 33.0,
+        "games": 12,
+        "label": "33% (12g)"
+      },
+      "Ahri": {
+        "winrate": 88.0,
+        "games": 8,
+        "label": "88% (8g)"
+      },
+      "Teemo": {
+        "winrate": 57.0,
+        "games": 7,
+        "label": "57% (7g)"
+      },
+      "Renata Glasc": {
+        "winrate": 0.0,
+        "games": 2,
+        "label": "0% (2g)"
+      },
+      "Reksai": {
+        "winrate": 60.0,
+        "games": 5,
+        "label": "60% (5g)"
+      },
+      "Garen": {
+        "winrate": 0.0,
+        "games": 2,
+        "label": "0% (2g)"
+      },
+      "Lux": {
+        "winrate": 0.0,
+        "games": 1,
+        "label": "0% (1g)"
+      },
+      "Pyke": {
+        "winrate": 71.0,
+        "games": 7,
+        "label": "71% (7g)"
+      },
+      "Yasuo": {
+        "winrate": 40.0,
+        "games": 5,
+        "label": "40% (5g)"
+      },
+      "Leona": {
+        "winrate": 80.0,
+        "games": 10,
+        "label": "80% (10g)"
+      },
+      "Jinx": {
+        "winrate": 100.0,
+        "games": 6,
+        "label": "100% (6g)"
+      }
+    },
+    "Rengar": {
+      "Sivir": {
+        "winrate": 56.0,
+        "games": 9,
+        "label": "56% (9g)"
+      },
+      "Master Yi": {
+        "winrate": 44.0,
+        "games": 16,
+        "label": "44% (16g)"
+      },
+      "Irelia": {
+        "winrate": 48.0,
+        "games": 31,
+        "label": "48% (31g)"
+      },
+      "Draven": {
+        "winrate": 27.0,
+        "games": 15,
+        "label": "27% (15g)"
+      },
+      "Miss Fortune": {
+        "winrate": 54.0,
+        "games": 26,
+        "label": "54% (26g)"
+      },
+      "Azir": {
+        "winrate": 54.0,
+        "games": 13,
+        "label": "54% (13g)"
+      },
+      "Sett": {
+        "winrate": 38.0,
+        "games": 8,
+        "label": "38% (8g)"
+      },
+      "Darius": {
+        "winrate": 71.0,
+        "games": 7,
+        "label": "71% (7g)"
+      },
+      "Leblanc": {
+        "winrate": 46.0,
+        "games": 43,
+        "label": "46% (43g)"
+      },
+      "Diana": {
+        "winrate": 45.0,
+        "games": 20,
+        "label": "45% (20g)"
+      },
+      "Annie": {
+        "winrate": 89.0,
+        "games": 9,
+        "label": "89% (9g)"
+      },
+      "Ezreal": {
+        "winrate": 47.0,
+        "games": 15,
+        "label": "47% (15g)"
+      },
+      "Rengar": {
+        "winrate": null,
+        "games": null,
+        "label": "--"
+      },
+      "Vex": {
+        "winrate": 55.0,
+        "games": 20,
+        "label": "55% (20g)"
+      },
+      "Viktor": {
+        "winrate": 50.0,
+        "games": 8,
+        "label": "50% (8g)"
+      },
+      "Khazix": {
+        "winrate": 43.0,
+        "games": 14,
+        "label": "43% (14g)"
+      },
+      "Poppy": {
+        "winrate": 36.0,
+        "games": 11,
+        "label": "36% (11g)"
+      },
+      "Lucian": {
+        "winrate": 50.0,
+        "games": 8,
+        "label": "50% (8g)"
+      },
+      "Lillia": {
+        "winrate": 42.0,
+        "games": 12,
+        "label": "42% (12g)"
+      },
+      "Jax": {
+        "winrate": 60.0,
+        "games": 5,
+        "label": "60% (5g)"
+      },
+      "Fiora": {
+        "winrate": 60.0,
+        "games": 15,
+        "label": "60% (15g)"
+      },
+      "Kai'sa": {
+        "winrate": 30.0,
+        "games": 10,
+        "label": "30% (10g)"
+      },
+      "Rumble": {
+        "winrate": 0.0,
+        "games": 2,
+        "label": "0% (2g)"
+      },
+      "Vi": {
+        "winrate": 75.0,
+        "games": 4,
+        "label": "75% (4g)"
+      },
+      "Jhin": {
+        "winrate": null,
+        "games": null,
+        "label": "--"
+      },
+      "Volibear": {
+        "winrate": 34.0,
+        "games": 6,
+        "label": "34% (6g)"
+      },
+      "Ivern": {
+        "winrate": 80.0,
+        "games": 5,
+        "label": "80% (5g)"
+      },
+      "Lee Sin": {
+        "winrate": 50.0,
+        "games": 4,
+        "label": "50% (4g)"
+      },
+      "Ornn": {
+        "winrate": 71.0,
+        "games": 7,
+        "label": "71% (7g)"
+      },
+      "Ahri": {
+        "winrate": 17.0,
+        "games": 6,
+        "label": "17% (6g)"
+      },
+      "Teemo": {
+        "winrate": 80.0,
+        "games": 5,
+        "label": "80% (5g)"
+      },
+      "Renata Glasc": {
+        "winrate": 50.0,
+        "games": 2,
+        "label": "50% (2g)"
+      },
+      "Reksai": {
+        "winrate": 50.0,
+        "games": 4,
+        "label": "50% (4g)"
+      },
+      "Garen": {
+        "winrate": 100.0,
+        "games": 1,
+        "label": "100% (1g)"
+      },
+      "Lux": {
+        "winrate": 75.0,
+        "games": 4,
+        "label": "75% (4g)"
+      },
+      "Pyke": {
+        "winrate": 75.0,
+        "games": 8,
+        "label": "75% (8g)"
+      },
+      "Yasuo": {
+        "winrate": 84.0,
+        "games": 6,
+        "label": "84% (6g)"
+      },
+      "Leona": {
+        "winrate": 80.0,
+        "games": 5,
+        "label": "80% (5g)"
+      },
+      "Jinx": {
+        "winrate": 75.0,
+        "games": 4,
+        "label": "75% (4g)"
+      }
+    },
+    "Vex": {
+      "Sivir": {
+        "winrate": 31.0,
+        "games": 23,
+        "label": "31% (23g)"
+      },
+      "Master Yi": {
+        "winrate": 43.0,
+        "games": 37,
+        "label": "43% (37g)"
+      },
+      "Irelia": {
+        "winrate": 46.0,
+        "games": 59,
+        "label": "46% (59g)"
+      },
+      "Draven": {
+        "winrate": 38.0,
+        "games": 21,
+        "label": "38% (21g)"
+      },
+      "Miss Fortune": {
+        "winrate": 38.0,
+        "games": 29,
+        "label": "38% (29g)"
+      },
+      "Azir": {
+        "winrate": 40.0,
+        "games": 32,
+        "label": "40% (32g)"
+      },
+      "Sett": {
+        "winrate": 50.0,
+        "games": 4,
+        "label": "50% (4g)"
+      },
+      "Darius": {
+        "winrate": 25.0,
+        "games": 12,
+        "label": "25% (12g)"
+      },
+      "Leblanc": {
+        "winrate": 68.0,
+        "games": 68,
+        "label": "68% (68g)"
+      },
+      "Diana": {
+        "winrate": 42.0,
+        "games": 31,
+        "label": "42% (31g)"
+      },
+      "Annie": {
+        "winrate": 42.0,
+        "games": 19,
+        "label": "42% (19g)"
+      },
+      "Ezreal": {
+        "winrate": 31.0,
+        "games": 26,
+        "label": "31% (26g)"
+      },
+      "Rengar": {
+        "winrate": 45.0,
+        "games": 20,
+        "label": "45% (20g)"
+      },
+      "Vex": {
+        "winrate": null,
+        "games": null,
+        "label": "--"
+      },
+      "Viktor": {
+        "winrate": 50.0,
+        "games": 22,
+        "label": "50% (22g)"
+      },
+      "Khazix": {
+        "winrate": 83.0,
+        "games": 18,
+        "label": "83% (18g)"
+      },
+      "Poppy": {
+        "winrate": 58.0,
+        "games": 12,
+        "label": "58% (12g)"
+      },
+      "Lucian": {
+        "winrate": 63.0,
+        "games": 11,
+        "label": "63% (11g)"
+      },
+      "Lillia": {
+        "winrate": 63.0,
+        "games": 19,
+        "label": "63% (19g)"
+      },
+      "Jax": {
+        "winrate": 55.0,
+        "games": 9,
+        "label": "55% (9g)"
+      },
+      "Fiora": {
+        "winrate": 47.0,
+        "games": 15,
+        "label": "47% (15g)"
+      },
+      "Kai'sa": {
+        "winrate": 64.0,
+        "games": 17,
+        "label": "64% (17g)"
+      },
+      "Rumble": {
+        "winrate": 43.0,
+        "games": 7,
+        "label": "43% (7g)"
+      },
+      "Vi": {
+        "winrate": 43.0,
+        "games": 7,
+        "label": "43% (7g)"
+      },
+      "Jhin": {
+        "winrate": 44.0,
+        "games": 9,
+        "label": "44% (9g)"
+      },
+      "Volibear": {
+        "winrate": 50.0,
+        "games": 8,
+        "label": "50% (8g)"
+      },
+      "Ivern": {
+        "winrate": 75.0,
+        "games": 4,
+        "label": "75% (4g)"
+      },
+      "Lee Sin": {
+        "winrate": 50.0,
+        "games": 4,
+        "label": "50% (4g)"
+      },
+      "Ornn": {
+        "winrate": 50.0,
+        "games": 16,
+        "label": "50% (16g)"
+      },
+      "Ahri": {
+        "winrate": 57.0,
+        "games": 14,
+        "label": "57% (14g)"
+      },
+      "Teemo": {
+        "winrate": 50.0,
+        "games": 10,
+        "label": "50% (10g)"
+      },
+      "Renata Glasc": {
+        "winrate": 100.0,
+        "games": 3,
+        "label": "100% (3g)"
+      },
+      "Reksai": {
+        "winrate": 67.0,
+        "games": 9,
+        "label": "67% (9g)"
+      },
+      "Garen": {
+        "winrate": 50.0,
+        "games": 2,
+        "label": "50% (2g)"
+      },
+      "Lux": {
+        "winrate": 55.0,
+        "games": 11,
+        "label": "55% (11g)"
+      },
+      "Pyke": {
+        "winrate": 63.0,
+        "games": 16,
+        "label": "63% (16g)"
+      },
+      "Yasuo": {
+        "winrate": 50.0,
+        "games": 4,
+        "label": "50% (4g)"
+      },
+      "Leona": {
+        "winrate": 55.0,
+        "games": 9,
+        "label": "55% (9g)"
+      },
+      "Jinx": {
+        "winrate": 100.0,
+        "games": 5,
+        "label": "100% (5g)"
+      }
+    },
+    "Viktor": {
+      "Sivir": {
+        "winrate": 78.0,
+        "games": 14,
+        "label": "78% (14g)"
+      },
+      "Master Yi": {
+        "winrate": 38.0,
+        "games": 24,
+        "label": "38% (24g)"
+      },
+      "Irelia": {
+        "winrate": 58.0,
+        "games": 43,
+        "label": "58% (43g)"
+      },
+      "Draven": {
+        "winrate": 7.0,
+        "games": 15,
+        "label": "7% (15g)"
+      },
+      "Miss Fortune": {
+        "winrate": 70.0,
+        "games": 27,
+        "label": "70% (27g)"
+      },
+      "Azir": {
+        "winrate": 29.0,
+        "games": 14,
+        "label": "29% (14g)"
+      },
+      "Sett": {
+        "winrate": 43.0,
+        "games": 7,
+        "label": "43% (7g)"
+      },
+      "Darius": {
+        "winrate": 100.0,
+        "games": 3,
+        "label": "100% (3g)"
+      },
+      "Leblanc": {
+        "winrate": 31.0,
+        "games": 45,
+        "label": "31% (45g)"
+      },
+      "Diana": {
+        "winrate": 52.0,
+        "games": 27,
+        "label": "52% (27g)"
+      },
+      "Annie": {
+        "winrate": 62.0,
+        "games": 8,
+        "label": "62% (8g)"
+      },
+      "Ezreal": {
+        "winrate": 44.0,
+        "games": 9,
+        "label": "44% (9g)"
+      },
+      "Rengar": {
+        "winrate": 50.0,
+        "games": 8,
+        "label": "50% (8g)"
+      },
+      "Vex": {
+        "winrate": 50.0,
+        "games": 22,
+        "label": "50% (22g)"
+      },
+      "Viktor": {
+        "winrate": null,
+        "games": null,
+        "label": "--"
+      },
+      "Khazix": {
+        "winrate": 33.0,
+        "games": 6,
+        "label": "33% (6g)"
+      },
+      "Poppy": {
+        "winrate": 64.0,
+        "games": 14,
+        "label": "64% (14g)"
+      },
+      "Lucian": {
+        "winrate": 54.0,
+        "games": 13,
+        "label": "54% (13g)"
+      },
+      "Lillia": {
+        "winrate": 16.0,
+        "games": 25,
+        "label": "16% (25g)"
+      },
+      "Jax": {
+        "winrate": 50.0,
+        "games": 4,
+        "label": "50% (4g)"
+      },
+      "Fiora": {
+        "winrate": 65.0,
+        "games": 23,
+        "label": "65% (23g)"
+      },
+      "Kai'sa": {
+        "winrate": 73.0,
+        "games": 11,
+        "label": "73% (11g)"
+      },
+      "Rumble": {
+        "winrate": 100.0,
+        "games": 2,
+        "label": "100% (2g)"
+      },
+      "Vi": {
+        "winrate": 70.0,
+        "games": 10,
+        "label": "70% (10g)"
+      },
+      "Jhin": {
+        "winrate": 33.0,
+        "games": 3,
+        "label": "33% (3g)"
+      },
+      "Volibear": {
+        "winrate": 83.0,
+        "games": 6,
+        "label": "83% (6g)"
+      },
+      "Ivern": {
+        "winrate": 62.0,
+        "games": 8,
+        "label": "62% (8g)"
+      },
+      "Lee Sin": {
+        "winrate": 50.0,
+        "games": 6,
+        "label": "50% (6g)"
+      },
+      "Ornn": {
+        "winrate": 50.0,
+        "games": 8,
+        "label": "50% (8g)"
+      },
+      "Ahri": {
+        "winrate": 40.0,
+        "games": 5,
+        "label": "40% (5g)"
+      },
+      "Teemo": {
+        "winrate": 67.0,
+        "games": 9,
+        "label": "67% (9g)"
+      },
+      "Renata Glasc": {
+        "winrate": 67.0,
+        "games": 3,
+        "label": "67% (3g)"
+      },
+      "Reksai": {
+        "winrate": 83.0,
+        "games": 6,
+        "label": "83% (6g)"
+      },
+      "Garen": {
+        "winrate": 50.0,
+        "games": 4,
+        "label": "50% (4g)"
+      },
+      "Lux": {
+        "winrate": 75.0,
+        "games": 4,
+        "label": "75% (4g)"
+      },
+      "Pyke": {
+        "winrate": 78.0,
+        "games": 18,
+        "label": "78% (18g)"
+      },
+      "Yasuo": {
+        "winrate": 72.0,
+        "games": 7,
+        "label": "72% (7g)"
+      },
+      "Leona": {
+        "winrate": 60.0,
+        "games": 15,
+        "label": "60% (15g)"
+      },
+      "Jinx": {
+        "winrate": 33.0,
+        "games": 6,
+        "label": "33% (6g)"
+      }
+    },
+    "Khazix": {
+      "Sivir": {
+        "winrate": 38.0,
+        "games": 8,
+        "label": "38% (8g)"
+      },
+      "Master Yi": {
+        "winrate": 22.0,
+        "games": 9,
+        "label": "22% (9g)"
+      },
+      "Irelia": {
+        "winrate": 55.0,
+        "games": 31,
+        "label": "55% (31g)"
+      },
+      "Draven": {
+        "winrate": 67.0,
+        "games": 12,
+        "label": "67% (12g)"
+      },
+      "Miss Fortune": {
+        "winrate": 44.0,
+        "games": 18,
+        "label": "44% (18g)"
+      },
+      "Azir": {
+        "winrate": 56.0,
+        "games": 9,
+        "label": "56% (9g)"
+      },
+      "Sett": {
+        "winrate": 14.0,
+        "games": 7,
+        "label": "14% (7g)"
+      },
+      "Darius": {
+        "winrate": 100.0,
+        "games": 2,
+        "label": "100% (2g)"
+      },
+      "Leblanc": {
+        "winrate": 55.0,
+        "games": 31,
+        "label": "55% (31g)"
+      },
+      "Diana": {
+        "winrate": 33.0,
+        "games": 18,
+        "label": "33% (18g)"
+      },
+      "Annie": {
+        "winrate": 31.0,
+        "games": 13,
+        "label": "31% (13g)"
+      },
+      "Ezreal": {
+        "winrate": 47.0,
+        "games": 15,
+        "label": "47% (15g)"
+      },
+      "Rengar": {
+        "winrate": 57.0,
+        "games": 14,
+        "label": "57% (14g)"
+      },
+      "Vex": {
+        "winrate": 17.0,
+        "games": 18,
+        "label": "17% (18g)"
+      },
+      "Viktor": {
+        "winrate": 67.0,
+        "games": 6,
+        "label": "67% (6g)"
+      },
+      "Khazix": {
+        "winrate": null,
+        "games": null,
+        "label": "--"
+      },
+      "Poppy": {
+        "winrate": 43.0,
+        "games": 7,
+        "label": "43% (7g)"
+      },
+      "Lucian": {
+        "winrate": 33.0,
+        "games": 3,
+        "label": "33% (3g)"
+      },
+      "Lillia": {
+        "winrate": 53.0,
+        "games": 17,
+        "label": "53% (17g)"
+      },
+      "Jax": {
+        "winrate": 67.0,
+        "games": 3,
+        "label": "67% (3g)"
+      },
+      "Fiora": {
+        "winrate": 63.0,
+        "games": 8,
+        "label": "63% (8g)"
+      },
+      "Kai'sa": {
+        "winrate": 40.0,
+        "games": 10,
+        "label": "40% (10g)"
+      },
+      "Rumble": {
+        "winrate": 50.0,
+        "games": 4,
+        "label": "50% (4g)"
+      },
+      "Vi": {
+        "winrate": 67.0,
+        "games": 3,
+        "label": "67% (3g)"
+      },
+      "Jhin": {
+        "winrate": 100.0,
+        "games": 1,
+        "label": "100% (1g)"
+      },
+      "Volibear": {
+        "winrate": 80.0,
+        "games": 5,
+        "label": "80% (5g)"
+      },
+      "Ivern": {
+        "winrate": 75.0,
+        "games": 8,
+        "label": "75% (8g)"
+      },
+      "Lee Sin": {
+        "winrate": 80.0,
+        "games": 5,
+        "label": "80% (5g)"
+      },
+      "Ornn": {
+        "winrate": 50.0,
+        "games": 10,
+        "label": "50% (10g)"
+      },
+      "Ahri": {
+        "winrate": 67.0,
+        "games": 6,
+        "label": "67% (6g)"
+      },
+      "Teemo": {
+        "winrate": 60.0,
+        "games": 5,
+        "label": "60% (5g)"
+      },
+      "Renata Glasc": {
+        "winrate": 50.0,
+        "games": 4,
+        "label": "50% (4g)"
+      },
+      "Reksai": {
+        "winrate": 67.0,
+        "games": 3,
+        "label": "67% (3g)"
+      },
+      "Garen": {
+        "winrate": 0.0,
+        "games": 2,
+        "label": "0% (2g)"
+      },
+      "Lux": {
+        "winrate": 0.0,
+        "games": 1,
+        "label": "0% (1g)"
+      },
+      "Pyke": {
+        "winrate": 50.0,
+        "games": 10,
+        "label": "50% (10g)"
+      },
+      "Yasuo": {
+        "winrate": 100.0,
+        "games": 5,
+        "label": "100% (5g)"
+      },
+      "Leona": {
+        "winrate": 67.0,
+        "games": 6,
+        "label": "67% (6g)"
+      },
+      "Jinx": {
+        "winrate": 50.0,
+        "games": 2,
+        "label": "50% (2g)"
+      }
+    },
+    "Poppy": {
+      "Sivir": {
+        "winrate": 50.0,
+        "games": 10,
+        "label": "50% (10g)"
+      },
+      "Master Yi": {
+        "winrate": 46.0,
+        "games": 22,
+        "label": "46% (22g)"
+      },
+      "Irelia": {
+        "winrate": 43.0,
+        "games": 35,
+        "label": "43% (35g)"
+      },
+      "Draven": {
+        "winrate": 50.0,
+        "games": 12,
+        "label": "50% (12g)"
+      },
+      "Miss Fortune": {
+        "winrate": 76.0,
+        "games": 21,
+        "label": "76% (21g)"
+      },
+      "Azir": {
+        "winrate": 47.0,
+        "games": 15,
+        "label": "47% (15g)"
+      },
+      "Sett": {
+        "winrate": 60.0,
+        "games": 5,
+        "label": "60% (5g)"
+      },
+      "Darius": {
+        "winrate": 25.0,
+        "games": 8,
+        "label": "25% (8g)"
+      },
+      "Leblanc": {
+        "winrate": 42.0,
+        "games": 33,
+        "label": "42% (33g)"
+      },
+      "Diana": {
+        "winrate": 29.0,
+        "games": 17,
+        "label": "29% (17g)"
+      },
+      "Annie": {
+        "winrate": 33.0,
+        "games": 3,
+        "label": "33% (3g)"
+      },
+      "Ezreal": {
+        "winrate": 17.0,
+        "games": 12,
+        "label": "17% (12g)"
+      },
+      "Rengar": {
+        "winrate": 64.0,
+        "games": 11,
+        "label": "64% (11g)"
+      },
+      "Vex": {
+        "winrate": 42.0,
+        "games": 12,
+        "label": "42% (12g)"
+      },
+      "Viktor": {
+        "winrate": 36.0,
+        "games": 14,
+        "label": "36% (14g)"
+      },
+      "Khazix": {
+        "winrate": 57.0,
+        "games": 7,
+        "label": "57% (7g)"
+      },
+      "Poppy": {
+        "winrate": null,
+        "games": null,
+        "label": "--"
+      },
+      "Lucian": {
+        "winrate": 80.0,
+        "games": 5,
+        "label": "80% (5g)"
+      },
+      "Lillia": {
+        "winrate": 38.0,
+        "games": 16,
+        "label": "38% (16g)"
+      },
+      "Jax": {
+        "winrate": 75.0,
+        "games": 4,
+        "label": "75% (4g)"
+      },
+      "Fiora": {
+        "winrate": 57.0,
+        "games": 14,
+        "label": "57% (14g)"
+      },
+      "Kai'sa": {
+        "winrate": 60.0,
+        "games": 15,
+        "label": "60% (15g)"
+      },
+      "Rumble": {
+        "winrate": 100.0,
+        "games": 2,
+        "label": "100% (2g)"
+      },
+      "Vi": {
+        "winrate": 25.0,
+        "games": 4,
+        "label": "25% (4g)"
+      },
+      "Jhin": {
+        "winrate": 57.0,
+        "games": 7,
+        "label": "57% (7g)"
+      },
+      "Volibear": {
+        "winrate": 100.0,
+        "games": 4,
+        "label": "100% (4g)"
+      },
+      "Ivern": {
+        "winrate": 50.0,
+        "games": 4,
+        "label": "50% (4g)"
+      },
+      "Lee Sin": {
+        "winrate": 67.0,
+        "games": 9,
+        "label": "67% (9g)"
+      },
+      "Ornn": {
+        "winrate": 67.0,
+        "games": 6,
+        "label": "67% (6g)"
+      },
+      "Ahri": {
+        "winrate": 55.0,
+        "games": 11,
+        "label": "55% (11g)"
+      },
+      "Teemo": {
+        "winrate": 63.0,
+        "games": 8,
+        "label": "63% (8g)"
+      },
+      "Renata Glasc": {
+        "winrate": 50.0,
+        "games": 4,
+        "label": "50% (4g)"
+      },
+      "Reksai": {
+        "winrate": 50.0,
+        "games": 2,
+        "label": "50% (2g)"
+      },
+      "Garen": {
+        "winrate": 0.0,
+        "games": 1,
+        "label": "0% (1g)"
+      },
+      "Lux": {
+        "winrate": 100.0,
+        "games": 2,
+        "label": "100% (2g)"
+      },
+      "Pyke": {
+        "winrate": 88.0,
+        "games": 8,
+        "label": "88% (8g)"
+      },
+      "Yasuo": {
+        "winrate": 40.0,
+        "games": 5,
+        "label": "40% (5g)"
+      },
+      "Leona": {
+        "winrate": 50.0,
+        "games": 6,
+        "label": "50% (6g)"
+      },
+      "Jinx": {
+        "winrate": 33.0,
+        "games": 3,
+        "label": "33% (3g)"
+      }
+    },
+    "Lucian": {
+      "Sivir": {
+        "winrate": 43.0,
+        "games": 7,
+        "label": "43% (7g)"
+      },
+      "Master Yi": {
+        "winrate": 55.0,
+        "games": 11,
+        "label": "55% (11g)"
+      },
+      "Irelia": {
+        "winrate": 50.0,
+        "games": 20,
+        "label": "50% (20g)"
+      },
+      "Draven": {
+        "winrate": 37.0,
+        "games": 8,
+        "label": "37% (8g)"
+      },
+      "Miss Fortune": {
+        "winrate": 44.0,
+        "games": 23,
+        "label": "44% (23g)"
+      },
+      "Azir": {
+        "winrate": 17.0,
+        "games": 6,
+        "label": "17% (6g)"
+      },
+      "Sett": {
+        "winrate": 25.0,
+        "games": 4,
+        "label": "25% (4g)"
+      },
+      "Darius": {
+        "winrate": 25.0,
+        "games": 4,
+        "label": "25% (4g)"
+      },
+      "Leblanc": {
+        "winrate": 32.0,
+        "games": 31,
+        "label": "32% (31g)"
+      },
+      "Diana": {
+        "winrate": 55.0,
+        "games": 18,
+        "label": "55% (18g)"
+      },
+      "Annie": {
+        "winrate": 44.0,
+        "games": 9,
+        "label": "44% (9g)"
+      },
+      "Ezreal": {
+        "winrate": 75.0,
+        "games": 8,
+        "label": "75% (8g)"
+      },
+      "Rengar": {
+        "winrate": 50.0,
+        "games": 8,
+        "label": "50% (8g)"
+      },
+      "Vex": {
+        "winrate": 37.0,
+        "games": 11,
+        "label": "37% (11g)"
+      },
+      "Viktor": {
+        "winrate": 46.0,
+        "games": 13,
+        "label": "46% (13g)"
+      },
+      "Khazix": {
+        "winrate": 67.0,
+        "games": 3,
+        "label": "67% (3g)"
+      },
+      "Poppy": {
+        "winrate": 20.0,
+        "games": 5,
+        "label": "20% (5g)"
+      },
+      "Lucian": {
+        "winrate": null,
+        "games": null,
+        "label": "--"
+      },
+      "Lillia": {
+        "winrate": 67.0,
+        "games": 9,
+        "label": "67% (9g)"
+      },
+      "Jax": {
+        "winrate": 100.0,
+        "games": 2,
+        "label": "100% (2g)"
+      },
+      "Fiora": {
+        "winrate": 50.0,
+        "games": 12,
+        "label": "50% (12g)"
+      },
+      "Kai'sa": {
+        "winrate": 67.0,
+        "games": 3,
+        "label": "67% (3g)"
+      },
+      "Rumble": {
+        "winrate": 100.0,
+        "games": 1,
+        "label": "100% (1g)"
+      },
+      "Vi": {
+        "winrate": 100.0,
+        "games": 1,
+        "label": "100% (1g)"
+      },
+      "Jhin": {
+        "winrate": 33.0,
+        "games": 3,
+        "label": "33% (3g)"
+      },
+      "Volibear": {
+        "winrate": 100.0,
+        "games": 5,
+        "label": "100% (5g)"
+      },
+      "Ivern": {
+        "winrate": 0.0,
+        "games": 1,
+        "label": "0% (1g)"
+      },
+      "Lee Sin": {
+        "winrate": 50.0,
+        "games": 2,
+        "label": "50% (2g)"
+      },
+      "Ornn": {
+        "winrate": 25.0,
+        "games": 4,
+        "label": "25% (4g)"
+      },
+      "Ahri": {
+        "winrate": 50.0,
+        "games": 6,
+        "label": "50% (6g)"
+      },
+      "Teemo": {
+        "winrate": 33.0,
+        "games": 3,
+        "label": "33% (3g)"
+      },
+      "Renata Glasc": {
+        "winrate": 33.0,
+        "games": 3,
+        "label": "33% (3g)"
+      },
+      "Reksai": {
+        "winrate": 100.0,
+        "games": 1,
+        "label": "100% (1g)"
+      },
+      "Garen": {
+        "winrate": 100.0,
+        "games": 2,
+        "label": "100% (2g)"
+      },
+      "Lux": {
+        "winrate": 0.0,
+        "games": 1,
+        "label": "0% (1g)"
+      },
+      "Pyke": {
+        "winrate": 100.0,
+        "games": 5,
+        "label": "100% (5g)"
+      },
+      "Yasuo": {
+        "winrate": 0.0,
+        "games": 1,
+        "label": "0% (1g)"
+      },
+      "Leona": {
+        "winrate": 50.0,
+        "games": 2,
+        "label": "50% (2g)"
+      },
+      "Jinx": {
+        "winrate": 57.0,
+        "games": 7,
+        "label": "57% (7g)"
+      }
+    },
+    "Lillia": {
+      "Sivir": {
+        "winrate": 40.0,
+        "games": 10,
+        "label": "40% (10g)"
+      },
+      "Master Yi": {
+        "winrate": 32.0,
+        "games": 19,
+        "label": "32% (19g)"
+      },
+      "Irelia": {
+        "winrate": 41.0,
+        "games": 37,
+        "label": "41% (37g)"
+      },
+      "Draven": {
+        "winrate": 15.0,
+        "games": 13,
+        "label": "15% (13g)"
+      },
+      "Miss Fortune": {
+        "winrate": 34.0,
+        "games": 18,
+        "label": "34% (18g)"
+      },
+      "Azir": {
+        "winrate": 62.0,
+        "games": 16,
+        "label": "62% (16g)"
+      },
+      "Sett": {
+        "winrate": 56.0,
+        "games": 16,
+        "label": "56% (16g)"
+      },
+      "Darius": {
+        "winrate": 100.0,
+        "games": 3,
+        "label": "100% (3g)"
+      },
+      "Leblanc": {
+        "winrate": 40.0,
+        "games": 58,
+        "label": "40% (58g)"
+      },
+      "Diana": {
+        "winrate": 34.0,
+        "games": 29,
+        "label": "34% (29g)"
+      },
+      "Annie": {
+        "winrate": 24.0,
+        "games": 17,
+        "label": "24% (17g)"
+      },
+      "Ezreal": {
+        "winrate": 67.0,
+        "games": 18,
+        "label": "67% (18g)"
+      },
+      "Rengar": {
+        "winrate": 58.0,
+        "games": 12,
+        "label": "58% (12g)"
+      },
+      "Vex": {
+        "winrate": 37.0,
+        "games": 19,
+        "label": "37% (19g)"
+      },
+      "Viktor": {
+        "winrate": 84.0,
+        "games": 25,
+        "label": "84% (25g)"
+      },
+      "Khazix": {
+        "winrate": 47.0,
+        "games": 17,
+        "label": "47% (17g)"
+      },
+      "Poppy": {
+        "winrate": 62.0,
+        "games": 16,
+        "label": "62% (16g)"
+      },
+      "Lucian": {
+        "winrate": 33.0,
+        "games": 9,
+        "label": "33% (9g)"
+      },
+      "Lillia": {
+        "winrate": null,
+        "games": null,
+        "label": "--"
+      },
+      "Jax": {
+        "winrate": 100.0,
+        "games": 3,
+        "label": "100% (3g)"
+      },
+      "Fiora": {
+        "winrate": 47.0,
+        "games": 21,
+        "label": "47% (21g)"
+      },
+      "Kai'sa": {
+        "winrate": 70.0,
+        "games": 10,
+        "label": "70% (10g)"
+      },
+      "Rumble": {
+        "winrate": 75.0,
+        "games": 4,
+        "label": "75% (4g)"
+      },
+      "Vi": {
+        "winrate": 100.0,
+        "games": 2,
+        "label": "100% (2g)"
+      },
+      "Jhin": {
+        "winrate": 100.0,
+        "games": 2,
+        "label": "100% (2g)"
+      },
+      "Volibear": {
+        "winrate": 80.0,
+        "games": 5,
+        "label": "80% (5g)"
+      },
+      "Ivern": {
+        "winrate": 100.0,
+        "games": 3,
+        "label": "100% (3g)"
+      },
+      "Lee Sin": {
+        "winrate": 29.0,
+        "games": 7,
+        "label": "29% (7g)"
+      },
+      "Ornn": {
+        "winrate": 60.0,
+        "games": 5,
+        "label": "60% (5g)"
+      },
+      "Ahri": {
+        "winrate": 40.0,
+        "games": 5,
+        "label": "40% (5g)"
+      },
+      "Teemo": {
+        "winrate": 29.0,
+        "games": 7,
+        "label": "29% (7g)"
+      },
+      "Renata Glasc": {
+        "winrate": null,
+        "games": null,
+        "label": "--"
+      },
+      "Reksai": {
+        "winrate": 86.0,
+        "games": 7,
+        "label": "86% (7g)"
+      },
+      "Garen": {
+        "winrate": 75.0,
+        "games": 4,
+        "label": "75% (4g)"
+      },
+      "Lux": {
+        "winrate": 88.0,
+        "games": 8,
+        "label": "88% (8g)"
+      },
+      "Pyke": {
+        "winrate": 55.0,
+        "games": 11,
+        "label": "55% (11g)"
+      },
+      "Yasuo": {
+        "winrate": 56.0,
+        "games": 9,
+        "label": "56% (9g)"
+      },
+      "Leona": {
+        "winrate": 57.0,
+        "games": 7,
+        "label": "57% (7g)"
+      },
+      "Jinx": {
+        "winrate": 0.0,
+        "games": 2,
+        "label": "0% (2g)"
+      }
+    },
+    "Jax": {
+      "Sivir": {
+        "winrate": 100.0,
+        "games": 2,
+        "label": "100% (2g)"
+      },
+      "Master Yi": {
+        "winrate": 50.0,
+        "games": 6,
+        "label": "50% (6g)"
+      },
+      "Irelia": {
+        "winrate": 42.0,
+        "games": 12,
+        "label": "42% (12g)"
+      },
+      "Draven": {
+        "winrate": 29.0,
+        "games": 7,
+        "label": "29% (7g)"
+      },
+      "Miss Fortune": {
+        "winrate": 56.0,
+        "games": 9,
+        "label": "56% (9g)"
+      },
+      "Azir": {
+        "winrate": 50.0,
+        "games": 6,
+        "label": "50% (6g)"
+      },
+      "Sett": {
+        "winrate": 50.0,
+        "games": 2,
+        "label": "50% (2g)"
+      },
+      "Darius": {
+        "winrate": 0.0,
+        "games": 2,
+        "label": "0% (2g)"
+      },
+      "Leblanc": {
+        "winrate": 60.0,
+        "games": 10,
+        "label": "60% (10g)"
+      },
+      "Diana": {
+        "winrate": 66.0,
+        "games": 6,
+        "label": "66% (6g)"
+      },
+      "Annie": {
+        "winrate": 0.0,
+        "games": 1,
+        "label": "0% (1g)"
+      },
+      "Ezreal": {
+        "winrate": 67.0,
+        "games": 3,
+        "label": "67% (3g)"
+      },
+      "Rengar": {
+        "winrate": 40.0,
+        "games": 5,
+        "label": "40% (5g)"
+      },
+      "Vex": {
+        "winrate": 45.0,
+        "games": 9,
+        "label": "45% (9g)"
+      },
+      "Viktor": {
+        "winrate": 50.0,
+        "games": 4,
+        "label": "50% (4g)"
+      },
+      "Khazix": {
+        "winrate": 33.0,
+        "games": 3,
+        "label": "33% (3g)"
+      },
+      "Poppy": {
+        "winrate": 25.0,
+        "games": 4,
+        "label": "25% (4g)"
+      },
+      "Lucian": {
+        "winrate": 0.0,
+        "games": 2,
+        "label": "0% (2g)"
+      },
+      "Lillia": {
+        "winrate": 0.0,
+        "games": 3,
+        "label": "0% (3g)"
+      },
+      "Jax": {
+        "winrate": null,
+        "games": null,
+        "label": "--"
+      },
+      "Fiora": {
+        "winrate": 17.0,
+        "games": 6,
+        "label": "17% (6g)"
+      },
+      "Kai'sa": {
+        "winrate": 33.0,
+        "games": 3,
+        "label": "33% (3g)"
+      },
+      "Rumble": {
+        "winrate": 0.0,
+        "games": 1,
+        "label": "0% (1g)"
+      },
+      "Vi": {
+        "winrate": 80.0,
+        "games": 5,
+        "label": "80% (5g)"
+      },
+      "Jhin": {
+        "winrate": null,
+        "games": null,
+        "label": "--"
+      },
+      "Volibear": {
+        "winrate": 75.0,
+        "games": 4,
+        "label": "75% (4g)"
+      },
+      "Ivern": {
+        "winrate": 50.0,
+        "games": 2,
+        "label": "50% (2g)"
+      },
+      "Lee Sin": {
+        "winrate": 100.0,
+        "games": 1,
+        "label": "100% (1g)"
+      },
+      "Ornn": {
+        "winrate": 50.0,
+        "games": 2,
+        "label": "50% (2g)"
+      },
+      "Ahri": {
+        "winrate": 33.0,
+        "games": 3,
+        "label": "33% (3g)"
+      },
+      "Teemo": {
+        "winrate": 71.0,
+        "games": 7,
+        "label": "71% (7g)"
+      },
+      "Renata Glasc": {
+        "winrate": 100.0,
+        "games": 1,
+        "label": "100% (1g)"
+      },
+      "Reksai": {
+        "winrate": 50.0,
+        "games": 2,
+        "label": "50% (2g)"
+      },
+      "Garen": {
+        "winrate": null,
+        "games": null,
+        "label": "--"
+      },
+      "Lux": {
+        "winrate": 0.0,
+        "games": 2,
+        "label": "0% (2g)"
+      },
+      "Pyke": {
+        "winrate": 67.0,
+        "games": 3,
+        "label": "67% (3g)"
+      },
+      "Yasuo": {
+        "winrate": 0.0,
+        "games": 2,
+        "label": "0% (2g)"
+      },
+      "Leona": {
+        "winrate": 80.0,
+        "games": 5,
+        "label": "80% (5g)"
+      },
+      "Jinx": {
+        "winrate": 100.0,
+        "games": 1,
+        "label": "100% (1g)"
+      }
+    },
+    "Fiora": {
+      "Sivir": {
+        "winrate": 43.0,
+        "games": 14,
+        "label": "43% (14g)"
+      },
+      "Master Yi": {
+        "winrate": 30.0,
+        "games": 20,
+        "label": "30% (20g)"
+      },
+      "Irelia": {
+        "winrate": 52.0,
+        "games": 25,
+        "label": "52% (25g)"
+      },
+      "Draven": {
+        "winrate": 38.0,
+        "games": 13,
+        "label": "38% (13g)"
+      },
+      "Miss Fortune": {
+        "winrate": 35.0,
+        "games": 34,
+        "label": "35% (34g)"
+      },
+      "Azir": {
+        "winrate": 40.0,
+        "games": 25,
+        "label": "40% (25g)"
+      },
+      "Sett": {
+        "winrate": 55.0,
+        "games": 11,
+        "label": "55% (11g)"
+      },
+      "Darius": {
+        "winrate": 50.0,
+        "games": 2,
+        "label": "50% (2g)"
+      },
+      "Leblanc": {
+        "winrate": 42.0,
+        "games": 36,
+        "label": "42% (36g)"
+      },
+      "Diana": {
+        "winrate": 42.0,
+        "games": 26,
+        "label": "42% (26g)"
+      },
+      "Annie": {
+        "winrate": 80.0,
+        "games": 10,
+        "label": "80% (10g)"
+      },
+      "Ezreal": {
+        "winrate": 31.0,
+        "games": 13,
+        "label": "31% (13g)"
+      },
+      "Rengar": {
+        "winrate": 40.0,
+        "games": 15,
+        "label": "40% (15g)"
+      },
+      "Vex": {
+        "winrate": 53.0,
+        "games": 15,
+        "label": "53% (15g)"
+      },
+      "Viktor": {
+        "winrate": 35.0,
+        "games": 23,
+        "label": "35% (23g)"
+      },
+      "Khazix": {
+        "winrate": 37.0,
+        "games": 8,
+        "label": "37% (8g)"
+      },
+      "Poppy": {
+        "winrate": 43.0,
+        "games": 14,
+        "label": "43% (14g)"
+      },
+      "Lucian": {
+        "winrate": 50.0,
+        "games": 12,
+        "label": "50% (12g)"
+      },
+      "Lillia": {
+        "winrate": 53.0,
+        "games": 21,
+        "label": "53% (21g)"
+      },
+      "Jax": {
+        "winrate": 83.0,
+        "games": 6,
+        "label": "83% (6g)"
+      },
+      "Fiora": {
+        "winrate": null,
+        "games": null,
+        "label": "--"
+      },
+      "Kai'sa": {
+        "winrate": 40.0,
+        "games": 10,
+        "label": "40% (10g)"
+      },
+      "Rumble": {
+        "winrate": null,
+        "games": null,
+        "label": "--"
+      },
+      "Vi": {
+        "winrate": 67.0,
+        "games": 3,
+        "label": "67% (3g)"
+      },
+      "Jhin": {
+        "winrate": 50.0,
+        "games": 2,
+        "label": "50% (2g)"
+      },
+      "Volibear": {
+        "winrate": 83.0,
+        "games": 6,
+        "label": "83% (6g)"
+      },
+      "Ivern": {
+        "winrate": 60.0,
+        "games": 5,
+        "label": "60% (5g)"
+      },
+      "Lee Sin": {
+        "winrate": 33.0,
+        "games": 3,
+        "label": "33% (3g)"
+      },
+      "Ornn": {
+        "winrate": 58.0,
+        "games": 12,
+        "label": "58% (12g)"
+      },
+      "Ahri": {
+        "winrate": 53.0,
+        "games": 15,
+        "label": "53% (15g)"
+      },
+      "Teemo": {
+        "winrate": 64.0,
+        "games": 14,
+        "label": "64% (14g)"
+      },
+      "Renata Glasc": {
+        "winrate": null,
+        "games": null,
+        "label": "--"
+      },
+      "Reksai": {
+        "winrate": 67.0,
+        "games": 3,
+        "label": "67% (3g)"
+      },
+      "Garen": {
+        "winrate": null,
+        "games": null,
+        "label": "--"
+      },
+      "Lux": {
+        "winrate": 100.0,
+        "games": 3,
+        "label": "100% (3g)"
+      },
+      "Pyke": {
+        "winrate": 56.0,
+        "games": 16,
+        "label": "56% (16g)"
+      },
+      "Yasuo": {
+        "winrate": 100.0,
+        "games": 1,
+        "label": "100% (1g)"
+      },
+      "Leona": {
+        "winrate": 50.0,
+        "games": 6,
+        "label": "50% (6g)"
+      },
+      "Jinx": {
+        "winrate": 60.0,
+        "games": 5,
+        "label": "60% (5g)"
+      }
+    },
+    "Kai'sa": {
+      "Sivir": {
+        "winrate": 44.0,
+        "games": 9,
+        "label": "44% (9g)"
+      },
+      "Master Yi": {
+        "winrate": 69.0,
+        "games": 13,
+        "label": "69% (13g)"
+      },
+      "Irelia": {
+        "winrate": 36.0,
+        "games": 31,
+        "label": "36% (31g)"
+      },
+      "Draven": {
+        "winrate": 0.0,
+        "games": 5,
+        "label": "0% (5g)"
+      },
+      "Miss Fortune": {
+        "winrate": 48.0,
+        "games": 27,
+        "label": "48% (27g)"
+      },
+      "Azir": {
+        "winrate": 19.0,
+        "games": 16,
+        "label": "19% (16g)"
+      },
+      "Sett": {
+        "winrate": 43.0,
+        "games": 7,
+        "label": "43% (7g)"
+      },
+      "Darius": {
+        "winrate": 20.0,
+        "games": 5,
+        "label": "20% (5g)"
+      },
+      "Leblanc": {
+        "winrate": 64.0,
+        "games": 25,
+        "label": "64% (25g)"
+      },
+      "Diana": {
+        "winrate": 75.0,
+        "games": 16,
+        "label": "75% (16g)"
+      },
+      "Annie": {
+        "winrate": 44.0,
+        "games": 9,
+        "label": "44% (9g)"
+      },
+      "Ezreal": {
+        "winrate": 29.0,
+        "games": 7,
+        "label": "29% (7g)"
+      },
+      "Rengar": {
+        "winrate": 70.0,
+        "games": 10,
+        "label": "70% (10g)"
+      },
+      "Vex": {
+        "winrate": 36.0,
+        "games": 17,
+        "label": "36% (17g)"
+      },
+      "Viktor": {
+        "winrate": 27.0,
+        "games": 11,
+        "label": "27% (11g)"
+      },
+      "Khazix": {
+        "winrate": 60.0,
+        "games": 10,
+        "label": "60% (10g)"
+      },
+      "Poppy": {
+        "winrate": 40.0,
+        "games": 15,
+        "label": "40% (15g)"
+      },
+      "Lucian": {
+        "winrate": 33.0,
+        "games": 3,
+        "label": "33% (3g)"
+      },
+      "Lillia": {
+        "winrate": 30.0,
+        "games": 10,
+        "label": "30% (10g)"
+      },
+      "Jax": {
+        "winrate": 67.0,
+        "games": 3,
+        "label": "67% (3g)"
+      },
+      "Fiora": {
+        "winrate": 60.0,
+        "games": 10,
+        "label": "60% (10g)"
+      },
+      "Kai'sa": {
+        "winrate": null,
+        "games": null,
+        "label": "--"
+      },
+      "Rumble": {
+        "winrate": 50.0,
+        "games": 2,
+        "label": "50% (2g)"
+      },
+      "Vi": {
+        "winrate": 100.0,
+        "games": 2,
+        "label": "100% (2g)"
+      },
+      "Jhin": {
+        "winrate": 50.0,
+        "games": 2,
+        "label": "50% (2g)"
+      },
+      "Volibear": {
+        "winrate": 33.0,
+        "games": 3,
+        "label": "33% (3g)"
+      },
+      "Ivern": {
+        "winrate": 60.0,
+        "games": 5,
+        "label": "60% (5g)"
+      },
+      "Lee Sin": {
+        "winrate": 80.0,
+        "games": 5,
+        "label": "80% (5g)"
+      },
+      "Ornn": {
+        "winrate": 40.0,
+        "games": 10,
+        "label": "40% (10g)"
+      },
+      "Ahri": {
+        "winrate": 62.0,
+        "games": 8,
+        "label": "62% (8g)"
+      },
+      "Teemo": {
+        "winrate": 0.0,
+        "games": 3,
+        "label": "0% (3g)"
+      },
+      "Renata Glasc": {
+        "winrate": 60.0,
+        "games": 5,
+        "label": "60% (5g)"
+      },
+      "Reksai": {
+        "winrate": 60.0,
+        "games": 5,
+        "label": "60% (5g)"
+      },
+      "Garen": {
+        "winrate": 50.0,
+        "games": 2,
+        "label": "50% (2g)"
+      },
+      "Lux": {
+        "winrate": 100.0,
+        "games": 4,
+        "label": "100% (4g)"
+      },
+      "Pyke": {
+        "winrate": 55.0,
+        "games": 11,
+        "label": "55% (11g)"
+      },
+      "Yasuo": {
+        "winrate": 50.0,
+        "games": 4,
+        "label": "50% (4g)"
+      },
+      "Leona": {
+        "winrate": 50.0,
+        "games": 2,
+        "label": "50% (2g)"
+      },
+      "Jinx": {
+        "winrate": 67.0,
+        "games": 6,
+        "label": "67% (6g)"
+      }
+    },
+    "Rumble": {
+      "Sivir": {
+        "winrate": 0.0,
+        "games": 1,
+        "label": "0% (1g)"
+      },
+      "Master Yi": {
+        "winrate": 0.0,
+        "games": 6,
+        "label": "0% (6g)"
+      },
+      "Irelia": {
+        "winrate": 75.0,
+        "games": 4,
+        "label": "75% (4g)"
+      },
+      "Draven": {
+        "winrate": 67.0,
+        "games": 3,
+        "label": "67% (3g)"
+      },
+      "Miss Fortune": {
+        "winrate": 33.0,
+        "games": 3,
+        "label": "33% (3g)"
+      },
+      "Azir": {
+        "winrate": 25.0,
+        "games": 4,
+        "label": "25% (4g)"
+      },
+      "Sett": {
+        "winrate": 50.0,
+        "games": 2,
+        "label": "50% (2g)"
+      },
+      "Darius": {
+        "winrate": 100.0,
+        "games": 2,
+        "label": "100% (2g)"
+      },
+      "Leblanc": {
+        "winrate": 44.0,
+        "games": 9,
+        "label": "44% (9g)"
+      },
+      "Diana": {
+        "winrate": 33.0,
+        "games": 3,
+        "label": "33% (3g)"
+      },
+      "Annie": {
+        "winrate": 50.0,
+        "games": 4,
+        "label": "50% (4g)"
+      },
+      "Ezreal": {
+        "winrate": 50.0,
+        "games": 2,
+        "label": "50% (2g)"
+      },
+      "Rengar": {
+        "winrate": 100.0,
+        "games": 2,
+        "label": "100% (2g)"
+      },
+      "Vex": {
+        "winrate": 57.0,
+        "games": 7,
+        "label": "57% (7g)"
+      },
+      "Viktor": {
+        "winrate": 0.0,
+        "games": 2,
+        "label": "0% (2g)"
+      },
+      "Khazix": {
+        "winrate": 50.0,
+        "games": 4,
+        "label": "50% (4g)"
+      },
+      "Poppy": {
+        "winrate": 0.0,
+        "games": 2,
+        "label": "0% (2g)"
+      },
+      "Lucian": {
+        "winrate": 0.0,
+        "games": 1,
+        "label": "0% (1g)"
+      },
+      "Lillia": {
+        "winrate": 25.0,
+        "games": 4,
+        "label": "25% (4g)"
+      },
+      "Jax": {
+        "winrate": 100.0,
+        "games": 1,
+        "label": "100% (1g)"
+      },
+      "Fiora": {
+        "winrate": null,
+        "games": null,
+        "label": "--"
+      },
+      "Kai'sa": {
+        "winrate": 50.0,
+        "games": 2,
+        "label": "50% (2g)"
+      },
+      "Rumble": {
+        "winrate": null,
+        "games": null,
+        "label": "--"
+      },
+      "Vi": {
+        "winrate": 100.0,
+        "games": 2,
+        "label": "100% (2g)"
+      },
+      "Jhin": {
+        "winrate": 0.0,
+        "games": 1,
+        "label": "0% (1g)"
+      },
+      "Volibear": {
+        "winrate": null,
+        "games": null,
+        "label": "--"
+      },
+      "Ivern": {
+        "winrate": 67.0,
+        "games": 3,
+        "label": "67% (3g)"
+      },
+      "Lee Sin": {
+        "winrate": 0.0,
+        "games": 1,
+        "label": "0% (1g)"
+      },
+      "Ornn": {
+        "winrate": 67.0,
+        "games": 3,
+        "label": "67% (3g)"
+      },
+      "Ahri": {
+        "winrate": 100.0,
+        "games": 1,
+        "label": "100% (1g)"
+      },
+      "Teemo": {
+        "winrate": 0.0,
+        "games": 1,
+        "label": "0% (1g)"
+      },
+      "Renata Glasc": {
+        "winrate": 0.0,
+        "games": 2,
+        "label": "0% (2g)"
+      },
+      "Reksai": {
+        "winrate": null,
+        "games": null,
+        "label": "--"
+      },
+      "Garen": {
+        "winrate": 100.0,
+        "games": 1,
+        "label": "100% (1g)"
+      },
+      "Lux": {
+        "winrate": null,
+        "games": null,
+        "label": "--"
+      },
+      "Pyke": {
+        "winrate": 50.0,
+        "games": 4,
+        "label": "50% (4g)"
+      },
+      "Yasuo": {
+        "winrate": 100.0,
+        "games": 1,
+        "label": "100% (1g)"
+      },
+      "Leona": {
+        "winrate": 100.0,
+        "games": 1,
+        "label": "100% (1g)"
+      },
+      "Jinx": {
+        "winrate": 0.0,
+        "games": 1,
+        "label": "0% (1g)"
+      }
+    },
+    "Vi": {
+      "Sivir": {
+        "winrate": 33.0,
+        "games": 3,
+        "label": "33% (3g)"
+      },
+      "Master Yi": {
+        "winrate": 100.0,
+        "games": 2,
+        "label": "100% (2g)"
+      },
+      "Irelia": {
+        "winrate": 56.0,
+        "games": 9,
+        "label": "56% (9g)"
+      },
+      "Draven": {
+        "winrate": 50.0,
+        "games": 2,
+        "label": "50% (2g)"
+      },
+      "Miss Fortune": {
+        "winrate": 0.0,
+        "games": 5,
+        "label": "0% (5g)"
+      },
+      "Azir": {
+        "winrate": 28.0,
+        "games": 7,
+        "label": "28% (7g)"
+      },
+      "Sett": {
+        "winrate": 50.0,
+        "games": 4,
+        "label": "50% (4g)"
+      },
+      "Darius": {
+        "winrate": null,
+        "games": null,
+        "label": "--"
+      },
+      "Leblanc": {
+        "winrate": 57.0,
+        "games": 14,
+        "label": "57% (14g)"
+      },
+      "Diana": {
+        "winrate": 17.0,
+        "games": 6,
+        "label": "17% (6g)"
+      },
+      "Annie": {
+        "winrate": 0.0,
+        "games": 3,
+        "label": "0% (3g)"
+      },
+      "Ezreal": {
+        "winrate": 50.0,
+        "games": 6,
+        "label": "50% (6g)"
+      },
+      "Rengar": {
+        "winrate": 25.0,
+        "games": 4,
+        "label": "25% (4g)"
+      },
+      "Vex": {
+        "winrate": 57.0,
+        "games": 7,
+        "label": "57% (7g)"
+      },
+      "Viktor": {
+        "winrate": 30.0,
+        "games": 10,
+        "label": "30% (10g)"
+      },
+      "Khazix": {
+        "winrate": 33.0,
+        "games": 3,
+        "label": "33% (3g)"
+      },
+      "Poppy": {
+        "winrate": 75.0,
+        "games": 4,
+        "label": "75% (4g)"
+      },
+      "Lucian": {
+        "winrate": 0.0,
+        "games": 1,
+        "label": "0% (1g)"
+      },
+      "Lillia": {
+        "winrate": 0.0,
+        "games": 2,
+        "label": "0% (2g)"
+      },
+      "Jax": {
+        "winrate": 20.0,
+        "games": 5,
+        "label": "20% (5g)"
+      },
+      "Fiora": {
+        "winrate": 33.0,
+        "games": 3,
+        "label": "33% (3g)"
+      },
+      "Kai'sa": {
+        "winrate": 0.0,
+        "games": 2,
+        "label": "0% (2g)"
+      },
+      "Rumble": {
+        "winrate": 0.0,
+        "games": 2,
+        "label": "0% (2g)"
+      },
+      "Vi": {
+        "winrate": null,
+        "games": null,
+        "label": "--"
+      },
+      "Jhin": {
+        "winrate": 100.0,
+        "games": 1,
+        "label": "100% (1g)"
+      },
+      "Volibear": {
+        "winrate": 67.0,
+        "games": 3,
+        "label": "67% (3g)"
+      },
+      "Ivern": {
+        "winrate": 0.0,
+        "games": 1,
+        "label": "0% (1g)"
+      },
+      "Lee Sin": {
+        "winrate": 33.0,
+        "games": 3,
+        "label": "33% (3g)"
+      },
+      "Ornn": {
+        "winrate": 100.0,
+        "games": 2,
+        "label": "100% (2g)"
+      },
+      "Ahri": {
+        "winrate": 75.0,
+        "games": 4,
+        "label": "75% (4g)"
+      },
+      "Teemo": {
+        "winrate": 50.0,
+        "games": 2,
+        "label": "50% (2g)"
+      },
+      "Renata Glasc": {
+        "winrate": 100.0,
+        "games": 2,
+        "label": "100% (2g)"
+      },
+      "Reksai": {
+        "winrate": 33.0,
+        "games": 3,
+        "label": "33% (3g)"
+      },
+      "Garen": {
+        "winrate": 100.0,
+        "games": 1,
+        "label": "100% (1g)"
+      },
+      "Lux": {
+        "winrate": 50.0,
+        "games": 4,
+        "label": "50% (4g)"
+      },
+      "Pyke": {
+        "winrate": 50.0,
+        "games": 2,
+        "label": "50% (2g)"
+      },
+      "Yasuo": {
+        "winrate": 100.0,
+        "games": 1,
+        "label": "100% (1g)"
+      },
+      "Leona": {
+        "winrate": 0.0,
+        "games": 2,
+        "label": "0% (2g)"
+      },
+      "Jinx": {
+        "winrate": 100.0,
+        "games": 2,
+        "label": "100% (2g)"
+      }
+    },
+    "Jhin": {
+      "Sivir": {
+        "winrate": 0.0,
+        "games": 4,
+        "label": "0% (4g)"
+      },
+      "Master Yi": {
+        "winrate": 0.0,
+        "games": 6,
+        "label": "0% (6g)"
+      },
+      "Irelia": {
+        "winrate": 20.0,
+        "games": 5,
+        "label": "20% (5g)"
+      },
+      "Draven": {
+        "winrate": 33.0,
+        "games": 3,
+        "label": "33% (3g)"
+      },
+      "Miss Fortune": {
+        "winrate": 0.0,
+        "games": 4,
+        "label": "0% (4g)"
+      },
+      "Azir": {
+        "winrate": 0.0,
+        "games": 2,
+        "label": "0% (2g)"
+      },
+      "Sett": {
+        "winrate": 33.0,
+        "games": 3,
+        "label": "33% (3g)"
+      },
+      "Darius": {
+        "winrate": 67.0,
+        "games": 3,
+        "label": "67% (3g)"
+      },
+      "Leblanc": {
+        "winrate": 57.0,
+        "games": 14,
+        "label": "57% (14g)"
+      },
+      "Diana": {
+        "winrate": 44.0,
+        "games": 9,
+        "label": "44% (9g)"
+      },
+      "Annie": {
+        "winrate": 67.0,
+        "games": 3,
+        "label": "67% (3g)"
+      },
+      "Ezreal": {
+        "winrate": 50.0,
+        "games": 6,
+        "label": "50% (6g)"
+      },
+      "Rengar": {
+        "winrate": null,
+        "games": null,
+        "label": "--"
+      },
+      "Vex": {
+        "winrate": 56.0,
+        "games": 9,
+        "label": "56% (9g)"
+      },
+      "Viktor": {
+        "winrate": 67.0,
+        "games": 3,
+        "label": "67% (3g)"
+      },
+      "Khazix": {
+        "winrate": 0.0,
+        "games": 1,
+        "label": "0% (1g)"
+      },
+      "Poppy": {
+        "winrate": 43.0,
+        "games": 7,
+        "label": "43% (7g)"
+      },
+      "Lucian": {
+        "winrate": 67.0,
+        "games": 3,
+        "label": "67% (3g)"
+      },
+      "Lillia": {
+        "winrate": 0.0,
+        "games": 2,
+        "label": "0% (2g)"
+      },
+      "Jax": {
+        "winrate": null,
+        "games": null,
+        "label": "--"
+      },
+      "Fiora": {
+        "winrate": 50.0,
+        "games": 2,
+        "label": "50% (2g)"
+      },
+      "Kai'sa": {
+        "winrate": 50.0,
+        "games": 2,
+        "label": "50% (2g)"
+      },
+      "Rumble": {
+        "winrate": 100.0,
+        "games": 1,
+        "label": "100% (1g)"
+      },
+      "Vi": {
+        "winrate": 0.0,
+        "games": 1,
+        "label": "0% (1g)"
+      },
+      "Jhin": {
+        "winrate": null,
+        "games": null,
+        "label": "--"
+      },
+      "Volibear": {
+        "winrate": 100.0,
+        "games": 1,
+        "label": "100% (1g)"
+      },
+      "Ivern": {
+        "winrate": 100.0,
+        "games": 3,
+        "label": "100% (3g)"
+      },
+      "Lee Sin": {
+        "winrate": null,
+        "games": null,
+        "label": "--"
+      },
+      "Ornn": {
+        "winrate": 0.0,
+        "games": 1,
+        "label": "0% (1g)"
+      },
+      "Ahri": {
+        "winrate": 67.0,
+        "games": 3,
+        "label": "67% (3g)"
+      },
+      "Teemo": {
+        "winrate": 50.0,
+        "games": 4,
+        "label": "50% (4g)"
+      },
+      "Renata Glasc": {
+        "winrate": 0.0,
+        "games": 1,
+        "label": "0% (1g)"
+      },
+      "Reksai": {
+        "winrate": 100.0,
+        "games": 2,
+        "label": "100% (2g)"
+      },
+      "Garen": {
+        "winrate": null,
+        "games": null,
+        "label": "--"
+      },
+      "Lux": {
+        "winrate": 100.0,
+        "games": 1,
+        "label": "100% (1g)"
+      },
+      "Pyke": {
+        "winrate": 33.0,
+        "games": 3,
+        "label": "33% (3g)"
+      },
+      "Yasuo": {
+        "winrate": 50.0,
+        "games": 2,
+        "label": "50% (2g)"
+      },
+      "Leona": {
+        "winrate": 75.0,
+        "games": 4,
+        "label": "75% (4g)"
+      },
+      "Jinx": {
+        "winrate": 100.0,
+        "games": 1,
+        "label": "100% (1g)"
+      }
+    },
+    "Volibear": {
+      "Sivir": {
+        "winrate": 40.0,
+        "games": 5,
+        "label": "40% (5g)"
+      },
+      "Master Yi": {
+        "winrate": 63.0,
+        "games": 8,
+        "label": "63% (8g)"
+      },
+      "Irelia": {
+        "winrate": 55.0,
+        "games": 9,
+        "label": "55% (9g)"
+      },
+      "Draven": {
+        "winrate": 67.0,
+        "games": 6,
+        "label": "67% (6g)"
+      },
+      "Miss Fortune": {
+        "winrate": 33.0,
+        "games": 9,
+        "label": "33% (9g)"
+      },
+      "Azir": {
+        "winrate": 22.0,
+        "games": 9,
+        "label": "22% (9g)"
+      },
+      "Sett": {
+        "winrate": 50.0,
+        "games": 2,
+        "label": "50% (2g)"
+      },
+      "Darius": {
+        "winrate": 0.0,
+        "games": 1,
+        "label": "0% (1g)"
+      },
+      "Leblanc": {
+        "winrate": 33.0,
+        "games": 21,
+        "label": "33% (21g)"
+      },
+      "Diana": {
+        "winrate": 64.0,
+        "games": 11,
+        "label": "64% (11g)"
+      },
+      "Annie": {
+        "winrate": 67.0,
+        "games": 3,
+        "label": "67% (3g)"
+      },
+      "Ezreal": {
+        "winrate": 89.0,
+        "games": 9,
+        "label": "89% (9g)"
+      },
+      "Rengar": {
+        "winrate": 66.0,
+        "games": 6,
+        "label": "66% (6g)"
+      },
+      "Vex": {
+        "winrate": 50.0,
+        "games": 8,
+        "label": "50% (8g)"
+      },
+      "Viktor": {
+        "winrate": 17.0,
+        "games": 6,
+        "label": "17% (6g)"
+      },
+      "Khazix": {
+        "winrate": 20.0,
+        "games": 5,
+        "label": "20% (5g)"
+      },
+      "Poppy": {
+        "winrate": 0.0,
+        "games": 4,
+        "label": "0% (4g)"
+      },
+      "Lucian": {
+        "winrate": 0.0,
+        "games": 5,
+        "label": "0% (5g)"
+      },
+      "Lillia": {
+        "winrate": 20.0,
+        "games": 5,
+        "label": "20% (5g)"
+      },
+      "Jax": {
+        "winrate": 25.0,
+        "games": 4,
+        "label": "25% (4g)"
+      },
+      "Fiora": {
+        "winrate": 17.0,
+        "games": 6,
+        "label": "17% (6g)"
+      },
+      "Kai'sa": {
+        "winrate": 67.0,
+        "games": 3,
+        "label": "67% (3g)"
+      },
+      "Rumble": {
+        "winrate": null,
+        "games": null,
+        "label": "--"
+      },
+      "Vi": {
+        "winrate": 33.0,
+        "games": 3,
+        "label": "33% (3g)"
+      },
+      "Jhin": {
+        "winrate": 0.0,
+        "games": 1,
+        "label": "0% (1g)"
+      },
+      "Volibear": {
+        "winrate": null,
+        "games": null,
+        "label": "--"
+      },
+      "Ivern": {
+        "winrate": 50.0,
+        "games": 2,
+        "label": "50% (2g)"
+      },
+      "Lee Sin": {
+        "winrate": 100.0,
+        "games": 1,
+        "label": "100% (1g)"
+      },
+      "Ornn": {
+        "winrate": 67.0,
+        "games": 6,
+        "label": "67% (6g)"
+      },
+      "Ahri": {
+        "winrate": 60.0,
+        "games": 5,
+        "label": "60% (5g)"
+      },
+      "Teemo": {
+        "winrate": 100.0,
+        "games": 2,
+        "label": "100% (2g)"
+      },
+      "Renata Glasc": {
+        "winrate": 60.0,
+        "games": 5,
+        "label": "60% (5g)"
+      },
+      "Reksai": {
+        "winrate": 50.0,
+        "games": 2,
+        "label": "50% (2g)"
+      },
+      "Garen": {
+        "winrate": 50.0,
+        "games": 2,
+        "label": "50% (2g)"
+      },
+      "Lux": {
+        "winrate": 0.0,
+        "games": 4,
+        "label": "0% (4g)"
+      },
+      "Pyke": {
+        "winrate": 60.0,
+        "games": 5,
+        "label": "60% (5g)"
+      },
+      "Yasuo": {
+        "winrate": 0.0,
+        "games": 1,
+        "label": "0% (1g)"
+      },
+      "Leona": {
+        "winrate": 25.0,
+        "games": 4,
+        "label": "25% (4g)"
+      },
+      "Jinx": {
+        "winrate": 60.0,
+        "games": 5,
+        "label": "60% (5g)"
+      }
+    },
+    "Ivern": {
+      "Sivir": {
+        "winrate": 33.0,
+        "games": 3,
+        "label": "33% (3g)"
+      },
+      "Master Yi": {
+        "winrate": 50.0,
+        "games": 4,
+        "label": "50% (4g)"
+      },
+      "Irelia": {
+        "winrate": 80.0,
+        "games": 10,
+        "label": "80% (10g)"
+      },
+      "Draven": {
+        "winrate": 0.0,
+        "games": 3,
+        "label": "0% (3g)"
+      },
+      "Miss Fortune": {
+        "winrate": 25.0,
+        "games": 12,
+        "label": "25% (12g)"
+      },
+      "Azir": {
+        "winrate": 50.0,
+        "games": 2,
+        "label": "50% (2g)"
+      },
+      "Sett": {
+        "winrate": 25.0,
+        "games": 4,
+        "label": "25% (4g)"
+      },
+      "Darius": {
+        "winrate": 0.0,
+        "games": 1,
+        "label": "0% (1g)"
+      },
+      "Leblanc": {
+        "winrate": 36.0,
+        "games": 14,
+        "label": "36% (14g)"
+      },
+      "Diana": {
+        "winrate": 56.0,
+        "games": 9,
+        "label": "56% (9g)"
+      },
+      "Annie": {
+        "winrate": 67.0,
+        "games": 3,
+        "label": "67% (3g)"
+      },
+      "Ezreal": {
+        "winrate": 75.0,
+        "games": 4,
+        "label": "75% (4g)"
+      },
+      "Rengar": {
+        "winrate": 20.0,
+        "games": 5,
+        "label": "20% (5g)"
+      },
+      "Vex": {
+        "winrate": 25.0,
+        "games": 4,
+        "label": "25% (4g)"
+      },
+      "Viktor": {
+        "winrate": 38.0,
+        "games": 8,
+        "label": "38% (8g)"
+      },
+      "Khazix": {
+        "winrate": 25.0,
+        "games": 8,
+        "label": "25% (8g)"
+      },
+      "Poppy": {
+        "winrate": 50.0,
+        "games": 4,
+        "label": "50% (4g)"
+      },
+      "Lucian": {
+        "winrate": 100.0,
+        "games": 1,
+        "label": "100% (1g)"
+      },
+      "Lillia": {
+        "winrate": 0.0,
+        "games": 3,
+        "label": "0% (3g)"
+      },
+      "Jax": {
+        "winrate": 50.0,
+        "games": 2,
+        "label": "50% (2g)"
+      },
+      "Fiora": {
+        "winrate": 40.0,
+        "games": 5,
+        "label": "40% (5g)"
+      },
+      "Kai'sa": {
+        "winrate": 40.0,
+        "games": 5,
+        "label": "40% (5g)"
+      },
+      "Rumble": {
+        "winrate": 33.0,
+        "games": 3,
+        "label": "33% (3g)"
+      },
+      "Vi": {
+        "winrate": 100.0,
+        "games": 1,
+        "label": "100% (1g)"
+      },
+      "Jhin": {
+        "winrate": 0.0,
+        "games": 3,
+        "label": "0% (3g)"
+      },
+      "Volibear": {
+        "winrate": 50.0,
+        "games": 2,
+        "label": "50% (2g)"
+      },
+      "Ivern": {
+        "winrate": null,
+        "games": null,
+        "label": "--"
+      },
+      "Lee Sin": {
+        "winrate": 20.0,
+        "games": 5,
+        "label": "20% (5g)"
+      },
+      "Ornn": {
+        "winrate": 0.0,
+        "games": 2,
+        "label": "0% (2g)"
+      },
+      "Ahri": {
+        "winrate": 80.0,
+        "games": 5,
+        "label": "80% (5g)"
+      },
+      "Teemo": {
+        "winrate": 50.0,
+        "games": 2,
+        "label": "50% (2g)"
+      },
+      "Renata Glasc": {
+        "winrate": 50.0,
+        "games": 4,
+        "label": "50% (4g)"
+      },
+      "Reksai": {
+        "winrate": 100.0,
+        "games": 2,
+        "label": "100% (2g)"
+      },
+      "Garen": {
+        "winrate": 100.0,
+        "games": 2,
+        "label": "100% (2g)"
+      },
+      "Lux": {
+        "winrate": 0.0,
+        "games": 2,
+        "label": "0% (2g)"
+      },
+      "Pyke": {
+        "winrate": 100.0,
+        "games": 4,
+        "label": "100% (4g)"
+      },
+      "Yasuo": {
+        "winrate": 50.0,
+        "games": 2,
+        "label": "50% (2g)"
+      },
+      "Leona": {
+        "winrate": 50.0,
+        "games": 4,
+        "label": "50% (4g)"
+      },
+      "Jinx": {
+        "winrate": 0.0,
+        "games": 2,
+        "label": "0% (2g)"
+      }
+    },
+    "Lee Sin": {
+      "Sivir": {
+        "winrate": 0.0,
+        "games": 2,
+        "label": "0% (2g)"
+      },
+      "Master Yi": {
+        "winrate": 0.0,
+        "games": 2,
+        "label": "0% (2g)"
+      },
+      "Irelia": {
+        "winrate": 36.0,
+        "games": 11,
+        "label": "36% (11g)"
+      },
+      "Draven": {
+        "winrate": 50.0,
+        "games": 6,
+        "label": "50% (6g)"
+      },
+      "Miss Fortune": {
+        "winrate": 0.0,
+        "games": 6,
+        "label": "0% (6g)"
+      },
+      "Azir": {
+        "winrate": 50.0,
+        "games": 2,
+        "label": "50% (2g)"
+      },
+      "Sett": {
+        "winrate": 100.0,
+        "games": 2,
+        "label": "100% (2g)"
+      },
+      "Darius": {
+        "winrate": 0.0,
+        "games": 2,
+        "label": "0% (2g)"
+      },
+      "Leblanc": {
+        "winrate": 28.0,
+        "games": 11,
+        "label": "28% (11g)"
+      },
+      "Diana": {
+        "winrate": 20.0,
+        "games": 5,
+        "label": "20% (5g)"
+      },
+      "Annie": {
+        "winrate": 0.0,
+        "games": 4,
+        "label": "0% (4g)"
+      },
+      "Ezreal": {
+        "winrate": 33.0,
+        "games": 3,
+        "label": "33% (3g)"
+      },
+      "Rengar": {
+        "winrate": 50.0,
+        "games": 4,
+        "label": "50% (4g)"
+      },
+      "Vex": {
+        "winrate": 50.0,
+        "games": 4,
+        "label": "50% (4g)"
+      },
+      "Viktor": {
+        "winrate": 50.0,
+        "games": 6,
+        "label": "50% (6g)"
+      },
+      "Khazix": {
+        "winrate": 20.0,
+        "games": 5,
+        "label": "20% (5g)"
+      },
+      "Poppy": {
+        "winrate": 33.0,
+        "games": 9,
+        "label": "33% (9g)"
+      },
+      "Lucian": {
+        "winrate": 50.0,
+        "games": 2,
+        "label": "50% (2g)"
+      },
+      "Lillia": {
+        "winrate": 71.0,
+        "games": 7,
+        "label": "71% (7g)"
+      },
+      "Jax": {
+        "winrate": 0.0,
+        "games": 1,
+        "label": "0% (1g)"
+      },
+      "Fiora": {
+        "winrate": 67.0,
+        "games": 3,
+        "label": "67% (3g)"
+      },
+      "Kai'sa": {
+        "winrate": 20.0,
+        "games": 5,
+        "label": "20% (5g)"
+      },
+      "Rumble": {
+        "winrate": 100.0,
+        "games": 1,
+        "label": "100% (1g)"
+      },
+      "Vi": {
+        "winrate": 67.0,
+        "games": 3,
+        "label": "67% (3g)"
+      },
+      "Jhin": {
+        "winrate": null,
+        "games": null,
+        "label": "--"
+      },
+      "Volibear": {
+        "winrate": 0.0,
+        "games": 1,
+        "label": "0% (1g)"
+      },
+      "Ivern": {
+        "winrate": 80.0,
+        "games": 5,
+        "label": "80% (5g)"
+      },
+      "Lee Sin": {
+        "winrate": null,
+        "games": null,
+        "label": "--"
+      },
+      "Ornn": {
+        "winrate": 50.0,
+        "games": 2,
+        "label": "50% (2g)"
+      },
+      "Ahri": {
+        "winrate": 50.0,
+        "games": 8,
+        "label": "50% (8g)"
+      },
+      "Teemo": {
+        "winrate": 33.0,
+        "games": 3,
+        "label": "33% (3g)"
+      },
+      "Renata Glasc": {
+        "winrate": 83.0,
+        "games": 6,
+        "label": "83% (6g)"
+      },
+      "Reksai": {
+        "winrate": 67.0,
+        "games": 3,
+        "label": "67% (3g)"
+      },
+      "Garen": {
+        "winrate": 0.0,
+        "games": 1,
+        "label": "0% (1g)"
+      },
+      "Lux": {
+        "winrate": 33.0,
+        "games": 3,
+        "label": "33% (3g)"
+      },
+      "Pyke": {
+        "winrate": 100.0,
+        "games": 3,
+        "label": "100% (3g)"
+      },
+      "Yasuo": {
+        "winrate": 0.0,
+        "games": 1,
+        "label": "0% (1g)"
+      },
+      "Leona": {
+        "winrate": 33.0,
+        "games": 6,
+        "label": "33% (6g)"
+      },
+      "Jinx": {
+        "winrate": 50.0,
+        "games": 6,
+        "label": "50% (6g)"
+      }
+    },
+    "Ornn": {
+      "Sivir": {
+        "winrate": 0.0,
+        "games": 4,
+        "label": "0% (4g)"
+      },
+      "Master Yi": {
+        "winrate": 15.0,
+        "games": 13,
+        "label": "15% (13g)"
+      },
+      "Irelia": {
+        "winrate": 43.0,
+        "games": 14,
+        "label": "43% (14g)"
+      },
+      "Draven": {
+        "winrate": 25.0,
+        "games": 4,
+        "label": "25% (4g)"
+      },
+      "Miss Fortune": {
+        "winrate": 25.0,
+        "games": 12,
+        "label": "25% (12g)"
+      },
+      "Azir": {
+        "winrate": 54.0,
+        "games": 13,
+        "label": "54% (13g)"
+      },
+      "Sett": {
+        "winrate": 33.0,
+        "games": 3,
+        "label": "33% (3g)"
+      },
+      "Darius": {
+        "winrate": 25.0,
+        "games": 8,
+        "label": "25% (8g)"
+      },
+      "Leblanc": {
+        "winrate": 43.0,
+        "games": 28,
+        "label": "43% (28g)"
+      },
+      "Diana": {
+        "winrate": 32.0,
+        "games": 19,
+        "label": "32% (19g)"
+      },
+      "Annie": {
+        "winrate": 33.0,
+        "games": 6,
+        "label": "33% (6g)"
+      },
+      "Ezreal": {
+        "winrate": 67.0,
+        "games": 12,
+        "label": "67% (12g)"
+      },
+      "Rengar": {
+        "winrate": 29.0,
+        "games": 7,
+        "label": "29% (7g)"
+      },
+      "Vex": {
+        "winrate": 50.0,
+        "games": 16,
+        "label": "50% (16g)"
+      },
+      "Viktor": {
+        "winrate": 50.0,
+        "games": 8,
+        "label": "50% (8g)"
+      },
+      "Khazix": {
+        "winrate": 50.0,
+        "games": 10,
+        "label": "50% (10g)"
+      },
+      "Poppy": {
+        "winrate": 33.0,
+        "games": 6,
+        "label": "33% (6g)"
+      },
+      "Lucian": {
+        "winrate": 75.0,
+        "games": 4,
+        "label": "75% (4g)"
+      },
+      "Lillia": {
+        "winrate": 40.0,
+        "games": 5,
+        "label": "40% (5g)"
+      },
+      "Jax": {
+        "winrate": 50.0,
+        "games": 2,
+        "label": "50% (2g)"
+      },
+      "Fiora": {
+        "winrate": 42.0,
+        "games": 12,
+        "label": "42% (12g)"
+      },
+      "Kai'sa": {
+        "winrate": 60.0,
+        "games": 10,
+        "label": "60% (10g)"
+      },
+      "Rumble": {
+        "winrate": 33.0,
+        "games": 3,
+        "label": "33% (3g)"
+      },
+      "Vi": {
+        "winrate": 0.0,
+        "games": 2,
+        "label": "0% (2g)"
+      },
+      "Jhin": {
+        "winrate": 100.0,
+        "games": 1,
+        "label": "100% (1g)"
+      },
+      "Volibear": {
+        "winrate": 33.0,
+        "games": 6,
+        "label": "33% (6g)"
+      },
+      "Ivern": {
+        "winrate": 100.0,
+        "games": 2,
+        "label": "100% (2g)"
+      },
+      "Lee Sin": {
+        "winrate": 50.0,
+        "games": 2,
+        "label": "50% (2g)"
+      },
+      "Ornn": {
+        "winrate": null,
+        "games": null,
+        "label": "--"
+      },
+      "Ahri": {
+        "winrate": 50.0,
+        "games": 6,
+        "label": "50% (6g)"
+      },
+      "Teemo": {
+        "winrate": 38.0,
+        "games": 8,
+        "label": "38% (8g)"
+      },
+      "Renata Glasc": {
+        "winrate": 75.0,
+        "games": 4,
+        "label": "75% (4g)"
+      },
+      "Reksai": {
+        "winrate": 0.0,
+        "games": 3,
+        "label": "0% (3g)"
+      },
+      "Garen": {
+        "winrate": 100.0,
+        "games": 1,
+        "label": "100% (1g)"
+      },
+      "Lux": {
+        "winrate": 100.0,
+        "games": 4,
+        "label": "100% (4g)"
+      },
+      "Pyke": {
+        "winrate": 75.0,
+        "games": 8,
+        "label": "75% (8g)"
+      },
+      "Yasuo": {
+        "winrate": 40.0,
+        "games": 5,
+        "label": "40% (5g)"
+      },
+      "Leona": {
+        "winrate": 40.0,
+        "games": 5,
+        "label": "40% (5g)"
+      },
+      "Jinx": {
+        "winrate": 67.0,
+        "games": 3,
+        "label": "67% (3g)"
+      }
+    },
+    "Ahri": {
+      "Sivir": {
+        "winrate": 20.0,
+        "games": 5,
+        "label": "20% (5g)"
+      },
+      "Master Yi": {
+        "winrate": 37.0,
+        "games": 16,
+        "label": "37% (16g)"
+      },
+      "Irelia": {
+        "winrate": 38.0,
+        "games": 16,
+        "label": "38% (16g)"
+      },
+      "Draven": {
+        "winrate": 100.0,
+        "games": 5,
+        "label": "100% (5g)"
+      },
+      "Miss Fortune": {
+        "winrate": 20.0,
+        "games": 15,
+        "label": "20% (15g)"
+      },
+      "Azir": {
+        "winrate": 29.0,
+        "games": 7,
+        "label": "29% (7g)"
+      },
+      "Sett": {
+        "winrate": 70.0,
+        "games": 10,
+        "label": "70% (10g)"
+      },
+      "Darius": {
+        "winrate": 50.0,
+        "games": 6,
+        "label": "50% (6g)"
+      },
+      "Leblanc": {
+        "winrate": 28.0,
+        "games": 25,
+        "label": "28% (25g)"
+      },
+      "Diana": {
+        "winrate": 41.0,
+        "games": 17,
+        "label": "41% (17g)"
+      },
+      "Annie": {
+        "winrate": 100.0,
+        "games": 4,
+        "label": "100% (4g)"
+      },
+      "Ezreal": {
+        "winrate": 12.0,
+        "games": 8,
+        "label": "12% (8g)"
+      },
+      "Rengar": {
+        "winrate": 83.0,
+        "games": 6,
+        "label": "83% (6g)"
+      },
+      "Vex": {
+        "winrate": 43.0,
+        "games": 14,
+        "label": "43% (14g)"
+      },
+      "Viktor": {
+        "winrate": 60.0,
+        "games": 5,
+        "label": "60% (5g)"
+      },
+      "Khazix": {
+        "winrate": 33.0,
+        "games": 6,
+        "label": "33% (6g)"
+      },
+      "Poppy": {
+        "winrate": 45.0,
+        "games": 11,
+        "label": "45% (11g)"
+      },
+      "Lucian": {
+        "winrate": 50.0,
+        "games": 6,
+        "label": "50% (6g)"
+      },
+      "Lillia": {
+        "winrate": 60.0,
+        "games": 5,
+        "label": "60% (5g)"
+      },
+      "Jax": {
+        "winrate": 67.0,
+        "games": 3,
+        "label": "67% (3g)"
+      },
+      "Fiora": {
+        "winrate": 47.0,
+        "games": 15,
+        "label": "47% (15g)"
+      },
+      "Kai'sa": {
+        "winrate": 38.0,
+        "games": 8,
+        "label": "38% (8g)"
+      },
+      "Rumble": {
+        "winrate": 0.0,
+        "games": 1,
+        "label": "0% (1g)"
+      },
+      "Vi": {
+        "winrate": 25.0,
+        "games": 4,
+        "label": "25% (4g)"
+      },
+      "Jhin": {
+        "winrate": 33.0,
+        "games": 3,
+        "label": "33% (3g)"
+      },
+      "Volibear": {
+        "winrate": 40.0,
+        "games": 5,
+        "label": "40% (5g)"
+      },
+      "Ivern": {
+        "winrate": 20.0,
+        "games": 5,
+        "label": "20% (5g)"
+      },
+      "Lee Sin": {
+        "winrate": 50.0,
+        "games": 8,
+        "label": "50% (8g)"
+      },
+      "Ornn": {
+        "winrate": 50.0,
+        "games": 6,
+        "label": "50% (6g)"
+      },
+      "Ahri": {
+        "winrate": null,
+        "games": null,
+        "label": "--"
+      },
+      "Teemo": {
+        "winrate": 62.0,
+        "games": 8,
+        "label": "62% (8g)"
+      },
+      "Renata Glasc": {
+        "winrate": 0.0,
+        "games": 1,
+        "label": "0% (1g)"
+      },
+      "Reksai": {
+        "winrate": 67.0,
+        "games": 3,
+        "label": "67% (3g)"
+      },
+      "Garen": {
+        "winrate": 50.0,
+        "games": 4,
+        "label": "50% (4g)"
+      },
+      "Lux": {
+        "winrate": 0.0,
+        "games": 2,
+        "label": "0% (2g)"
+      },
+      "Pyke": {
+        "winrate": 37.0,
+        "games": 11,
+        "label": "37% (11g)"
+      },
+      "Yasuo": {
+        "winrate": 50.0,
+        "games": 2,
+        "label": "50% (2g)"
+      },
+      "Leona": {
+        "winrate": 43.0,
+        "games": 7,
+        "label": "43% (7g)"
+      },
+      "Jinx": {
+        "winrate": 67.0,
+        "games": 3,
+        "label": "67% (3g)"
+      }
+    },
+    "Teemo": {
+      "Sivir": {
+        "winrate": 20.0,
+        "games": 5,
+        "label": "20% (5g)"
+      },
+      "Master Yi": {
+        "winrate": 23.0,
+        "games": 13,
+        "label": "23% (13g)"
+      },
+      "Irelia": {
+        "winrate": 23.0,
+        "games": 13,
+        "label": "23% (13g)"
+      },
+      "Draven": {
+        "winrate": 25.0,
+        "games": 4,
+        "label": "25% (4g)"
+      },
+      "Miss Fortune": {
+        "winrate": 38.0,
+        "games": 16,
+        "label": "38% (16g)"
+      },
+      "Azir": {
+        "winrate": 33.0,
+        "games": 9,
+        "label": "33% (9g)"
+      },
+      "Sett": {
+        "winrate": 42.0,
+        "games": 12,
+        "label": "42% (12g)"
+      },
+      "Darius": {
+        "winrate": 100.0,
+        "games": 3,
+        "label": "100% (3g)"
+      },
+      "Leblanc": {
+        "winrate": 35.0,
+        "games": 20,
+        "label": "35% (20g)"
+      },
+      "Diana": {
+        "winrate": 41.0,
+        "games": 17,
+        "label": "41% (17g)"
+      },
+      "Annie": {
+        "winrate": 29.0,
+        "games": 7,
+        "label": "29% (7g)"
+      },
+      "Ezreal": {
+        "winrate": 43.0,
+        "games": 7,
+        "label": "43% (7g)"
+      },
+      "Rengar": {
+        "winrate": 20.0,
+        "games": 5,
+        "label": "20% (5g)"
+      },
+      "Vex": {
+        "winrate": 50.0,
+        "games": 10,
+        "label": "50% (10g)"
+      },
+      "Viktor": {
+        "winrate": 33.0,
+        "games": 9,
+        "label": "33% (9g)"
+      },
+      "Khazix": {
+        "winrate": 40.0,
+        "games": 5,
+        "label": "40% (5g)"
+      },
+      "Poppy": {
+        "winrate": 37.0,
+        "games": 8,
+        "label": "37% (8g)"
+      },
+      "Lucian": {
+        "winrate": 67.0,
+        "games": 3,
+        "label": "67% (3g)"
+      },
+      "Lillia": {
+        "winrate": 71.0,
+        "games": 7,
+        "label": "71% (7g)"
+      },
+      "Jax": {
+        "winrate": 29.0,
+        "games": 7,
+        "label": "29% (7g)"
+      },
+      "Fiora": {
+        "winrate": 36.0,
+        "games": 14,
+        "label": "36% (14g)"
+      },
+      "Kai'sa": {
+        "winrate": 100.0,
+        "games": 3,
+        "label": "100% (3g)"
+      },
+      "Rumble": {
+        "winrate": 100.0,
+        "games": 1,
+        "label": "100% (1g)"
+      },
+      "Vi": {
+        "winrate": 50.0,
+        "games": 2,
+        "label": "50% (2g)"
+      },
+      "Jhin": {
+        "winrate": 50.0,
+        "games": 4,
+        "label": "50% (4g)"
+      },
+      "Volibear": {
+        "winrate": 0.0,
+        "games": 2,
+        "label": "0% (2g)"
+      },
+      "Ivern": {
+        "winrate": 50.0,
+        "games": 2,
+        "label": "50% (2g)"
+      },
+      "Lee Sin": {
+        "winrate": 67.0,
+        "games": 3,
+        "label": "67% (3g)"
+      },
+      "Ornn": {
+        "winrate": 62.0,
+        "games": 8,
+        "label": "62% (8g)"
+      },
+      "Ahri": {
+        "winrate": 38.0,
+        "games": 8,
+        "label": "38% (8g)"
+      },
+      "Teemo": {
+        "winrate": null,
+        "games": null,
+        "label": "--"
+      },
+      "Renata Glasc": {
+        "winrate": null,
+        "games": null,
+        "label": "--"
+      },
+      "Reksai": {
+        "winrate": 0.0,
+        "games": 2,
+        "label": "0% (2g)"
+      },
+      "Garen": {
+        "winrate": 67.0,
+        "games": 3,
+        "label": "67% (3g)"
+      },
+      "Lux": {
+        "winrate": 67.0,
+        "games": 3,
+        "label": "67% (3g)"
+      },
+      "Pyke": {
+        "winrate": 22.0,
+        "games": 9,
+        "label": "22% (9g)"
+      },
+      "Yasuo": {
+        "winrate": 75.0,
+        "games": 4,
+        "label": "75% (4g)"
+      },
+      "Leona": {
+        "winrate": 80.0,
+        "games": 5,
+        "label": "80% (5g)"
+      },
+      "Jinx": {
+        "winrate": 50.0,
+        "games": 4,
+        "label": "50% (4g)"
+      }
+    },
+    "Renata Glasc": {
+      "Sivir": {
+        "winrate": 50.0,
+        "games": 2,
+        "label": "50% (2g)"
+      },
+      "Master Yi": {
+        "winrate": 50.0,
+        "games": 2,
+        "label": "50% (2g)"
+      },
+      "Irelia": {
+        "winrate": 50.0,
+        "games": 6,
+        "label": "50% (6g)"
+      },
+      "Draven": {
+        "winrate": 0.0,
+        "games": 2,
+        "label": "0% (2g)"
+      },
+      "Miss Fortune": {
+        "winrate": 20.0,
+        "games": 5,
+        "label": "20% (5g)"
+      },
+      "Azir": {
+        "winrate": 0.0,
+        "games": 2,
+        "label": "0% (2g)"
+      },
+      "Sett": {
+        "winrate": 25.0,
+        "games": 4,
+        "label": "25% (4g)"
+      },
+      "Darius": {
+        "winrate": 33.0,
+        "games": 3,
+        "label": "33% (3g)"
+      },
+      "Leblanc": {
+        "winrate": 56.0,
+        "games": 9,
+        "label": "56% (9g)"
+      },
+      "Diana": {
+        "winrate": 50.0,
+        "games": 2,
+        "label": "50% (2g)"
+      },
+      "Annie": {
+        "winrate": 50.0,
+        "games": 2,
+        "label": "50% (2g)"
+      },
+      "Ezreal": {
+        "winrate": 100.0,
+        "games": 2,
+        "label": "100% (2g)"
+      },
+      "Rengar": {
+        "winrate": 50.0,
+        "games": 2,
+        "label": "50% (2g)"
+      },
+      "Vex": {
+        "winrate": 0.0,
+        "games": 3,
+        "label": "0% (3g)"
+      },
+      "Viktor": {
+        "winrate": 33.0,
+        "games": 3,
+        "label": "33% (3g)"
+      },
+      "Khazix": {
+        "winrate": 50.0,
+        "games": 4,
+        "label": "50% (4g)"
+      },
+      "Poppy": {
+        "winrate": 50.0,
+        "games": 4,
+        "label": "50% (4g)"
+      },
+      "Lucian": {
+        "winrate": 67.0,
+        "games": 3,
+        "label": "67% (3g)"
+      },
+      "Lillia": {
+        "winrate": null,
+        "games": null,
+        "label": "--"
+      },
+      "Jax": {
+        "winrate": 0.0,
+        "games": 1,
+        "label": "0% (1g)"
+      },
+      "Fiora": {
+        "winrate": null,
+        "games": null,
+        "label": "--"
+      },
+      "Kai'sa": {
+        "winrate": 40.0,
+        "games": 5,
+        "label": "40% (5g)"
+      },
+      "Rumble": {
+        "winrate": 100.0,
+        "games": 2,
+        "label": "100% (2g)"
+      },
+      "Vi": {
+        "winrate": 0.0,
+        "games": 2,
+        "label": "0% (2g)"
+      },
+      "Jhin": {
+        "winrate": 100.0,
+        "games": 1,
+        "label": "100% (1g)"
+      },
+      "Volibear": {
+        "winrate": 40.0,
+        "games": 5,
+        "label": "40% (5g)"
+      },
+      "Ivern": {
+        "winrate": 50.0,
+        "games": 4,
+        "label": "50% (4g)"
+      },
+      "Lee Sin": {
+        "winrate": 17.0,
+        "games": 6,
+        "label": "17% (6g)"
+      },
+      "Ornn": {
+        "winrate": 25.0,
+        "games": 4,
+        "label": "25% (4g)"
+      },
+      "Ahri": {
+        "winrate": 100.0,
+        "games": 1,
+        "label": "100% (1g)"
+      },
+      "Teemo": {
+        "winrate": null,
+        "games": null,
+        "label": "--"
+      },
+      "Renata Glasc": {
+        "winrate": null,
+        "games": null,
+        "label": "--"
+      },
+      "Reksai": {
+        "winrate": 100.0,
+        "games": 1,
+        "label": "100% (1g)"
+      },
+      "Garen": {
+        "winrate": 0.0,
+        "games": 1,
+        "label": "0% (1g)"
+      },
+      "Lux": {
+        "winrate": 20.0,
+        "games": 5,
+        "label": "20% (5g)"
+      },
+      "Pyke": {
+        "winrate": 0.0,
+        "games": 2,
+        "label": "0% (2g)"
+      },
+      "Yasuo": {
+        "winrate": 50.0,
+        "games": 2,
+        "label": "50% (2g)"
+      },
+      "Leona": {
+        "winrate": 100.0,
+        "games": 2,
+        "label": "100% (2g)"
+      },
+      "Jinx": {
+        "winrate": 75.0,
+        "games": 4,
+        "label": "75% (4g)"
+      }
+    },
+    "Reksai": {
+      "Sivir": {
+        "winrate": 100.0,
+        "games": 3,
+        "label": "100% (3g)"
+      },
+      "Master Yi": {
+        "winrate": 36.0,
+        "games": 11,
+        "label": "36% (11g)"
+      },
+      "Irelia": {
+        "winrate": 54.0,
+        "games": 15,
+        "label": "54% (15g)"
+      },
+      "Draven": {
+        "winrate": 33.0,
+        "games": 6,
+        "label": "33% (6g)"
+      },
+      "Miss Fortune": {
+        "winrate": 40.0,
+        "games": 5,
+        "label": "40% (5g)"
+      },
+      "Azir": {
+        "winrate": 29.0,
+        "games": 7,
+        "label": "29% (7g)"
+      },
+      "Sett": {
+        "winrate": 25.0,
+        "games": 8,
+        "label": "25% (8g)"
+      },
+      "Darius": {
+        "winrate": 80.0,
+        "games": 5,
+        "label": "80% (5g)"
+      },
+      "Leblanc": {
+        "winrate": 27.0,
+        "games": 15,
+        "label": "27% (15g)"
+      },
+      "Diana": {
+        "winrate": 50.0,
+        "games": 8,
+        "label": "50% (8g)"
+      },
+      "Annie": {
+        "winrate": 25.0,
+        "games": 4,
+        "label": "25% (4g)"
+      },
+      "Ezreal": {
+        "winrate": 40.0,
+        "games": 5,
+        "label": "40% (5g)"
+      },
+      "Rengar": {
+        "winrate": 50.0,
+        "games": 4,
+        "label": "50% (4g)"
+      },
+      "Vex": {
+        "winrate": 33.0,
+        "games": 9,
+        "label": "33% (9g)"
+      },
+      "Viktor": {
+        "winrate": 17.0,
+        "games": 6,
+        "label": "17% (6g)"
+      },
+      "Khazix": {
+        "winrate": 33.0,
+        "games": 3,
+        "label": "33% (3g)"
+      },
+      "Poppy": {
+        "winrate": 50.0,
+        "games": 2,
+        "label": "50% (2g)"
+      },
+      "Lucian": {
+        "winrate": 0.0,
+        "games": 1,
+        "label": "0% (1g)"
+      },
+      "Lillia": {
+        "winrate": 14.0,
+        "games": 7,
+        "label": "14% (7g)"
+      },
+      "Jax": {
+        "winrate": 50.0,
+        "games": 2,
+        "label": "50% (2g)"
+      },
+      "Fiora": {
+        "winrate": 33.0,
+        "games": 3,
+        "label": "33% (3g)"
+      },
+      "Kai'sa": {
+        "winrate": 40.0,
+        "games": 5,
+        "label": "40% (5g)"
+      },
+      "Rumble": {
+        "winrate": null,
+        "games": null,
+        "label": "--"
+      },
+      "Vi": {
+        "winrate": 67.0,
+        "games": 3,
+        "label": "67% (3g)"
+      },
+      "Jhin": {
+        "winrate": 0.0,
+        "games": 2,
+        "label": "0% (2g)"
+      },
+      "Volibear": {
+        "winrate": 50.0,
+        "games": 2,
+        "label": "50% (2g)"
+      },
+      "Ivern": {
+        "winrate": 0.0,
+        "games": 2,
+        "label": "0% (2g)"
+      },
+      "Lee Sin": {
+        "winrate": 33.0,
+        "games": 3,
+        "label": "33% (3g)"
+      },
+      "Ornn": {
+        "winrate": 100.0,
+        "games": 3,
+        "label": "100% (3g)"
+      },
+      "Ahri": {
+        "winrate": 33.0,
+        "games": 3,
+        "label": "33% (3g)"
+      },
+      "Teemo": {
+        "winrate": 100.0,
+        "games": 2,
+        "label": "100% (2g)"
+      },
+      "Renata Glasc": {
+        "winrate": 0.0,
+        "games": 1,
+        "label": "0% (1g)"
+      },
+      "Reksai": {
+        "winrate": null,
+        "games": null,
+        "label": "--"
+      },
+      "Garen": {
+        "winrate": null,
+        "games": null,
+        "label": "--"
+      },
+      "Lux": {
+        "winrate": 100.0,
+        "games": 1,
+        "label": "100% (1g)"
+      },
+      "Pyke": {
+        "winrate": 85.0,
+        "games": 7,
+        "label": "85% (7g)"
+      },
+      "Yasuo": {
+        "winrate": 100.0,
+        "games": 3,
+        "label": "100% (3g)"
+      },
+      "Leona": {
+        "winrate": 60.0,
+        "games": 5,
+        "label": "60% (5g)"
+      },
+      "Jinx": {
+        "winrate": 50.0,
+        "games": 2,
+        "label": "50% (2g)"
+      }
+    },
+    "Garen": {
+      "Sivir": {
+        "winrate": 0.0,
+        "games": 1,
+        "label": "0% (1g)"
+      },
+      "Master Yi": {
+        "winrate": 0.0,
+        "games": 3,
+        "label": "0% (3g)"
+      },
+      "Irelia": {
+        "winrate": 50.0,
+        "games": 6,
+        "label": "50% (6g)"
+      },
+      "Draven": {
+        "winrate": null,
+        "games": null,
+        "label": "--"
+      },
+      "Miss Fortune": {
+        "winrate": 40.0,
+        "games": 5,
+        "label": "40% (5g)"
+      },
+      "Azir": {
+        "winrate": 0.0,
+        "games": 1,
+        "label": "0% (1g)"
+      },
+      "Sett": {
+        "winrate": 33.0,
+        "games": 3,
+        "label": "33% (3g)"
+      },
+      "Darius": {
+        "winrate": 0.0,
+        "games": 1,
+        "label": "0% (1g)"
+      },
+      "Leblanc": {
+        "winrate": 75.0,
+        "games": 4,
+        "label": "75% (4g)"
+      },
+      "Diana": {
+        "winrate": 33.0,
+        "games": 3,
+        "label": "33% (3g)"
+      },
+      "Annie": {
+        "winrate": 0.0,
+        "games": 1,
+        "label": "0% (1g)"
+      },
+      "Ezreal": {
+        "winrate": 100.0,
+        "games": 2,
+        "label": "100% (2g)"
+      },
+      "Rengar": {
+        "winrate": 0.0,
+        "games": 1,
+        "label": "0% (1g)"
+      },
+      "Vex": {
+        "winrate": 50.0,
+        "games": 2,
+        "label": "50% (2g)"
+      },
+      "Viktor": {
+        "winrate": 50.0,
+        "games": 4,
+        "label": "50% (4g)"
+      },
+      "Khazix": {
+        "winrate": 100.0,
+        "games": 2,
+        "label": "100% (2g)"
+      },
+      "Poppy": {
+        "winrate": 100.0,
+        "games": 1,
+        "label": "100% (1g)"
+      },
+      "Lucian": {
+        "winrate": 0.0,
+        "games": 2,
+        "label": "0% (2g)"
+      },
+      "Lillia": {
+        "winrate": 25.0,
+        "games": 4,
+        "label": "25% (4g)"
+      },
+      "Jax": {
+        "winrate": null,
+        "games": null,
+        "label": "--"
+      },
+      "Fiora": {
+        "winrate": null,
+        "games": null,
+        "label": "--"
+      },
+      "Kai'sa": {
+        "winrate": 50.0,
+        "games": 2,
+        "label": "50% (2g)"
+      },
+      "Rumble": {
+        "winrate": 0.0,
+        "games": 1,
+        "label": "0% (1g)"
+      },
+      "Vi": {
+        "winrate": 0.0,
+        "games": 1,
+        "label": "0% (1g)"
+      },
+      "Jhin": {
+        "winrate": null,
+        "games": null,
+        "label": "--"
+      },
+      "Volibear": {
+        "winrate": 50.0,
+        "games": 2,
+        "label": "50% (2g)"
+      },
+      "Ivern": {
+        "winrate": 0.0,
+        "games": 2,
+        "label": "0% (2g)"
+      },
+      "Lee Sin": {
+        "winrate": 100.0,
+        "games": 1,
+        "label": "100% (1g)"
+      },
+      "Ornn": {
+        "winrate": 0.0,
+        "games": 1,
+        "label": "0% (1g)"
+      },
+      "Ahri": {
+        "winrate": 50.0,
+        "games": 4,
+        "label": "50% (4g)"
+      },
+      "Teemo": {
+        "winrate": 33.0,
+        "games": 3,
+        "label": "33% (3g)"
+      },
+      "Renata Glasc": {
+        "winrate": 100.0,
+        "games": 1,
+        "label": "100% (1g)"
+      },
+      "Reksai": {
+        "winrate": null,
+        "games": null,
+        "label": "--"
+      },
+      "Garen": {
+        "winrate": null,
+        "games": null,
+        "label": "--"
+      },
+      "Lux": {
+        "winrate": 0.0,
+        "games": 1,
+        "label": "0% (1g)"
+      },
+      "Pyke": {
+        "winrate": 25.0,
+        "games": 4,
+        "label": "25% (4g)"
+      },
+      "Yasuo": {
+        "winrate": 0.0,
+        "games": 1,
+        "label": "0% (1g)"
+      },
+      "Leona": {
+        "winrate": 100.0,
+        "games": 3,
+        "label": "100% (3g)"
+      },
+      "Jinx": {
+        "winrate": null,
+        "games": null,
+        "label": "--"
+      }
+    },
+    "Lux": {
+      "Sivir": {
+        "winrate": 33.0,
+        "games": 6,
+        "label": "33% (6g)"
+      },
+      "Master Yi": {
+        "winrate": 80.0,
+        "games": 5,
+        "label": "80% (5g)"
+      },
+      "Irelia": {
+        "winrate": 25.0,
+        "games": 8,
+        "label": "25% (8g)"
+      },
+      "Draven": {
+        "winrate": 11.0,
+        "games": 9,
+        "label": "11% (9g)"
+      },
+      "Miss Fortune": {
+        "winrate": 60.0,
+        "games": 5,
+        "label": "60% (5g)"
+      },
+      "Azir": {
+        "winrate": 0.0,
+        "games": 5,
+        "label": "0% (5g)"
+      },
+      "Sett": {
+        "winrate": 33.0,
+        "games": 3,
+        "label": "33% (3g)"
+      },
+      "Darius": {
+        "winrate": 0.0,
+        "games": 2,
+        "label": "0% (2g)"
+      },
+      "Leblanc": {
+        "winrate": 0.0,
+        "games": 9,
+        "label": "0% (9g)"
+      },
+      "Diana": {
+        "winrate": 50.0,
+        "games": 8,
+        "label": "50% (8g)"
+      },
+      "Annie": {
+        "winrate": 100.0,
+        "games": 1,
+        "label": "100% (1g)"
+      },
+      "Ezreal": {
+        "winrate": 100.0,
+        "games": 1,
+        "label": "100% (1g)"
+      },
+      "Rengar": {
+        "winrate": 25.0,
+        "games": 4,
+        "label": "25% (4g)"
+      },
+      "Vex": {
+        "winrate": 46.0,
+        "games": 11,
+        "label": "46% (11g)"
+      },
+      "Viktor": {
+        "winrate": 25.0,
+        "games": 4,
+        "label": "25% (4g)"
+      },
+      "Khazix": {
+        "winrate": 100.0,
+        "games": 1,
+        "label": "100% (1g)"
+      },
+      "Poppy": {
+        "winrate": 0.0,
+        "games": 2,
+        "label": "0% (2g)"
+      },
+      "Lucian": {
+        "winrate": 100.0,
+        "games": 1,
+        "label": "100% (1g)"
+      },
+      "Lillia": {
+        "winrate": 12.0,
+        "games": 8,
+        "label": "12% (8g)"
+      },
+      "Jax": {
+        "winrate": 100.0,
+        "games": 2,
+        "label": "100% (2g)"
+      },
+      "Fiora": {
+        "winrate": 0.0,
+        "games": 3,
+        "label": "0% (3g)"
+      },
+      "Kai'sa": {
+        "winrate": 0.0,
+        "games": 4,
+        "label": "0% (4g)"
+      },
+      "Rumble": {
+        "winrate": null,
+        "games": null,
+        "label": "--"
+      },
+      "Vi": {
+        "winrate": 50.0,
+        "games": 4,
+        "label": "50% (4g)"
+      },
+      "Jhin": {
+        "winrate": 0.0,
+        "games": 1,
+        "label": "0% (1g)"
+      },
+      "Volibear": {
+        "winrate": 100.0,
+        "games": 4,
+        "label": "100% (4g)"
+      },
+      "Ivern": {
+        "winrate": 100.0,
+        "games": 2,
+        "label": "100% (2g)"
+      },
+      "Lee Sin": {
+        "winrate": 67.0,
+        "games": 3,
+        "label": "67% (3g)"
+      },
+      "Ornn": {
+        "winrate": 0.0,
+        "games": 4,
+        "label": "0% (4g)"
+      },
+      "Ahri": {
+        "winrate": 100.0,
+        "games": 2,
+        "label": "100% (2g)"
+      },
+      "Teemo": {
+        "winrate": 33.0,
+        "games": 3,
+        "label": "33% (3g)"
+      },
+      "Renata Glasc": {
+        "winrate": 80.0,
+        "games": 5,
+        "label": "80% (5g)"
+      },
+      "Reksai": {
+        "winrate": 0.0,
+        "games": 1,
+        "label": "0% (1g)"
+      },
+      "Garen": {
+        "winrate": 100.0,
+        "games": 1,
+        "label": "100% (1g)"
+      },
+      "Lux": {
+        "winrate": null,
+        "games": null,
+        "label": "--"
+      },
+      "Pyke": {
+        "winrate": 50.0,
+        "games": 6,
+        "label": "50% (6g)"
+      },
+      "Yasuo": {
+        "winrate": 0.0,
+        "games": 3,
+        "label": "0% (3g)"
+      },
+      "Leona": {
+        "winrate": 100.0,
+        "games": 4,
+        "label": "100% (4g)"
+      },
+      "Jinx": {
+        "winrate": 75.0,
+        "games": 4,
+        "label": "75% (4g)"
+      }
+    },
+    "Pyke": {
+      "Sivir": {
+        "winrate": 0.0,
+        "games": 1,
+        "label": "0% (1g)"
+      },
+      "Master Yi": {
+        "winrate": 22.0,
+        "games": 18,
+        "label": "22% (18g)"
+      },
+      "Irelia": {
+        "winrate": 33.0,
+        "games": 24,
+        "label": "33% (24g)"
+      },
+      "Draven": {
+        "winrate": 29.0,
+        "games": 7,
+        "label": "29% (7g)"
+      },
+      "Miss Fortune": {
+        "winrate": 25.0,
+        "games": 24,
+        "label": "25% (24g)"
+      },
+      "Azir": {
+        "winrate": 41.0,
+        "games": 17,
+        "label": "41% (17g)"
+      },
+      "Sett": {
+        "winrate": 50.0,
+        "games": 6,
+        "label": "50% (6g)"
+      },
+      "Darius": {
+        "winrate": 43.0,
+        "games": 7,
+        "label": "43% (7g)"
+      },
+      "Leblanc": {
+        "winrate": 32.0,
+        "games": 31,
+        "label": "32% (31g)"
+      },
+      "Diana": {
+        "winrate": 47.0,
+        "games": 30,
+        "label": "47% (30g)"
+      },
+      "Annie": {
+        "winrate": 42.0,
+        "games": 12,
+        "label": "42% (12g)"
+      },
+      "Ezreal": {
+        "winrate": 29.0,
+        "games": 7,
+        "label": "29% (7g)"
+      },
+      "Rengar": {
+        "winrate": 25.0,
+        "games": 8,
+        "label": "25% (8g)"
+      },
+      "Vex": {
+        "winrate": 37.0,
+        "games": 16,
+        "label": "37% (16g)"
+      },
+      "Viktor": {
+        "winrate": 22.0,
+        "games": 18,
+        "label": "22% (18g)"
+      },
+      "Khazix": {
+        "winrate": 50.0,
+        "games": 10,
+        "label": "50% (10g)"
+      },
+      "Poppy": {
+        "winrate": 12.0,
+        "games": 8,
+        "label": "12% (8g)"
+      },
+      "Lucian": {
+        "winrate": 0.0,
+        "games": 5,
+        "label": "0% (5g)"
+      },
+      "Lillia": {
+        "winrate": 45.0,
+        "games": 11,
+        "label": "45% (11g)"
+      },
+      "Jax": {
+        "winrate": 33.0,
+        "games": 3,
+        "label": "33% (3g)"
+      },
+      "Fiora": {
+        "winrate": 44.0,
+        "games": 16,
+        "label": "44% (16g)"
+      },
+      "Kai'sa": {
+        "winrate": 45.0,
+        "games": 11,
+        "label": "45% (11g)"
+      },
+      "Rumble": {
+        "winrate": 50.0,
+        "games": 4,
+        "label": "50% (4g)"
+      },
+      "Vi": {
+        "winrate": 50.0,
+        "games": 2,
+        "label": "50% (2g)"
+      },
+      "Jhin": {
+        "winrate": 67.0,
+        "games": 3,
+        "label": "67% (3g)"
+      },
+      "Volibear": {
+        "winrate": 40.0,
+        "games": 5,
+        "label": "40% (5g)"
+      },
+      "Ivern": {
+        "winrate": 0.0,
+        "games": 4,
+        "label": "0% (4g)"
+      },
+      "Lee Sin": {
+        "winrate": 0.0,
+        "games": 3,
+        "label": "0% (3g)"
+      },
+      "Ornn": {
+        "winrate": 25.0,
+        "games": 8,
+        "label": "25% (8g)"
+      },
+      "Ahri": {
+        "winrate": 63.0,
+        "games": 11,
+        "label": "63% (11g)"
+      },
+      "Teemo": {
+        "winrate": 78.0,
+        "games": 9,
+        "label": "78% (9g)"
+      },
+      "Renata Glasc": {
+        "winrate": 100.0,
+        "games": 2,
+        "label": "100% (2g)"
+      },
+      "Reksai": {
+        "winrate": 15.0,
+        "games": 7,
+        "label": "15% (7g)"
+      },
+      "Garen": {
+        "winrate": 75.0,
+        "games": 4,
+        "label": "75% (4g)"
+      },
+      "Lux": {
+        "winrate": 50.0,
+        "games": 6,
+        "label": "50% (6g)"
+      },
+      "Pyke": {
+        "winrate": null,
+        "games": null,
+        "label": "--"
+      },
+      "Yasuo": {
+        "winrate": 100.0,
+        "games": 3,
+        "label": "100% (3g)"
+      },
+      "Leona": {
+        "winrate": 67.0,
+        "games": 6,
+        "label": "67% (6g)"
+      },
+      "Jinx": {
+        "winrate": 67.0,
+        "games": 6,
+        "label": "67% (6g)"
+      }
+    },
+    "Yasuo": {
+      "Sivir": {
+        "winrate": 25.0,
+        "games": 4,
+        "label": "25% (4g)"
+      },
+      "Master Yi": {
+        "winrate": 11.0,
+        "games": 9,
+        "label": "11% (9g)"
+      },
+      "Irelia": {
+        "winrate": 50.0,
+        "games": 12,
+        "label": "50% (12g)"
+      },
+      "Draven": {
+        "winrate": 0.0,
+        "games": 3,
+        "label": "0% (3g)"
+      },
+      "Miss Fortune": {
+        "winrate": 40.0,
+        "games": 10,
+        "label": "40% (10g)"
+      },
+      "Azir": {
+        "winrate": 33.0,
+        "games": 3,
+        "label": "33% (3g)"
+      },
+      "Sett": {
+        "winrate": null,
+        "games": null,
+        "label": "--"
+      },
+      "Darius": {
+        "winrate": 0.0,
+        "games": 1,
+        "label": "0% (1g)"
+      },
+      "Leblanc": {
+        "winrate": 50.0,
+        "games": 12,
+        "label": "50% (12g)"
+      },
+      "Diana": {
+        "winrate": 0.0,
+        "games": 6,
+        "label": "0% (6g)"
+      },
+      "Annie": {
+        "winrate": 38.0,
+        "games": 8,
+        "label": "38% (8g)"
+      },
+      "Ezreal": {
+        "winrate": 60.0,
+        "games": 5,
+        "label": "60% (5g)"
+      },
+      "Rengar": {
+        "winrate": 16.0,
+        "games": 6,
+        "label": "16% (6g)"
+      },
+      "Vex": {
+        "winrate": 50.0,
+        "games": 4,
+        "label": "50% (4g)"
+      },
+      "Viktor": {
+        "winrate": 28.0,
+        "games": 7,
+        "label": "28% (7g)"
+      },
+      "Khazix": {
+        "winrate": 0.0,
+        "games": 5,
+        "label": "0% (5g)"
+      },
+      "Poppy": {
+        "winrate": 60.0,
+        "games": 5,
+        "label": "60% (5g)"
+      },
+      "Lucian": {
+        "winrate": 100.0,
+        "games": 1,
+        "label": "100% (1g)"
+      },
+      "Lillia": {
+        "winrate": 44.0,
+        "games": 9,
+        "label": "44% (9g)"
+      },
+      "Jax": {
+        "winrate": 100.0,
+        "games": 2,
+        "label": "100% (2g)"
+      },
+      "Fiora": {
+        "winrate": 0.0,
+        "games": 1,
+        "label": "0% (1g)"
+      },
+      "Kai'sa": {
+        "winrate": 50.0,
+        "games": 4,
+        "label": "50% (4g)"
+      },
+      "Rumble": {
+        "winrate": 0.0,
+        "games": 1,
+        "label": "0% (1g)"
+      },
+      "Vi": {
+        "winrate": 0.0,
+        "games": 1,
+        "label": "0% (1g)"
+      },
+      "Jhin": {
+        "winrate": 50.0,
+        "games": 2,
+        "label": "50% (2g)"
+      },
+      "Volibear": {
+        "winrate": 100.0,
+        "games": 1,
+        "label": "100% (1g)"
+      },
+      "Ivern": {
+        "winrate": 50.0,
+        "games": 2,
+        "label": "50% (2g)"
+      },
+      "Lee Sin": {
+        "winrate": 100.0,
+        "games": 1,
+        "label": "100% (1g)"
+      },
+      "Ornn": {
+        "winrate": 60.0,
+        "games": 5,
+        "label": "60% (5g)"
+      },
+      "Ahri": {
+        "winrate": 50.0,
+        "games": 2,
+        "label": "50% (2g)"
+      },
+      "Teemo": {
+        "winrate": 25.0,
+        "games": 4,
+        "label": "25% (4g)"
+      },
+      "Renata Glasc": {
+        "winrate": 50.0,
+        "games": 2,
+        "label": "50% (2g)"
+      },
+      "Reksai": {
+        "winrate": 0.0,
+        "games": 3,
+        "label": "0% (3g)"
+      },
+      "Garen": {
+        "winrate": 100.0,
+        "games": 1,
+        "label": "100% (1g)"
+      },
+      "Lux": {
+        "winrate": 100.0,
+        "games": 3,
+        "label": "100% (3g)"
+      },
+      "Pyke": {
+        "winrate": 0.0,
+        "games": 3,
+        "label": "0% (3g)"
+      },
+      "Yasuo": {
+        "winrate": null,
+        "games": null,
+        "label": "--"
+      },
+      "Leona": {
+        "winrate": 25.0,
+        "games": 4,
+        "label": "25% (4g)"
+      },
+      "Jinx": {
+        "winrate": 40.0,
+        "games": 5,
+        "label": "40% (5g)"
+      }
+    },
+    "Leona": {
+      "Sivir": {
+        "winrate": 16.0,
+        "games": 6,
+        "label": "16% (6g)"
+      },
+      "Master Yi": {
+        "winrate": 40.0,
+        "games": 10,
+        "label": "40% (10g)"
+      },
+      "Irelia": {
+        "winrate": 31.0,
+        "games": 16,
+        "label": "31% (16g)"
+      },
+      "Draven": {
+        "winrate": 10.0,
+        "games": 10,
+        "label": "10% (10g)"
+      },
+      "Miss Fortune": {
+        "winrate": 36.0,
+        "games": 11,
+        "label": "36% (11g)"
+      },
+      "Azir": {
+        "winrate": 22.0,
+        "games": 9,
+        "label": "22% (9g)"
+      },
+      "Sett": {
+        "winrate": 0.0,
+        "games": 2,
+        "label": "0% (2g)"
+      },
+      "Darius": {
+        "winrate": 40.0,
+        "games": 5,
+        "label": "40% (5g)"
+      },
+      "Leblanc": {
+        "winrate": 34.0,
+        "games": 18,
+        "label": "34% (18g)"
+      },
+      "Diana": {
+        "winrate": 21.0,
+        "games": 14,
+        "label": "21% (14g)"
+      },
+      "Annie": {
+        "winrate": 33.0,
+        "games": 6,
+        "label": "33% (6g)"
+      },
+      "Ezreal": {
+        "winrate": 20.0,
+        "games": 10,
+        "label": "20% (10g)"
+      },
+      "Rengar": {
+        "winrate": 20.0,
+        "games": 5,
+        "label": "20% (5g)"
+      },
+      "Vex": {
+        "winrate": 45.0,
+        "games": 9,
+        "label": "45% (9g)"
+      },
+      "Viktor": {
+        "winrate": 40.0,
+        "games": 15,
+        "label": "40% (15g)"
+      },
+      "Khazix": {
+        "winrate": 33.0,
+        "games": 6,
+        "label": "33% (6g)"
+      },
+      "Poppy": {
+        "winrate": 50.0,
+        "games": 6,
+        "label": "50% (6g)"
+      },
+      "Lucian": {
+        "winrate": 50.0,
+        "games": 2,
+        "label": "50% (2g)"
+      },
+      "Lillia": {
+        "winrate": 43.0,
+        "games": 7,
+        "label": "43% (7g)"
+      },
+      "Jax": {
+        "winrate": 20.0,
+        "games": 5,
+        "label": "20% (5g)"
+      },
+      "Fiora": {
+        "winrate": 50.0,
+        "games": 6,
+        "label": "50% (6g)"
+      },
+      "Kai'sa": {
+        "winrate": 50.0,
+        "games": 2,
+        "label": "50% (2g)"
+      },
+      "Rumble": {
+        "winrate": 0.0,
+        "games": 1,
+        "label": "0% (1g)"
+      },
+      "Vi": {
+        "winrate": 100.0,
+        "games": 2,
+        "label": "100% (2g)"
+      },
+      "Jhin": {
+        "winrate": 25.0,
+        "games": 4,
+        "label": "25% (4g)"
+      },
+      "Volibear": {
+        "winrate": 75.0,
+        "games": 4,
+        "label": "75% (4g)"
+      },
+      "Ivern": {
+        "winrate": 50.0,
+        "games": 4,
+        "label": "50% (4g)"
+      },
+      "Lee Sin": {
+        "winrate": 67.0,
+        "games": 6,
+        "label": "67% (6g)"
+      },
+      "Ornn": {
+        "winrate": 60.0,
+        "games": 5,
+        "label": "60% (5g)"
+      },
+      "Ahri": {
+        "winrate": 57.0,
+        "games": 7,
+        "label": "57% (7g)"
+      },
+      "Teemo": {
+        "winrate": 20.0,
+        "games": 5,
+        "label": "20% (5g)"
+      },
+      "Renata Glasc": {
+        "winrate": 0.0,
+        "games": 2,
+        "label": "0% (2g)"
+      },
+      "Reksai": {
+        "winrate": 40.0,
+        "games": 5,
+        "label": "40% (5g)"
+      },
+      "Garen": {
+        "winrate": 0.0,
+        "games": 3,
+        "label": "0% (3g)"
+      },
+      "Lux": {
+        "winrate": 0.0,
+        "games": 4,
+        "label": "0% (4g)"
+      },
+      "Pyke": {
+        "winrate": 33.0,
+        "games": 6,
+        "label": "33% (6g)"
+      },
+      "Yasuo": {
+        "winrate": 75.0,
+        "games": 4,
+        "label": "75% (4g)"
+      },
+      "Leona": {
+        "winrate": null,
+        "games": null,
+        "label": "--"
+      },
+      "Jinx": {
+        "winrate": 60.0,
+        "games": 5,
+        "label": "60% (5g)"
+      }
+    },
+    "Jinx": {
+      "Sivir": {
+        "winrate": 17.0,
+        "games": 6,
+        "label": "17% (6g)"
+      },
+      "Master Yi": {
+        "winrate": 25.0,
+        "games": 4,
+        "label": "25% (4g)"
+      },
+      "Irelia": {
+        "winrate": 34.0,
+        "games": 9,
+        "label": "34% (9g)"
+      },
+      "Draven": {
+        "winrate": 25.0,
+        "games": 4,
+        "label": "25% (4g)"
+      },
+      "Miss Fortune": {
+        "winrate": 43.0,
+        "games": 7,
+        "label": "43% (7g)"
+      },
+      "Azir": {
+        "winrate": 40.0,
+        "games": 5,
+        "label": "40% (5g)"
+      },
+      "Sett": {
+        "winrate": 0.0,
+        "games": 2,
+        "label": "0% (2g)"
+      },
+      "Darius": {
+        "winrate": null,
+        "games": null,
+        "label": "--"
+      },
+      "Leblanc": {
+        "winrate": 60.0,
+        "games": 5,
+        "label": "60% (5g)"
+      },
+      "Diana": {
+        "winrate": 12.0,
+        "games": 8,
+        "label": "12% (8g)"
+      },
+      "Annie": {
+        "winrate": 0.0,
+        "games": 1,
+        "label": "0% (1g)"
+      },
+      "Ezreal": {
+        "winrate": 0.0,
+        "games": 6,
+        "label": "0% (6g)"
+      },
+      "Rengar": {
+        "winrate": 25.0,
+        "games": 4,
+        "label": "25% (4g)"
+      },
+      "Vex": {
+        "winrate": 0.0,
+        "games": 5,
+        "label": "0% (5g)"
+      },
+      "Viktor": {
+        "winrate": 67.0,
+        "games": 6,
+        "label": "67% (6g)"
+      },
+      "Khazix": {
+        "winrate": 50.0,
+        "games": 2,
+        "label": "50% (2g)"
+      },
+      "Poppy": {
+        "winrate": 67.0,
+        "games": 3,
+        "label": "67% (3g)"
+      },
+      "Lucian": {
+        "winrate": 43.0,
+        "games": 7,
+        "label": "43% (7g)"
+      },
+      "Lillia": {
+        "winrate": 100.0,
+        "games": 2,
+        "label": "100% (2g)"
+      },
+      "Jax": {
+        "winrate": 0.0,
+        "games": 1,
+        "label": "0% (1g)"
+      },
+      "Fiora": {
+        "winrate": 40.0,
+        "games": 5,
+        "label": "40% (5g)"
+      },
+      "Kai'sa": {
+        "winrate": 33.0,
+        "games": 6,
+        "label": "33% (6g)"
+      },
+      "Rumble": {
+        "winrate": 100.0,
+        "games": 1,
+        "label": "100% (1g)"
+      },
+      "Vi": {
+        "winrate": 0.0,
+        "games": 2,
+        "label": "0% (2g)"
+      },
+      "Jhin": {
+        "winrate": 0.0,
+        "games": 1,
+        "label": "0% (1g)"
+      },
+      "Volibear": {
+        "winrate": 40.0,
+        "games": 5,
+        "label": "40% (5g)"
+      },
+      "Ivern": {
+        "winrate": 100.0,
+        "games": 2,
+        "label": "100% (2g)"
+      },
+      "Lee Sin": {
+        "winrate": 50.0,
+        "games": 6,
+        "label": "50% (6g)"
+      },
+      "Ornn": {
+        "winrate": 33.0,
+        "games": 3,
+        "label": "33% (3g)"
+      },
+      "Ahri": {
+        "winrate": 33.0,
+        "games": 3,
+        "label": "33% (3g)"
+      },
+      "Teemo": {
+        "winrate": 50.0,
+        "games": 4,
+        "label": "50% (4g)"
+      },
+      "Renata Glasc": {
+        "winrate": 25.0,
+        "games": 4,
+        "label": "25% (4g)"
+      },
+      "Reksai": {
+        "winrate": 50.0,
+        "games": 2,
+        "label": "50% (2g)"
+      },
+      "Garen": {
+        "winrate": null,
+        "games": null,
+        "label": "--"
+      },
+      "Lux": {
+        "winrate": 25.0,
+        "games": 4,
+        "label": "25% (4g)"
+      },
+      "Pyke": {
+        "winrate": 33.0,
+        "games": 6,
+        "label": "33% (6g)"
+      },
+      "Yasuo": {
+        "winrate": 60.0,
+        "games": 5,
+        "label": "60% (5g)"
+      },
+      "Leona": {
+        "winrate": 40.0,
+        "games": 5,
+        "label": "40% (5g)"
+      },
+      "Jinx": {
+        "winrate": null,
+        "games": null,
+        "label": "--"
+      }
+    }
+  },
+  "bestWorst": [
+    {
+      "champion": "Sivir",
+      "tier": "S",
+      "bestMatchup": "Jhin",
+      "bestWinrate": 100.0,
+      "bestGames": 4,
+      "worstMatchup": "Reksai",
+      "worstWinrate": 0.0,
+      "worstGames": 3
+    },
+    {
+      "champion": "Master Yi",
+      "tier": "S",
+      "bestMatchup": "Jhin",
+      "bestWinrate": 100.0,
+      "bestGames": 10,
+      "worstMatchup": "Sivir",
+      "worstWinrate": 16.6,
+      "worstGames": 30
+    },
+    {
+      "champion": "Irelia",
+      "tier": "S",
+      "bestMatchup": "Jhin",
+      "bestWinrate": 80.0,
+      "bestGames": 5,
+      "worstMatchup": "Ivern",
+      "worstWinrate": 19.8,
+      "worstGames": 10
+    },
+    {
+      "champion": "Draven",
+      "tier": "S",
+      "bestMatchup": "Yasuo",
+      "bestWinrate": 100.0,
+      "bestGames": 3,
+      "worstMatchup": "Ahri",
+      "worstWinrate": 0.0,
+      "worstGames": 5
+    },
+    {
+      "champion": "Miss Fortune",
+      "tier": "S",
+      "bestMatchup": "Lee Sin",
+      "bestWinrate": 100.0,
+      "bestGames": 6,
+      "worstMatchup": "Poppy",
+      "worstWinrate": 24.1,
+      "worstGames": 21
+    },
+    {
+      "champion": "Azir",
+      "tier": "A",
+      "bestMatchup": "Lux",
+      "bestWinrate": 100.0,
+      "bestGames": 5,
+      "worstMatchup": "Draven",
+      "worstWinrate": 34.7,
+      "worstGames": 23
+    },
+    {
+      "champion": "Sett",
+      "tier": "A",
+      "bestMatchup": "Annie",
+      "bestWinrate": 100.0,
+      "bestGames": 5,
+      "worstMatchup": "Sivir",
+      "worstWinrate": 25.0,
+      "worstGames": 4
+    },
+    {
+      "champion": "Darius",
+      "tier": "A",
+      "bestMatchup": "Kai'sa",
+      "bestWinrate": 80.0,
+      "bestGames": 5,
+      "worstMatchup": "Viktor",
+      "worstWinrate": 0.0,
+      "worstGames": 3
+    },
+    {
+      "champion": "Leblanc",
+      "tier": "A",
+      "bestMatchup": "Lux",
+      "bestWinrate": 100.0,
+      "bestGames": 9,
+      "worstMatchup": "Garen",
+      "worstWinrate": 25.0,
+      "worstGames": 4
+    },
+    {
+      "champion": "Diana",
+      "tier": "B",
+      "bestMatchup": "Yasuo",
+      "bestWinrate": 100.0,
+      "bestGames": 6,
+      "worstMatchup": "Kai'sa",
+      "worstWinrate": 24.8,
+      "worstGames": 16
+    },
+    {
+      "champion": "Annie",
+      "tier": "B",
+      "bestMatchup": "Lee Sin",
+      "bestWinrate": 100.0,
+      "bestGames": 4,
+      "worstMatchup": "Sett",
+      "worstWinrate": 0.0,
+      "worstGames": 5
+    },
+    {
+      "champion": "Ezreal",
+      "tier": "B",
+      "bestMatchup": "Jinx",
+      "bestWinrate": 100.0,
+      "bestGames": 6,
+      "worstMatchup": "Volibear",
+      "worstWinrate": 10.9,
+      "worstGames": 9
+    },
+    {
+      "champion": "Rengar",
+      "tier": "B",
+      "bestMatchup": "Annie",
+      "bestWinrate": 88.9,
+      "bestGames": 9,
+      "worstMatchup": "Ahri",
+      "worstWinrate": 16.7,
+      "worstGames": 6
+    },
+    {
+      "champion": "Vex",
+      "tier": "B",
+      "bestMatchup": "Jinx",
+      "bestWinrate": 100.0,
+      "bestGames": 5,
+      "worstMatchup": "Darius",
+      "worstWinrate": 25.2,
+      "worstGames": 12
+    },
+    {
+      "champion": "Viktor",
+      "tier": "B",
+      "bestMatchup": "Darius",
+      "bestWinrate": 100.0,
+      "bestGames": 3,
+      "worstMatchup": "Draven",
+      "worstWinrate": 6.6,
+      "worstGames": 15
+    },
+    {
+      "champion": "Khazix",
+      "tier": "B",
+      "bestMatchup": "Yasuo",
+      "bestWinrate": 100.0,
+      "bestGames": 5,
+      "worstMatchup": "Sett",
+      "worstWinrate": 14.3,
+      "worstGames": 7
+    },
+    {
+      "champion": "Poppy",
+      "tier": "B",
+      "bestMatchup": "Volibear",
+      "bestWinrate": 100.0,
+      "bestGames": 4,
+      "worstMatchup": "Ezreal",
+      "worstWinrate": 16.7,
+      "worstGames": 12
+    },
+    {
+      "champion": "Lucian",
+      "tier": "C",
+      "bestMatchup": "Pyke",
+      "bestWinrate": 100.0,
+      "bestGames": 5,
+      "worstMatchup": "Azir",
+      "worstWinrate": 16.7,
+      "worstGames": 6
+    },
+    {
+      "champion": "Lillia",
+      "tier": "C",
+      "bestMatchup": "Darius",
+      "bestWinrate": 100.0,
+      "bestGames": 3,
+      "worstMatchup": "Draven",
+      "worstWinrate": 15.2,
+      "worstGames": 13
+    },
+    {
+      "champion": "Jax",
+      "tier": "C",
+      "bestMatchup": "Leona",
+      "bestWinrate": 80.0,
+      "bestGames": 5,
+      "worstMatchup": "Lillia",
+      "worstWinrate": 0.0,
+      "worstGames": 3
+    },
+    {
+      "champion": "Fiora",
+      "tier": "C",
+      "bestMatchup": "Lux",
+      "bestWinrate": 100.0,
+      "bestGames": 3,
+      "worstMatchup": "Master Yi",
+      "worstWinrate": 30.0,
+      "worstGames": 20
+    },
+    {
+      "champion": "Kai'sa",
+      "tier": "C",
+      "bestMatchup": "Lux",
+      "bestWinrate": 100.0,
+      "bestGames": 4,
+      "worstMatchup": "Draven",
+      "worstWinrate": 0.0,
+      "worstGames": 5
+    },
+    {
+      "champion": "Rumble",
+      "tier": "C",
+      "bestMatchup": "Irelia",
+      "bestWinrate": 75.0,
+      "bestGames": 4,
+      "worstMatchup": "Master Yi",
+      "worstWinrate": 0.0,
+      "worstGames": 6
+    },
+    {
+      "champion": "Vi",
+      "tier": "D",
+      "bestMatchup": "Poppy",
+      "bestWinrate": 75.0,
+      "bestGames": 4,
+      "worstMatchup": "Miss Fortune",
+      "worstWinrate": 0.0,
+      "worstGames": 5
+    },
+    {
+      "champion": "Jhin",
+      "tier": "D",
+      "bestMatchup": "Ivern",
+      "bestWinrate": 100.0,
+      "bestGames": 3,
+      "worstMatchup": "Master Yi",
+      "worstWinrate": 0.0,
+      "worstGames": 6
+    },
+    {
+      "champion": "Volibear",
+      "tier": "D",
+      "bestMatchup": "Ezreal",
+      "bestWinrate": 89.1,
+      "bestGames": 9,
+      "worstMatchup": "Lucian",
+      "worstWinrate": 0.0,
+      "worstGames": 5
+    },
+    {
+      "champion": "Ivern",
+      "tier": "D",
+      "bestMatchup": "Pyke",
+      "bestWinrate": 100.0,
+      "bestGames": 4,
+      "worstMatchup": "Draven",
+      "worstWinrate": 0.0,
+      "worstGames": 3
+    },
+    {
+      "champion": "Lee Sin",
+      "tier": "D",
+      "bestMatchup": "Pyke",
+      "bestWinrate": 100.0,
+      "bestGames": 3,
+      "worstMatchup": "Miss Fortune",
+      "worstWinrate": 0.0,
+      "worstGames": 6
+    },
+    {
+      "champion": "Ornn",
+      "tier": "D",
+      "bestMatchup": "Lux",
+      "bestWinrate": 100.0,
+      "bestGames": 4,
+      "worstMatchup": "Reksai",
+      "worstWinrate": 0.0,
+      "worstGames": 3
+    },
+    {
+      "champion": "Ahri",
+      "tier": "D",
+      "bestMatchup": "Draven",
+      "bestWinrate": 100.0,
+      "bestGames": 5,
+      "worstMatchup": "Ezreal",
+      "worstWinrate": 12.4,
+      "worstGames": 8
+    },
+    {
+      "champion": "Teemo",
+      "tier": "D",
+      "bestMatchup": "Kai'sa",
+      "bestWinrate": 100.0,
+      "bestGames": 3,
+      "worstMatchup": "Rengar",
+      "worstWinrate": 20.0,
+      "worstGames": 5
+    },
+    {
+      "champion": "Renata Glasc",
+      "tier": "D",
+      "bestMatchup": "Jinx",
+      "bestWinrate": 75.0,
+      "bestGames": 4,
+      "worstMatchup": "Vex",
+      "worstWinrate": 0.0,
+      "worstGames": 3
+    },
+    {
+      "champion": "Reksai",
+      "tier": "D",
+      "bestMatchup": "Sivir",
+      "bestWinrate": 100.0,
+      "bestGames": 3,
+      "worstMatchup": "Lillia",
+      "worstWinrate": 14.3,
+      "worstGames": 7
+    },
+    {
+      "champion": "Garen",
+      "tier": "D",
+      "bestMatchup": "Leona",
+      "bestWinrate": 100.0,
+      "bestGames": 3,
+      "worstMatchup": "Master Yi",
+      "worstWinrate": 0.0,
+      "worstGames": 3
+    },
+    {
+      "champion": "Lux",
+      "tier": "D",
+      "bestMatchup": "Leona",
+      "bestWinrate": 100.0,
+      "bestGames": 4,
+      "worstMatchup": "Azir",
+      "worstWinrate": 0.0,
+      "worstGames": 5
+    },
+    {
+      "champion": "Pyke",
+      "tier": "D",
+      "bestMatchup": "Yasuo",
+      "bestWinrate": 100.0,
+      "bestGames": 3,
+      "worstMatchup": "Ivern",
+      "worstWinrate": 0.0,
+      "worstGames": 4
+    },
+    {
+      "champion": "Yasuo",
+      "tier": "D",
+      "bestMatchup": "Lux",
+      "bestWinrate": 100.0,
+      "bestGames": 3,
+      "worstMatchup": "Draven",
+      "worstWinrate": 0.0,
+      "worstGames": 3
+    },
+    {
+      "champion": "Leona",
+      "tier": "D",
+      "bestMatchup": "Yasuo",
+      "bestWinrate": 75.2,
+      "bestGames": 4,
+      "worstMatchup": "Lux",
+      "worstWinrate": 0.0,
+      "worstGames": 4
+    },
+    {
+      "champion": "Jinx",
+      "tier": "D",
+      "bestMatchup": "Poppy",
+      "bestWinrate": 67.0,
+      "bestGames": 3,
+      "worstMatchup": "Vex",
+      "worstWinrate": 0.0,
+      "worstGames": 5
+    }
+  ],
+  "tournaments": [
+    {
+      "name": "Circle TCG - Nightcup Le Lab Rift @ Circle TCG",
+      "champions": 16,
+      "url": "https://riftdecks.com/riftbound-tournaments/circle-tcg-nightcup-le-lab-rift-tournament-decks-10007/winrates"
+    },
+    {
+      "name": "Circle TCG - Win a box @ Circle TCG",
+      "champions": 20,
+      "url": "https://riftdecks.com/riftbound-tournaments/circle-tcg-win-a-box-tournament-decks-10002/winrates"
+    },
+    {
+      "name": "Riftbound 1k event! @ Card Cosmos @ Card Cosmos",
+      "champions": 11,
+      "url": "https://riftdecks.com/riftbound-tournaments/riftbound-1k-event-card-cosmos-tournament-decks-9982/winrates"
+    },
+    {
+      "name": "SCG CON Cincinnati - $5K Constructed @ Star City Comics & Games",
+      "champions": 26,
+      "url": "https://riftdecks.com/riftbound-tournaments/scg-con-cincinnati-5k-constructed-tournament-decks-9968/winrates"
+    },
+    {
+      "name": "Regional Rebound - RQ Sydney Sunday @ UVS Games Organized Play",
+      "champions": 31,
+      "url": "https://riftdecks.com/riftbound-tournaments/regional-rebound-rq-sydney-sunday-tournament-decks-9871/winrates"
+    },
+    {
+      "name": "Win A Box - Unleashed @ TopdeckGG",
+      "champions": 11,
+      "url": "https://riftdecks.com/riftbound-tournaments/win-a-box-unleashed-tournament-decks-9859/winrates"
+    },
+    {
+      "name": "Paprykarz Open Riftbound High Stakes Constructed Sobota @ Pan Mysza",
+      "champions": 27,
+      "url": "https://riftdecks.com/riftbound-tournaments/paprykarz-open-riftbound-high-stakes-constructed-sobota-tournament-decks-9846/winrates"
+    },
+    {
+      "name": "SCG CON Cincinnati - $10K Constructed @ Star City Comics & Games",
+      "champions": 30,
+      "url": "https://riftdecks.com/riftbound-tournaments/scg-con-cincinnati-10k-constructed-tournament-decks-9845/winrates"
+    },
+    {
+      "name": "Super Saturday Standard Challenge - RQ Sydney Saturday 10am @ UVS Games Organized Play",
+      "champions": 24,
+      "url": "https://riftdecks.com/riftbound-tournaments/super-saturday-standard-challenge-rq-sydney-saturday-10am-tournament-decks-9723/winrates"
+    },
+    {
+      "name": "Riftbound Regional Qualifier: RQ Sydney - Final Standings @ UVS Games Organized Play",
+      "champions": 40,
+      "url": "https://riftdecks.com/riftbound-tournaments/riftbound-regional-qualifier-rq-sydney-final-standings-tournament-decks-9722/winrates"
+    },
+    {
+      "name": "Pre-Regional Challenge - RQ Sydney Friday @ UVS Games Organized Play",
+      "champions": 38,
+      "url": "https://riftdecks.com/riftbound-tournaments/pre-regional-challenge-rq-sydney-friday-tournament-decks-9642/winrates"
+    },
+    {
+      "name": "II Master @ MICELION GAMES",
+      "champions": 3,
+      "url": "https://riftdecks.com/riftbound-tournaments/ii-master-tournament-decks-9039/winrates"
+    },
+    {
+      "name": "NRG Series: Riftbound $5k Constructed Showdown @ NRG Events",
+      "champions": 17,
+      "url": "https://riftdecks.com/riftbound-tournaments/nrg-series-riftbound-5k-constructed-showdown-tournament-decks-9033/winrates"
+    },
+    {
+      "name": "Riftbound Pre-regional Win-a-Box (BO3 Constructed) @ SPELLROO GAMING",
+      "champions": 8,
+      "url": "https://riftdecks.com/riftbound-tournaments/riftbound-pre-regional-win-a-box-bo3-constructed-tournament-decks-9032/winrates"
+    },
+    {
+      "name": "ARK-Games Fest 2026 - Win A Box Unleashed @ ARK-Games",
+      "champions": 15,
+      "url": "https://riftdecks.com/riftbound-tournaments/ark-games-fest-2026-win-a-box-unleashed-tournament-decks-9031/winrates"
+    },
+    {
+      "name": "Triple Win-A-Box | Unleashed Tournament @ Runes And Rift",
+      "champions": 4,
+      "url": "https://riftdecks.com/riftbound-tournaments/triple-win-a-box-unleashed-tournament-tournament-decks-9200/winrates"
+    },
+    {
+      "name": "Riftbound: Unleashed Win-A-Case @ Nexus @ nexusesports.com",
+      "champions": 5,
+      "url": "https://riftdecks.com/riftbound-tournaments/riftbound-unleashed-win-a-case-nexus-tournament-decks-8916/winrates"
+    },
+    {
+      "name": "Riftbound League Invitational @ Imaginaire Québec",
+      "champions": 13,
+      "url": "https://riftdecks.com/riftbound-tournaments/riftbound-league-invitational-tournament-decks-8914/winrates"
+    },
+    {
+      "name": "Saturday Morning Riftbound Open Play @ Titan Games",
+      "champions": 15,
+      "url": "https://riftdecks.com/riftbound-tournaments/saturday-morning-riftbound-open-play-tournament-decks-8913/winrates"
+    },
+    {
+      "name": "UNLEASH AT MMG: CASE TOURNAMENT @ Misty Mountain Games",
+      "champions": 15,
+      "url": "https://riftdecks.com/riftbound-tournaments/unleash-at-mmg-case-tournament-tournament-decks-8912/winrates"
+    },
+    {
+      "name": "Glasshammer Unleashed Win-a-box @ Glasshammer Gaming",
+      "champions": 10,
+      "url": "https://riftdecks.com/riftbound-tournaments/glasshammer-unleashed-win-a-box-tournament-decks-8907/winrates"
+    }
+  ]
+}
