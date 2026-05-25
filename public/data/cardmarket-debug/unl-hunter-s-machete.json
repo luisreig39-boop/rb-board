@@ -1,0 +1,42 @@
+{
+  "target": {
+    "key": "unl:unl-096-219:hunter-s-machete",
+    "name": "Hunter's Machete",
+    "setId": "UNL",
+    "setSlug": "Unleashed",
+    "setLabel": "Unleashed",
+    "publicCode": "unl-096-219",
+    "riftboundId": "unl-096-219",
+    "cardSlug": "Hunters-Machete",
+    "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Unleashed/Hunters-Machete"
+  },
+  "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Unleashed/Hunters-Machete?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
+  "parsed": {
+    "status": 403,
+    "ok": false,
+    "headers": {
+      "accept-ch": "Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA",
+      "cf-mitigated": "challenge",
+      "cf-ray": "a013f8582b480164-ORD",
+      "connection": "close",
+      "content-encoding": "br",
+      "content-security-policy": "default-src 'none'; script-src 'nonce-6UNsIwQHyBaiUSYwrc7WXQ' 'unsafe-eval' https://challenges.cloudflare.com; script-src-attr 'none'; style-src 'unsafe-inline'; img-src 'self' https://challenges.cloudflare.com; connect-src 'self' https://challenges.cloudflare.com; frame-src 'self' https://challenges.cloudflare.com blob:; child-src 'self' https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri 'self'",
+      "content-type": "text/html; charset=UTF-8",
+      "critical-ch": "Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA",
+      "cross-origin-embedder-policy": "require-corp",
+      "cross-origin-opener-policy": "same-origin",
+      "cross-origin-resource-policy": "same-origin",
+      "date": "Mon, 25 May 2026 10:48:51 GMT",
+      "origin-agent-cluster": "?1",
+      "permissions-policy": "accelerometer=(),browsing-topics=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),interest-cohort=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=(),xr-spatial-tracking=(self)",
+      "referrer-policy": "same-origin",
+      "server": "cloudflare",
+      "server-timing": "chlray;desc=\"a013f8582b480164\"",
+      "set-cookie": "__cf_bm=ANMwnNrG_V7MJuL0caxdRnn83wF5JFaDzqKuzq.iR6k-1779706131.2299583-1.0.1.1-iAM90F4_1X7kcOxgTPLJ6amxLYeDitlYn6dPbPZVQXO4dFPqsP7flTYjgk5TRnZ.HI8.6y5cE5RXqItdlXfyrQvZ8wCOaXzaMrQPImYOzQCNuA9QTFaCKI8QaVCI803n; HttpOnly; SameSite=None; Secure; Path=/; Domain=cardmarket.com; Expires=Mon, 25 May 2026 11:18:51 GMT",
+      "transfer-encoding": "chunked",
+      "vary": "accept-encoding",
+      "x-content-type-options": "nosniff",
+      "x-frame-options": "SAMEORIGIN"
+    }
+  }
+}
