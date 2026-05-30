@@ -2,6 +2,7 @@ import { useCallback, useEffect, useMemo, useState } from "react";
 import { WinratesView } from "./WinratesView.jsx";
 import { LegendStatsView } from "./LegendStatsView.jsx";
 import { CardmarketCatalogView } from "./CardmarketCatalogView.jsx";
+import { CardmarketCatalogView } from "./CardmarketCatalogView.jsx";
 
 const API_BASE = "https://api.riftcodex.com";
 const PAGE_SIZE = 100;
@@ -251,7 +252,17 @@ function formatCurrency(value) {
 
 function getCardPrice(prices, card) {
   if (!card || !prices) return null;
-  return prices[card.priceKey] || prices[card.id] || prices[card.publicCode] || prices[card.riftboundId] || null;
+
+  const candidates = [
+    prices[card.priceKey],
+    prices[card.id],
+    prices[card.publicCode],
+    prices[card.riftboundId],
+    prices[`name:${normalizeId(card.name)}`],
+    prices[normalizeId(card.name)],
+  ];
+
+  return candidates.find((price) => Number.isFinite(Number(price?.priceFrom))) || null;
 }
 
 function getPriceValue(prices, card) {
@@ -479,6 +490,7 @@ function Header({ view, setView, cards, syncCards, syncing, progress, lastUpdate
         <button className={view === "stats" ? "active" : ""} onClick={() => setView("stats")}>Stats</button>
         <button className={view === "winrates" ? "active" : ""} onClick={() => setView("winrates")}>Winrates</button>
         <button className={view === "legends" ? "active" : ""} onClick={() => setView("legends")}>Leyendas</button>
+        <button className={view === "market" ? "active" : ""} onClick={() => setView("market")}>Mercado</button>
       </nav>
       <div className="headerActions">
         {syncing && <span className="syncText">{progress.loaded}/{progress.total || "?"}</span>}
@@ -1108,10 +1120,10 @@ export default function App() {
         clearCards={clearCards}
       />
       {error && <div className="errorBanner"><strong>Error:</strong> {error}. Si Riftcodex está caído, prueba más tarde o conserva la caché local.</div>}
-      {view !== "winrates" && view !== "legends" && !cards.length && syncing && <EmptyState title="Cargando cartas" text={`Descargadas ${progress.loaded}/${progress.total || "?"}. La primera carga puede tardar un poco.`} />}
-      {view !== "winrates" && view !== "legends" && !cards.length && !syncing && <EmptyState title="No hay cartas cargadas" text="Pulsa Actualizar cartas para descargar la base de datos." action={<button className="primary" onClick={syncCards}>Actualizar cartas</button>} />}
-      {view === "winrates" && <WinratesView />}
+      {view !== "winrates" && view !== "legends" && view !== "market" && !cards.length && syncing && <EmptyState title="Cargando cartas" text={`Descargadas ${progress.loaded}/${progress.total || "?"}. La primera carga puede tardar un poco.`} />}
+      {view !== "winrates" && view !== "legends" && view !== "market" && !cards.length && !syncing && <EmptyState title="No hay cartas cargadas" text="Pulsa Actualizar cartas para descargar la base de datos." action={<button className="primary" onClick={syncCards}>Actualizar cartas</button>} />}      {view === "winrates" && <WinratesView />}
       {view === "legends" && <LegendStatsView />}
+      {view === "market" && <CardmarketCatalogView />}
       {cards.length > 0 && view === "collection" && <CollectionView cards={cards} collection={collection} setCollection={setCollection} prices={prices} priceMeta={priceMeta} />}
       {cards.length > 0 && view === "decks" && <DecksView cards={cards} collection={collection} decks={decks} setDecks={setDecks} prices={prices} />}
       {cards.length > 0 && view === "stats" && <StatsView cards={cards} collection={collection} decks={decks} prices={prices} />}
