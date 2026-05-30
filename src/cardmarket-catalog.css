@@ -1,0 +1,207 @@
+.cmCatalogPage {
+  width: min(1500px, calc(100% - 24px));
+  margin: 18px auto 48px;
+  display: grid;
+  gap: 16px;
+}
+
+.cmHero {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(320px, auto);
+  gap: 18px;
+  align-items: center;
+}
+
+.cmHero h1 {
+  margin: 4px 0 8px;
+  font-size: clamp(28px, 4vw, 48px);
+  line-height: 1;
+}
+
+.cmEyebrow {
+  margin: 0;
+  color: var(--gold);
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 12px;
+  letter-spacing: .14em;
+}
+
+.cmKpis {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(120px, 1fr));
+  gap: 10px;
+}
+
+.cmKpis div {
+  border: 1px solid var(--line);
+  background: rgba(10, 15, 28, .65);
+  border-radius: 16px;
+  padding: 14px;
+}
+
+.cmKpis strong {
+  display: block;
+  color: var(--gold);
+  font-size: 28px;
+  line-height: 1;
+}
+
+.cmKpis span {
+  display: block;
+  margin-top: 5px;
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.cmControls {
+  display: grid;
+  grid-template-columns: minmax(240px, 1fr) repeat(4, minmax(170px, auto));
+  gap: 10px;
+}
+
+.cmResultsBar {
+  display: flex;
+  gap: 10px;
+  align-items: baseline;
+  color: var(--muted);
+  padding: 0 4px;
+}
+
+.cmResultsBar strong {
+  color: var(--gold);
+  font-size: 24px;
+}
+
+.cmGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+  gap: 14px;
+}
+
+.cmCard {
+  overflow: hidden;
+  border-radius: 18px;
+  border: 1px solid var(--line);
+  background: rgba(15, 20, 34, .88);
+  transition: transform .15s ease, border-color .15s ease, box-shadow .15s ease;
+}
+
+.cmCard:hover {
+  transform: translateY(-3px);
+  border-color: rgba(200, 184, 145, .42);
+  box-shadow: 0 20px 45px rgba(0,0,0,.32);
+}
+
+.cmImageLink {
+  display: block;
+  background: #080c16;
+  aspect-ratio: 5 / 7;
+}
+
+.cmImage {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+.cmImageFallback {
+  height: 100%;
+  display: grid;
+  place-items: center;
+  padding: 18px;
+  text-align: center;
+  color: var(--muted);
+  background: linear-gradient(180deg, rgba(20,27,45,.8), rgba(8,12,22,.95));
+}
+
+.cmCardBody {
+  padding: 13px;
+  display: grid;
+  gap: 10px;
+}
+
+.cmTopline {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  color: var(--muted);
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+}
+
+.cmCard h2 {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+.cmPriceMain {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 10px;
+  border-radius: 14px;
+  background: rgba(200, 184, 145, .1);
+  border: 1px solid rgba(200, 184, 145, .18);
+  padding: 10px;
+}
+
+.cmPriceMain span {
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.cmPriceMain strong {
+  color: var(--gold);
+  font-size: 20px;
+}
+
+.cmPriceGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+
+.cmPriceGrid div {
+  border: 1px solid var(--line);
+  background: rgba(10,15,28,.55);
+  border-radius: 12px;
+  padding: 8px;
+}
+
+.cmPriceGrid span {
+  display: block;
+  color: var(--muted);
+  font-size: 11px;
+}
+
+.cmPriceGrid strong {
+  display: block;
+  margin-top: 2px;
+  font-size: 13px;
+}
+
+.cmLink {
+  color: var(--gold);
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 13px;
+}
+
+.cmLink:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 980px) {
+  .cmHero,
+  .cmControls {
+    grid-template-columns: 1fr;
+  }
+
+  .cmKpis {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
