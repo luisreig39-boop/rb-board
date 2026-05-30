@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { WinratesView } from "./WinratesView.jsx";
 import { LegendStatsView } from "./LegendStatsView.jsx";
+import { CardmarketCatalogView } from "./CardmarketCatalogView.jsx";
 
 const API_BASE = "https://api.riftcodex.com";
 const PAGE_SIZE = 100;
