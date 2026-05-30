@@ -1,14 +1,23 @@
 {
   "meta": {
-    "source": "Cardmarket products + price guide",
-    "productsCreatedAt": "2026-05-29T11:03:47+0200",
-    "pricesCreatedAt": "2026-05-29T02:47:35+0200",
-    "generatedAt": "2026-05-30T01:00:41Z",
-    "totalProducts": 1117,
-    "uniqueNames": 770,
-    "pricesWithValue": 3772,
-    "matching": "Includes product keys cm:<idProduct> and fallback name:<normalized-card-name> keys.",
-    "warning": "Not filtered by Spanish seller, English language or Near Mint; these are Cardmarket price guide summary values."
+    "updatedAt": "2026-05-30T08:42:51.286Z",
+    "source": "Cardmarket",
+    "filters": "España + carta en inglés + condición mínima 2 + modo foil",
+    "maxCardsPerRun": 40,
+    "refreshHours": 24,
+    "retryMissingHours": 0,
+    "priceMode": "foil",
+    "minCondition": "2",
+    "totalTargets": 720,
+    "pricesWithValue": 3814,
+    "lastRun": {
+      "ok": 0,
+      "missing": 40,
+      "blocked": 0,
+      "failed": 0,
+      "queued": 40
+    },
+    "warning": "Sin API oficial, esto depende del HTML público de Cardmarket. Si Cardmarket cambia la página o bloquea peticiones, puede dejar de actualizar."
   },
   "prices": {
     "cm:845712": {
@@ -3120,7 +3129,7 @@
       }
     },
     "cm:847157": {
-      "priceFrom": 30.0,
+      "priceFrom": 30,
       "normalPriceFrom": 30,
       "foilPriceFrom": 30,
       "currency": "EUR",
@@ -3157,7 +3166,7 @@
       }
     },
     "product:847157": {
-      "priceFrom": 30.0,
+      "priceFrom": 30,
       "normalPriceFrom": 30,
       "foilPriceFrom": 30,
       "currency": "EUR",
@@ -3194,7 +3203,7 @@
       }
     },
     "cm:847158": {
-      "priceFrom": 10.0,
+      "priceFrom": 10,
       "normalPriceFrom": 10,
       "foilPriceFrom": 10,
       "currency": "EUR",
@@ -3231,7 +3240,7 @@
       }
     },
     "product:847158": {
-      "priceFrom": 10.0,
+      "priceFrom": 10,
       "normalPriceFrom": 10,
       "foilPriceFrom": 10,
       "currency": "EUR",
@@ -5858,7 +5867,7 @@
       }
     },
     "cm:847194": {
-      "priceFrom": 4.0,
+      "priceFrom": 4,
       "normalPriceFrom": 4,
       "foilPriceFrom": 4,
       "currency": "EUR",
@@ -5895,7 +5904,7 @@
       }
     },
     "product:847194": {
-      "priceFrom": 4.0,
+      "priceFrom": 4,
       "normalPriceFrom": 4,
       "foilPriceFrom": 4,
       "currency": "EUR",
@@ -6154,7 +6163,7 @@
       }
     },
     "cm:847198": {
-      "priceFrom": 1.0,
+      "priceFrom": 1,
       "normalPriceFrom": 1,
       "foilPriceFrom": 1.94,
       "currency": "EUR",
@@ -6191,7 +6200,7 @@
       }
     },
     "product:847198": {
-      "priceFrom": 1.0,
+      "priceFrom": 1,
       "normalPriceFrom": 1,
       "foilPriceFrom": 1.94,
       "currency": "EUR",
@@ -9114,7 +9123,7 @@
       }
     },
     "cm:847250": {
-      "priceFrom": 1.0,
+      "priceFrom": 1,
       "normalPriceFrom": 1,
       "foilPriceFrom": 1,
       "currency": "EUR",
@@ -9151,7 +9160,7 @@
       }
     },
     "product:847250": {
-      "priceFrom": 1.0,
+      "priceFrom": 1,
       "normalPriceFrom": 1,
       "foilPriceFrom": 1,
       "currency": "EUR",
@@ -9928,7 +9937,7 @@
       }
     },
     "cm:847268": {
-      "priceFrom": 1.0,
+      "priceFrom": 1,
       "normalPriceFrom": 1,
       "foilPriceFrom": 1,
       "currency": "EUR",
@@ -9965,7 +9974,7 @@
       }
     },
     "product:847268": {
-      "priceFrom": 1.0,
+      "priceFrom": 1,
       "normalPriceFrom": 1,
       "foilPriceFrom": 1,
       "currency": "EUR",
@@ -10002,7 +10011,7 @@
       }
     },
     "cm:847270": {
-      "priceFrom": 2.0,
+      "priceFrom": 2,
       "normalPriceFrom": 2,
       "foilPriceFrom": 2,
       "currency": "EUR",
@@ -10039,7 +10048,7 @@
       }
     },
     "product:847270": {
-      "priceFrom": 2.0,
+      "priceFrom": 2,
       "normalPriceFrom": 2,
       "foilPriceFrom": 2,
       "currency": "EUR",
@@ -10446,7 +10455,7 @@
       }
     },
     "cm:847279": {
-      "priceFrom": 4.0,
+      "priceFrom": 4,
       "normalPriceFrom": 4,
       "foilPriceFrom": 4,
       "currency": "EUR",
@@ -10483,7 +10492,7 @@
       }
     },
     "product:847279": {
-      "priceFrom": 4.0,
+      "priceFrom": 4,
       "normalPriceFrom": 4,
       "foilPriceFrom": 4,
       "currency": "EUR",
@@ -12740,7 +12749,7 @@
       }
     },
     "cm:847319": {
-      "priceFrom": 3.0,
+      "priceFrom": 3,
       "normalPriceFrom": 3,
       "foilPriceFrom": 3,
       "currency": "EUR",
@@ -12777,7 +12786,7 @@
       }
     },
     "product:847319": {
-      "priceFrom": 3.0,
+      "priceFrom": 3,
       "normalPriceFrom": 3,
       "foilPriceFrom": 3,
       "currency": "EUR",
@@ -13110,7 +13119,7 @@
       }
     },
     "cm:847324": {
-      "priceFrom": 27.0,
+      "priceFrom": 27,
       "normalPriceFrom": 27,
       "foilPriceFrom": 27,
       "currency": "EUR",
@@ -13147,7 +13156,7 @@
       }
     },
     "product:847324": {
-      "priceFrom": 27.0,
+      "priceFrom": 27,
       "normalPriceFrom": 27,
       "foilPriceFrom": 27,
       "currency": "EUR",
@@ -13332,7 +13341,7 @@
       }
     },
     "cm:847327": {
-      "priceFrom": 4.0,
+      "priceFrom": 4,
       "normalPriceFrom": 4,
       "foilPriceFrom": 4,
       "currency": "EUR",
@@ -13369,7 +13378,7 @@
       }
     },
     "product:847327": {
-      "priceFrom": 4.0,
+      "priceFrom": 4,
       "normalPriceFrom": 4,
       "foilPriceFrom": 4,
       "currency": "EUR",
@@ -13480,7 +13489,7 @@
       }
     },
     "cm:847329": {
-      "priceFrom": 13.0,
+      "priceFrom": 13,
       "normalPriceFrom": 13,
       "foilPriceFrom": 13,
       "currency": "EUR",
@@ -13517,7 +13526,7 @@
       }
     },
     "product:847329": {
-      "priceFrom": 13.0,
+      "priceFrom": 13,
       "normalPriceFrom": 13,
       "foilPriceFrom": 13,
       "currency": "EUR",
@@ -13776,7 +13785,7 @@
       }
     },
     "cm:847333": {
-      "priceFrom": 5.0,
+      "priceFrom": 5,
       "normalPriceFrom": 5,
       "foilPriceFrom": 5,
       "currency": "EUR",
@@ -13813,7 +13822,7 @@
       }
     },
     "product:847333": {
-      "priceFrom": 5.0,
+      "priceFrom": 5,
       "normalPriceFrom": 5,
       "foilPriceFrom": 5,
       "currency": "EUR",
@@ -15848,7 +15857,7 @@
       }
     },
     "cm:847361": {
-      "priceFrom": 1.0,
+      "priceFrom": 1,
       "normalPriceFrom": 1,
       "foilPriceFrom": 1,
       "currency": "EUR",
@@ -15885,7 +15894,7 @@
       }
     },
     "product:847361": {
-      "priceFrom": 1.0,
+      "priceFrom": 1,
       "normalPriceFrom": 1,
       "foilPriceFrom": 1,
       "currency": "EUR",
@@ -16514,7 +16523,7 @@
       }
     },
     "cm:847370": {
-      "priceFrom": 13.0,
+      "priceFrom": 13,
       "normalPriceFrom": 13,
       "foilPriceFrom": 13,
       "currency": "EUR",
@@ -16551,7 +16560,7 @@
       }
     },
     "product:847370": {
-      "priceFrom": 13.0,
+      "priceFrom": 13,
       "normalPriceFrom": 13,
       "foilPriceFrom": 13,
       "currency": "EUR",
@@ -17698,7 +17707,7 @@
       }
     },
     "cm:847386": {
-      "priceFrom": 4.0,
+      "priceFrom": 4,
       "normalPriceFrom": 4,
       "foilPriceFrom": 4,
       "currency": "EUR",
@@ -17735,7 +17744,7 @@
       }
     },
     "product:847386": {
-      "priceFrom": 4.0,
+      "priceFrom": 4,
       "normalPriceFrom": 4,
       "foilPriceFrom": 4,
       "currency": "EUR",
@@ -19548,7 +19557,7 @@
       }
     },
     "cm:847418": {
-      "priceFrom": 2.0,
+      "priceFrom": 2,
       "normalPriceFrom": 2,
       "foilPriceFrom": 2,
       "currency": "EUR",
@@ -19585,7 +19594,7 @@
       }
     },
     "product:847418": {
-      "priceFrom": 2.0,
+      "priceFrom": 2,
       "normalPriceFrom": 2,
       "foilPriceFrom": 2,
       "currency": "EUR",
@@ -19918,7 +19927,7 @@
       }
     },
     "cm:847425": {
-      "priceFrom": 30.0,
+      "priceFrom": 30,
       "normalPriceFrom": 30,
       "foilPriceFrom": 30,
       "currency": "EUR",
@@ -19955,7 +19964,7 @@
       }
     },
     "product:847425": {
-      "priceFrom": 30.0,
+      "priceFrom": 30,
       "normalPriceFrom": 30,
       "foilPriceFrom": 30,
       "currency": "EUR",
@@ -21546,7 +21555,7 @@
       }
     },
     "cm:847462": {
-      "priceFrom": 4.0,
+      "priceFrom": 4,
       "normalPriceFrom": 4,
       "foilPriceFrom": 4,
       "currency": "EUR",
@@ -21583,7 +21592,7 @@
       }
     },
     "product:847462": {
-      "priceFrom": 4.0,
+      "priceFrom": 4,
       "normalPriceFrom": 4,
       "foilPriceFrom": 4,
       "currency": "EUR",
@@ -21694,7 +21703,7 @@
       }
     },
     "cm:847464": {
-      "priceFrom": 2.0,
+      "priceFrom": 2,
       "normalPriceFrom": 2,
       "foilPriceFrom": 2,
       "currency": "EUR",
@@ -21731,7 +21740,7 @@
       }
     },
     "product:847464": {
-      "priceFrom": 2.0,
+      "priceFrom": 2,
       "normalPriceFrom": 2,
       "foilPriceFrom": 2,
       "currency": "EUR",
@@ -21990,7 +21999,7 @@
       }
     },
     "cm:847468": {
-      "priceFrom": 4.0,
+      "priceFrom": 4,
       "normalPriceFrom": 4,
       "foilPriceFrom": 4,
       "currency": "EUR",
@@ -22027,7 +22036,7 @@
       }
     },
     "product:847468": {
-      "priceFrom": 4.0,
+      "priceFrom": 4,
       "normalPriceFrom": 4,
       "foilPriceFrom": 4,
       "currency": "EUR",
@@ -22138,7 +22147,7 @@
       }
     },
     "cm:847470": {
-      "priceFrom": 6.0,
+      "priceFrom": 6,
       "normalPriceFrom": 6,
       "foilPriceFrom": 6,
       "currency": "EUR",
@@ -22175,7 +22184,7 @@
       }
     },
     "product:847470": {
-      "priceFrom": 6.0,
+      "priceFrom": 6,
       "normalPriceFrom": 6,
       "foilPriceFrom": 6,
       "currency": "EUR",
@@ -24358,7 +24367,7 @@
       }
     },
     "cm:847500": {
-      "priceFrom": 750.0,
+      "priceFrom": 750,
       "normalPriceFrom": 750,
       "foilPriceFrom": 750,
       "currency": "EUR",
@@ -24395,7 +24404,7 @@
       }
     },
     "product:847500": {
-      "priceFrom": 750.0,
+      "priceFrom": 750,
       "normalPriceFrom": 750,
       "foilPriceFrom": 750,
       "currency": "EUR",
@@ -24506,7 +24515,7 @@
       }
     },
     "cm:847502": {
-      "priceFrom": 210.0,
+      "priceFrom": 210,
       "normalPriceFrom": 210,
       "foilPriceFrom": 210,
       "currency": "EUR",
@@ -24543,7 +24552,7 @@
       }
     },
     "product:847502": {
-      "priceFrom": 210.0,
+      "priceFrom": 210,
       "normalPriceFrom": 210,
       "foilPriceFrom": 210,
       "currency": "EUR",
@@ -24654,7 +24663,7 @@
       }
     },
     "cm:847504": {
-      "priceFrom": 720.0,
+      "priceFrom": 720,
       "normalPriceFrom": 720,
       "foilPriceFrom": 720,
       "currency": "EUR",
@@ -24691,7 +24700,7 @@
       }
     },
     "product:847504": {
-      "priceFrom": 720.0,
+      "priceFrom": 720,
       "normalPriceFrom": 720,
       "foilPriceFrom": 720,
       "currency": "EUR",
@@ -24802,7 +24811,7 @@
       }
     },
     "cm:847506": {
-      "priceFrom": 275.0,
+      "priceFrom": 275,
       "normalPriceFrom": 275,
       "foilPriceFrom": 275,
       "currency": "EUR",
@@ -24839,7 +24848,7 @@
       }
     },
     "product:847506": {
-      "priceFrom": 275.0,
+      "priceFrom": 275,
       "normalPriceFrom": 275,
       "foilPriceFrom": 275,
       "currency": "EUR",
@@ -25024,7 +25033,7 @@
       }
     },
     "cm:847509": {
-      "priceFrom": 22.0,
+      "priceFrom": 22,
       "normalPriceFrom": 22,
       "foilPriceFrom": 22,
       "currency": "EUR",
@@ -25061,7 +25070,7 @@
       }
     },
     "product:847509": {
-      "priceFrom": 22.0,
+      "priceFrom": 22,
       "normalPriceFrom": 22,
       "foilPriceFrom": 22,
       "currency": "EUR",
@@ -25098,7 +25107,7 @@
       }
     },
     "cm:847510": {
-      "priceFrom": 478.0,
+      "priceFrom": 478,
       "normalPriceFrom": 478,
       "foilPriceFrom": 478,
       "currency": "EUR",
@@ -25135,7 +25144,7 @@
       }
     },
     "product:847510": {
-      "priceFrom": 478.0,
+      "priceFrom": 478,
       "normalPriceFrom": 478,
       "foilPriceFrom": 478,
       "currency": "EUR",
@@ -25172,7 +25181,7 @@
       }
     },
     "cm:847511": {
-      "priceFrom": 25.0,
+      "priceFrom": 25,
       "normalPriceFrom": 25,
       "foilPriceFrom": 25,
       "currency": "EUR",
@@ -25209,7 +25218,7 @@
       }
     },
     "product:847511": {
-      "priceFrom": 25.0,
+      "priceFrom": 25,
       "normalPriceFrom": 25,
       "foilPriceFrom": 25,
       "currency": "EUR",
@@ -25246,7 +25255,7 @@
       }
     },
     "cm:847512": {
-      "priceFrom": 390.0,
+      "priceFrom": 390,
       "normalPriceFrom": 390,
       "foilPriceFrom": 390,
       "currency": "EUR",
@@ -25283,7 +25292,7 @@
       }
     },
     "product:847512": {
-      "priceFrom": 390.0,
+      "priceFrom": 390,
       "normalPriceFrom": 390,
       "foilPriceFrom": 390,
       "currency": "EUR",
@@ -25320,7 +25329,7 @@
       }
     },
     "cm:847513": {
-      "priceFrom": 25.0,
+      "priceFrom": 25,
       "normalPriceFrom": 25,
       "foilPriceFrom": 25,
       "currency": "EUR",
@@ -25357,7 +25366,7 @@
       }
     },
     "product:847513": {
-      "priceFrom": 25.0,
+      "priceFrom": 25,
       "normalPriceFrom": 25,
       "foilPriceFrom": 25,
       "currency": "EUR",
@@ -25394,7 +25403,7 @@
       }
     },
     "cm:847514": {
-      "priceFrom": 245.0,
+      "priceFrom": 245,
       "normalPriceFrom": 245,
       "foilPriceFrom": 245,
       "currency": "EUR",
@@ -25431,7 +25440,7 @@
       }
     },
     "product:847514": {
-      "priceFrom": 245.0,
+      "priceFrom": 245,
       "normalPriceFrom": 245,
       "foilPriceFrom": 245,
       "currency": "EUR",
@@ -25542,7 +25551,7 @@
       }
     },
     "cm:847516": {
-      "priceFrom": 350.0,
+      "priceFrom": 350,
       "normalPriceFrom": 350,
       "foilPriceFrom": 350,
       "currency": "EUR",
@@ -25579,7 +25588,7 @@
       }
     },
     "product:847516": {
-      "priceFrom": 350.0,
+      "priceFrom": 350,
       "normalPriceFrom": 350,
       "foilPriceFrom": 350,
       "currency": "EUR",
@@ -25838,7 +25847,7 @@
       }
     },
     "cm:847520": {
-      "priceFrom": 480.0,
+      "priceFrom": 480,
       "normalPriceFrom": 480,
       "foilPriceFrom": 480,
       "currency": "EUR",
@@ -25875,7 +25884,7 @@
       }
     },
     "product:847520": {
-      "priceFrom": 480.0,
+      "priceFrom": 480,
       "normalPriceFrom": 480,
       "foilPriceFrom": 480,
       "currency": "EUR",
@@ -25912,7 +25921,7 @@
       }
     },
     "cm:847521": {
-      "priceFrom": 18.0,
+      "priceFrom": 18,
       "normalPriceFrom": 18,
       "foilPriceFrom": 18,
       "currency": "EUR",
@@ -25949,7 +25958,7 @@
       }
     },
     "product:847521": {
-      "priceFrom": 18.0,
+      "priceFrom": 18,
       "normalPriceFrom": 18,
       "foilPriceFrom": 18,
       "currency": "EUR",
@@ -25986,7 +25995,7 @@
       }
     },
     "cm:847522": {
-      "priceFrom": 480.0,
+      "priceFrom": 480,
       "normalPriceFrom": 480,
       "foilPriceFrom": 480,
       "currency": "EUR",
@@ -26023,7 +26032,7 @@
       }
     },
     "product:847522": {
-      "priceFrom": 480.0,
+      "priceFrom": 480,
       "normalPriceFrom": 480,
       "foilPriceFrom": 480,
       "currency": "EUR",
@@ -26726,7 +26735,7 @@
       }
     },
     "cm:847532": {
-      "priceFrom": 2.0,
+      "priceFrom": 2,
       "normalPriceFrom": 2,
       "foilPriceFrom": null,
       "currency": "EUR",
@@ -26763,7 +26772,7 @@
       }
     },
     "product:847532": {
-      "priceFrom": 2.0,
+      "priceFrom": 2,
       "normalPriceFrom": 2,
       "foilPriceFrom": null,
       "currency": "EUR",
@@ -27392,7 +27401,7 @@
       }
     },
     "cm:847541": {
-      "priceFrom": 13.0,
+      "priceFrom": 13,
       "normalPriceFrom": 13,
       "foilPriceFrom": null,
       "currency": "EUR",
@@ -27429,7 +27438,7 @@
       }
     },
     "product:847541": {
-      "priceFrom": 13.0,
+      "priceFrom": 13,
       "normalPriceFrom": 13,
       "foilPriceFrom": null,
       "currency": "EUR",
@@ -28058,7 +28067,7 @@
       }
     },
     "cm:855678": {
-      "priceFrom": 11.0,
+      "priceFrom": 11,
       "normalPriceFrom": 11,
       "foilPriceFrom": 11,
       "currency": "EUR",
@@ -28095,7 +28104,7 @@
       }
     },
     "product:855678": {
-      "priceFrom": 11.0,
+      "priceFrom": 11,
       "normalPriceFrom": 11,
       "foilPriceFrom": 11,
       "currency": "EUR",
@@ -28206,7 +28215,7 @@
       }
     },
     "cm:855680": {
-      "priceFrom": 6.0,
+      "priceFrom": 6,
       "normalPriceFrom": 6,
       "foilPriceFrom": 6,
       "currency": "EUR",
@@ -28243,7 +28252,7 @@
       }
     },
     "product:855680": {
-      "priceFrom": 6.0,
+      "priceFrom": 6,
       "normalPriceFrom": 6,
       "foilPriceFrom": 6,
       "currency": "EUR",
@@ -28872,7 +28881,7 @@
       }
     },
     "cm:855693": {
-      "priceFrom": 7.0,
+      "priceFrom": 7,
       "normalPriceFrom": 7,
       "foilPriceFrom": 7,
       "currency": "EUR",
@@ -28909,7 +28918,7 @@
       }
     },
     "product:855693": {
-      "priceFrom": 7.0,
+      "priceFrom": 7,
       "normalPriceFrom": 7,
       "foilPriceFrom": 7,
       "currency": "EUR",
@@ -28946,7 +28955,7 @@
       }
     },
     "cm:855694": {
-      "priceFrom": 165.0,
+      "priceFrom": 165,
       "normalPriceFrom": 165,
       "foilPriceFrom": 165,
       "currency": "EUR",
@@ -28983,7 +28992,7 @@
       }
     },
     "product:855694": {
-      "priceFrom": 165.0,
+      "priceFrom": 165,
       "normalPriceFrom": 165,
       "foilPriceFrom": 165,
       "currency": "EUR",
@@ -29020,7 +29029,7 @@
       }
     },
     "cm:856006": {
-      "priceFrom": 5.0,
+      "priceFrom": 5,
       "normalPriceFrom": 5,
       "foilPriceFrom": 5,
       "currency": "EUR",
@@ -29057,7 +29066,7 @@
       }
     },
     "product:856006": {
-      "priceFrom": 5.0,
+      "priceFrom": 5,
       "normalPriceFrom": 5,
       "foilPriceFrom": 5,
       "currency": "EUR",
@@ -29094,7 +29103,7 @@
       }
     },
     "cm:856008": {
-      "priceFrom": 8.0,
+      "priceFrom": 8,
       "normalPriceFrom": 8,
       "foilPriceFrom": 8,
       "currency": "EUR",
@@ -29131,7 +29140,7 @@
       }
     },
     "product:856008": {
-      "priceFrom": 8.0,
+      "priceFrom": 8,
       "normalPriceFrom": 8,
       "foilPriceFrom": 8,
       "currency": "EUR",
@@ -30870,7 +30879,7 @@
       }
     },
     "cm:856120": {
-      "priceFrom": 2.0,
+      "priceFrom": 2,
       "normalPriceFrom": 2,
       "foilPriceFrom": 2,
       "currency": "EUR",
@@ -30907,7 +30916,7 @@
       }
     },
     "product:856120": {
-      "priceFrom": 2.0,
+      "priceFrom": 2,
       "normalPriceFrom": 2,
       "foilPriceFrom": 2,
       "currency": "EUR",
@@ -30944,7 +30953,7 @@
       }
     },
     "cm:856121": {
-      "priceFrom": 3.0,
+      "priceFrom": 3,
       "normalPriceFrom": 3,
       "foilPriceFrom": 3,
       "currency": "EUR",
@@ -30981,7 +30990,7 @@
       }
     },
     "product:856121": {
-      "priceFrom": 3.0,
+      "priceFrom": 3,
       "normalPriceFrom": 3,
       "foilPriceFrom": 3,
       "currency": "EUR",
@@ -31018,7 +31027,7 @@
       }
     },
     "cm:856122": {
-      "priceFrom": 2.0,
+      "priceFrom": 2,
       "normalPriceFrom": 2,
       "foilPriceFrom": 2,
       "currency": "EUR",
@@ -31055,7 +31064,7 @@
       }
     },
     "product:856122": {
-      "priceFrom": 2.0,
+      "priceFrom": 2,
       "normalPriceFrom": 2,
       "foilPriceFrom": 2,
       "currency": "EUR",
@@ -31092,7 +31101,7 @@
       }
     },
     "cm:858986": {
-      "priceFrom": 16.0,
+      "priceFrom": 16,
       "normalPriceFrom": 16,
       "foilPriceFrom": 16,
       "currency": "EUR",
@@ -31129,7 +31138,7 @@
       }
     },
     "product:858986": {
-      "priceFrom": 16.0,
+      "priceFrom": 16,
       "normalPriceFrom": 16,
       "foilPriceFrom": 16,
       "currency": "EUR",
@@ -31314,7 +31323,7 @@
       }
     },
     "cm:858989": {
-      "priceFrom": 14.0,
+      "priceFrom": 14,
       "normalPriceFrom": 14,
       "foilPriceFrom": 14,
       "currency": "EUR",
@@ -31351,7 +31360,7 @@
       }
     },
     "product:858989": {
-      "priceFrom": 14.0,
+      "priceFrom": 14,
       "normalPriceFrom": 14,
       "foilPriceFrom": 14,
       "currency": "EUR",
@@ -31462,7 +31471,7 @@
       }
     },
     "cm:858991": {
-      "priceFrom": 67.0,
+      "priceFrom": 67,
       "normalPriceFrom": 67,
       "foilPriceFrom": 67,
       "currency": "EUR",
@@ -31499,7 +31508,7 @@
       }
     },
     "product:858991": {
-      "priceFrom": 67.0,
+      "priceFrom": 67,
       "normalPriceFrom": 67,
       "foilPriceFrom": 67,
       "currency": "EUR",
@@ -31610,7 +31619,7 @@
       }
     },
     "cm:861139": {
-      "priceFrom": 1.0,
+      "priceFrom": 1,
       "normalPriceFrom": 1,
       "foilPriceFrom": 1,
       "currency": "EUR",
@@ -31647,7 +31656,7 @@
       }
     },
     "product:861139": {
-      "priceFrom": 1.0,
+      "priceFrom": 1,
       "normalPriceFrom": 1,
       "foilPriceFrom": 1,
       "currency": "EUR",
@@ -31758,7 +31767,7 @@
       }
     },
     "cm:862206": {
-      "priceFrom": 80.0,
+      "priceFrom": 80,
       "normalPriceFrom": 80,
       "foilPriceFrom": 80,
       "currency": "EUR",
@@ -31795,7 +31804,7 @@
       }
     },
     "product:862206": {
-      "priceFrom": 80.0,
+      "priceFrom": 80,
       "normalPriceFrom": 80,
       "foilPriceFrom": 80,
       "currency": "EUR",
@@ -31832,7 +31841,7 @@
       }
     },
     "cm:862802": {
-      "priceFrom": 50.0,
+      "priceFrom": 50,
       "normalPriceFrom": 50,
       "foilPriceFrom": 50,
       "currency": "EUR",
@@ -31869,7 +31878,7 @@
       }
     },
     "product:862802": {
-      "priceFrom": 50.0,
+      "priceFrom": 50,
       "normalPriceFrom": 50,
       "foilPriceFrom": 50,
       "currency": "EUR",
@@ -31906,7 +31915,7 @@
       }
     },
     "cm:865381": {
-      "priceFrom": 14.0,
+      "priceFrom": 14,
       "normalPriceFrom": 14,
       "foilPriceFrom": 14,
       "currency": "EUR",
@@ -31943,7 +31952,7 @@
       }
     },
     "product:865381": {
-      "priceFrom": 14.0,
+      "priceFrom": 14,
       "normalPriceFrom": 14,
       "foilPriceFrom": 14,
       "currency": "EUR",
@@ -32202,7 +32211,7 @@
       }
     },
     "cm:866421": {
-      "priceFrom": 329.0,
+      "priceFrom": 329,
       "normalPriceFrom": 329,
       "foilPriceFrom": 329,
       "currency": "EUR",
@@ -32239,7 +32248,7 @@
       }
     },
     "product:866421": {
-      "priceFrom": 329.0,
+      "priceFrom": 329,
       "normalPriceFrom": 329,
       "foilPriceFrom": 329,
       "currency": "EUR",
@@ -32276,7 +32285,7 @@
       }
     },
     "cm:866422": {
-      "priceFrom": 580.0,
+      "priceFrom": 580,
       "normalPriceFrom": 580,
       "foilPriceFrom": 580,
       "currency": "EUR",
@@ -32313,7 +32322,7 @@
       }
     },
     "product:866422": {
-      "priceFrom": 580.0,
+      "priceFrom": 580,
       "normalPriceFrom": 580,
       "foilPriceFrom": 580,
       "currency": "EUR",
@@ -34644,7 +34653,7 @@
       }
     },
     "cm:866754": {
-      "priceFrom": 2.0,
+      "priceFrom": 2,
       "normalPriceFrom": 2,
       "foilPriceFrom": 2,
       "currency": "EUR",
@@ -34681,7 +34690,7 @@
       }
     },
     "product:866754": {
-      "priceFrom": 2.0,
+      "priceFrom": 2,
       "normalPriceFrom": 2,
       "foilPriceFrom": 2,
       "currency": "EUR",
@@ -34792,7 +34801,7 @@
       }
     },
     "cm:866756": {
-      "priceFrom": 4.0,
+      "priceFrom": 4,
       "normalPriceFrom": 4,
       "foilPriceFrom": 4,
       "currency": "EUR",
@@ -34829,7 +34838,7 @@
       }
     },
     "product:866756": {
-      "priceFrom": 4.0,
+      "priceFrom": 4,
       "normalPriceFrom": 4,
       "foilPriceFrom": 4,
       "currency": "EUR",
@@ -36938,7 +36947,7 @@
       }
     },
     "cm:866785": {
-      "priceFrom": 4.0,
+      "priceFrom": 4,
       "normalPriceFrom": 4,
       "foilPriceFrom": 4,
       "currency": "EUR",
@@ -36975,7 +36984,7 @@
       }
     },
     "product:866785": {
-      "priceFrom": 4.0,
+      "priceFrom": 4,
       "normalPriceFrom": 4,
       "foilPriceFrom": 4,
       "currency": "EUR",
@@ -39454,7 +39463,7 @@
       }
     },
     "cm:866819": {
-      "priceFrom": 2.0,
+      "priceFrom": 2,
       "normalPriceFrom": 2,
       "foilPriceFrom": 2,
       "currency": "EUR",
@@ -39491,7 +39500,7 @@
       }
     },
     "product:866819": {
-      "priceFrom": 2.0,
+      "priceFrom": 2,
       "normalPriceFrom": 2,
       "foilPriceFrom": 2,
       "currency": "EUR",
@@ -42044,7 +42053,7 @@
       }
     },
     "cm:866855": {
-      "priceFrom": 2.0,
+      "priceFrom": 2,
       "normalPriceFrom": 2,
       "foilPriceFrom": 2,
       "currency": "EUR",
@@ -42081,7 +42090,7 @@
       }
     },
     "product:866855": {
-      "priceFrom": 2.0,
+      "priceFrom": 2,
       "normalPriceFrom": 2,
       "foilPriceFrom": 2,
       "currency": "EUR",
@@ -44190,7 +44199,7 @@
       }
     },
     "cm:866884": {
-      "priceFrom": 1.0,
+      "priceFrom": 1,
       "normalPriceFrom": 1,
       "foilPriceFrom": 1,
       "currency": "EUR",
@@ -44227,7 +44236,7 @@
       }
     },
     "product:866884": {
-      "priceFrom": 1.0,
+      "priceFrom": 1,
       "normalPriceFrom": 1,
       "foilPriceFrom": 1,
       "currency": "EUR",
@@ -44486,7 +44495,7 @@
       }
     },
     "cm:866888": {
-      "priceFrom": 4.0,
+      "priceFrom": 4,
       "normalPriceFrom": 4,
       "foilPriceFrom": 4,
       "currency": "EUR",
@@ -44523,7 +44532,7 @@
       }
     },
     "product:866888": {
-      "priceFrom": 4.0,
+      "priceFrom": 4,
       "normalPriceFrom": 4,
       "foilPriceFrom": 4,
       "currency": "EUR",
@@ -44708,7 +44717,7 @@
       }
     },
     "cm:866891": {
-      "priceFrom": 10.0,
+      "priceFrom": 10,
       "normalPriceFrom": 10,
       "foilPriceFrom": 10,
       "currency": "EUR",
@@ -44745,7 +44754,7 @@
       }
     },
     "product:866891": {
-      "priceFrom": 10.0,
+      "priceFrom": 10,
       "normalPriceFrom": 10,
       "foilPriceFrom": 10,
       "currency": "EUR",
@@ -47964,7 +47973,7 @@
       }
     },
     "cm:866935": {
-      "priceFrom": 1.0,
+      "priceFrom": 1,
       "normalPriceFrom": 1,
       "foilPriceFrom": 1,
       "currency": "EUR",
@@ -48001,7 +48010,7 @@
       }
     },
     "product:866935": {
-      "priceFrom": 1.0,
+      "priceFrom": 1,
       "normalPriceFrom": 1,
       "foilPriceFrom": 1,
       "currency": "EUR",
@@ -48556,7 +48565,7 @@
       }
     },
     "cm:866943": {
-      "priceFrom": 15.0,
+      "priceFrom": 15,
       "normalPriceFrom": 15,
       "foilPriceFrom": 15,
       "currency": "EUR",
@@ -48593,7 +48602,7 @@
       }
     },
     "product:866943": {
-      "priceFrom": 15.0,
+      "priceFrom": 15,
       "normalPriceFrom": 15,
       "foilPriceFrom": 15,
       "currency": "EUR",
@@ -48704,7 +48713,7 @@
       }
     },
     "cm:866945": {
-      "priceFrom": 11.0,
+      "priceFrom": 11,
       "normalPriceFrom": 11,
       "foilPriceFrom": 11,
       "currency": "EUR",
@@ -48741,7 +48750,7 @@
       }
     },
     "product:866945": {
-      "priceFrom": 11.0,
+      "priceFrom": 11,
       "normalPriceFrom": 11,
       "foilPriceFrom": 11,
       "currency": "EUR",
@@ -50554,7 +50563,7 @@
       }
     },
     "cm:866970": {
-      "priceFrom": 31.0,
+      "priceFrom": 31,
       "normalPriceFrom": 31,
       "foilPriceFrom": 31,
       "currency": "EUR",
@@ -50591,7 +50600,7 @@
       }
     },
     "product:866970": {
-      "priceFrom": 31.0,
+      "priceFrom": 31,
       "normalPriceFrom": 31,
       "foilPriceFrom": 31,
       "currency": "EUR",
@@ -50702,7 +50711,7 @@
       }
     },
     "cm:866972": {
-      "priceFrom": 100.0,
+      "priceFrom": 100,
       "normalPriceFrom": 100,
       "foilPriceFrom": 100,
       "currency": "EUR",
@@ -50739,7 +50748,7 @@
       }
     },
     "product:866972": {
-      "priceFrom": 100.0,
+      "priceFrom": 100,
       "normalPriceFrom": 100,
       "foilPriceFrom": 100,
       "currency": "EUR",
@@ -50850,7 +50859,7 @@
       }
     },
     "cm:866974": {
-      "priceFrom": 140.0,
+      "priceFrom": 140,
       "normalPriceFrom": 140,
       "foilPriceFrom": 140,
       "currency": "EUR",
@@ -50887,7 +50896,7 @@
       }
     },
     "product:866974": {
-      "priceFrom": 140.0,
+      "priceFrom": 140,
       "normalPriceFrom": 140,
       "foilPriceFrom": 140,
       "currency": "EUR",
@@ -50924,7 +50933,7 @@
       }
     },
     "cm:866975": {
-      "priceFrom": 17.0,
+      "priceFrom": 17,
       "normalPriceFrom": 17,
       "foilPriceFrom": 17,
       "currency": "EUR",
@@ -50961,7 +50970,7 @@
       }
     },
     "product:866975": {
-      "priceFrom": 17.0,
+      "priceFrom": 17,
       "normalPriceFrom": 17,
       "foilPriceFrom": 17,
       "currency": "EUR",
@@ -50998,7 +51007,7 @@
       }
     },
     "cm:866976": {
-      "priceFrom": 39.0,
+      "priceFrom": 39,
       "normalPriceFrom": 39,
       "foilPriceFrom": 39,
       "currency": "EUR",
@@ -51035,7 +51044,7 @@
       }
     },
     "product:866976": {
-      "priceFrom": 39.0,
+      "priceFrom": 39,
       "normalPriceFrom": 39,
       "foilPriceFrom": 39,
       "currency": "EUR",
@@ -51146,7 +51155,7 @@
       }
     },
     "cm:866978": {
-      "priceFrom": 28.0,
+      "priceFrom": 28,
       "normalPriceFrom": 28,
       "foilPriceFrom": 28,
       "currency": "EUR",
@@ -51183,7 +51192,7 @@
       }
     },
     "product:866978": {
-      "priceFrom": 28.0,
+      "priceFrom": 28,
       "normalPriceFrom": 28,
       "foilPriceFrom": 28,
       "currency": "EUR",
@@ -51220,7 +51229,7 @@
       }
     },
     "cm:866979": {
-      "priceFrom": 35.0,
+      "priceFrom": 35,
       "normalPriceFrom": 35,
       "foilPriceFrom": 35,
       "currency": "EUR",
@@ -51257,7 +51266,7 @@
       }
     },
     "product:866979": {
-      "priceFrom": 35.0,
+      "priceFrom": 35,
       "normalPriceFrom": 35,
       "foilPriceFrom": 35,
       "currency": "EUR",
@@ -51294,7 +51303,7 @@
       }
     },
     "cm:866980": {
-      "priceFrom": 25.0,
+      "priceFrom": 25,
       "normalPriceFrom": 25,
       "foilPriceFrom": 25,
       "currency": "EUR",
@@ -51331,7 +51340,7 @@
       }
     },
     "product:866980": {
-      "priceFrom": 25.0,
+      "priceFrom": 25,
       "normalPriceFrom": 25,
       "foilPriceFrom": 25,
       "currency": "EUR",
@@ -51442,7 +51451,7 @@
       }
     },
     "cm:866982": {
-      "priceFrom": 25.0,
+      "priceFrom": 25,
       "normalPriceFrom": 25,
       "foilPriceFrom": 25,
       "currency": "EUR",
@@ -51479,7 +51488,7 @@
       }
     },
     "product:866982": {
-      "priceFrom": 25.0,
+      "priceFrom": 25,
       "normalPriceFrom": 25,
       "foilPriceFrom": 25,
       "currency": "EUR",
@@ -51516,7 +51525,7 @@
       }
     },
     "cm:866983": {
-      "priceFrom": 16.0,
+      "priceFrom": 16,
       "normalPriceFrom": 16,
       "foilPriceFrom": 16,
       "currency": "EUR",
@@ -51553,7 +51562,7 @@
       }
     },
     "product:866983": {
-      "priceFrom": 16.0,
+      "priceFrom": 16,
       "normalPriceFrom": 16,
       "foilPriceFrom": 16,
       "currency": "EUR",
@@ -51664,7 +51673,7 @@
       }
     },
     "cm:866985": {
-      "priceFrom": 25.0,
+      "priceFrom": 25,
       "normalPriceFrom": 25,
       "foilPriceFrom": 25,
       "currency": "EUR",
@@ -51701,7 +51710,7 @@
       }
     },
     "product:866985": {
-      "priceFrom": 25.0,
+      "priceFrom": 25,
       "normalPriceFrom": 25,
       "foilPriceFrom": 25,
       "currency": "EUR",
@@ -51738,7 +51747,7 @@
       }
     },
     "cm:866986": {
-      "priceFrom": 24.0,
+      "priceFrom": 24,
       "normalPriceFrom": 24,
       "foilPriceFrom": 24,
       "currency": "EUR",
@@ -51775,7 +51784,7 @@
       }
     },
     "product:866986": {
-      "priceFrom": 24.0,
+      "priceFrom": 24,
       "normalPriceFrom": 24,
       "foilPriceFrom": 24,
       "currency": "EUR",
@@ -51886,7 +51895,7 @@
       }
     },
     "cm:866988": {
-      "priceFrom": 22.0,
+      "priceFrom": 22,
       "normalPriceFrom": 22,
       "foilPriceFrom": 22,
       "currency": "EUR",
@@ -51923,7 +51932,7 @@
       }
     },
     "product:866988": {
-      "priceFrom": 22.0,
+      "priceFrom": 22,
       "normalPriceFrom": 22,
       "foilPriceFrom": 22,
       "currency": "EUR",
@@ -52034,7 +52043,7 @@
       }
     },
     "cm:866990": {
-      "priceFrom": 25.0,
+      "priceFrom": 25,
       "normalPriceFrom": 25,
       "foilPriceFrom": 25,
       "currency": "EUR",
@@ -52071,7 +52080,7 @@
       }
     },
     "product:866990": {
-      "priceFrom": 25.0,
+      "priceFrom": 25,
       "normalPriceFrom": 25,
       "foilPriceFrom": 25,
       "currency": "EUR",
@@ -52108,7 +52117,7 @@
       }
     },
     "cm:866991": {
-      "priceFrom": 22.0,
+      "priceFrom": 22,
       "normalPriceFrom": 22,
       "foilPriceFrom": 22,
       "currency": "EUR",
@@ -52145,7 +52154,7 @@
       }
     },
     "product:866991": {
-      "priceFrom": 22.0,
+      "priceFrom": 22,
       "normalPriceFrom": 22,
       "foilPriceFrom": 22,
       "currency": "EUR",
@@ -52182,7 +52191,7 @@
       }
     },
     "cm:866992": {
-      "priceFrom": 20.0,
+      "priceFrom": 20,
       "normalPriceFrom": 20,
       "foilPriceFrom": 20,
       "currency": "EUR",
@@ -52219,7 +52228,7 @@
       }
     },
     "product:866992": {
-      "priceFrom": 20.0,
+      "priceFrom": 20,
       "normalPriceFrom": 20,
       "foilPriceFrom": 20,
       "currency": "EUR",
@@ -52478,7 +52487,7 @@
       }
     },
     "cm:866996": {
-      "priceFrom": 20.0,
+      "priceFrom": 20,
       "normalPriceFrom": 20,
       "foilPriceFrom": 20,
       "currency": "EUR",
@@ -52515,7 +52524,7 @@
       }
     },
     "product:866996": {
-      "priceFrom": 20.0,
+      "priceFrom": 20,
       "normalPriceFrom": 20,
       "foilPriceFrom": 20,
       "currency": "EUR",
@@ -52552,7 +52561,7 @@
       }
     },
     "cm:866997": {
-      "priceFrom": 25.0,
+      "priceFrom": 25,
       "normalPriceFrom": 25,
       "foilPriceFrom": 25,
       "currency": "EUR",
@@ -52589,7 +52598,7 @@
       }
     },
     "product:866997": {
-      "priceFrom": 25.0,
+      "priceFrom": 25,
       "normalPriceFrom": 25,
       "foilPriceFrom": 25,
       "currency": "EUR",
@@ -52922,7 +52931,7 @@
       }
     },
     "cm:867002": {
-      "priceFrom": 520.0,
+      "priceFrom": 520,
       "normalPriceFrom": 520,
       "foilPriceFrom": 520,
       "currency": "EUR",
@@ -52959,7 +52968,7 @@
       }
     },
     "product:867002": {
-      "priceFrom": 520.0,
+      "priceFrom": 520,
       "normalPriceFrom": 520,
       "foilPriceFrom": 520,
       "currency": "EUR",
@@ -52996,7 +53005,7 @@
       }
     },
     "cm:867003": {
-      "priceFrom": 150.0,
+      "priceFrom": 150,
       "normalPriceFrom": 150,
       "foilPriceFrom": 150,
       "currency": "EUR",
@@ -53033,7 +53042,7 @@
       }
     },
     "product:867003": {
-      "priceFrom": 150.0,
+      "priceFrom": 150,
       "normalPriceFrom": 150,
       "foilPriceFrom": 150,
       "currency": "EUR",
@@ -53218,7 +53227,7 @@
       }
     },
     "cm:867006": {
-      "priceFrom": 115.0,
+      "priceFrom": 115,
       "normalPriceFrom": 115,
       "foilPriceFrom": 115,
       "currency": "EUR",
@@ -53255,7 +53264,7 @@
       }
     },
     "product:867006": {
-      "priceFrom": 115.0,
+      "priceFrom": 115,
       "normalPriceFrom": 115,
       "foilPriceFrom": 115,
       "currency": "EUR",
@@ -53292,7 +53301,7 @@
       }
     },
     "cm:867007": {
-      "priceFrom": 270.0,
+      "priceFrom": 270,
       "normalPriceFrom": 270,
       "foilPriceFrom": 270,
       "currency": "EUR",
@@ -53329,7 +53338,7 @@
       }
     },
     "product:867007": {
-      "priceFrom": 270.0,
+      "priceFrom": 270,
       "normalPriceFrom": 270,
       "foilPriceFrom": 270,
       "currency": "EUR",
@@ -53366,7 +53375,7 @@
       }
     },
     "cm:867008": {
-      "priceFrom": 200.0,
+      "priceFrom": 200,
       "normalPriceFrom": 200,
       "foilPriceFrom": 200,
       "currency": "EUR",
@@ -53403,7 +53412,7 @@
       }
     },
     "product:867008": {
-      "priceFrom": 200.0,
+      "priceFrom": 200,
       "normalPriceFrom": 200,
       "foilPriceFrom": 200,
       "currency": "EUR",
@@ -53440,7 +53449,7 @@
       }
     },
     "cm:867009": {
-      "priceFrom": 150.0,
+      "priceFrom": 150,
       "normalPriceFrom": 150,
       "foilPriceFrom": 150,
       "currency": "EUR",
@@ -53477,7 +53486,7 @@
       }
     },
     "product:867009": {
-      "priceFrom": 150.0,
+      "priceFrom": 150,
       "normalPriceFrom": 150,
       "foilPriceFrom": 150,
       "currency": "EUR",
@@ -53662,7 +53671,7 @@
       }
     },
     "cm:867012": {
-      "priceFrom": 119.0,
+      "priceFrom": 119,
       "normalPriceFrom": 119,
       "foilPriceFrom": 119,
       "currency": "EUR",
@@ -53699,7 +53708,7 @@
       }
     },
     "product:867012": {
-      "priceFrom": 119.0,
+      "priceFrom": 119,
       "normalPriceFrom": 119,
       "foilPriceFrom": 119,
       "currency": "EUR",
@@ -53736,7 +53745,7 @@
       }
     },
     "cm:867013": {
-      "priceFrom": 200.0,
+      "priceFrom": 200,
       "normalPriceFrom": 200,
       "foilPriceFrom": 200,
       "currency": "EUR",
@@ -53773,7 +53782,7 @@
       }
     },
     "product:867013": {
-      "priceFrom": 200.0,
+      "priceFrom": 200,
       "normalPriceFrom": 200,
       "foilPriceFrom": 200,
       "currency": "EUR",
@@ -53884,7 +53893,7 @@
       }
     },
     "cm:871236": {
-      "priceFrom": 150.0,
+      "priceFrom": 150,
       "normalPriceFrom": 150,
       "foilPriceFrom": 150,
       "currency": "EUR",
@@ -53921,7 +53930,7 @@
       }
     },
     "product:871236": {
-      "priceFrom": 150.0,
+      "priceFrom": 150,
       "normalPriceFrom": 150,
       "foilPriceFrom": 150,
       "currency": "EUR",
@@ -53958,7 +53967,7 @@
       }
     },
     "cm:871239": {
-      "priceFrom": 280.0,
+      "priceFrom": 280,
       "normalPriceFrom": 280,
       "foilPriceFrom": 280,
       "currency": "EUR",
@@ -53995,7 +54004,7 @@
       }
     },
     "product:871239": {
-      "priceFrom": 280.0,
+      "priceFrom": 280,
       "normalPriceFrom": 280,
       "foilPriceFrom": 280,
       "currency": "EUR",
@@ -54032,7 +54041,7 @@
       }
     },
     "cm:871240": {
-      "priceFrom": 255.0,
+      "priceFrom": 255,
       "normalPriceFrom": 255,
       "foilPriceFrom": 255,
       "currency": "EUR",
@@ -54069,7 +54078,7 @@
       }
     },
     "product:871240": {
-      "priceFrom": 255.0,
+      "priceFrom": 255,
       "normalPriceFrom": 255,
       "foilPriceFrom": 255,
       "currency": "EUR",
@@ -54106,7 +54115,7 @@
       }
     },
     "cm:871241": {
-      "priceFrom": 200.0,
+      "priceFrom": 200,
       "normalPriceFrom": 200,
       "foilPriceFrom": 200,
       "currency": "EUR",
@@ -54143,7 +54152,7 @@
       }
     },
     "product:871241": {
-      "priceFrom": 200.0,
+      "priceFrom": 200,
       "normalPriceFrom": 200,
       "foilPriceFrom": 200,
       "currency": "EUR",
@@ -54254,7 +54263,7 @@
       }
     },
     "cm:871893": {
-      "priceFrom": 3.0,
+      "priceFrom": 3,
       "normalPriceFrom": 3,
       "foilPriceFrom": 3,
       "currency": "EUR",
@@ -54291,7 +54300,7 @@
       }
     },
     "product:871893": {
-      "priceFrom": 3.0,
+      "priceFrom": 3,
       "normalPriceFrom": 3,
       "foilPriceFrom": 3,
       "currency": "EUR",
@@ -54328,7 +54337,7 @@
       }
     },
     "cm:871894": {
-      "priceFrom": 4.0,
+      "priceFrom": 4,
       "normalPriceFrom": 4,
       "foilPriceFrom": 4,
       "currency": "EUR",
@@ -54365,7 +54374,7 @@
       }
     },
     "product:871894": {
-      "priceFrom": 4.0,
+      "priceFrom": 4,
       "normalPriceFrom": 4,
       "foilPriceFrom": 4,
       "currency": "EUR",
@@ -54402,7 +54411,7 @@
       }
     },
     "cm:871895": {
-      "priceFrom": 4.0,
+      "priceFrom": 4,
       "normalPriceFrom": 4,
       "foilPriceFrom": 4,
       "currency": "EUR",
@@ -54439,7 +54448,7 @@
       }
     },
     "product:871895": {
-      "priceFrom": 4.0,
+      "priceFrom": 4,
       "normalPriceFrom": 4,
       "foilPriceFrom": 4,
       "currency": "EUR",
@@ -55142,7 +55151,7 @@
       }
     },
     "cm:873230": {
-      "priceFrom": 48.0,
+      "priceFrom": 48,
       "normalPriceFrom": 48,
       "foilPriceFrom": 48,
       "currency": "EUR",
@@ -55179,7 +55188,7 @@
       }
     },
     "product:873230": {
-      "priceFrom": 48.0,
+      "priceFrom": 48,
       "normalPriceFrom": 48,
       "foilPriceFrom": 48,
       "currency": "EUR",
@@ -55216,7 +55225,7 @@
       }
     },
     "cm:874096": {
-      "priceFrom": 7000.0,
+      "priceFrom": 7000,
       "normalPriceFrom": 7000,
       "foilPriceFrom": 7000,
       "currency": "EUR",
@@ -55253,7 +55262,7 @@
       }
     },
     "product:874096": {
-      "priceFrom": 7000.0,
+      "priceFrom": 7000,
       "normalPriceFrom": 7000,
       "foilPriceFrom": 7000,
       "currency": "EUR",
@@ -55290,7 +55299,7 @@
       }
     },
     "cm:874097": {
-      "priceFrom": 50000.0,
+      "priceFrom": 50000,
       "normalPriceFrom": 50000,
       "foilPriceFrom": 50000,
       "currency": "EUR",
@@ -55327,7 +55336,7 @@
       }
     },
     "product:874097": {
-      "priceFrom": 50000.0,
+      "priceFrom": 50000,
       "normalPriceFrom": 50000,
       "foilPriceFrom": 50000,
       "currency": "EUR",
@@ -55364,7 +55373,7 @@
       }
     },
     "cm:874098": {
-      "priceFrom": 15.0,
+      "priceFrom": 15,
       "normalPriceFrom": 15,
       "foilPriceFrom": 15,
       "currency": "EUR",
@@ -55401,7 +55410,7 @@
       }
     },
     "product:874098": {
-      "priceFrom": 15.0,
+      "priceFrom": 15,
       "normalPriceFrom": 15,
       "foilPriceFrom": 15,
       "currency": "EUR",
@@ -55438,7 +55447,7 @@
       }
     },
     "cm:874107": {
-      "priceFrom": 4.0,
+      "priceFrom": 4,
       "normalPriceFrom": 4,
       "foilPriceFrom": 4,
       "currency": "EUR",
@@ -55475,7 +55484,7 @@
       }
     },
     "product:874107": {
-      "priceFrom": 4.0,
+      "priceFrom": 4,
       "normalPriceFrom": 4,
       "foilPriceFrom": 4,
       "currency": "EUR",
@@ -55512,7 +55521,7 @@
       }
     },
     "cm:874108": {
-      "priceFrom": 4.0,
+      "priceFrom": 4,
       "normalPriceFrom": 4,
       "foilPriceFrom": 4,
       "currency": "EUR",
@@ -55549,7 +55558,7 @@
       }
     },
     "product:874108": {
-      "priceFrom": 4.0,
+      "priceFrom": 4,
       "normalPriceFrom": 4,
       "foilPriceFrom": 4,
       "currency": "EUR",
@@ -55660,7 +55669,7 @@
       }
     },
     "cm:874110": {
-      "priceFrom": 3.0,
+      "priceFrom": 3,
       "normalPriceFrom": 3,
       "foilPriceFrom": 3,
       "currency": "EUR",
@@ -55697,7 +55706,7 @@
       }
     },
     "product:874110": {
-      "priceFrom": 3.0,
+      "priceFrom": 3,
       "normalPriceFrom": 3,
       "foilPriceFrom": 3,
       "currency": "EUR",
@@ -55734,7 +55743,7 @@
       }
     },
     "cm:874111": {
-      "priceFrom": 5.0,
+      "priceFrom": 5,
       "normalPriceFrom": 5,
       "foilPriceFrom": 5,
       "currency": "EUR",
@@ -55771,7 +55780,7 @@
       }
     },
     "product:874111": {
-      "priceFrom": 5.0,
+      "priceFrom": 5,
       "normalPriceFrom": 5,
       "foilPriceFrom": 5,
       "currency": "EUR",
@@ -55882,7 +55891,7 @@
       }
     },
     "cm:874121": {
-      "priceFrom": 3.0,
+      "priceFrom": 3,
       "normalPriceFrom": 3,
       "foilPriceFrom": 3,
       "currency": "EUR",
@@ -55919,7 +55928,7 @@
       }
     },
     "product:874121": {
-      "priceFrom": 3.0,
+      "priceFrom": 3,
       "normalPriceFrom": 3,
       "foilPriceFrom": 3,
       "currency": "EUR",
@@ -56104,7 +56113,7 @@
       }
     },
     "cm:874124": {
-      "priceFrom": 1.0,
+      "priceFrom": 1,
       "normalPriceFrom": 1,
       "foilPriceFrom": 1,
       "currency": "EUR",
@@ -56141,7 +56150,7 @@
       }
     },
     "product:874124": {
-      "priceFrom": 1.0,
+      "priceFrom": 1,
       "normalPriceFrom": 1,
       "foilPriceFrom": 1,
       "currency": "EUR",
@@ -56326,7 +56335,7 @@
       }
     },
     "cm:874127": {
-      "priceFrom": 2.0,
+      "priceFrom": 2,
       "normalPriceFrom": 2,
       "foilPriceFrom": 2,
       "currency": "EUR",
@@ -56363,7 +56372,7 @@
       }
     },
     "product:874127": {
-      "priceFrom": 2.0,
+      "priceFrom": 2,
       "normalPriceFrom": 2,
       "foilPriceFrom": 2,
       "currency": "EUR",
@@ -56400,7 +56409,7 @@
       }
     },
     "cm:874128": {
-      "priceFrom": 5.0,
+      "priceFrom": 5,
       "normalPriceFrom": 5,
       "foilPriceFrom": 5,
       "currency": "EUR",
@@ -56437,7 +56446,7 @@
       }
     },
     "product:874128": {
-      "priceFrom": 5.0,
+      "priceFrom": 5,
       "normalPriceFrom": 5,
       "foilPriceFrom": 5,
       "currency": "EUR",
@@ -56474,7 +56483,7 @@
       }
     },
     "cm:874129": {
-      "priceFrom": 10.0,
+      "priceFrom": 10,
       "normalPriceFrom": 10,
       "foilPriceFrom": 10,
       "currency": "EUR",
@@ -56511,7 +56520,7 @@
       }
     },
     "product:874129": {
-      "priceFrom": 10.0,
+      "priceFrom": 10,
       "normalPriceFrom": 10,
       "foilPriceFrom": 10,
       "currency": "EUR",
@@ -56622,7 +56631,7 @@
       }
     },
     "cm:874131": {
-      "priceFrom": 23.0,
+      "priceFrom": 23,
       "normalPriceFrom": 23,
       "foilPriceFrom": 23,
       "currency": "EUR",
@@ -56659,7 +56668,7 @@
       }
     },
     "product:874131": {
-      "priceFrom": 23.0,
+      "priceFrom": 23,
       "normalPriceFrom": 23,
       "foilPriceFrom": 23,
       "currency": "EUR",
@@ -61210,7 +61219,7 @@
       }
     },
     "cm:883988": {
-      "priceFrom": 6.0,
+      "priceFrom": 6,
       "normalPriceFrom": 6,
       "foilPriceFrom": 6,
       "currency": "EUR",
@@ -61247,7 +61256,7 @@
       }
     },
     "product:883988": {
-      "priceFrom": 6.0,
+      "priceFrom": 6,
       "normalPriceFrom": 6,
       "foilPriceFrom": 6,
       "currency": "EUR",
@@ -65872,7 +65881,7 @@
       }
     },
     "cm:884051": {
-      "priceFrom": 4.0,
+      "priceFrom": 4,
       "normalPriceFrom": 4,
       "foilPriceFrom": 4,
       "currency": "EUR",
@@ -65909,7 +65918,7 @@
       }
     },
     "product:884051": {
-      "priceFrom": 4.0,
+      "priceFrom": 4,
       "normalPriceFrom": 4,
       "foilPriceFrom": 4,
       "currency": "EUR",
@@ -68832,7 +68841,7 @@
       }
     },
     "cm:884096": {
-      "priceFrom": 1.0,
+      "priceFrom": 1,
       "normalPriceFrom": 1,
       "foilPriceFrom": 1,
       "currency": "EUR",
@@ -68869,7 +68878,7 @@
       }
     },
     "product:884096": {
-      "priceFrom": 1.0,
+      "priceFrom": 1,
       "normalPriceFrom": 1,
       "foilPriceFrom": 1,
       "currency": "EUR",
@@ -69202,7 +69211,7 @@
       }
     },
     "cm:884101": {
-      "priceFrom": 16.0,
+      "priceFrom": 16,
       "normalPriceFrom": 16,
       "foilPriceFrom": 16,
       "currency": "EUR",
@@ -69239,7 +69248,7 @@
       }
     },
     "product:884101": {
-      "priceFrom": 16.0,
+      "priceFrom": 16,
       "normalPriceFrom": 16,
       "foilPriceFrom": 16,
       "currency": "EUR",
@@ -69276,7 +69285,7 @@
       }
     },
     "cm:884102": {
-      "priceFrom": 17.0,
+      "priceFrom": 17,
       "normalPriceFrom": 17,
       "foilPriceFrom": 17,
       "currency": "EUR",
@@ -69313,7 +69322,7 @@
       }
     },
     "product:884102": {
-      "priceFrom": 17.0,
+      "priceFrom": 17,
       "normalPriceFrom": 17,
       "foilPriceFrom": 17,
       "currency": "EUR",
@@ -71644,7 +71653,7 @@
       }
     },
     "cm:884134": {
-      "priceFrom": 2.0,
+      "priceFrom": 2,
       "normalPriceFrom": 2,
       "foilPriceFrom": 2,
       "currency": "EUR",
@@ -71681,7 +71690,7 @@
       }
     },
     "product:884134": {
-      "priceFrom": 2.0,
+      "priceFrom": 2,
       "normalPriceFrom": 2,
       "foilPriceFrom": 2,
       "currency": "EUR",
@@ -71866,7 +71875,7 @@
       }
     },
     "cm:884137": {
-      "priceFrom": 20.0,
+      "priceFrom": 20,
       "normalPriceFrom": 20,
       "foilPriceFrom": 20,
       "currency": "EUR",
@@ -71903,7 +71912,7 @@
       }
     },
     "product:884137": {
-      "priceFrom": 20.0,
+      "priceFrom": 20,
       "normalPriceFrom": 20,
       "foilPriceFrom": 20,
       "currency": "EUR",
@@ -74234,7 +74243,7 @@
       }
     },
     "cm:884169": {
-      "priceFrom": 1.0,
+      "priceFrom": 1,
       "normalPriceFrom": 1,
       "foilPriceFrom": 1,
       "currency": "EUR",
@@ -74271,7 +74280,7 @@
       }
     },
     "product:884169": {
-      "priceFrom": 1.0,
+      "priceFrom": 1,
       "normalPriceFrom": 1,
       "foilPriceFrom": 1,
       "currency": "EUR",
@@ -74382,7 +74391,7 @@
       }
     },
     "cm:884171": {
-      "priceFrom": 7.0,
+      "priceFrom": 7,
       "normalPriceFrom": 7,
       "foilPriceFrom": 7,
       "currency": "EUR",
@@ -74419,7 +74428,7 @@
       }
     },
     "product:884171": {
-      "priceFrom": 7.0,
+      "priceFrom": 7,
       "normalPriceFrom": 7,
       "foilPriceFrom": 7,
       "currency": "EUR",
@@ -74900,7 +74909,7 @@
       }
     },
     "cm:884178": {
-      "priceFrom": 2.0,
+      "priceFrom": 2,
       "normalPriceFrom": 2,
       "foilPriceFrom": 2,
       "currency": "EUR",
@@ -74937,7 +74946,7 @@
       }
     },
     "product:884178": {
-      "priceFrom": 2.0,
+      "priceFrom": 2,
       "normalPriceFrom": 2,
       "foilPriceFrom": 2,
       "currency": "EUR",
@@ -77416,7 +77425,7 @@
       }
     },
     "cm:884212": {
-      "priceFrom": 33.0,
+      "priceFrom": 33,
       "normalPriceFrom": 33,
       "foilPriceFrom": 33,
       "currency": "EUR",
@@ -77453,7 +77462,7 @@
       }
     },
     "product:884212": {
-      "priceFrom": 33.0,
+      "priceFrom": 33,
       "normalPriceFrom": 33,
       "foilPriceFrom": 33,
       "currency": "EUR",
@@ -77490,7 +77499,7 @@
       }
     },
     "cm:884213": {
-      "priceFrom": 50.0,
+      "priceFrom": 50,
       "normalPriceFrom": 50,
       "foilPriceFrom": 50,
       "currency": "EUR",
@@ -77527,7 +77536,7 @@
       }
     },
     "product:884213": {
-      "priceFrom": 50.0,
+      "priceFrom": 50,
       "normalPriceFrom": 50,
       "foilPriceFrom": 50,
       "currency": "EUR",
@@ -77786,7 +77795,7 @@
       }
     },
     "cm:884217": {
-      "priceFrom": 32.0,
+      "priceFrom": 32,
       "normalPriceFrom": 32,
       "foilPriceFrom": 32,
       "currency": "EUR",
@@ -77823,7 +77832,7 @@
       }
     },
     "product:884217": {
-      "priceFrom": 32.0,
+      "priceFrom": 32,
       "normalPriceFrom": 32,
       "foilPriceFrom": 32,
       "currency": "EUR",
@@ -77860,7 +77869,7 @@
       }
     },
     "cm:884218": {
-      "priceFrom": 24.0,
+      "priceFrom": 24,
       "normalPriceFrom": 24,
       "foilPriceFrom": 24,
       "currency": "EUR",
@@ -77897,7 +77906,7 @@
       }
     },
     "product:884218": {
-      "priceFrom": 24.0,
+      "priceFrom": 24,
       "normalPriceFrom": 24,
       "foilPriceFrom": 24,
       "currency": "EUR",
@@ -78082,7 +78091,7 @@
       }
     },
     "cm:884221": {
-      "priceFrom": 25.0,
+      "priceFrom": 25,
       "normalPriceFrom": 25,
       "foilPriceFrom": 25,
       "currency": "EUR",
@@ -78119,7 +78128,7 @@
       }
     },
     "product:884221": {
-      "priceFrom": 25.0,
+      "priceFrom": 25,
       "normalPriceFrom": 25,
       "foilPriceFrom": 25,
       "currency": "EUR",
@@ -78230,7 +78239,7 @@
       }
     },
     "cm:884223": {
-      "priceFrom": 25.0,
+      "priceFrom": 25,
       "normalPriceFrom": 25,
       "foilPriceFrom": 25,
       "currency": "EUR",
@@ -78267,7 +78276,7 @@
       }
     },
     "product:884223": {
-      "priceFrom": 25.0,
+      "priceFrom": 25,
       "normalPriceFrom": 25,
       "foilPriceFrom": 25,
       "currency": "EUR",
@@ -78304,7 +78313,7 @@
       }
     },
     "cm:884224": {
-      "priceFrom": 190.0,
+      "priceFrom": 190,
       "normalPriceFrom": 190,
       "foilPriceFrom": 190,
       "currency": "EUR",
@@ -78341,7 +78350,7 @@
       }
     },
     "product:884224": {
-      "priceFrom": 190.0,
+      "priceFrom": 190,
       "normalPriceFrom": 190,
       "foilPriceFrom": 190,
       "currency": "EUR",
@@ -78378,7 +78387,7 @@
       }
     },
     "cm:884225": {
-      "priceFrom": 51.0,
+      "priceFrom": 51,
       "normalPriceFrom": 51,
       "foilPriceFrom": 51,
       "currency": "EUR",
@@ -78415,7 +78424,7 @@
       }
     },
     "product:884225": {
-      "priceFrom": 51.0,
+      "priceFrom": 51,
       "normalPriceFrom": 51,
       "foilPriceFrom": 51,
       "currency": "EUR",
@@ -78452,7 +78461,7 @@
       }
     },
     "cm:884226": {
-      "priceFrom": 375.0,
+      "priceFrom": 375,
       "normalPriceFrom": 375,
       "foilPriceFrom": 375,
       "currency": "EUR",
@@ -78489,7 +78498,7 @@
       }
     },
     "product:884226": {
-      "priceFrom": 375.0,
+      "priceFrom": 375,
       "normalPriceFrom": 375,
       "foilPriceFrom": 375,
       "currency": "EUR",
@@ -78600,7 +78609,7 @@
       }
     },
     "cm:884228": {
-      "priceFrom": 210.0,
+      "priceFrom": 210,
       "normalPriceFrom": 210,
       "foilPriceFrom": 210,
       "currency": "EUR",
@@ -78637,7 +78646,7 @@
       }
     },
     "product:884228": {
-      "priceFrom": 210.0,
+      "priceFrom": 210,
       "normalPriceFrom": 210,
       "foilPriceFrom": 210,
       "currency": "EUR",
@@ -78822,7 +78831,7 @@
       }
     },
     "cm:884231": {
-      "priceFrom": 70.0,
+      "priceFrom": 70,
       "normalPriceFrom": 70,
       "foilPriceFrom": 70,
       "currency": "EUR",
@@ -78859,7 +78868,7 @@
       }
     },
     "product:884231": {
-      "priceFrom": 70.0,
+      "priceFrom": 70,
       "normalPriceFrom": 70,
       "foilPriceFrom": 70,
       "currency": "EUR",
@@ -78896,7 +78905,7 @@
       }
     },
     "cm:884232": {
-      "priceFrom": 450.0,
+      "priceFrom": 450,
       "normalPriceFrom": 450,
       "foilPriceFrom": 450,
       "currency": "EUR",
@@ -78933,7 +78942,7 @@
       }
     },
     "product:884232": {
-      "priceFrom": 450.0,
+      "priceFrom": 450,
       "normalPriceFrom": 450,
       "foilPriceFrom": 450,
       "currency": "EUR",
@@ -78970,7 +78979,7 @@
       }
     },
     "cm:884233": {
-      "priceFrom": 39.0,
+      "priceFrom": 39,
       "normalPriceFrom": 39,
       "foilPriceFrom": 39,
       "currency": "EUR",
@@ -79007,7 +79016,7 @@
       }
     },
     "product:884233": {
-      "priceFrom": 39.0,
+      "priceFrom": 39,
       "normalPriceFrom": 39,
       "foilPriceFrom": 39,
       "currency": "EUR",
@@ -79044,7 +79053,7 @@
       }
     },
     "cm:884234": {
-      "priceFrom": 220.0,
+      "priceFrom": 220,
       "normalPriceFrom": 220,
       "foilPriceFrom": 220,
       "currency": "EUR",
@@ -79081,7 +79090,7 @@
       }
     },
     "product:884234": {
-      "priceFrom": 220.0,
+      "priceFrom": 220,
       "normalPriceFrom": 220,
       "foilPriceFrom": 220,
       "currency": "EUR",
@@ -79118,7 +79127,7 @@
       }
     },
     "cm:884235": {
-      "priceFrom": 27.0,
+      "priceFrom": 27,
       "normalPriceFrom": 27,
       "foilPriceFrom": 27,
       "currency": "EUR",
@@ -79155,7 +79164,7 @@
       }
     },
     "product:884235": {
-      "priceFrom": 27.0,
+      "priceFrom": 27,
       "normalPriceFrom": 27,
       "foilPriceFrom": 27,
       "currency": "EUR",
@@ -79192,7 +79201,7 @@
       }
     },
     "cm:884236": {
-      "priceFrom": 215.0,
+      "priceFrom": 215,
       "normalPriceFrom": 215,
       "foilPriceFrom": 215,
       "currency": "EUR",
@@ -79229,7 +79238,7 @@
       }
     },
     "product:884236": {
-      "priceFrom": 215.0,
+      "priceFrom": 215,
       "normalPriceFrom": 215,
       "foilPriceFrom": 215,
       "currency": "EUR",
@@ -79266,7 +79275,7 @@
       }
     },
     "cm:884237": {
-      "priceFrom": 890.0,
+      "priceFrom": 890,
       "normalPriceFrom": 890,
       "foilPriceFrom": 890,
       "currency": "EUR",
@@ -79303,7 +79312,7 @@
       }
     },
     "product:884237": {
-      "priceFrom": 890.0,
+      "priceFrom": 890,
       "normalPriceFrom": 890,
       "foilPriceFrom": 890,
       "currency": "EUR",
@@ -79488,7 +79497,7 @@
       }
     },
     "cm:885240": {
-      "priceFrom": 4.0,
+      "priceFrom": 4,
       "normalPriceFrom": 4,
       "foilPriceFrom": 4,
       "currency": "EUR",
@@ -79525,7 +79534,7 @@
       }
     },
     "product:885240": {
-      "priceFrom": 4.0,
+      "priceFrom": 4,
       "normalPriceFrom": 4,
       "foilPriceFrom": 4,
       "currency": "EUR",
@@ -79636,7 +79645,7 @@
       }
     },
     "cm:885242": {
-      "priceFrom": 5.0,
+      "priceFrom": 5,
       "normalPriceFrom": 5,
       "foilPriceFrom": 5,
       "currency": "EUR",
@@ -79673,7 +79682,7 @@
       }
     },
     "product:885242": {
-      "priceFrom": 5.0,
+      "priceFrom": 5,
       "normalPriceFrom": 5,
       "foilPriceFrom": 5,
       "currency": "EUR",
@@ -81190,7 +81199,7 @@
       }
     },
     "cm:885568": {
-      "priceFrom": 290.0,
+      "priceFrom": 290,
       "normalPriceFrom": 290,
       "foilPriceFrom": 290,
       "currency": "EUR",
@@ -81227,7 +81236,7 @@
       }
     },
     "product:885568": {
-      "priceFrom": 290.0,
+      "priceFrom": 290,
       "normalPriceFrom": 290,
       "foilPriceFrom": 290,
       "currency": "EUR",
@@ -81264,7 +81273,7 @@
       }
     },
     "cm:885569": {
-      "priceFrom": 290.0,
+      "priceFrom": 290,
       "normalPriceFrom": 290,
       "foilPriceFrom": 290,
       "currency": "EUR",
@@ -81301,7 +81310,7 @@
       }
     },
     "product:885569": {
-      "priceFrom": 290.0,
+      "priceFrom": 290,
       "normalPriceFrom": 290,
       "foilPriceFrom": 290,
       "currency": "EUR",
@@ -81338,7 +81347,7 @@
       }
     },
     "cm:885570": {
-      "priceFrom": 200.0,
+      "priceFrom": 200,
       "normalPriceFrom": 200,
       "foilPriceFrom": 200,
       "currency": "EUR",
@@ -81375,7 +81384,7 @@
       }
     },
     "product:885570": {
-      "priceFrom": 200.0,
+      "priceFrom": 200,
       "normalPriceFrom": 200,
       "foilPriceFrom": 200,
       "currency": "EUR",
@@ -81412,7 +81421,7 @@
       }
     },
     "cm:885571": {
-      "priceFrom": 264.0,
+      "priceFrom": 264,
       "normalPriceFrom": 264,
       "foilPriceFrom": 264,
       "currency": "EUR",
@@ -81449,7 +81458,7 @@
       }
     },
     "product:885571": {
-      "priceFrom": 264.0,
+      "priceFrom": 264,
       "normalPriceFrom": 264,
       "foilPriceFrom": 264,
       "currency": "EUR",
@@ -81486,7 +81495,7 @@
       }
     },
     "cm:885572": {
-      "priceFrom": 150.0,
+      "priceFrom": 150,
       "normalPriceFrom": 150,
       "foilPriceFrom": 150,
       "currency": "EUR",
@@ -81523,7 +81532,7 @@
       }
     },
     "product:885572": {
-      "priceFrom": 150.0,
+      "priceFrom": 150,
       "normalPriceFrom": 150,
       "foilPriceFrom": 150,
       "currency": "EUR",
@@ -82078,7 +82087,7 @@
       }
     },
     "cm:888291": {
-      "priceFrom": 37.0,
+      "priceFrom": 37,
       "normalPriceFrom": 37,
       "foilPriceFrom": 37,
       "currency": "EUR",
@@ -82115,7 +82124,7 @@
       }
     },
     "product:888291": {
-      "priceFrom": 37.0,
+      "priceFrom": 37,
       "normalPriceFrom": 37,
       "foilPriceFrom": 37,
       "currency": "EUR",
@@ -82596,7 +82605,7 @@
       }
     },
     "cm:888482": {
-      "priceFrom": 3.0,
+      "priceFrom": 3,
       "normalPriceFrom": 3,
       "foilPriceFrom": 3,
       "currency": "EUR",
@@ -82633,7 +82642,7 @@
       }
     },
     "product:888482": {
-      "priceFrom": 3.0,
+      "priceFrom": 3,
       "normalPriceFrom": 3,
       "foilPriceFrom": 3,
       "currency": "EUR",
@@ -84528,9 +84537,9 @@
       ]
     },
     "name:kai-sa-survivor": {
-      "priceFrom": 30.0,
-      "normalPriceFrom": 30.0,
-      "foilPriceFrom": 30.0,
+      "priceFrom": 30,
+      "normalPriceFrom": 30,
+      "foilPriceFrom": 30,
       "currency": "EUR",
       "source": "Cardmarket price guide",
       "priceMode": "normal",
@@ -84546,16 +84555,16 @@
       "expansionLabel": "Origins",
       "cardmarketUrl": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/KaiSa-Survivor",
       "productCountForName": 2,
-      "minAnyProductPrice": 30.0,
+      "minAnyProductPrice": 30,
       "allProductIds": [
         847156,
         847157
       ]
     },
     "kai-sa-survivor": {
-      "priceFrom": 30.0,
-      "normalPriceFrom": 30.0,
-      "foilPriceFrom": 30.0,
+      "priceFrom": 30,
+      "normalPriceFrom": 30,
+      "foilPriceFrom": 30,
       "currency": "EUR",
       "source": "Cardmarket price guide",
       "priceMode": "normal",
@@ -84571,16 +84580,16 @@
       "expansionLabel": "Origins",
       "cardmarketUrl": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/KaiSa-Survivor",
       "productCountForName": 2,
-      "minAnyProductPrice": 30.0,
+      "minAnyProductPrice": 30,
       "allProductIds": [
         847156,
         847157
       ]
     },
     "name:seal-of-rage": {
-      "priceFrom": 10.0,
-      "normalPriceFrom": 10.0,
-      "foilPriceFrom": 10.0,
+      "priceFrom": 10,
+      "normalPriceFrom": 10,
+      "foilPriceFrom": 10,
       "currency": "EUR",
       "source": "Cardmarket price guide",
       "priceMode": "normal",
@@ -84596,16 +84605,16 @@
       "expansionLabel": "Origins",
       "cardmarketUrl": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Seal-of-Rage",
       "productCountForName": 2,
-      "minAnyProductPrice": 10.0,
+      "minAnyProductPrice": 10,
       "allProductIds": [
         847158,
         866969
       ]
     },
     "seal-of-rage": {
-      "priceFrom": 10.0,
-      "normalPriceFrom": 10.0,
-      "foilPriceFrom": 10.0,
+      "priceFrom": 10,
+      "normalPriceFrom": 10,
+      "foilPriceFrom": 10,
       "currency": "EUR",
       "source": "Cardmarket price guide",
       "priceMode": "normal",
@@ -84621,7 +84630,7 @@
       "expansionLabel": "Origins",
       "cardmarketUrl": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Seal-of-Rage",
       "productCountForName": 2,
-      "minAnyProductPrice": 10.0,
+      "minAnyProductPrice": 10,
       "allProductIds": [
         847158,
         866969
@@ -86194,9 +86203,9 @@
       ]
     },
     "name:sona-harmonious": {
-      "priceFrom": 4.0,
-      "normalPriceFrom": 4.0,
-      "foilPriceFrom": 4.0,
+      "priceFrom": 4,
+      "normalPriceFrom": 4,
+      "foilPriceFrom": 4,
       "currency": "EUR",
       "source": "Cardmarket price guide",
       "priceMode": "normal",
@@ -86212,15 +86221,15 @@
       "expansionLabel": "Origins",
       "cardmarketUrl": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Sona-Harmonious",
       "productCountForName": 1,
-      "minAnyProductPrice": 4.0,
+      "minAnyProductPrice": 4,
       "allProductIds": [
         847194
       ]
     },
     "sona-harmonious": {
-      "priceFrom": 4.0,
-      "normalPriceFrom": 4.0,
-      "foilPriceFrom": 4.0,
+      "priceFrom": 4,
+      "normalPriceFrom": 4,
+      "foilPriceFrom": 4,
       "currency": "EUR",
       "source": "Cardmarket price guide",
       "priceMode": "normal",
@@ -86236,7 +86245,7 @@
       "expansionLabel": "Origins",
       "cardmarketUrl": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Sona-Harmonious",
       "productCountForName": 1,
-      "minAnyProductPrice": 4.0,
+      "minAnyProductPrice": 4,
       "allProductIds": [
         847194
       ]
@@ -88544,9 +88553,9 @@
       ]
     },
     "name:teemo-strategist": {
-      "priceFrom": 1.0,
-      "normalPriceFrom": 1.0,
-      "foilPriceFrom": 1.0,
+      "priceFrom": 1,
+      "normalPriceFrom": 1,
+      "foilPriceFrom": 1,
       "currency": "EUR",
       "source": "Cardmarket price guide",
       "priceMode": "normal",
@@ -88562,7 +88571,7 @@
       "expansionLabel": "Origins",
       "cardmarketUrl": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Teemo-Strategist",
       "productCountForName": 4,
-      "minAnyProductPrice": 1.0,
+      "minAnyProductPrice": 1,
       "allProductIds": [
         847268,
         847270,
@@ -88571,9 +88580,9 @@
       ]
     },
     "teemo-strategist": {
-      "priceFrom": 1.0,
-      "normalPriceFrom": 1.0,
-      "foilPriceFrom": 1.0,
+      "priceFrom": 1,
+      "normalPriceFrom": 1,
+      "foilPriceFrom": 1,
       "currency": "EUR",
       "source": "Cardmarket price guide",
       "priceMode": "normal",
@@ -88589,7 +88598,7 @@
       "expansionLabel": "Origins",
       "cardmarketUrl": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Teemo-Strategist",
       "productCountForName": 4,
-      "minAnyProductPrice": 1.0,
+      "minAnyProductPrice": 1,
       "allProductIds": [
         847268,
         847270,
@@ -89388,7 +89397,7 @@
     "name:catalyst-of-aeons": {
       "priceFrom": 0.02,
       "normalPriceFrom": 0.02,
-      "foilPriceFrom": 1.0,
+      "foilPriceFrom": 1,
       "currency": "EUR",
       "source": "Cardmarket price guide",
       "priceMode": "normal",
@@ -89412,7 +89421,7 @@
     "catalyst-of-aeons": {
       "priceFrom": 0.02,
       "normalPriceFrom": 0.02,
-      "foilPriceFrom": 1.0,
+      "foilPriceFrom": 1,
       "currency": "EUR",
       "source": "Cardmarket price guide",
       "priceMode": "normal",
@@ -90254,9 +90263,9 @@
       ]
     },
     "name:sabotage": {
-      "priceFrom": 3.0,
-      "normalPriceFrom": 3.0,
-      "foilPriceFrom": 3.0,
+      "priceFrom": 3,
+      "normalPriceFrom": 3,
+      "foilPriceFrom": 3,
       "currency": "EUR",
       "source": "Cardmarket price guide",
       "priceMode": "normal",
@@ -90272,15 +90281,15 @@
       "expansionLabel": "Origins",
       "cardmarketUrl": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Sabotage",
       "productCountForName": 1,
-      "minAnyProductPrice": 3.0,
+      "minAnyProductPrice": 3,
       "allProductIds": [
         847319
       ]
     },
     "sabotage": {
-      "priceFrom": 3.0,
-      "normalPriceFrom": 3.0,
-      "foilPriceFrom": 3.0,
+      "priceFrom": 3,
+      "normalPriceFrom": 3,
+      "foilPriceFrom": 3,
       "currency": "EUR",
       "source": "Cardmarket price guide",
       "priceMode": "normal",
@@ -90296,7 +90305,7 @@
       "expansionLabel": "Origins",
       "cardmarketUrl": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Sabotage",
       "productCountForName": 1,
-      "minAnyProductPrice": 3.0,
+      "minAnyProductPrice": 3,
       "allProductIds": [
         847319
       ]
@@ -90450,9 +90459,9 @@
       ]
     },
     "name:dazzling-aurora": {
-      "priceFrom": 27.0,
-      "normalPriceFrom": 27.0,
-      "foilPriceFrom": 27.0,
+      "priceFrom": 27,
+      "normalPriceFrom": 27,
+      "foilPriceFrom": 27,
       "currency": "EUR",
       "source": "Cardmarket price guide",
       "priceMode": "normal",
@@ -90468,15 +90477,15 @@
       "expansionLabel": "Origins",
       "cardmarketUrl": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Dazzling-Aurora",
       "productCountForName": 1,
-      "minAnyProductPrice": 27.0,
+      "minAnyProductPrice": 27,
       "allProductIds": [
         847324
       ]
     },
     "dazzling-aurora": {
-      "priceFrom": 27.0,
-      "normalPriceFrom": 27.0,
-      "foilPriceFrom": 27.0,
+      "priceFrom": 27,
+      "normalPriceFrom": 27,
+      "foilPriceFrom": 27,
       "currency": "EUR",
       "source": "Cardmarket price guide",
       "priceMode": "normal",
@@ -90492,7 +90501,7 @@
       "expansionLabel": "Origins",
       "cardmarketUrl": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Dazzling-Aurora",
       "productCountForName": 1,
-      "minAnyProductPrice": 27.0,
+      "minAnyProductPrice": 27,
       "allProductIds": [
         847324
       ]
@@ -90646,9 +90655,9 @@
       ]
     },
     "name:sett-brawler": {
-      "priceFrom": 13.0,
-      "normalPriceFrom": 13.0,
-      "foilPriceFrom": 13.0,
+      "priceFrom": 13,
+      "normalPriceFrom": 13,
+      "foilPriceFrom": 13,
       "currency": "EUR",
       "source": "Cardmarket price guide",
       "priceMode": "normal",
@@ -90664,7 +90673,7 @@
       "expansionLabel": "Origins",
       "cardmarketUrl": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Sett-Brawler",
       "productCountForName": 4,
-      "minAnyProductPrice": 13.0,
+      "minAnyProductPrice": 13,
       "allProductIds": [
         847329,
         847330,
@@ -90673,9 +90682,9 @@
       ]
     },
     "sett-brawler": {
-      "priceFrom": 13.0,
-      "normalPriceFrom": 13.0,
-      "foilPriceFrom": 13.0,
+      "priceFrom": 13,
+      "normalPriceFrom": 13,
+      "foilPriceFrom": 13,
       "currency": "EUR",
       "source": "Cardmarket price guide",
       "priceMode": "normal",
@@ -90691,7 +90700,7 @@
       "expansionLabel": "Origins",
       "cardmarketUrl": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Sett-Brawler",
       "productCountForName": 4,
-      "minAnyProductPrice": 13.0,
+      "minAnyProductPrice": 13,
       "allProductIds": [
         847329,
         847330,
@@ -92462,9 +92471,9 @@
       ]
     },
     "name:invert-timelines": {
-      "priceFrom": 13.0,
-      "normalPriceFrom": 13.0,
-      "foilPriceFrom": 13.0,
+      "priceFrom": 13,
+      "normalPriceFrom": 13,
+      "foilPriceFrom": 13,
       "currency": "EUR",
       "source": "Cardmarket price guide",
       "priceMode": "normal",
@@ -92480,15 +92489,15 @@
       "expansionLabel": "Origins",
       "cardmarketUrl": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Invert-Timelines",
       "productCountForName": 1,
-      "minAnyProductPrice": 13.0,
+      "minAnyProductPrice": 13,
       "allProductIds": [
         847370
       ]
     },
     "invert-timelines": {
-      "priceFrom": 13.0,
-      "normalPriceFrom": 13.0,
-      "foilPriceFrom": 13.0,
+      "priceFrom": 13,
+      "normalPriceFrom": 13,
+      "foilPriceFrom": 13,
       "currency": "EUR",
       "source": "Cardmarket price guide",
       "priceMode": "normal",
@@ -92504,7 +92513,7 @@
       "expansionLabel": "Origins",
       "cardmarketUrl": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Invert-Timelines",
       "productCountForName": 1,
-      "minAnyProductPrice": 13.0,
+      "minAnyProductPrice": 13,
       "allProductIds": [
         847370
       ]
@@ -94474,9 +94483,9 @@
       ]
     },
     "name:baited-hook": {
-      "priceFrom": 30.0,
-      "normalPriceFrom": 30.0,
-      "foilPriceFrom": 30.0,
+      "priceFrom": 30,
+      "normalPriceFrom": 30,
+      "foilPriceFrom": 30,
       "currency": "EUR",
       "source": "Cardmarket price guide",
       "priceMode": "normal",
@@ -94492,15 +94501,15 @@
       "expansionLabel": "Origins",
       "cardmarketUrl": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Baited-Hook",
       "productCountForName": 1,
-      "minAnyProductPrice": 30.0,
+      "minAnyProductPrice": 30,
       "allProductIds": [
         847425
       ]
     },
     "baited-hook": {
-      "priceFrom": 30.0,
-      "normalPriceFrom": 30.0,
-      "foilPriceFrom": 30.0,
+      "priceFrom": 30,
+      "normalPriceFrom": 30,
+      "foilPriceFrom": 30,
       "currency": "EUR",
       "source": "Cardmarket price guide",
       "priceMode": "normal",
@@ -94516,7 +94525,7 @@
       "expansionLabel": "Origins",
       "cardmarketUrl": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Baited-Hook",
       "productCountForName": 1,
-      "minAnyProductPrice": 30.0,
+      "minAnyProductPrice": 30,
       "allProductIds": [
         847425
       ]
@@ -95502,9 +95511,9 @@
       ]
     },
     "name:zenith-blade": {
-      "priceFrom": 4.0,
-      "normalPriceFrom": 4.0,
-      "foilPriceFrom": 4.0,
+      "priceFrom": 4,
+      "normalPriceFrom": 4,
+      "foilPriceFrom": 4,
       "currency": "EUR",
       "source": "Cardmarket price guide",
       "priceMode": "normal",
@@ -95520,15 +95529,15 @@
       "expansionLabel": "Origins",
       "cardmarketUrl": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Zenith-Blade",
       "productCountForName": 1,
-      "minAnyProductPrice": 4.0,
+      "minAnyProductPrice": 4,
       "allProductIds": [
         847462
       ]
     },
     "zenith-blade": {
-      "priceFrom": 4.0,
-      "normalPriceFrom": 4.0,
-      "foilPriceFrom": 4.0,
+      "priceFrom": 4,
+      "normalPriceFrom": 4,
+      "foilPriceFrom": 4,
       "currency": "EUR",
       "source": "Cardmarket price guide",
       "priceMode": "normal",
@@ -95544,7 +95553,7 @@
       "expansionLabel": "Origins",
       "cardmarketUrl": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Zenith-Blade",
       "productCountForName": 1,
-      "minAnyProductPrice": 4.0,
+      "minAnyProductPrice": 4,
       "allProductIds": [
         847462
       ]
@@ -95606,9 +95615,9 @@
       ]
     },
     "name:guerilla-warfare": {
-      "priceFrom": 2.0,
-      "normalPriceFrom": 2.0,
-      "foilPriceFrom": 2.0,
+      "priceFrom": 2,
+      "normalPriceFrom": 2,
+      "foilPriceFrom": 2,
       "currency": "EUR",
       "source": "Cardmarket price guide",
       "priceMode": "normal",
@@ -95624,15 +95633,15 @@
       "expansionLabel": "Origins",
       "cardmarketUrl": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Guerilla-Warfare",
       "productCountForName": 1,
-      "minAnyProductPrice": 2.0,
+      "minAnyProductPrice": 2,
       "allProductIds": [
         847464
       ]
     },
     "guerilla-warfare": {
-      "priceFrom": 2.0,
-      "normalPriceFrom": 2.0,
-      "foilPriceFrom": 2.0,
+      "priceFrom": 2,
+      "normalPriceFrom": 2,
+      "foilPriceFrom": 2,
       "currency": "EUR",
       "source": "Cardmarket price guide",
       "priceMode": "normal",
@@ -95648,7 +95657,7 @@
       "expansionLabel": "Origins",
       "cardmarketUrl": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Guerilla-Warfare",
       "productCountForName": 1,
-      "minAnyProductPrice": 2.0,
+      "minAnyProductPrice": 2,
       "allProductIds": [
         847464
       ]
@@ -95812,9 +95821,9 @@
       ]
     },
     "name:bullet-time": {
-      "priceFrom": 4.0,
-      "normalPriceFrom": 4.0,
-      "foilPriceFrom": 4.0,
+      "priceFrom": 4,
+      "normalPriceFrom": 4,
+      "foilPriceFrom": 4,
       "currency": "EUR",
       "source": "Cardmarket price guide",
       "priceMode": "normal",
@@ -95830,15 +95839,15 @@
       "expansionLabel": "Origins",
       "cardmarketUrl": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Bullet-Time",
       "productCountForName": 1,
-      "minAnyProductPrice": 4.0,
+      "minAnyProductPrice": 4,
       "allProductIds": [
         847468
       ]
     },
     "bullet-time": {
-      "priceFrom": 4.0,
-      "normalPriceFrom": 4.0,
-      "foilPriceFrom": 4.0,
+      "priceFrom": 4,
+      "normalPriceFrom": 4,
+      "foilPriceFrom": 4,
       "currency": "EUR",
       "source": "Cardmarket price guide",
       "priceMode": "normal",
@@ -95854,7 +95863,7 @@
       "expansionLabel": "Origins",
       "cardmarketUrl": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Bullet-Time",
       "productCountForName": 1,
-      "minAnyProductPrice": 4.0,
+      "minAnyProductPrice": 4,
       "allProductIds": [
         847468
       ]
@@ -95914,9 +95923,9 @@
       ]
     },
     "name:showstopper": {
-      "priceFrom": 6.0,
-      "normalPriceFrom": 6.0,
-      "foilPriceFrom": 6.0,
+      "priceFrom": 6,
+      "normalPriceFrom": 6,
+      "foilPriceFrom": 6,
       "currency": "EUR",
       "source": "Cardmarket price guide",
       "priceMode": "normal",
@@ -95932,15 +95941,15 @@
       "expansionLabel": "Origins",
       "cardmarketUrl": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Showstopper",
       "productCountForName": 1,
-      "minAnyProductPrice": 6.0,
+      "minAnyProductPrice": 6,
       "allProductIds": [
         847470
       ]
     },
     "showstopper": {
-      "priceFrom": 6.0,
-      "normalPriceFrom": 6.0,
-      "foilPriceFrom": 6.0,
+      "priceFrom": 6,
+      "normalPriceFrom": 6,
+      "foilPriceFrom": 6,
       "currency": "EUR",
       "source": "Cardmarket price guide",
       "priceMode": "normal",
@@ -95956,7 +95965,7 @@
       "expansionLabel": "Origins",
       "cardmarketUrl": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Showstopper",
       "productCountForName": 1,
-      "minAnyProductPrice": 6.0,
+      "minAnyProductPrice": 6,
       "allProductIds": [
         847470
       ]
@@ -97670,8 +97679,8 @@
       ]
     },
     "name:annie-stubborn": {
-      "priceFrom": 2.0,
-      "normalPriceFrom": 2.0,
+      "priceFrom": 2,
+      "normalPriceFrom": 2,
       "foilPriceFrom": null,
       "currency": "EUR",
       "source": "Cardmarket price guide",
@@ -97688,15 +97697,15 @@
       "expansionLabel": "Origins Starter / Champion Decks",
       "cardmarketUrl": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Annie-Stubborn",
       "productCountForName": 2,
-      "minAnyProductPrice": 2.0,
+      "minAnyProductPrice": 2,
       "allProductIds": [
         847532,
         874126
       ]
     },
     "annie-stubborn": {
-      "priceFrom": 2.0,
-      "normalPriceFrom": 2.0,
+      "priceFrom": 2,
+      "normalPriceFrom": 2,
       "foilPriceFrom": null,
       "currency": "EUR",
       "source": "Cardmarket price guide",
@@ -97713,7 +97722,7 @@
       "expansionLabel": "Origins Starter / Champion Decks",
       "cardmarketUrl": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Annie-Stubborn",
       "productCountForName": 2,
-      "minAnyProductPrice": 2.0,
+      "minAnyProductPrice": 2,
       "allProductIds": [
         847532,
         874126
@@ -98114,8 +98123,8 @@
       ]
     },
     "name:master-yi-wuju-bladesman": {
-      "priceFrom": 13.0,
-      "normalPriceFrom": 13.0,
+      "priceFrom": 13,
+      "normalPriceFrom": 13,
       "foilPriceFrom": null,
       "currency": "EUR",
       "source": "Cardmarket price guide",
@@ -98132,15 +98141,15 @@
       "expansionLabel": "Origins Starter / Champion Decks",
       "cardmarketUrl": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Master-Yi-Wuju-Bladesman",
       "productCountForName": 2,
-      "minAnyProductPrice": 13.0,
+      "minAnyProductPrice": 13,
       "allProductIds": [
         847541,
         874131
       ]
     },
     "master-yi-wuju-bladesman": {
-      "priceFrom": 13.0,
-      "normalPriceFrom": 13.0,
+      "priceFrom": 13,
+      "normalPriceFrom": 13,
       "foilPriceFrom": null,
       "currency": "EUR",
       "source": "Cardmarket price guide",
@@ -98157,7 +98166,7 @@
       "expansionLabel": "Origins Starter / Champion Decks",
       "cardmarketUrl": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Master-Yi-Wuju-Bladesman",
       "productCountForName": 2,
-      "minAnyProductPrice": 13.0,
+      "minAnyProductPrice": 13,
       "allProductIds": [
         847541,
         874131
@@ -99822,9 +99831,9 @@
       ]
     },
     "name:rek-sai-breacher": {
-      "priceFrom": 2.0,
-      "normalPriceFrom": 2.0,
-      "foilPriceFrom": 2.0,
+      "priceFrom": 2,
+      "normalPriceFrom": 2,
+      "foilPriceFrom": 2,
       "currency": "EUR",
       "source": "Cardmarket price guide",
       "priceMode": "normal",
@@ -99840,16 +99849,16 @@
       "expansionLabel": "Spiritforged",
       "cardmarketUrl": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Spiritforged/RekSai-Breacher",
       "productCountForName": 2,
-      "minAnyProductPrice": 2.0,
+      "minAnyProductPrice": 2,
       "allProductIds": [
         866754,
         866755
       ]
     },
     "rek-sai-breacher": {
-      "priceFrom": 2.0,
-      "normalPriceFrom": 2.0,
-      "foilPriceFrom": 2.0,
+      "priceFrom": 2,
+      "normalPriceFrom": 2,
+      "foilPriceFrom": 2,
       "currency": "EUR",
       "source": "Cardmarket price guide",
       "priceMode": "normal",
@@ -99865,16 +99874,16 @@
       "expansionLabel": "Spiritforged",
       "cardmarketUrl": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Spiritforged/RekSai-Breacher",
       "productCountForName": 2,
-      "minAnyProductPrice": 2.0,
+      "minAnyProductPrice": 2,
       "allProductIds": [
         866754,
         866755
       ]
     },
     "name:skyfall-of-areion": {
-      "priceFrom": 4.0,
-      "normalPriceFrom": 4.0,
-      "foilPriceFrom": 4.0,
+      "priceFrom": 4,
+      "normalPriceFrom": 4,
+      "foilPriceFrom": 4,
       "currency": "EUR",
       "source": "Cardmarket price guide",
       "priceMode": "normal",
@@ -99890,15 +99899,15 @@
       "expansionLabel": "Spiritforged",
       "cardmarketUrl": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Spiritforged/Skyfall-of-Areion",
       "productCountForName": 1,
-      "minAnyProductPrice": 4.0,
+      "minAnyProductPrice": 4,
       "allProductIds": [
         866756
       ]
     },
     "skyfall-of-areion": {
-      "priceFrom": 4.0,
-      "normalPriceFrom": 4.0,
-      "foilPriceFrom": 4.0,
+      "priceFrom": 4,
+      "normalPriceFrom": 4,
+      "foilPriceFrom": 4,
       "currency": "EUR",
       "source": "Cardmarket price guide",
       "priceMode": "normal",
@@ -99914,7 +99923,7 @@
       "expansionLabel": "Spiritforged",
       "cardmarketUrl": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Spiritforged/Skyfall-of-Areion",
       "productCountForName": 1,
-      "minAnyProductPrice": 4.0,
+      "minAnyProductPrice": 4,
       "allProductIds": [
         866756
       ]
@@ -101188,9 +101197,9 @@
       ]
     },
     "name:irelia-fervent": {
-      "priceFrom": 4.0,
-      "normalPriceFrom": 4.0,
-      "foilPriceFrom": 4.0,
+      "priceFrom": 4,
+      "normalPriceFrom": 4,
+      "foilPriceFrom": 4,
       "currency": "EUR",
       "source": "Cardmarket price guide",
       "priceMode": "normal",
@@ -101206,7 +101215,7 @@
       "expansionLabel": "Spiritforged",
       "cardmarketUrl": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Spiritforged/Irelia-Fervent",
       "productCountForName": 4,
-      "minAnyProductPrice": 4.0,
+      "minAnyProductPrice": 4,
       "allProductIds": [
         866785,
         866786,
@@ -101215,9 +101224,9 @@
       ]
     },
     "irelia-fervent": {
-      "priceFrom": 4.0,
-      "normalPriceFrom": 4.0,
-      "foilPriceFrom": 4.0,
+      "priceFrom": 4,
+      "normalPriceFrom": 4,
+      "foilPriceFrom": 4,
       "currency": "EUR",
       "source": "Cardmarket price guide",
       "priceMode": "normal",
@@ -101233,7 +101242,7 @@
       "expansionLabel": "Spiritforged",
       "cardmarketUrl": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Spiritforged/Irelia-Fervent",
       "productCountForName": 4,
-      "minAnyProductPrice": 4.0,
+      "minAnyProductPrice": 4,
       "allProductIds": [
         866785,
         866786,
@@ -102656,9 +102665,9 @@
       ]
     },
     "name:premonition": {
-      "priceFrom": 2.0,
-      "normalPriceFrom": 2.0,
-      "foilPriceFrom": 2.0,
+      "priceFrom": 2,
+      "normalPriceFrom": 2,
+      "foilPriceFrom": 2,
       "currency": "EUR",
       "source": "Cardmarket price guide",
       "priceMode": "normal",
@@ -102674,15 +102683,15 @@
       "expansionLabel": "Spiritforged",
       "cardmarketUrl": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Spiritforged/Premonition",
       "productCountForName": 1,
-      "minAnyProductPrice": 2.0,
+      "minAnyProductPrice": 2,
       "allProductIds": [
         866819
       ]
     },
     "premonition": {
-      "priceFrom": 2.0,
-      "normalPriceFrom": 2.0,
-      "foilPriceFrom": 2.0,
+      "priceFrom": 2,
+      "normalPriceFrom": 2,
+      "foilPriceFrom": 2,
       "currency": "EUR",
       "source": "Cardmarket price guide",
       "priceMode": "normal",
@@ -102698,7 +102707,7 @@
       "expansionLabel": "Spiritforged",
       "cardmarketUrl": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Spiritforged/Premonition",
       "productCountForName": 1,
-      "minAnyProductPrice": 2.0,
+      "minAnyProductPrice": 2,
       "allProductIds": [
         866819
       ]
@@ -104166,9 +104175,9 @@
       ]
     },
     "name:boneshiver": {
-      "priceFrom": 2.0,
-      "normalPriceFrom": 2.0,
-      "foilPriceFrom": 2.0,
+      "priceFrom": 2,
+      "normalPriceFrom": 2,
+      "foilPriceFrom": 2,
       "currency": "EUR",
       "source": "Cardmarket price guide",
       "priceMode": "normal",
@@ -104184,16 +104193,16 @@
       "expansionLabel": "Spiritforged",
       "cardmarketUrl": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Spiritforged/Boneshiver",
       "productCountForName": 2,
-      "minAnyProductPrice": 2.0,
+      "minAnyProductPrice": 2,
       "allProductIds": [
         866855,
         874098
       ]
     },
     "boneshiver": {
-      "priceFrom": 2.0,
-      "normalPriceFrom": 2.0,
-      "foilPriceFrom": 2.0,
+      "priceFrom": 2,
+      "normalPriceFrom": 2,
+      "foilPriceFrom": 2,
       "currency": "EUR",
       "source": "Cardmarket price guide",
       "priceMode": "normal",
@@ -104209,7 +104218,7 @@
       "expansionLabel": "Spiritforged",
       "cardmarketUrl": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Spiritforged/Boneshiver",
       "productCountForName": 2,
-      "minAnyProductPrice": 2.0,
+      "minAnyProductPrice": 2,
       "allProductIds": [
         866855,
         874098
@@ -105578,9 +105587,9 @@
       ]
     },
     "name:downwell": {
-      "priceFrom": 4.0,
-      "normalPriceFrom": 4.0,
-      "foilPriceFrom": 4.0,
+      "priceFrom": 4,
+      "normalPriceFrom": 4,
+      "foilPriceFrom": 4,
       "currency": "EUR",
       "source": "Cardmarket price guide",
       "priceMode": "normal",
@@ -105596,15 +105605,15 @@
       "expansionLabel": "Spiritforged",
       "cardmarketUrl": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Spiritforged/Downwell",
       "productCountForName": 1,
-      "minAnyProductPrice": 4.0,
+      "minAnyProductPrice": 4,
       "allProductIds": [
         866888
       ]
     },
     "downwell": {
-      "priceFrom": 4.0,
-      "normalPriceFrom": 4.0,
-      "foilPriceFrom": 4.0,
+      "priceFrom": 4,
+      "normalPriceFrom": 4,
+      "foilPriceFrom": 4,
       "currency": "EUR",
       "source": "Cardmarket price guide",
       "priceMode": "normal",
@@ -105620,7 +105629,7 @@
       "expansionLabel": "Spiritforged",
       "cardmarketUrl": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Spiritforged/Downwell",
       "productCountForName": 1,
-      "minAnyProductPrice": 4.0,
+      "minAnyProductPrice": 4,
       "allProductIds": [
         866888
       ]
@@ -105676,9 +105685,9 @@
       ]
     },
     "name:ezreal-prodigy": {
-      "priceFrom": 10.0,
-      "normalPriceFrom": 10.0,
-      "foilPriceFrom": 10.0,
+      "priceFrom": 10,
+      "normalPriceFrom": 10,
+      "foilPriceFrom": 10,
       "currency": "EUR",
       "source": "Cardmarket price guide",
       "priceMode": "normal",
@@ -105694,16 +105703,16 @@
       "expansionLabel": "Spiritforged",
       "cardmarketUrl": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Spiritforged/Ezreal-Prodigy",
       "productCountForName": 2,
-      "minAnyProductPrice": 10.0,
+      "minAnyProductPrice": 10,
       "allProductIds": [
         866891,
         866892
       ]
     },
     "ezreal-prodigy": {
-      "priceFrom": 10.0,
-      "normalPriceFrom": 10.0,
-      "foilPriceFrom": 10.0,
+      "priceFrom": 10,
+      "normalPriceFrom": 10,
+      "foilPriceFrom": 10,
       "currency": "EUR",
       "source": "Cardmarket price guide",
       "priceMode": "normal",
@@ -105719,7 +105728,7 @@
       "expansionLabel": "Spiritforged",
       "cardmarketUrl": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Spiritforged/Ezreal-Prodigy",
       "productCountForName": 2,
-      "minAnyProductPrice": 10.0,
+      "minAnyProductPrice": 10,
       "allProductIds": [
         866891,
         866892
@@ -107580,9 +107589,9 @@
       ]
     },
     "name:void-rush": {
-      "priceFrom": 1.0,
-      "normalPriceFrom": 1.0,
-      "foilPriceFrom": 1.0,
+      "priceFrom": 1,
+      "normalPriceFrom": 1,
+      "foilPriceFrom": 1,
       "currency": "EUR",
       "source": "Cardmarket price guide",
       "priceMode": "normal",
@@ -107598,15 +107607,15 @@
       "expansionLabel": "Spiritforged",
       "cardmarketUrl": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Spiritforged/Void-Rush",
       "productCountForName": 1,
-      "minAnyProductPrice": 1.0,
+      "minAnyProductPrice": 1,
       "allProductIds": [
         866935
       ]
     },
     "void-rush": {
-      "priceFrom": 1.0,
-      "normalPriceFrom": 1.0,
-      "foilPriceFrom": 1.0,
+      "priceFrom": 1,
+      "normalPriceFrom": 1,
+      "foilPriceFrom": 1,
       "currency": "EUR",
       "source": "Cardmarket price guide",
       "priceMode": "normal",
@@ -107622,7 +107631,7 @@
       "expansionLabel": "Spiritforged",
       "cardmarketUrl": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Spiritforged/Void-Rush",
       "productCountForName": 1,
-      "minAnyProductPrice": 1.0,
+      "minAnyProductPrice": 1,
       "allProductIds": [
         866935
       ]
@@ -107972,9 +107981,9 @@
       ]
     },
     "name:defiant-dance": {
-      "priceFrom": 15.0,
-      "normalPriceFrom": 15.0,
-      "foilPriceFrom": 15.0,
+      "priceFrom": 15,
+      "normalPriceFrom": 15,
+      "foilPriceFrom": 15,
       "currency": "EUR",
       "source": "Cardmarket price guide",
       "priceMode": "normal",
@@ -107990,15 +107999,15 @@
       "expansionLabel": "Spiritforged",
       "cardmarketUrl": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Spiritforged/Defiant-Dance",
       "productCountForName": 1,
-      "minAnyProductPrice": 15.0,
+      "minAnyProductPrice": 15,
       "allProductIds": [
         866943
       ]
     },
     "defiant-dance": {
-      "priceFrom": 15.0,
-      "normalPriceFrom": 15.0,
-      "foilPriceFrom": 15.0,
+      "priceFrom": 15,
+      "normalPriceFrom": 15,
+      "foilPriceFrom": 15,
       "currency": "EUR",
       "source": "Cardmarket price guide",
       "priceMode": "normal",
@@ -108014,7 +108023,7 @@
       "expansionLabel": "Spiritforged",
       "cardmarketUrl": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Spiritforged/Defiant-Dance",
       "productCountForName": 1,
-      "minAnyProductPrice": 15.0,
+      "minAnyProductPrice": 15,
       "allProductIds": [
         866943
       ]
@@ -108070,9 +108079,9 @@
       ]
     },
     "name:arise": {
-      "priceFrom": 11.0,
-      "normalPriceFrom": 11.0,
-      "foilPriceFrom": 11.0,
+      "priceFrom": 11,
+      "normalPriceFrom": 11,
+      "foilPriceFrom": 11,
       "currency": "EUR",
       "source": "Cardmarket price guide",
       "priceMode": "normal",
@@ -108088,15 +108097,15 @@
       "expansionLabel": "Spiritforged",
       "cardmarketUrl": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Spiritforged/Arise",
       "productCountForName": 1,
-      "minAnyProductPrice": 11.0,
+      "minAnyProductPrice": 11,
       "allProductIds": [
         866945
       ]
     },
     "arise": {
-      "priceFrom": 11.0,
-      "normalPriceFrom": 11.0,
-      "foilPriceFrom": 11.0,
+      "priceFrom": 11,
+      "normalPriceFrom": 11,
+      "foilPriceFrom": 11,
       "currency": "EUR",
       "source": "Cardmarket price guide",
       "priceMode": "normal",
@@ -108112,7 +108121,7 @@
       "expansionLabel": "Spiritforged",
       "cardmarketUrl": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Spiritforged/Arise",
       "productCountForName": 1,
-      "minAnyProductPrice": 11.0,
+      "minAnyProductPrice": 11,
       "allProductIds": [
         866945
       ]
@@ -113112,7 +113121,7 @@
     "name:sprite-fountain": {
       "priceFrom": 0.1,
       "normalPriceFrom": 0.1,
-      "foilPriceFrom": 2.0,
+      "foilPriceFrom": 2,
       "currency": "EUR",
       "source": "Cardmarket price guide",
       "priceMode": "normal",
@@ -113136,7 +113145,7 @@
     "sprite-fountain": {
       "priceFrom": 0.1,
       "normalPriceFrom": 0.1,
-      "foilPriceFrom": 2.0,
+      "foilPriceFrom": 2,
       "currency": "EUR",
       "source": "Cardmarket price guide",
       "priceMode": "normal",
@@ -115002,9 +115011,9 @@
       ]
     },
     "name:arachnoid-horror": {
-      "priceFrom": 1.0,
-      "normalPriceFrom": 1.0,
-      "foilPriceFrom": 1.0,
+      "priceFrom": 1,
+      "normalPriceFrom": 1,
+      "foilPriceFrom": 1,
       "currency": "EUR",
       "source": "Cardmarket price guide",
       "priceMode": "normal",
@@ -115020,15 +115029,15 @@
       "expansionLabel": "Unleashed",
       "cardmarketUrl": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Unleashed/Arachnoid-Horror",
       "productCountForName": 1,
-      "minAnyProductPrice": 1.0,
+      "minAnyProductPrice": 1,
       "allProductIds": [
         884096
       ]
     },
     "arachnoid-horror": {
-      "priceFrom": 1.0,
-      "normalPriceFrom": 1.0,
-      "foilPriceFrom": 1.0,
+      "priceFrom": 1,
+      "normalPriceFrom": 1,
+      "foilPriceFrom": 1,
       "currency": "EUR",
       "source": "Cardmarket price guide",
       "priceMode": "normal",
@@ -115044,7 +115053,7 @@
       "expansionLabel": "Unleashed",
       "cardmarketUrl": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Unleashed/Arachnoid-Horror",
       "productCountForName": 1,
-      "minAnyProductPrice": 1.0,
+      "minAnyProductPrice": 1,
       "allProductIds": [
         884096
       ]
@@ -115150,9 +115159,9 @@
       ]
     },
     "name:rengar-trophy-hunter": {
-      "priceFrom": 16.0,
-      "normalPriceFrom": 16.0,
-      "foilPriceFrom": 16.0,
+      "priceFrom": 16,
+      "normalPriceFrom": 16,
+      "foilPriceFrom": 16,
       "currency": "EUR",
       "source": "Cardmarket price guide",
       "priceMode": "normal",
@@ -115168,16 +115177,16 @@
       "expansionLabel": "Unleashed",
       "cardmarketUrl": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Unleashed/Rengar-Trophy-Hunter",
       "productCountForName": 2,
-      "minAnyProductPrice": 16.0,
+      "minAnyProductPrice": 16,
       "allProductIds": [
         884101,
         884102
       ]
     },
     "rengar-trophy-hunter": {
-      "priceFrom": 16.0,
-      "normalPriceFrom": 16.0,
-      "foilPriceFrom": 16.0,
+      "priceFrom": 16,
+      "normalPriceFrom": 16,
+      "foilPriceFrom": 16,
       "currency": "EUR",
       "source": "Cardmarket price guide",
       "priceMode": "normal",
@@ -115193,7 +115202,7 @@
       "expansionLabel": "Unleashed",
       "cardmarketUrl": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Unleashed/Rengar-Trophy-Hunter",
       "productCountForName": 2,
-      "minAnyProductPrice": 16.0,
+      "minAnyProductPrice": 16,
       "allProductIds": [
         884101,
         884102
@@ -116558,9 +116567,9 @@
       ]
     },
     "name:diana-no-longer-human": {
-      "priceFrom": 2.0,
-      "normalPriceFrom": 2.0,
-      "foilPriceFrom": 2.0,
+      "priceFrom": 2,
+      "normalPriceFrom": 2,
+      "foilPriceFrom": 2,
       "currency": "EUR",
       "source": "Cardmarket price guide",
       "priceMode": "normal",
@@ -116576,16 +116585,16 @@
       "expansionLabel": "Unleashed",
       "cardmarketUrl": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Unleashed/Diana-No-Longer-Human",
       "productCountForName": 2,
-      "minAnyProductPrice": 2.0,
+      "minAnyProductPrice": 2,
       "allProductIds": [
         884134,
         884135
       ]
     },
     "diana-no-longer-human": {
-      "priceFrom": 2.0,
-      "normalPriceFrom": 2.0,
-      "foilPriceFrom": 2.0,
+      "priceFrom": 2,
+      "normalPriceFrom": 2,
+      "foilPriceFrom": 2,
       "currency": "EUR",
       "source": "Cardmarket price guide",
       "priceMode": "normal",
@@ -116601,7 +116610,7 @@
       "expansionLabel": "Unleashed",
       "cardmarketUrl": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Unleashed/Diana-No-Longer-Human",
       "productCountForName": 2,
-      "minAnyProductPrice": 2.0,
+      "minAnyProductPrice": 2,
       "allProductIds": [
         884134,
         884135
@@ -118368,9 +118377,9 @@
       ]
     },
     "name:death-from-below": {
-      "priceFrom": 2.0,
-      "normalPriceFrom": 2.0,
-      "foilPriceFrom": 2.0,
+      "priceFrom": 2,
+      "normalPriceFrom": 2,
+      "foilPriceFrom": 2,
       "currency": "EUR",
       "source": "Cardmarket price guide",
       "priceMode": "normal",
@@ -118386,15 +118395,15 @@
       "expansionLabel": "Unleashed",
       "cardmarketUrl": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Unleashed/Death-from-Below",
       "productCountForName": 1,
-      "minAnyProductPrice": 2.0,
+      "minAnyProductPrice": 2,
       "allProductIds": [
         884178
       ]
     },
     "death-from-below": {
-      "priceFrom": 2.0,
-      "normalPriceFrom": 2.0,
-      "foilPriceFrom": 2.0,
+      "priceFrom": 2,
+      "normalPriceFrom": 2,
+      "foilPriceFrom": 2,
       "currency": "EUR",
       "source": "Cardmarket price guide",
       "priceMode": "normal",
@@ -118410,7 +118419,7 @@
       "expansionLabel": "Unleashed",
       "cardmarketUrl": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Unleashed/Death-from-Below",
       "productCountForName": 1,
-      "minAnyProductPrice": 2.0,
+      "minAnyProductPrice": 2,
       "allProductIds": [
         884178
       ]
@@ -120276,9 +120285,9 @@
       ]
     },
     "name:bird-brush": {
-      "priceFrom": 3.0,
-      "normalPriceFrom": 3.0,
-      "foilPriceFrom": 3.0,
+      "priceFrom": 3,
+      "normalPriceFrom": 3,
+      "foilPriceFrom": 3,
       "currency": "EUR",
       "source": "Cardmarket price guide",
       "priceMode": "normal",
@@ -120294,15 +120303,15 @@
       "expansionLabel": "Unleashed",
       "cardmarketUrl": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Unleashed/Bird-Brush",
       "productCountForName": 1,
-      "minAnyProductPrice": 3.0,
+      "minAnyProductPrice": 3,
       "allProductIds": [
         888482
       ]
     },
     "bird-brush": {
-      "priceFrom": 3.0,
-      "normalPriceFrom": 3.0,
-      "foilPriceFrom": 3.0,
+      "priceFrom": 3,
+      "normalPriceFrom": 3,
+      "foilPriceFrom": 3,
       "currency": "EUR",
       "source": "Cardmarket price guide",
       "priceMode": "normal",
@@ -120318,10 +120327,770 @@
       "expansionLabel": "Unleashed",
       "cardmarketUrl": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Unleashed/Bird-Brush",
       "productCountForName": 1,
-      "minAnyProductPrice": 3.0,
+      "minAnyProductPrice": 3,
       "allProductIds": [
         888482
       ]
+    },
+    "ogn:ogn-001-298:blazing-scorcher": {
+      "priceFrom": null,
+      "currency": "EUR",
+      "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Blazing-Scorcher?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
+      "source": "Cardmarket",
+      "sellerCountry": "ES",
+      "cardLanguage": "EN",
+      "condition": "NM+",
+      "foil": true,
+      "priceMode": "foil",
+      "confidence": "not-found",
+      "debug": null,
+      "updatedAt": "2026-05-30T08:40:13.938Z",
+      "key": "ogn:ogn-001-298:blazing-scorcher",
+      "cardName": "Blazing Scorcher",
+      "setId": "OGN",
+      "setSlug": "Origins",
+      "publicCode": "ogn-001-298"
+    },
+    "ogn:ogn-002-298:brazen-buccaneer": {
+      "priceFrom": null,
+      "currency": "EUR",
+      "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Brazen-Buccaneer?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
+      "source": "Cardmarket",
+      "sellerCountry": "ES",
+      "cardLanguage": "EN",
+      "condition": "NM+",
+      "foil": true,
+      "priceMode": "foil",
+      "confidence": "not-found",
+      "debug": null,
+      "updatedAt": "2026-05-30T08:40:17.563Z",
+      "key": "ogn:ogn-002-298:brazen-buccaneer",
+      "cardName": "Brazen Buccaneer",
+      "setId": "OGN",
+      "setSlug": "Origins",
+      "publicCode": "ogn-002-298"
+    },
+    "ogn:ogn-003-298:chemtech-enforcer": {
+      "priceFrom": null,
+      "currency": "EUR",
+      "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Chemtech-Enforcer?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
+      "source": "Cardmarket",
+      "sellerCountry": "ES",
+      "cardLanguage": "EN",
+      "condition": "NM+",
+      "foil": true,
+      "priceMode": "foil",
+      "confidence": "not-found",
+      "debug": null,
+      "updatedAt": "2026-05-30T08:40:22.048Z",
+      "key": "ogn:ogn-003-298:chemtech-enforcer",
+      "cardName": "Chemtech Enforcer",
+      "setId": "OGN",
+      "setSlug": "Origins",
+      "publicCode": "ogn-003-298"
+    },
+    "ogn:ogn-004-298:cleave": {
+      "priceFrom": null,
+      "currency": "EUR",
+      "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Cleave?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
+      "source": "Cardmarket",
+      "sellerCountry": "ES",
+      "cardLanguage": "EN",
+      "condition": "NM+",
+      "foil": true,
+      "priceMode": "foil",
+      "confidence": "not-found",
+      "debug": null,
+      "updatedAt": "2026-05-30T08:40:26.426Z",
+      "key": "ogn:ogn-004-298:cleave",
+      "cardName": "Cleave",
+      "setId": "OGN",
+      "setSlug": "Origins",
+      "publicCode": "ogn-004-298"
+    },
+    "ogn:ogn-005-298:disintegrate": {
+      "priceFrom": null,
+      "currency": "EUR",
+      "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Disintegrate?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
+      "source": "Cardmarket",
+      "sellerCountry": "ES",
+      "cardLanguage": "EN",
+      "condition": "NM+",
+      "foil": true,
+      "priceMode": "foil",
+      "confidence": "not-found",
+      "debug": null,
+      "updatedAt": "2026-05-30T08:40:30.326Z",
+      "key": "ogn:ogn-005-298:disintegrate",
+      "cardName": "Disintegrate",
+      "setId": "OGN",
+      "setSlug": "Origins",
+      "publicCode": "ogn-005-298"
+    },
+    "ogn:ogn-006-298:flame-chompers": {
+      "priceFrom": null,
+      "currency": "EUR",
+      "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Flame-Chompers?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
+      "source": "Cardmarket",
+      "sellerCountry": "ES",
+      "cardLanguage": "EN",
+      "condition": "NM+",
+      "foil": true,
+      "priceMode": "foil",
+      "confidence": "not-found",
+      "debug": null,
+      "updatedAt": "2026-05-30T08:40:34.747Z",
+      "key": "ogn:ogn-006-298:flame-chompers",
+      "cardName": "Flame Chompers",
+      "setId": "OGN",
+      "setSlug": "Origins",
+      "publicCode": "ogn-006-298"
+    },
+    "ogn:ogn-007-298:fury-rune": {
+      "priceFrom": null,
+      "currency": "EUR",
+      "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Fury-Rune?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
+      "source": "Cardmarket",
+      "sellerCountry": "ES",
+      "cardLanguage": "EN",
+      "condition": "NM+",
+      "foil": true,
+      "priceMode": "foil",
+      "confidence": "not-found",
+      "debug": null,
+      "updatedAt": "2026-05-30T08:40:39.232Z",
+      "key": "ogn:ogn-007-298:fury-rune",
+      "cardName": "Fury Rune",
+      "setId": "OGN",
+      "setSlug": "Origins",
+      "publicCode": "ogn-007-298"
+    },
+    "ogn:ogn-008-298:get-excited": {
+      "priceFrom": null,
+      "currency": "EUR",
+      "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Get-Excited?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
+      "source": "Cardmarket",
+      "sellerCountry": "ES",
+      "cardLanguage": "EN",
+      "condition": "NM+",
+      "foil": true,
+      "priceMode": "foil",
+      "confidence": "not-found",
+      "debug": null,
+      "updatedAt": "2026-05-30T08:40:43.777Z",
+      "key": "ogn:ogn-008-298:get-excited",
+      "cardName": "Get Excited!",
+      "setId": "OGN",
+      "setSlug": "Origins",
+      "publicCode": "ogn-008-298"
+    },
+    "ogn:ogn-009-298:hextech-ray": {
+      "priceFrom": null,
+      "currency": "EUR",
+      "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Hextech-Ray?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
+      "source": "Cardmarket",
+      "sellerCountry": "ES",
+      "cardLanguage": "EN",
+      "condition": "NM+",
+      "foil": true,
+      "priceMode": "foil",
+      "confidence": "not-found",
+      "debug": null,
+      "updatedAt": "2026-05-30T08:40:47.956Z",
+      "key": "ogn:ogn-009-298:hextech-ray",
+      "cardName": "Hextech Ray",
+      "setId": "OGN",
+      "setSlug": "Origins",
+      "publicCode": "ogn-009-298"
+    },
+    "ogn:ogn-010-298:legion-rearguard": {
+      "priceFrom": null,
+      "currency": "EUR",
+      "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Legion-Rearguard?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
+      "source": "Cardmarket",
+      "sellerCountry": "ES",
+      "cardLanguage": "EN",
+      "condition": "NM+",
+      "foil": true,
+      "priceMode": "foil",
+      "confidence": "not-found",
+      "debug": null,
+      "updatedAt": "2026-05-30T08:40:52.108Z",
+      "key": "ogn:ogn-010-298:legion-rearguard",
+      "cardName": "Legion Rearguard",
+      "setId": "OGN",
+      "setSlug": "Origins",
+      "publicCode": "ogn-010-298"
+    },
+    "ogn:ogn-011-298:magma-wurm": {
+      "priceFrom": null,
+      "currency": "EUR",
+      "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Magma-Wurm?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
+      "source": "Cardmarket",
+      "sellerCountry": "ES",
+      "cardLanguage": "EN",
+      "condition": "NM+",
+      "foil": true,
+      "priceMode": "foil",
+      "confidence": "not-found",
+      "debug": null,
+      "updatedAt": "2026-05-30T08:40:56.502Z",
+      "key": "ogn:ogn-011-298:magma-wurm",
+      "cardName": "Magma Wurm",
+      "setId": "OGN",
+      "setSlug": "Origins",
+      "publicCode": "ogn-011-298"
+    },
+    "ogn:ogn-012-298:noxus-hopeful": {
+      "priceFrom": null,
+      "currency": "EUR",
+      "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Noxus-Hopeful?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
+      "source": "Cardmarket",
+      "sellerCountry": "ES",
+      "cardLanguage": "EN",
+      "condition": "NM+",
+      "foil": true,
+      "priceMode": "foil",
+      "confidence": "not-found",
+      "debug": null,
+      "updatedAt": "2026-05-30T08:41:00.215Z",
+      "key": "ogn:ogn-012-298:noxus-hopeful",
+      "cardName": "Noxus Hopeful",
+      "setId": "OGN",
+      "setSlug": "Origins",
+      "publicCode": "ogn-012-298"
+    },
+    "ogn:ogn-013-298:pouty-poro": {
+      "priceFrom": null,
+      "currency": "EUR",
+      "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Pouty-Poro?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
+      "source": "Cardmarket",
+      "sellerCountry": "ES",
+      "cardLanguage": "EN",
+      "condition": "NM+",
+      "foil": true,
+      "priceMode": "foil",
+      "confidence": "not-found",
+      "debug": null,
+      "updatedAt": "2026-05-30T08:41:03.823Z",
+      "key": "ogn:ogn-013-298:pouty-poro",
+      "cardName": "Pouty Poro",
+      "setId": "OGN",
+      "setSlug": "Origins",
+      "publicCode": "ogn-013-298"
+    },
+    "ogn:ogn-014-298:sky-splitter": {
+      "priceFrom": null,
+      "currency": "EUR",
+      "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Sky-Splitter?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
+      "source": "Cardmarket",
+      "sellerCountry": "ES",
+      "cardLanguage": "EN",
+      "condition": "NM+",
+      "foil": true,
+      "priceMode": "foil",
+      "confidence": "not-found",
+      "debug": null,
+      "updatedAt": "2026-05-30T08:41:08.278Z",
+      "key": "ogn:ogn-014-298:sky-splitter",
+      "cardName": "Sky Splitter",
+      "setId": "OGN",
+      "setSlug": "Origins",
+      "publicCode": "ogn-014-298"
+    },
+    "ogn:ogn-015-298:captain-farron": {
+      "priceFrom": null,
+      "currency": "EUR",
+      "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Captain-Farron?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
+      "source": "Cardmarket",
+      "sellerCountry": "ES",
+      "cardLanguage": "EN",
+      "condition": "NM+",
+      "foil": true,
+      "priceMode": "foil",
+      "confidence": "not-found",
+      "debug": null,
+      "updatedAt": "2026-05-30T08:41:11.922Z",
+      "key": "ogn:ogn-015-298:captain-farron",
+      "cardName": "Captain Farron",
+      "setId": "OGN",
+      "setSlug": "Origins",
+      "publicCode": "ogn-015-298"
+    },
+    "ogn:ogn-016-298:dangerous-duo": {
+      "priceFrom": null,
+      "currency": "EUR",
+      "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Dangerous-Duo?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
+      "source": "Cardmarket",
+      "sellerCountry": "ES",
+      "cardLanguage": "EN",
+      "condition": "NM+",
+      "foil": true,
+      "priceMode": "foil",
+      "confidence": "not-found",
+      "debug": null,
+      "updatedAt": "2026-05-30T08:41:16.131Z",
+      "key": "ogn:ogn-016-298:dangerous-duo",
+      "cardName": "Dangerous Duo",
+      "setId": "OGN",
+      "setSlug": "Origins",
+      "publicCode": "ogn-016-298"
+    },
+    "ogn:ogn-017-298:iron-ballista": {
+      "priceFrom": null,
+      "currency": "EUR",
+      "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Iron-Ballista?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
+      "source": "Cardmarket",
+      "sellerCountry": "ES",
+      "cardLanguage": "EN",
+      "condition": "NM+",
+      "foil": true,
+      "priceMode": "foil",
+      "confidence": "not-found",
+      "debug": null,
+      "updatedAt": "2026-05-30T08:41:19.969Z",
+      "key": "ogn:ogn-017-298:iron-ballista",
+      "cardName": "Iron Ballista",
+      "setId": "OGN",
+      "setSlug": "Origins",
+      "publicCode": "ogn-017-298"
+    },
+    "ogn:ogn-018-298:noxus-saboteur": {
+      "priceFrom": null,
+      "currency": "EUR",
+      "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Noxus-Saboteur?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
+      "source": "Cardmarket",
+      "sellerCountry": "ES",
+      "cardLanguage": "EN",
+      "condition": "NM+",
+      "foil": true,
+      "priceMode": "foil",
+      "confidence": "not-found",
+      "debug": null,
+      "updatedAt": "2026-05-30T08:41:23.653Z",
+      "key": "ogn:ogn-018-298:noxus-saboteur",
+      "cardName": "Noxus Saboteur",
+      "setId": "OGN",
+      "setSlug": "Origins",
+      "publicCode": "ogn-018-298"
+    },
+    "ogn:ogn-019-298:raging-soul": {
+      "priceFrom": null,
+      "currency": "EUR",
+      "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Raging-Soul?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
+      "source": "Cardmarket",
+      "sellerCountry": "ES",
+      "cardLanguage": "EN",
+      "condition": "NM+",
+      "foil": true,
+      "priceMode": "foil",
+      "confidence": "not-found",
+      "debug": null,
+      "updatedAt": "2026-05-30T08:41:27.855Z",
+      "key": "ogn:ogn-019-298:raging-soul",
+      "cardName": "Raging Soul",
+      "setId": "OGN",
+      "setSlug": "Origins",
+      "publicCode": "ogn-019-298"
+    },
+    "ogn:ogn-020-298:scrapyard-champion": {
+      "priceFrom": null,
+      "currency": "EUR",
+      "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Scrapyard-Champion?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
+      "source": "Cardmarket",
+      "sellerCountry": "ES",
+      "cardLanguage": "EN",
+      "condition": "NM+",
+      "foil": true,
+      "priceMode": "foil",
+      "confidence": "not-found",
+      "debug": null,
+      "updatedAt": "2026-05-30T08:41:32.239Z",
+      "key": "ogn:ogn-020-298:scrapyard-champion",
+      "cardName": "Scrapyard Champion",
+      "setId": "OGN",
+      "setSlug": "Origins",
+      "publicCode": "ogn-020-298"
+    },
+    "ogn:ogn-021-298:sun-disc": {
+      "priceFrom": null,
+      "currency": "EUR",
+      "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Sun-Disc?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
+      "source": "Cardmarket",
+      "sellerCountry": "ES",
+      "cardLanguage": "EN",
+      "condition": "NM+",
+      "foil": true,
+      "priceMode": "foil",
+      "confidence": "not-found",
+      "debug": null,
+      "updatedAt": "2026-05-30T08:41:36.116Z",
+      "key": "ogn:ogn-021-298:sun-disc",
+      "cardName": "Sun Disc",
+      "setId": "OGN",
+      "setSlug": "Origins",
+      "publicCode": "ogn-021-298"
+    },
+    "ogn:ogn-022-298:thermo-beam": {
+      "priceFrom": null,
+      "currency": "EUR",
+      "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Thermo-Beam?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
+      "source": "Cardmarket",
+      "sellerCountry": "ES",
+      "cardLanguage": "EN",
+      "condition": "NM+",
+      "foil": true,
+      "priceMode": "foil",
+      "confidence": "not-found",
+      "debug": null,
+      "updatedAt": "2026-05-30T08:41:39.852Z",
+      "key": "ogn:ogn-022-298:thermo-beam",
+      "cardName": "Thermo Beam",
+      "setId": "OGN",
+      "setSlug": "Origins",
+      "publicCode": "ogn-022-298"
+    },
+    "ogn:ogn-023-298:unlicensed-armory": {
+      "priceFrom": null,
+      "currency": "EUR",
+      "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Unlicensed-Armory?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
+      "source": "Cardmarket",
+      "sellerCountry": "ES",
+      "cardLanguage": "EN",
+      "condition": "NM+",
+      "foil": true,
+      "priceMode": "foil",
+      "confidence": "not-found",
+      "debug": null,
+      "updatedAt": "2026-05-30T08:41:43.550Z",
+      "key": "ogn:ogn-023-298:unlicensed-armory",
+      "cardName": "Unlicensed Armory",
+      "setId": "OGN",
+      "setSlug": "Origins",
+      "publicCode": "ogn-023-298"
+    },
+    "ogn:ogn-024-298:void-seeker": {
+      "priceFrom": null,
+      "currency": "EUR",
+      "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Void-Seeker?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
+      "source": "Cardmarket",
+      "sellerCountry": "ES",
+      "cardLanguage": "EN",
+      "condition": "NM+",
+      "foil": true,
+      "priceMode": "foil",
+      "confidence": "not-found",
+      "debug": null,
+      "updatedAt": "2026-05-30T08:41:47.517Z",
+      "key": "ogn:ogn-024-298:void-seeker",
+      "cardName": "Void Seeker",
+      "setId": "OGN",
+      "setSlug": "Origins",
+      "publicCode": "ogn-024-298"
+    },
+    "ogn:ogn-025-298:blind-fury": {
+      "priceFrom": null,
+      "currency": "EUR",
+      "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Blind-Fury?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
+      "source": "Cardmarket",
+      "sellerCountry": "ES",
+      "cardLanguage": "EN",
+      "condition": "NM+",
+      "foil": true,
+      "priceMode": "foil",
+      "confidence": "not-found",
+      "debug": null,
+      "updatedAt": "2026-05-30T08:41:51.740Z",
+      "key": "ogn:ogn-025-298:blind-fury",
+      "cardName": "Blind Fury",
+      "setId": "OGN",
+      "setSlug": "Origins",
+      "publicCode": "ogn-025-298"
+    },
+    "ogn:ogn-026-298:brynhir-thundersong": {
+      "priceFrom": null,
+      "currency": "EUR",
+      "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Brynhir-Thundersong?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
+      "source": "Cardmarket",
+      "sellerCountry": "ES",
+      "cardLanguage": "EN",
+      "condition": "NM+",
+      "foil": true,
+      "priceMode": "foil",
+      "confidence": "not-found",
+      "debug": null,
+      "updatedAt": "2026-05-30T08:41:55.483Z",
+      "key": "ogn:ogn-026-298:brynhir-thundersong",
+      "cardName": "Brynhir Thundersong",
+      "setId": "OGN",
+      "setSlug": "Origins",
+      "publicCode": "ogn-026-298"
+    },
+    "ogn:ogn-027-298:darius-trifarian": {
+      "priceFrom": null,
+      "currency": "EUR",
+      "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Darius-Trifarian?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
+      "source": "Cardmarket",
+      "sellerCountry": "ES",
+      "cardLanguage": "EN",
+      "condition": "NM+",
+      "foil": true,
+      "priceMode": "foil",
+      "confidence": "not-found",
+      "debug": null,
+      "updatedAt": "2026-05-30T08:41:59.772Z",
+      "key": "ogn:ogn-027-298:darius-trifarian",
+      "cardName": "Darius - Trifarian",
+      "setId": "OGN",
+      "setSlug": "Origins",
+      "publicCode": "ogn-027-298"
+    },
+    "ogn:ogn-028-298:draven-showboat": {
+      "priceFrom": null,
+      "currency": "EUR",
+      "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Draven-Showboat?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
+      "source": "Cardmarket",
+      "sellerCountry": "ES",
+      "cardLanguage": "EN",
+      "condition": "NM+",
+      "foil": true,
+      "priceMode": "foil",
+      "confidence": "not-found",
+      "debug": null,
+      "updatedAt": "2026-05-30T08:42:03.998Z",
+      "key": "ogn:ogn-028-298:draven-showboat",
+      "cardName": "Draven - Showboat",
+      "setId": "OGN",
+      "setSlug": "Origins",
+      "publicCode": "ogn-028-298"
+    },
+    "ogn:ogn-029-298:falling-star": {
+      "priceFrom": null,
+      "currency": "EUR",
+      "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Falling-Star?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
+      "source": "Cardmarket",
+      "sellerCountry": "ES",
+      "cardLanguage": "EN",
+      "condition": "NM+",
+      "foil": true,
+      "priceMode": "foil",
+      "confidence": "not-found",
+      "debug": null,
+      "updatedAt": "2026-05-30T08:42:08.239Z",
+      "key": "ogn:ogn-029-298:falling-star",
+      "cardName": "Falling Star",
+      "setId": "OGN",
+      "setSlug": "Origins",
+      "publicCode": "ogn-029-298"
+    },
+    "ogn:ogn-030-298:jinx-demolitionist": {
+      "priceFrom": null,
+      "currency": "EUR",
+      "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Jinx-Demolitionist?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
+      "source": "Cardmarket",
+      "sellerCountry": "ES",
+      "cardLanguage": "EN",
+      "condition": "NM+",
+      "foil": true,
+      "priceMode": "foil",
+      "confidence": "not-found",
+      "debug": null,
+      "updatedAt": "2026-05-30T08:42:11.807Z",
+      "key": "ogn:ogn-030-298:jinx-demolitionist",
+      "cardName": "Jinx - Demolitionist",
+      "setId": "OGN",
+      "setSlug": "Origins",
+      "publicCode": "ogn-030-298"
+    },
+    "ogn:ogn-031-298:raging-firebrand": {
+      "priceFrom": null,
+      "currency": "EUR",
+      "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Raging-Firebrand?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
+      "source": "Cardmarket",
+      "sellerCountry": "ES",
+      "cardLanguage": "EN",
+      "condition": "NM+",
+      "foil": true,
+      "priceMode": "foil",
+      "confidence": "not-found",
+      "debug": null,
+      "updatedAt": "2026-05-30T08:42:15.584Z",
+      "key": "ogn:ogn-031-298:raging-firebrand",
+      "cardName": "Raging Firebrand",
+      "setId": "OGN",
+      "setSlug": "Origins",
+      "publicCode": "ogn-031-298"
+    },
+    "ogn:ogn-032-298:ravenborn-tome": {
+      "priceFrom": null,
+      "currency": "EUR",
+      "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Ravenborn-Tome?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
+      "source": "Cardmarket",
+      "sellerCountry": "ES",
+      "cardLanguage": "EN",
+      "condition": "NM+",
+      "foil": true,
+      "priceMode": "foil",
+      "confidence": "not-found",
+      "debug": null,
+      "updatedAt": "2026-05-30T08:42:19.832Z",
+      "key": "ogn:ogn-032-298:ravenborn-tome",
+      "cardName": "Ravenborn Tome",
+      "setId": "OGN",
+      "setSlug": "Origins",
+      "publicCode": "ogn-032-298"
+    },
+    "ogn:ogn-033-298:shakedown": {
+      "priceFrom": null,
+      "currency": "EUR",
+      "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Shakedown?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
+      "source": "Cardmarket",
+      "sellerCountry": "ES",
+      "cardLanguage": "EN",
+      "condition": "NM+",
+      "foil": true,
+      "priceMode": "foil",
+      "confidence": "not-found",
+      "debug": null,
+      "updatedAt": "2026-05-30T08:42:23.409Z",
+      "key": "ogn:ogn-033-298:shakedown",
+      "cardName": "Shakedown",
+      "setId": "OGN",
+      "setSlug": "Origins",
+      "publicCode": "ogn-033-298"
+    },
+    "ogn:ogn-034-298:tryndamere-barbarian": {
+      "priceFrom": null,
+      "currency": "EUR",
+      "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Tryndamere-Barbarian?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
+      "source": "Cardmarket",
+      "sellerCountry": "ES",
+      "cardLanguage": "EN",
+      "condition": "NM+",
+      "foil": true,
+      "priceMode": "foil",
+      "confidence": "not-found",
+      "debug": null,
+      "updatedAt": "2026-05-30T08:42:27.588Z",
+      "key": "ogn:ogn-034-298:tryndamere-barbarian",
+      "cardName": "Tryndamere - Barbarian",
+      "setId": "OGN",
+      "setSlug": "Origins",
+      "publicCode": "ogn-034-298"
+    },
+    "ogn:ogn-035-298:vayne-hunter": {
+      "priceFrom": null,
+      "currency": "EUR",
+      "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Vayne-Hunter?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
+      "source": "Cardmarket",
+      "sellerCountry": "ES",
+      "cardLanguage": "EN",
+      "condition": "NM+",
+      "foil": true,
+      "priceMode": "foil",
+      "confidence": "not-found",
+      "debug": null,
+      "updatedAt": "2026-05-30T08:42:31.320Z",
+      "key": "ogn:ogn-035-298:vayne-hunter",
+      "cardName": "Vayne - Hunter",
+      "setId": "OGN",
+      "setSlug": "Origins",
+      "publicCode": "ogn-035-298"
+    },
+    "ogn:ogn-036-298:vi-destructive": {
+      "priceFrom": null,
+      "currency": "EUR",
+      "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Vi-Destructive?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
+      "source": "Cardmarket",
+      "sellerCountry": "ES",
+      "cardLanguage": "EN",
+      "condition": "NM+",
+      "foil": true,
+      "priceMode": "foil",
+      "confidence": "not-found",
+      "debug": null,
+      "updatedAt": "2026-05-30T08:42:34.948Z",
+      "key": "ogn:ogn-036-298:vi-destructive",
+      "cardName": "Vi - Destructive",
+      "setId": "OGN",
+      "setSlug": "Origins",
+      "publicCode": "ogn-036-298"
+    },
+    "ogn:ogn-037-298:immortal-phoenix": {
+      "priceFrom": null,
+      "currency": "EUR",
+      "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Immortal-Phoenix?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
+      "source": "Cardmarket",
+      "sellerCountry": "ES",
+      "cardLanguage": "EN",
+      "condition": "NM+",
+      "foil": true,
+      "priceMode": "foil",
+      "confidence": "not-found",
+      "debug": null,
+      "updatedAt": "2026-05-30T08:42:38.719Z",
+      "key": "ogn:ogn-037-298:immortal-phoenix",
+      "cardName": "Immortal Phoenix",
+      "setId": "OGN",
+      "setSlug": "Origins",
+      "publicCode": "ogn-037-298"
+    },
+    "ogn:ogn-038-298:kadregrin-the-infernal": {
+      "priceFrom": null,
+      "currency": "EUR",
+      "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Kadregrin-the-Infernal?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
+      "source": "Cardmarket",
+      "sellerCountry": "ES",
+      "cardLanguage": "EN",
+      "condition": "NM+",
+      "foil": true,
+      "priceMode": "foil",
+      "confidence": "not-found",
+      "debug": null,
+      "updatedAt": "2026-05-30T08:42:42.804Z",
+      "key": "ogn:ogn-038-298:kadregrin-the-infernal",
+      "cardName": "Kadregrin the Infernal",
+      "setId": "OGN",
+      "setSlug": "Origins",
+      "publicCode": "ogn-038-298"
+    },
+    "ogn:ogn-039-298:kai-sa-survivor": {
+      "priceFrom": null,
+      "currency": "EUR",
+      "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/KaiSa-Survivor?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
+      "source": "Cardmarket",
+      "sellerCountry": "ES",
+      "cardLanguage": "EN",
+      "condition": "NM+",
+      "foil": true,
+      "priceMode": "foil",
+      "confidence": "not-found",
+      "debug": null,
+      "updatedAt": "2026-05-30T08:42:47.056Z",
+      "key": "ogn:ogn-039-298:kai-sa-survivor",
+      "cardName": "Kai'Sa - Survivor",
+      "setId": "OGN",
+      "setSlug": "Origins",
+      "publicCode": "ogn-039-298"
+    },
+    "ogn:ogn-040-298:seal-of-rage": {
+      "priceFrom": null,
+      "currency": "EUR",
+      "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Seal-of-Rage?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
+      "source": "Cardmarket",
+      "sellerCountry": "ES",
+      "cardLanguage": "EN",
+      "condition": "NM+",
+      "foil": true,
+      "priceMode": "foil",
+      "confidence": "not-found",
+      "debug": null,
+      "updatedAt": "2026-05-30T08:42:51.286Z",
+      "key": "ogn:ogn-040-298:seal-of-rage",
+      "cardName": "Seal of Rage",
+      "setId": "OGN",
+      "setSlug": "Origins",
+      "publicCode": "ogn-040-298"
     }
   }
 }
