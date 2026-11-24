@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Unleashed/Evelynn-Entrancing?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a564b2a448bdf095-DFW",
+      "cf-ray": "a5fa2f94be79d6f5-IAD",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Fri, 06 Nov 2026 14:13:15 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Tue, 24 Nov 2026 17:38:11 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
       "server-timing": "cfEdge;dur=1,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=GF9wEk6xDLDXppQb8aagcSpPmU9cwcBgRIs.UZDoP5E-1793974395.5656374-1.0.1.1-q28cFDeWOgqE4hFWt3587SIT4oFEREQXJQIS9V3HYtNwjXD5cvwS15gpA.hX689tLy8YmPjMzMS78uHiXoKjAjau80sHt8tpFM6n3fI8N9b7KHFtlU_SKn81ZDyhNqYj; HttpOnly; SameSite=None; Secure; Path=/; Domain=cardmarket.com; Expires=Fri, 06 Nov 2026 14:43:15 GMT",
-      "transfer-encoding": "chunked",
+      "set-cookie": "__cf_bm=jEyD4PJ4NBR.9UNjDTNH880Hoo0OYwBQaUAZWom9kEc-1795541891.3148615-1.0.1.1-GzO8.F65IhSDwlkxzuggWyE0PVjeQZlpHmjUMxRpV0ca65ASRqwIC6fiK7Am0DW.e0I2GdqSzme0RarknsqYY2JUsQ73zdqh.O3uJ1hYLZaRMnWNIVMtjh2IYv8vSJdx; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Tue, 24 Nov 2026 18:08:11 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

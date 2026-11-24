@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Unleashed/Soul-Harvest?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a564b46d3847e52c-DFW",
+      "cf-ray": "a5fa31519c5f990a-IAD",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Fri, 06 Nov 2026 14:14:28 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Tue, 24 Nov 2026 17:39:22 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
-      "server-timing": "cfEdge;dur=2,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=nCDPgAuQdtkG.u5WKxJcPCli3LdJogQ5PXcpGLrpUOE-1793974468.679666-1.0.1.1-.G7wJ8ieeSA5viAjktufxBsnB3bHbJ31LxIga.8md2DcG.mbbQTrHTLgwjtYqegW1WRR9TuhvDnrYNt68W2maGEvkcgRliMtev42BWmQlST7Uy_UxSoj4KFFbcjsG4L2; HttpOnly; SameSite=None; Secure; Path=/; Domain=cardmarket.com; Expires=Fri, 06 Nov 2026 14:44:28 GMT",
-      "transfer-encoding": "chunked",
+      "server-timing": "cfEdge;dur=1,cfOrigin;dur=0",
+      "set-cookie": "__cf_bm=XofYxc_O1j8hSTwsoNfbVBNkKjLzEgHvlFkmkr4Jt.k-1795541962.5013177-1.0.1.1-zhZ6ppcTerm80y0qt.77ZeDhpNnTGqDgrfezmJhvhxUpSVpJX11kL.dQ_sw_ka3hJqNSnKI2CTSu.AtZofin1uaBwhl03MZ8bs2Rs.I6p1l9nLnCA88cLoZv8gn4HvfF; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Tue, 24 Nov 2026 18:09:22 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

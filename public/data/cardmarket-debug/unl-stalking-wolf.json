@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Unleashed/Stalking-Wolf?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a564b51b1f5e6b58-DFW",
+      "cf-ray": "a5fa3206af425d13-IAD",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Fri, 06 Nov 2026 14:14:56 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Tue, 24 Nov 2026 17:39:51 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
-      "server-timing": "cfEdge;dur=2,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=RRvXqGA15d2ACs.s0ccmyAxGDQ_fXJg7OiTjYCF5hZU-1793974496.4943373-1.0.1.1-1DhXjqyHKChdA6rijNTjX0mRBkuRRCInM6.sQDFMf2lwkQVNGxLDETxhIp7sJIkKwIh1fATLpLDCMDiq.VnkjOCVMLjQpIb1md0kLpG6bI4spsjgPAUJ1CkEpJTaRPep; HttpOnly; SameSite=None; Secure; Path=/; Domain=cardmarket.com; Expires=Fri, 06 Nov 2026 14:44:56 GMT",
-      "transfer-encoding": "chunked",
+      "server-timing": "cfEdge;dur=1,cfOrigin;dur=0",
+      "set-cookie": "__cf_bm=VGAggGsDutH_dGS_AM_L3AT8AzqHxB5uqThrHILXxAo-1795541991.462535-1.0.1.1-n4Nv9.mo64j4M_KRnLnY8dngBVi356WfIbqfcT2mIgAvHybNojk62aDdSkBoZ0QCVQdzi3UDem3u2ZdZE4Ouo59vlE0jhPVqxkGnw56v2ukLwbHEhdqCBhbJfezMf8gM; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Tue, 24 Nov 2026 18:09:51 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Unleashed/Vicious-Snapjaws?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a564b169ec0ea014-DFW",
+      "cf-ray": "a5fa2e619b04bec0-IAD",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Fri, 06 Nov 2026 14:12:25 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Tue, 24 Nov 2026 17:37:22 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
-      "server-timing": "cfEdge;dur=1,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=jqsmXqB4Xy.sgxIUorx.TucjeX4zm0KerE3sdnvvNW8-1793974345.2666554-1.0.1.1-iYmmX9zF1WSO1NfFRCSlvoXxMRjgsnxGbG6G4AM2_rZtZnUsTB_ZjLk7KpoKu63DJBaVgxf2u0Ztxaj39cqRlq8dBtgt0os0ybh5Xf97OQ32xAPoj2JqwdFGjFq_b5F2; HttpOnly; SameSite=None; Secure; Path=/; Domain=cardmarket.com; Expires=Fri, 06 Nov 2026 14:42:25 GMT",
-      "transfer-encoding": "chunked",
+      "server-timing": "cfEdge;dur=4,cfOrigin;dur=0",
+      "set-cookie": "__cf_bm=fdJi4ZSnoZQyLBQaA__Up7_w9w66f7h5N3u67HeJQDw-1795541842.1806383-1.0.1.1-c8xTJW3k7bwAaQ21w2MiD9_PYmK6I4eS9R5CzmenTaoERHmU76DwWiVxa5H46gurrkGqF4znJn_lkcLBfH3FWb6FsBqXItp7X48ZXSlTArm76TK0E8fZfNTozSsFqwlb; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Tue, 24 Nov 2026 18:07:22 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

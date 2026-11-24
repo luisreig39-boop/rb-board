@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Unleashed/Pyke-Returned?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a564b306aecea014-DFW",
+      "cf-ray": "a5fa2ff68a10d6f5-IAD",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Fri, 06 Nov 2026 14:13:31 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Tue, 24 Nov 2026 17:38:26 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
-      "server-timing": "cfEdge;dur=1,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=Rw6aGEIqwFNcv8Xp_xwLdunZXjiU9XTaD03ANBObR_c-1793974411.3032825-1.0.1.1-j44vs0ipQ3m5u0Qiz3qF9UI_Iv5CSG0hMs2kQ3hEkZifDPfOqbYCfpnDJsDmwZ6bpMrZazruV2vjSeThLMn1oBfVPW9DZXI7V4jDaj0GT04hKAn3jN32bGfxcSI0zhap; HttpOnly; SameSite=None; Secure; Path=/; Domain=cardmarket.com; Expires=Fri, 06 Nov 2026 14:43:31 GMT",
-      "transfer-encoding": "chunked",
+      "server-timing": "cfEdge;dur=7,cfOrigin;dur=0",
+      "set-cookie": "__cf_bm=LCSOGqBAOLFql5LAjkfpVPH3pzfkXSB_YY2fDcGbfAY-1795541906.9637582-1.0.1.1-DJy43jx1HkiHycQASifdK7EgyJBTjimwENHW4..OfP8ZIBlDXaxGCQx4JV2X6t8f9PPhvEAxW91PT3oSc4G1SPMBSplhIXwHbJdOacBwsVUBT6ThtF6wYzd1CBMPb4t2; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Tue, 24 Nov 2026 18:08:26 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

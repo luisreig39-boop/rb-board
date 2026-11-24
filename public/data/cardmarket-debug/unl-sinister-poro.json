@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Unleashed/Sinister-Poro?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a564b23bde32e52c-DFW",
+      "cf-ray": "a5fa2f2d1ab0150b-IAD",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Fri, 06 Nov 2026 14:12:58 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Tue, 24 Nov 2026 17:37:54 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
-      "server-timing": "cfEdge;dur=4,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=57pfYPMwpGLsRKlDboWSGnnpAEuiDkKjbZfV0OGBez0-1793974378.8611565-1.0.1.1-zW2WTFsnQFzaDGvKVUOP4VWTRfzp7N2Y6mzllUNlr0nFJliXhMS.5_gdOpzqLDGNDGTrmfNCz__CPgsnYcv_MkLaD62uGvkFahmrtBSYe74GWXAdUbmJjnQBQkNWvRiO; HttpOnly; SameSite=None; Secure; Path=/; Domain=cardmarket.com; Expires=Fri, 06 Nov 2026 14:42:58 GMT",
-      "transfer-encoding": "chunked",
+      "server-timing": "cfEdge;dur=1,cfOrigin;dur=0",
+      "set-cookie": "__cf_bm=NnkXSgWqRbrnkpIsdGulp1geto9MfODaUfwXdNatNKI-1795541874.7385957-1.0.1.1-ILd5QDWkkLsKFIlNy5_rBbwdsmKCFdxC2mrBBdHDwgZq3N4Tqx4GcgReJ9FjaStbwqBxYvuhLgUQHnrCmyLK7z8E5ihWjUQgDgEXgft7XhCo13iyR7hhLlMylzg1OfmJ; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Tue, 24 Nov 2026 18:07:54 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

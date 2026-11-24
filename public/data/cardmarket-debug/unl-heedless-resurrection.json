@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Unleashed/Heedless-Resurrection?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a564b2bb3a81f095-DFW",
+      "cf-ray": "a5fa2faedab5ea3e-IAD",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Fri, 06 Nov 2026 14:13:19 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Tue, 24 Nov 2026 17:38:15 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
-      "server-timing": "cfEdge;dur=4,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=9cHfWZVFUP3H8uQZgAX95OWcl6eXqMWJSExyFWGix0k-1793974399.2343245-1.0.1.1-NrTUhlriHGfjSpV38l.RluVPRikawylmF.ocYIv6es5YpAIttt9Ikzru5jgZiUh.Loz60iDQfbp.yti0mevUFopjclaH.ga25nfifmCNaLJIB51MN1VZ.aZj_meEsUrx; HttpOnly; SameSite=None; Secure; Path=/; Domain=cardmarket.com; Expires=Fri, 06 Nov 2026 14:43:19 GMT",
-      "transfer-encoding": "chunked",
+      "server-timing": "cfEdge;dur=2,cfOrigin;dur=0",
+      "set-cookie": "__cf_bm=fYym4lZi_6zLkubC6J40A7TKEXWy9sE3Bhi4DzZBomE-1795541895.5010002-1.0.1.1-FQu4pU76OrUm.cCsTGZ_B5OBQVwjBdIhKl5Jco7wW27mJ7usrEZLw1pfQfs7eBOFWU3NQsSmbPix2yWQDR928fIjTJpMjLwN7RnzMGmFiycUwCF3z.IyAIMai3rEfSZv; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Tue, 24 Nov 2026 18:08:15 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

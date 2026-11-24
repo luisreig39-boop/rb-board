@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Unleashed/Ultrasoft-Poro?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a564b484b9cae52c-DFW",
+      "cf-ray": "a5fa31693ffe990a-IAD",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Fri, 06 Nov 2026 14:14:32 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Tue, 24 Nov 2026 17:39:26 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
-      "server-timing": "cfEdge;dur=2,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=cyvt86XjfBwdu4YfEhER5TeGG04zGciuiiWnJGzcYw4-1793974472.4385118-1.0.1.1-Y2G_xQMu.Kx_lU1ZItLKQoCVOaG0CFw9BZb1pV9q__GG4lw6cBiOmBxUyvFh3pkihh3EuLUDGp6xm.mcsrT1iH6QFbKf8KSJzA20eQgPOLtkAu.QMNKZsRWiNGbfwZv_; HttpOnly; SameSite=None; Secure; Path=/; Domain=cardmarket.com; Expires=Fri, 06 Nov 2026 14:44:32 GMT",
-      "transfer-encoding": "chunked",
+      "server-timing": "cfEdge;dur=1,cfOrigin;dur=0",
+      "set-cookie": "__cf_bm=MLm0qR53o20DeXZ3dnR9DNfnhF5sk600F0Bi8nHqfoY-1795541966.2730367-1.0.1.1-damh7sxqINfiGuV8oblYp2hSUlnQtgnyPoYZjWxDIKd0r6YT..LgeUDer6E_S85dEZh6dJlGBzTA3LWWwf.Agpla92lUcHtoVyqTRbHoDkTbbtHy3mnmLgAjxHe0hoiz; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Tue, 24 Nov 2026 18:09:26 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

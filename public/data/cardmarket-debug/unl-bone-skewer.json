@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Unleashed/Bone-Skewer?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a564b2743e9bf095-DFW",
+      "cf-ray": "a5fa2f621e4629bb-IAD",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Fri, 06 Nov 2026 14:13:07 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Tue, 24 Nov 2026 17:38:03 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
-      "server-timing": "cfEdge;dur=1,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=1qAKOUBu.uhiC53jmkUv6b65ZAuboUOQOS2IpbpAKss-1793974387.88136-1.0.1.1-qDu3VuiTtlgYPyz0m.wOz8TqgnQ4fEcN8NTVjYp1Zd4KX6ZrDFLldWoCqpmUdzfI7uQS4KNxGU4FIoIddVH4MmX8z2NP0aA3qq9R3ORzamI1QrpoPQ_KHp4b9kXN0tN1; HttpOnly; SameSite=None; Secure; Path=/; Domain=cardmarket.com; Expires=Fri, 06 Nov 2026 14:43:07 GMT",
-      "transfer-encoding": "chunked",
+      "server-timing": "cfEdge;dur=5,cfOrigin;dur=0",
+      "set-cookie": "__cf_bm=gy1aO2tP3HwmWRTLjyDC4_gZ19voFP0ttgme71IW5_c-1795541883.2180536-1.0.1.1-EpkvU48u.KUuB14e3woeyRkVn4WTsiLV9Tkb_qGaILeb6xemQGVSZasbQmNrig.vs9Gg8uxlVH_3XY1dYTvWWbb3NHojO8AI9St.ScLIanD.l_Utb.c2RXj2tRvToKCO; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Tue, 24 Nov 2026 18:08:03 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

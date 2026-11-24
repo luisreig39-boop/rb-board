@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Unleashed/Angler-Beast?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a564b1b3dd44a014-DFW",
+      "cf-ray": "a5fa2eb00cdc29bb-IAD",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Fri, 06 Nov 2026 14:12:37 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Tue, 24 Nov 2026 17:37:34 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
-      "server-timing": "cfEdge;dur=1,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=rGhmIF678PFUK3yiJivJD7vmT4Kly8qeJbyC1eyYo.Y-1793974357.100597-1.0.1.1-oyWVIEmcXQeeGWAT8IvFlixQ0zzhKEpAU58M4WpO3i27N26kfHRuFTniq3tzxoug6k_MzFj6PqC53.K3tjWd71dUuNzk0688ozbRRfpapwMaX5wF2UUmuqcRQBMa6eHg; HttpOnly; SameSite=None; Secure; Path=/; Domain=cardmarket.com; Expires=Fri, 06 Nov 2026 14:42:37 GMT",
-      "transfer-encoding": "chunked",
+      "server-timing": "cfEdge;dur=5,cfOrigin;dur=0",
+      "set-cookie": "__cf_bm=qk2.GBv0b.8WM7DDoQv5IZPeN.H4FBm3fpKbDdMiIt8-1795541854.7289257-1.0.1.1-sNC7OnJHRla3nPjx5dqA0Ch5D05BwFdAfO.zBsYnwy4Q7UifnhZWR2BFnbQ1yR94WXRgxRawREJVGdsFNU5xfxBuqhStpfaHYUgLmtjBJ04bSl4uHPuMbYCr83UchO4J; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Tue, 24 Nov 2026 18:07:34 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Unleashed/Safety-Inspector?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a564b4e9799d6b58-DFW",
+      "cf-ray": "a5fa31d4e9f3150b-IAD",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Fri, 06 Nov 2026 14:14:48 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Tue, 24 Nov 2026 17:39:43 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
-      "server-timing": "cfEdge;dur=2,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=WZCviQmOnXtijUR4y3uLqU4Y25Ogk8INq0IjAPZoqG4-1793974488.558674-1.0.1.1-ekqn.wSMeS7ZThohrC88AF6Az77vVUz5vOPbPzBSao4fIKt5.XcGIbAaI.j6J9XvGytcTc8VjJT6aTK9k5iwmpqXoKPbLstrS0YeIp6T0LM_DDcLkO8COxYrOQyBeARL; HttpOnly; SameSite=None; Secure; Path=/; Domain=cardmarket.com; Expires=Fri, 06 Nov 2026 14:44:48 GMT",
-      "transfer-encoding": "chunked",
+      "server-timing": "cfEdge;dur=1,cfOrigin;dur=0",
+      "set-cookie": "__cf_bm=XwNQPtbCMbNTHJJK9SIgEQXXLuZYdoDLQoJL7rm6Eks-1795541983.5035203-1.0.1.1-KshG12.sIHUctPgJkGjoabnkEIz6WOKKeKJVtgtqqEyPwvmXsBaWASaBpqRcZTIuvkXaFFvn7oM5WzXTIBlIMCOy0U7g.89VzCuDUN6kshcNM0qYrzBcFqwgc1fiGFtq; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Tue, 24 Nov 2026 18:09:43 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

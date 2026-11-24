@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Unleashed/Diana-No-Longer-Human?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a564b36f6e9ee52c-DFW",
+      "cf-ray": "a5fa30579a1bbec0-IAD",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Fri, 06 Nov 2026 14:13:48 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Tue, 24 Nov 2026 17:38:42 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
       "server-timing": "cfEdge;dur=1,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=gqqYOVH1vrWMTt3lax6grJ2RVCopIrYNnl44jrUXFf4-1793974428.0672026-1.0.1.1-fBv5Erm2FyNoN.teKJJjYXvtK.imCquX_xiKrP_2GBDRieYxeW4S9keXRVWnEaxjtbp8_o8hWXuGjnpnuaIhgiQLA7EPllGKK29Adp1MliMSjEcTTXsOWKTp1TbIhVPk; HttpOnly; SameSite=None; Secure; Path=/; Domain=cardmarket.com; Expires=Fri, 06 Nov 2026 14:43:48 GMT",
-      "transfer-encoding": "chunked",
+      "set-cookie": "__cf_bm=6QFYDp.pT_QAw9bbWR5h6YJdb0Oorpr6bl88.i8v3y4-1795541922.500486-1.0.1.1-e30C5N41kOlqbWEq1mr46OZeg4uQp3fmHKdxJSLV1ENa0IwvnBWtVeru6wDHOFN3JA1UBzRoHUyXFV5p.629oWmSz3VHU9.VIiU3IIVwo3AeSoBvg_gGORL2R.MXmBDw; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Tue, 24 Nov 2026 18:08:42 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

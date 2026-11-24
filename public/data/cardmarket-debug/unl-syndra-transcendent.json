@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Unleashed/Syndra-Transcendent?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a564b322bfce6b58-DFW",
+      "cf-ray": "a5fa300e1fa4d6f5-IAD",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Fri, 06 Nov 2026 14:13:35 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Tue, 24 Nov 2026 17:38:30 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
-      "server-timing": "cfEdge;dur=4,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=HhkZ6.Rz1tkGcvo6t6BDKMCfAhHceixZdXeMRvgH4xI-1793974415.801126-1.0.1.1-SXhzvzW4aSoa0_7KoCVcp30cRgWxehW3S4f8NRErXj2IaCiJeRTx32idacSVnusA4pLioTdBq8v98NNsc5yLQn7Fra.LSaS17wnewQcCzOtkHvKUY2DbQGSBqqcS8mKd; HttpOnly; SameSite=None; Secure; Path=/; Domain=cardmarket.com; Expires=Fri, 06 Nov 2026 14:43:35 GMT",
-      "transfer-encoding": "chunked",
+      "server-timing": "cfEdge;dur=1,cfOrigin;dur=0",
+      "set-cookie": "__cf_bm=oTlvEG4nePVDp_uVHLy7gy69r7TBhOd9ydIC_4PBpQc-1795541910.739717-1.0.1.1-_OnnqMKHZeGfXtt_SJwTUvqcyD3FuUfAJ1GlySjCOJX3zB7FdNHekAVP8eCZyATO5SCUAu58JNQ_KUn2QIheFAQAjsnpCxXmCruScfsY6L4vT3ZqJxwmQfDXsuxEbd5s; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Tue, 24 Nov 2026 18:08:30 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

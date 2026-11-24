@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Unleashed/Crimson-Pigeons?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a564b3ea2d4fa014-DFW",
+      "cf-ray": "a5fa30d02ea3150b-IAD",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Fri, 06 Nov 2026 14:14:07 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Tue, 24 Nov 2026 17:39:01 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
-      "server-timing": "cfEdge;dur=2,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=zISsv7KRmnTUzk9docM7Gz5sVHTyUp9JptujXvs9bsw-1793974447.7060328-1.0.1.1-8SWKDtw0oyp8__mvCG_fqB_ZRtVKzIxtsLSVkny3cQgE0RB1_ja9NCRWxUwPVqjhMfsEMUWgi7kqzJcaZ2zEjLi_ZFkP9URqpxPjHztZByYfTN1PrNuVlju3cXw8lTqn; HttpOnly; SameSite=None; Secure; Path=/; Domain=cardmarket.com; Expires=Fri, 06 Nov 2026 14:44:07 GMT",
-      "transfer-encoding": "chunked",
+      "server-timing": "cfEdge;dur=1,cfOrigin;dur=0",
+      "set-cookie": "__cf_bm=533Xnuq_Db7zKPJiJe3Ta2loCDUKmQhsN8ItkJeXaMg-1795541941.7872126-1.0.1.1-rLNpcOCBsEQhydZAYv.QUdLJMWgryJ5W9cLkPT9nluZRsCHYhQMrTD3KaieGn1n75kzRul1qihV3gjM_FSxEozmIHthYgOCEmwKlI.IdVwOcnIPPdyaFDN.Kb_CLJCYZ; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Tue, 24 Nov 2026 18:09:01 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

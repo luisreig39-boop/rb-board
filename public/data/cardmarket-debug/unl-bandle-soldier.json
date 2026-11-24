@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Unleashed/Bandle-Soldier?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a564b39f0c5fe52c-DFW",
+      "cf-ray": "a5fa30856a9abec0-IAD",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Fri, 06 Nov 2026 14:13:55 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Tue, 24 Nov 2026 17:38:49 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
-      "server-timing": "cfEdge;dur=2,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=vZMO.4cbw6RvF6sylyjXeZ20vIUyuqWj4OD75OiJ5uk-1793974435.6826675-1.0.1.1-KK3CX0gIyuGmYolxRbZZfE31uXiX83mgRsAUlk6k0J7SOieXRjLlC4E2fvc_rsl1UwfbceZuEjzOJPrwHjATJV727sOWRM9zHzIVgW.LBXhEoQNi0jZZ12DjK7mPNEgm; HttpOnly; SameSite=None; Secure; Path=/; Domain=cardmarket.com; Expires=Fri, 06 Nov 2026 14:43:55 GMT",
-      "transfer-encoding": "chunked",
+      "server-timing": "cfEdge;dur=1,cfOrigin;dur=0",
+      "set-cookie": "__cf_bm=fj_eHV5d110q8MGb2iYJWVR1N9kHnYbz2laj71bkIGk-1795541929.8267705-1.0.1.1-MG8LolAfNmbg7ksU8TE6wEZfmyY1URWXfOgLlaAmyWWml1xJDb1aKw.s0i4uNGC1d2UBg91r.HvIg54JJ1sBU7Yhomi_hAvItmHi9ZTsKZUK7NSZDheD9oJn_49PsnOO; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Tue, 24 Nov 2026 18:08:49 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

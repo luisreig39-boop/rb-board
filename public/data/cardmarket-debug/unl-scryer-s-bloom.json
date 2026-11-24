@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Unleashed/Scryers-Bloom?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a564b222095b6b58-DFW",
+      "cf-ray": "a5fa2f166b1c150b-IAD",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Fri, 06 Nov 2026 14:12:54 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Tue, 24 Nov 2026 17:37:51 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
-      "server-timing": "cfEdge;dur=1,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=SZxG7zPgv9U4tL6knmRUwGlGrasDuKtiOK3g.vz3Pdw-1793974374.724226-1.0.1.1-jFxz4uJn4ZYi6s8.dMenLDhi0nGpADwnM09XNB_RwD2m75sTnFKpy2Bte732O1_Zl2rQq3QrQcO9yW5FlRte6RJEaqbYo7OzYHM64HvDQYgDC8HrGD1n7xGDRHcFPzRs; HttpOnly; SameSite=None; Secure; Path=/; Domain=cardmarket.com; Expires=Fri, 06 Nov 2026 14:42:54 GMT",
-      "transfer-encoding": "chunked",
+      "server-timing": "cfEdge;dur=2,cfOrigin;dur=0",
+      "set-cookie": "__cf_bm=NOoeK5AyKUwacdEiBwQ4EoTUX5QwZTHlLWSvLanYbuQ-1795541871.1040301-1.0.1.1-sSof_2vxtOXv45UPZu3TR9D8dUcHxJj4NYl81J5nXffhRP7tTc.4PpZmuj4pqghOq3eRCW2nGRDcFvQAE33wqMjcMCJHlT2hKhacve5QghKErYrziVv5AVFiOdSLx5p6; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Tue, 24 Nov 2026 18:07:51 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

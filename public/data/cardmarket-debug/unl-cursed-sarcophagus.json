@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Unleashed/Cursed-Sarcophagus?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a564b358cc75e52c-DFW",
+      "cf-ray": "a5fa303dffc6ea3e-IAD",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Fri, 06 Nov 2026 14:13:44 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Tue, 24 Nov 2026 17:38:38 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
-      "server-timing": "cfEdge;dur=11,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=gZAiY615fHDXO4h_UVo92.Lr6BZYsU1KZbMgdemr8k8-1793974424.4537332-1.0.1.1-BBUdiG7GW4xFycBRBD47GEl_XUTEHNMOPvp4uBX.l5n._eKCT9mjdHLc6QLGeuri4TmvX6ICH62DBOll_D2y7SIMo80ue39f4ZY7DNUKSUTUD7Q_pN7c02Z7Shb65uTA; HttpOnly; SameSite=None; Secure; Path=/; Domain=cardmarket.com; Expires=Fri, 06 Nov 2026 14:43:44 GMT",
-      "transfer-encoding": "chunked",
+      "server-timing": "cfEdge;dur=2,cfOrigin;dur=0",
+      "set-cookie": "__cf_bm=SbHAcG9SiE8.X7MHHufIQsleI7ev7tDtNNd5KVbypXE-1795541918.3949218-1.0.1.1-trsveheZrst6ZaH2HLMGqi1TafWyUNhitKDwDYwoeGJzJ.Y7gCyWvUwMYZ5yejBeZgEaF8rOd2PZKoV3wuuJYaHZ0l7ov8pFc2h9fAVLShJ5b2S90XsZMDNGkjGx.9xC; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Tue, 24 Nov 2026 18:08:38 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }
