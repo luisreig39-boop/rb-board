@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Unleashed/Amateur-Recital?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a56c80d99b22e678-SJC",
+      "cf-ray": "a60243d4a8a16c91-SEA",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Sat, 07 Nov 2026 12:57:22 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Wed, 25 Nov 2026 17:10:06 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
-      "server-timing": "cfEdge;dur=1,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=ok.LFl6SKjmo1hV4D2Za9n7WDWff8AF9O1Q5e7GFDrE-1794056242.1792464-1.0.1.1-NjxgO52v94GFc6URSB5AoNRGfm8J8OiWAx60VN0VGsTGJIeeKBFhN9OzyKJ0CaV7A.l4eW5W4qcG3fbmqb.r1JSQhm.By8.w_4MSQjLTPNeV4arsIfCVmgxf.voh5mfJ; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Sat, 07 Nov 2026 13:27:22 GMT",
-      "transfer-encoding": "chunked",
+      "server-timing": "cfEdge;dur=2,cfOrigin;dur=0",
+      "set-cookie": "__cf_bm=FQknWm1YgPk.XdqWZVeGAox4gz2mHuQbR3Bl8zoyUk0-1795626606.8262792-1.0.1.1-lhSkkj0osykIgjGfoPoU5CGgFlHRACmhTmzmfxJENn0ukAAQve0EJFOr5Up.R.Oexyzr.MlWFcdnaHIHLEnLkvED.w.ghRO3wjncnoM.CY5Gx..NPbQoPMVYWCfOcoMz; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Wed, 25 Nov 2026 17:40:06 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

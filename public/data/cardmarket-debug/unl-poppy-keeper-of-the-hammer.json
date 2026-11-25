@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Unleashed/Poppy-Keeper-of-the-Hammer?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a56c808f68732c2d-SJC",
+      "cf-ray": "a6024387deb26c91-SEA",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Sat, 07 Nov 2026 12:57:10 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Wed, 25 Nov 2026 17:09:54 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
-      "server-timing": "cfEdge;dur=3,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=593tsoMJug_0lAbc_xFyJ5nGXd35POpdGAE5q6pLaUM-1794056230.3018672-1.0.1.1-lX2pSgN_qPij4usPOHWr3XG2P_c4j.RUhAV9SlWCe7TOCC1iXRLCqTLaDWwlbE1EyZUMKXOE_g0WN_EmlE185a_vVTuc2dWS59UDk3MLPgDwMl4KFygDP2vYEAxZJVUk; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Sat, 07 Nov 2026 13:27:10 GMT",
-      "transfer-encoding": "chunked",
+      "server-timing": "cfEdge;dur=1,cfOrigin;dur=0",
+      "set-cookie": "__cf_bm=wbz.PnEOwBHf.BP6lTiat6IUrveNzVi6uQgxVHx3v3k-1795626594.5386136-1.0.1.1-scK2SUbK7prTDylrfnJoVDpdUQHA_7eaf2ISllEP8U6nkY0swJ_PaVswdJzs1Z2xdve.EGnMYJ.AW6LZ05JZeB4WeTS2Ryoje_yjGOmZeYhsvFjgrG3oGkDus93rGSWE; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Wed, 25 Nov 2026 17:39:54 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

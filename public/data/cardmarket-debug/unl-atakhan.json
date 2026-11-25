@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Unleashed/Atakhan?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a56c7e6788282700-SJC",
+      "cf-ray": "a6024169883b6c91-SEA",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Sat, 07 Nov 2026 12:55:42 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Wed, 25 Nov 2026 17:08:27 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
-      "server-timing": "cfEdge;dur=2,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=nBkDS3niE1rsS4_W3wljgPZaw8nMube9ARrdWOlHiag-1794056142.0039716-1.0.1.1-nN9qdW9SdAtZCvYF69qBeHhuL3Wgq6FIUwbRlEnY8fPTPPfzAUPI23qL2Bpl.xOVuuXEPyemE4r6QUFE0.b1yDIr0euLEWbvITyRCpyAs8nQg_czKjaxbQm8VC_0pR.s; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Sat, 07 Nov 2026 13:25:42 GMT",
-      "transfer-encoding": "chunked",
+      "server-timing": "cfEdge;dur=4,cfOrigin;dur=0",
+      "set-cookie": "__cf_bm=SM19.M7BgltVWMXBjSGsU.cVbSf5L7j8GEMK2S27pRs-1795626507.7642536-1.0.1.1-yMGpTJwXM4l0h_I4hB8y2ocDZOjqmfGBmmDjT9TILGGKZciN28KF19GlezH8n8JFsQJ1yQKj1ySFpOMQwFa0HVXx43zhe9cQDvwTzeKKeA4DJjTeVNTYtZWaZc9Qobry; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Wed, 25 Nov 2026 17:38:27 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Unleashed/Rippers-Bay?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a56c818cc8e52c2d-SJC",
+      "cf-ray": "a6024483be6d7e58-SEA",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Sat, 07 Nov 2026 12:57:50 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Wed, 25 Nov 2026 17:10:34 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
-      "server-timing": "cfEdge;dur=1,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=TdspaL3CNjf9VyP6A.WtTXmL5K7Diqs91n6NAyJHb6w-1794056270.8463418-1.0.1.1-VmvJaAznT04v1Ex2h2Jmgow_9.HbXkPU0J2XIObaKFIQdawiBdVbxh8J3e2sJJ4wXygdo9laoPr_004gCRFkvM4VfFfKNvJ4vcay6trGj5QiUbiNnCm2SJ9uoEHgV4Rz; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Sat, 07 Nov 2026 13:27:50 GMT",
-      "transfer-encoding": "chunked",
+      "server-timing": "cfEdge;dur=8,cfOrigin;dur=0",
+      "set-cookie": "__cf_bm=F1uYphhm5aZ95npSSGjOYsqvUT16_4ykpPd1b86GO6A-1795626634.8375802-1.0.1.1-k2hA56gF_ndwPS8o2KA3VfQUxEUBVoIicagQLxLmbL9EnDQwxLhC6jJnYT4wu5HeZApUYF2hdiZoYqsO6WFLMS_jIhdJZ.xn8Xc415C0m_GMay6VYTo3eBSAN9.nZ1t4; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Wed, 25 Nov 2026 17:40:34 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

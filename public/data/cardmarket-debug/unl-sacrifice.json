@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Unleashed/Sacrifice?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a56c7eb178d82700-SJC",
+      "cf-ray": "a60241b778877dd8-SEA",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Sat, 07 Nov 2026 12:55:53 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Wed, 25 Nov 2026 17:08:40 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
-      "server-timing": "cfEdge;dur=1,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=4Tnxmvh4zvy.KiOjXyXdEORibW4asuQoSpNLQmhRqRc-1794056153.835322-1.0.1.1-CxtM5829jau22.zqBkwWsckvYpiWRJ63izqMtK7IZvhlo.a5a1URaInSAMeKQX55ECaZvpiE65e5BGVfOhwzvCdzOyPqlfv7gpUpP2G4RE4iYJdhCEP1EkKZK_sNOsuq; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Sat, 07 Nov 2026 13:25:53 GMT",
-      "transfer-encoding": "chunked",
+      "server-timing": "cfEdge;dur=3,cfOrigin;dur=0",
+      "set-cookie": "__cf_bm=pGsty2PohqeEZXg0RCI.tybXNxKzlgykuR130frasxc-1795626520.2399805-1.0.1.1-_6BEdpAcYk1QTbjXL19JC8tbLLIQIuJLR80YvEdvIal0VXs_0ZHKYLUseR9JgkyxIzFX0IFmE32MmX.7UP1VVFK_o4asFmu9qXbnfQLZoC4f_YSKJVGK7y4o0C76QS3L; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Wed, 25 Nov 2026 17:38:40 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

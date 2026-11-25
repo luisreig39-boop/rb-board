@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Unleashed/Forbidding-Waste?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a56c812909edd3c3-SJC",
+      "cf-ray": "a60244266db40b15-SEA",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Sat, 07 Nov 2026 12:57:34 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Wed, 25 Nov 2026 17:10:19 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
-      "server-timing": "cfEdge;dur=2,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=vBT4JkrQP8KTWjWsQLbMt8YS4gInuD.unj4tPuZd4OU-1794056254.8843129-1.0.1.1-CkY.iom0AjfyC3w9SeijvOLK_vCvAjlrwm9ctus2NneTRKj.lgWJvMO3Rh_CULiVSCNRVZICkqhw1qWVsbiYjOtfe6LMbRVZz55jFR6VH4DyJunfetreI.BOKHi4Abih; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Sat, 07 Nov 2026 13:27:34 GMT",
-      "transfer-encoding": "chunked",
+      "server-timing": "cfEdge;dur=8,cfOrigin;dur=0",
+      "set-cookie": "__cf_bm=r49YZwNdcHrMaya67wmaYCsLWWN2pxOXMfQoAOtPY_g-1795626619.905194-1.0.1.1-Y9C4leQS3q0RU39pGkj44WBN8NTHB.QiX8YvFRy30dS3wwdAfSne3D0hlUaO.C9LWx1R_Pa6Jwe3FB4y3rOLOC9DRjIA.40h62MnIoQZZJuIfl.ELCb32x1CFw.Kr7WZ; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Wed, 25 Nov 2026 17:40:19 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

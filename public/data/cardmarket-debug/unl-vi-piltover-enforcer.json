@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Unleashed/Vi-Piltover-Enforcer?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a56c7fccd90267a6-SJC",
+      "cf-ray": "a60242c63cd4d8d8-SEA",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Sat, 07 Nov 2026 12:56:39 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Wed, 25 Nov 2026 17:09:23 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
-      "server-timing": "cfEdge;dur=1,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=4YETE9hgBX9V0i6txuwlL2wPwgZWfiiu.5izADZrGJg-1794056199.173326-1.0.1.1-oYCA_ACKBCA_Y6oTThdN5Uj2vhkTtRc1nIPLcD7C9ZTQpbs3UTtBoFBQnn1_TL9JM0OQcKGhoKVl.eoM9.EOOo88Tz_LRCaWpAFZ1KtPImCna_HJAkKbdIeNshoNGn37; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Sat, 07 Nov 2026 13:26:39 GMT",
-      "transfer-encoding": "chunked",
+      "server-timing": "cfEdge;dur=5,cfOrigin;dur=0",
+      "set-cookie": "__cf_bm=0827EMgMaRm47qBkTORdONe7uizmpacMAAg6mGU2z0M-1795626563.5526161-1.0.1.1-u02y0hRmvKldNIXMFfl5B8nyi623adDrCOv6LphWSNFbrXBSC2CSRvaMMeQF8XJQS_8iIFEUZKTNI_QeHLhXrlwZxo4Pkxarelm4swg0o19wqvG2.jFyYfLCvyXhZOSa; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Wed, 25 Nov 2026 17:39:23 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

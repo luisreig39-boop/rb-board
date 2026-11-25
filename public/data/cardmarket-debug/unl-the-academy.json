@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Unleashed/The-Academy?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a56c81bedc6fe678-SJC",
+      "cf-ray": "a60244b81a85d459-SEA",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Sat, 07 Nov 2026 12:57:58 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Wed, 25 Nov 2026 17:10:43 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
       "server-timing": "cfEdge;dur=1,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=IsxnaUf17Y8KsKpmov2xNDAO.NIw5ZQRBFENix4diHw-1794056278.8540974-1.0.1.1-larmI.CL9.q_mEgBHKNWEfGS.YCnerKG8cahlqz4migjHMz_bwETntvTaWruy2hr75WdCLmNUcBHDs1pzHCWvFhs9.9s3kxVhKVnN1FQZLQaN8QdMDvnmSzgKjnHcCtm; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Sat, 07 Nov 2026 13:27:58 GMT",
-      "transfer-encoding": "chunked",
+      "set-cookie": "__cf_bm=i4s8SJVrkiIAH32s2TmcvPZwIJThrBMHTszQa7Oly8Q-1795626643.2148163-1.0.1.1-baewyrSvq7vlc9Ktq2b3PeYcqA_ZlCVWzioN69YpQImgE.Qgc3Xn94pr6mMgvsVrALzeeyiU0Pf32KQ.bIuVUfpYpVkvx6bKdu0MqASKjnZsRfiuSH1VqTpWhDUzqx54; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Wed, 25 Nov 2026 17:40:43 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

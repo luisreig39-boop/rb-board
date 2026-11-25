@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Unleashed/Ashe-Focused?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a56c7e4d0fade678-SJC",
+      "cf-ray": "a602414fc9cb7dd8-SEA",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Sat, 07 Nov 2026 12:55:37 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Wed, 25 Nov 2026 17:08:23 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
-      "server-timing": "cfEdge;dur=3,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=p2WzpA2k.ptQUzoQE73nCvAgIHfVsivc654EEiO5rE4-1794056137.7696395-1.0.1.1-icLY8htv8kwdaEqsaseMhlWQmaCWrWXnHPg_nNlzIpij8CtEILp2.S165HyWTQOZyec_QjrTOeY8psd2hLEcjcEpUqHjtJ_7AZlT8UX.z.R3SRUe9A.Jp522N9DuVuyH; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Sat, 07 Nov 2026 13:25:37 GMT",
-      "transfer-encoding": "chunked",
+      "server-timing": "cfEdge;dur=8,cfOrigin;dur=0",
+      "set-cookie": "__cf_bm=2b1p1DqFrfO_aS0A28M3nCfLb7V0dTK87dt87c7TAfM-1795626503.647649-1.0.1.1-XRCcSizVVuSqDCJ4Wmxg9Sx7Pc15Sv49QUzsUmtCvCUbQ7DmIbPfzynYTbXZlm7rMxrpXjL9oifYjpLphJIRaM44HSJgRyiUYjLX8OKUerHSJ_QuS_uLb7PwizWyySHw; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Wed, 25 Nov 2026 17:38:23 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

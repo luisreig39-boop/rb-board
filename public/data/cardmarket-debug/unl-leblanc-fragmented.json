@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Unleashed/LeBlanc-Fragmented?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a56c7e98b9532700-SJC",
+      "cf-ray": "a602419eabf17dd8-SEA",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Sat, 07 Nov 2026 12:55:49 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Wed, 25 Nov 2026 17:08:36 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
-      "server-timing": "cfEdge;dur=6,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=x5dN1BbyORacJcDwyk2gsj8M5vudPY7dLItxS3gkmkU-1794056149.8745146-1.0.1.1-CkTWiecF2MuxOXrNT4CKgEbW4lFvE71cMz.Q1Uch9b_mhxdbx0Bc8X0ZNA8UNIvQhao.FsDcwO5KGpjfp_TSC8nnTJqCOiQQIvdDvGreJB0wOcePGBeh6rU7GOwTfQyU; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Sat, 07 Nov 2026 13:25:49 GMT",
-      "transfer-encoding": "chunked",
+      "server-timing": "cfEdge;dur=5,cfOrigin;dur=0",
+      "set-cookie": "__cf_bm=VXxQiTukgId5x7SHR0Y_gdG8tdP5gKGnMNhHZ_WP8K0-1795626516.2661955-1.0.1.1-Mvk2LcGH7zFs3YKtxPuLskS2EuCdAistgB4r_7GZCe5dp6_3vnfCZzggRdS36aaedmJ2wOrKqoKQGpCHDxhwbLY4xtmUqcJ6vlGL1AzK0yU2QUlJKj64AnHHCarktNEG; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Wed, 25 Nov 2026 17:38:36 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

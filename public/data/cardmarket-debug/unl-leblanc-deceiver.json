@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Unleashed/LeBlanc-Deceiver?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a56c805fee2d2c2d-SJC",
+      "cf-ray": "a60243589a876c91-SEA",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Sat, 07 Nov 2026 12:57:02 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Wed, 25 Nov 2026 17:09:46 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
-      "server-timing": "cfEdge;dur=2,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=Stk56zZcovmbD7UcYe3GhpMFXkAbS1L3nRU1p93AcJI-1794056222.7097526-1.0.1.1-TDqXjo4b8fqrCEezC2UUiix84WB.pSOF9ItHljEzomIJtAlaW_E24YSVTm095432p2pxb_81NzbeGJFKtz8z_Utxj.2_npWeuQynLCVuoGi.7h_oYGPXoyioBNx0QgeE; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Sat, 07 Nov 2026 13:27:02 GMT",
-      "transfer-encoding": "chunked",
+      "server-timing": "cfEdge;dur=3,cfOrigin;dur=0",
+      "set-cookie": "__cf_bm=xTT8_HATvQN_9AYWXPcBtnCWdorOBguDos_Lwo0_8FI-1795626586.977746-1.0.1.1-BwGn41hqLxgN17f8HeVvVnsfyI8dV92cRKbtk2bKQIwSdHk.j2nquDmBbg.Kw4RACUrQ4J3gAn6FGdpxy.paP1daJOs73DTaua18fblap6_cSxqz0yN9iAzOz8O7Dq0U; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Wed, 25 Nov 2026 17:39:46 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Unleashed/Altar-of-Blood?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a56c80c2a8c5e678-SJC",
+      "cf-ray": "a60243b9f9e5d459-SEA",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Sat, 07 Nov 2026 12:57:18 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Wed, 25 Nov 2026 17:10:02 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
       "server-timing": "cfEdge;dur=1,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=umXr05w_Lg4V_Va..PY.H1Mfh1S26m5Sbo6ptzY0Ers-1794056238.5019288-1.0.1.1-CzuAQYcqMQ5RrjLWNV.ZN9.hQg9.ww3vutPJ9PZqxomMq42O6vK_EObxeUaBwe6oGo1G.uVJJRt0hQiYGfDAf0uWg2AxFN1c2o_IcAuYnfllk0UDdjsTKi5xEb7gTiYJ; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Sat, 07 Nov 2026 13:27:18 GMT",
-      "transfer-encoding": "chunked",
+      "set-cookie": "__cf_bm=qTHxub7QTJ3MOU8JqGVl0krC5uN8H.dnnhHNy935ZSE-1795626602.5550413-1.0.1.1-9ksD.5E1guQYR1RSqNMhPVcDWu3Tx2faLHomyQ0NZ2vIsDyvLjcpOchgMBYfegN5j68Bv1637QoVut9cWqk_6cizqE2vn.8XX9yw8fTJpSaYTZOcgPCAG_psKBM_haZI; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Wed, 25 Nov 2026 17:40:02 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

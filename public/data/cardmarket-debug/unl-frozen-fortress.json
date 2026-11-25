@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Unleashed/Frozen-Fortress?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a56c815c09cde678-SJC",
+      "cf-ray": "a60244567fda7e58-SEA",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Sat, 07 Nov 2026 12:57:43 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Wed, 25 Nov 2026 17:10:27 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
-      "server-timing": "cfEdge;dur=1,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=DchHL61DT0_f9d7Uz2MlrKyNZ23SfcoB4IR6RJFTC_w-1794056263.0483606-1.0.1.1-afBG.wFBi8vqqHkVfntJLHStSCaVU1B448ilGVuh6vuppwzBfLlXQOHVCA5lXSXrIuenoMMa_ENnd1J0J.vTRlYaxg3ZTd3SvmgqkfH.myXfZmBfg9eiqP.KRqMqtWy_; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Sat, 07 Nov 2026 13:27:43 GMT",
-      "transfer-encoding": "chunked",
+      "server-timing": "cfEdge;dur=3,cfOrigin;dur=0",
+      "set-cookie": "__cf_bm=UbsQI3w_lF1th.4asXKJfjf8cFUu072eOcUVn9FFBYQ-1795626627.5966027-1.0.1.1-zD7p6jbjsduWdZ6I1HeM4aS67rSkSIfFhmqYnPZNf5P1.zTAj9t7VQmL4iBPvHxIGezDdhtqeJY0NtHq1CwKoLTihE4.GaOAunILvyJRiWEd.2Oe3Mzv7TCGbv1l.GMc; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Wed, 25 Nov 2026 17:40:27 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Unleashed/Tactical-Retreat?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a56c7ee4bcff2c2d-SJC",
+      "cf-ray": "a60241e8c864d459-SEA",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Sat, 07 Nov 2026 12:56:02 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Wed, 25 Nov 2026 17:08:48 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
       "server-timing": "cfEdge;dur=3,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=QgZ3aaAbtxGr6j2XgAocgXsw_byd3WaBopQo6KvrjVE-1794056162.0349624-1.0.1.1-01h4tN5GeJSzKMoRZt3GLOUn.b6I2IAyniQmJQWOFQ9n_1NGT9SbCPD5fcJm1lhwXyACTOok8Jri3c9XMS8C4Hh8jM0ScgKWguHujh4i.fsRix6sbXWd6UDJd.bvV4Yd; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Sat, 07 Nov 2026 13:26:02 GMT",
-      "transfer-encoding": "chunked",
+      "set-cookie": "__cf_bm=8D8bkErAJwY5sr5Gb2wcnz3NsVLF9NVQ.rjYD6Z7YkY-1795626528.1308694-1.0.1.1-SiAIoVCvA9WZ5XfquNVYNcnu4oQPtV85tRVdBa_YhkEtX.AjykSbvEIGoto1yBaxZypHGJ_1_bOK8IfgdEk_Xbu_oLCucdgf2BvlW5cO5KZqfxafR.y4oy1BmrQ7ctKv; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Wed, 25 Nov 2026 17:38:48 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

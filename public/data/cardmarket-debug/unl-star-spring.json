@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Unleashed/Star-Spring?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a56c81a39d272c2d-SJC",
+      "cf-ray": "a602449fcc5dd459-SEA",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Sat, 07 Nov 2026 12:57:54 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Wed, 25 Nov 2026 17:10:39 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
       "server-timing": "cfEdge;dur=1,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=U5f0wo2QwbfTs6h8aqwmj1.yZIBwtUYvX0H_ZFNfcRk-1794056274.4981253-1.0.1.1-gJD_sEN0HnQiBaJ0l.tlK9KgUa4RJjiE9EkKR2wVGVt7JpTqUDzz2P0jxWSUMcANRpRYlnUBvWKSTYEn3Ionnu_fkCPnHiT0UhoP.kfiq4D9RlW5OR9tvKqNnxitBSM8; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Sat, 07 Nov 2026 13:27:54 GMT",
-      "transfer-encoding": "chunked",
+      "set-cookie": "__cf_bm=tMfq3ApnhKrU9jvg4U4cqCtWfQYF6c8HTVQdfdTkteg-1795626639.3219187-1.0.1.1-QDeYVEwZOO7nK0mGbflDhREtpLBh75wk8dkx6A20gnv6o404a2_aN0tDbBZQCBbu4DKsNC.RARE7foVGf808AWESxSfToOdQ.fJhbWe9sYqS1k0bMa_tL2GuRIaPUAbl; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Wed, 25 Nov 2026 17:40:39 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

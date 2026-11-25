@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Unleashed/Vi-Peacekeeper?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a56c7f00bad2e678-SJC",
+      "cf-ray": "a6024200189ed459-SEA",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Sat, 07 Nov 2026 12:56:06 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Wed, 25 Nov 2026 17:08:51 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
-      "server-timing": "cfEdge;dur=15,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=AoXPSY3q2.5w9rLivBzynx_FkLSiRJ9yJ7bng2RiTjE-1794056166.5145342-1.0.1.1-cKfadyaUzY2oeyHJ8OiSx276pzfOGe.j7YPOmDbvtKAsq0Yc5wryfBbjMoqatCE9vvLW2rnHjPUSB_LWYmHkIkRaOamDAftMsspkfVImghjQW1ZiTtmFNuoPNQPi1U3t; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Sat, 07 Nov 2026 13:26:06 GMT",
-      "transfer-encoding": "chunked",
+      "server-timing": "cfEdge;dur=4,cfOrigin;dur=0",
+      "set-cookie": "__cf_bm=GF9GPTaX_6glQzqStah1wnlz8uDmytF8o6U7lZK6r9o-1795626531.8577497-1.0.1.1-Aup98nP4rSwN2MmRNaFD1mzukSFlrbBmMyIJJcUB.egMF4A5gGBKkUd8KIjapKpuiCl_xDWiOTNXWTjVpfKsaGnWDkciYT3Ri3WoI_.aPLkTaftt1rG3cPCwRpxPjfVg; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Wed, 25 Nov 2026 17:38:51 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

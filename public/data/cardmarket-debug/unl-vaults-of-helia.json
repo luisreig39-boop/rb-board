@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Unleashed/Vaults-of-Helia?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a56c820938ba2700-SJC",
+      "cf-ray": "a602450819e7d459-SEA",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Sat, 07 Nov 2026 12:58:10 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Wed, 25 Nov 2026 17:10:56 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
       "server-timing": "cfEdge;dur=1,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=X4fDCL4KECVUuF9ZY_obdZ3viEGCJ0D_Hr0YRoAm1pU-1794056290.7538238-1.0.1.1-caT3l9nVpAv0lS6wmKFauUQs7K7dUWPrEUGbIdF_L1Dk1K4.iuo6tSuC3FsgtgqEGANRqZzn9z1BXFfEXKVB21n6IJ4QY86xlObYbgLWqYtcriwpxQi1Jw8xRmssKQhW; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Sat, 07 Nov 2026 13:28:10 GMT",
-      "transfer-encoding": "chunked",
+      "set-cookie": "__cf_bm=0Ij0GHP_ZVq3s3krOwqSA5xZ7GmqAaPcXfSHqxuYLy0-1795626656.0164537-1.0.1.1-_lL8jORrSKqkZXhJlk8mEv_2MBXgdL2nEL.d9jAf8CrY1qr06fX0JURWYMGJXaunjc9Avekixzi4I1zNqyqgOWaE8PwrKQyataHievF9oT612D.BCrywh5BVDPoYl9Gp; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Wed, 25 Nov 2026 17:40:56 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

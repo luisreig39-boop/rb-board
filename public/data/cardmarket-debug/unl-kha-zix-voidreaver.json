@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Unleashed/KhaZix-Voidreaver?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a56c8078af282c2d-SJC",
+      "cf-ray": "a602436ffbcc6c91-SEA",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Sat, 07 Nov 2026 12:57:06 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Wed, 25 Nov 2026 17:09:50 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
-      "server-timing": "cfEdge;dur=17,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=VwN_zkeXoKihcHeX.LbVcsVHKloE4dpCG4NyXEg5DOc-1794056226.663366-1.0.1.1-1CQanoF77XZkh66b6KV331T2fJYYuuMYFkbkBdJ4IxXE8kBUOIKngQMyI7i5m5qihBsKUKabIYzstaGchRldyheTueyOdyDy00PHhDNjC3tVBXyQRH1w8IOg.sES4vG2; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Sat, 07 Nov 2026 13:27:06 GMT",
-      "transfer-encoding": "chunked",
+      "server-timing": "cfEdge;dur=2,cfOrigin;dur=0",
+      "set-cookie": "__cf_bm=GPyNFzI.CHbR6c.Fc_RQ7CL3zFDqcW_AGXRftUA7wj4-1795626590.7213552-1.0.1.1-oxRxeFqxCpgrvVNp8N4ExVEz.lr79gBya3YnXv8LtLDqlzk4bzO5WCdA22O11Pg4I8UeBg2wEmIjUH4WYRjk3VdzquEh3iv7PhCj48RpLh29.YjfkMl8fsDVthQ994I3; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Wed, 25 Nov 2026 17:39:50 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

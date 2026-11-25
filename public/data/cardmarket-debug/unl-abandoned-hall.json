@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Unleashed/Abandoned-Hall?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a56c80a9295967a6-SJC",
+      "cf-ray": "a60243a3296fd459-SEA",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Sat, 07 Nov 2026 12:57:14 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Wed, 25 Nov 2026 17:09:58 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
       "server-timing": "cfEdge;dur=1,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=tV9isVrViugClkOvwGAAgXFZHjBngznLTULm6jo5O6A-1794056234.4272478-1.0.1.1-.zDOMp5GF3mfOLn1Uvbj.4Gp7PU2dZ2nMY.5RUr2hFkKNWxJt8CmBmRi6I7fJ18hSLCUtTg.UAX2soahgpXu.mbKd7ao4IL6OLxVS6wsZdPX3go.XUZRb24oBDMQiwCH; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Sat, 07 Nov 2026 13:27:14 GMT",
-      "transfer-encoding": "chunked",
+      "set-cookie": "__cf_bm=B0CGQhjCC8CcPDu8bb0iehoktj7E0toF.L62T_35poE-1795626598.9068785-1.0.1.1-y8tzHYtO94VYE2OVo6ZA3kJmt5qEb8AN1dXJoghDWEXL_kpmqZIbRU9sDPDWE_BXbHFTuj0vfNB1dPQ46a0VXZ5TBivj.d6cYQHhhjMZiZvx0SmVYtuxZ1UKL08CE4Bj; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Wed, 25 Nov 2026 17:39:58 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

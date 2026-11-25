@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Unleashed/Galio-Indefatigable?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a56c7e7fda232700-SJC",
+      "cf-ray": "a6024183be47d459-SEA",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Sat, 07 Nov 2026 12:55:45 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Wed, 25 Nov 2026 17:08:31 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
-      "server-timing": "cfEdge;dur=3,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=D6tkOLHDA4QU55I2QDES92ZD_74ZeSoOJNLgHiHKSxs-1794056145.9017642-1.0.1.1-OGDDeb2.2nCPdEn3JBgESJU_4GGBHAoE31vEDiJsWviQFx9kgi2hCjdR0FCNX0FuMzokAvVsc.GY8XInEhH6vPWUcfM.JrWixkuoDK8dnruOXiN7AB.KohKP7I5m7..4; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Sat, 07 Nov 2026 13:25:45 GMT",
-      "transfer-encoding": "chunked",
+      "server-timing": "cfEdge;dur=4,cfOrigin;dur=0",
+      "set-cookie": "__cf_bm=zNW74s3wr70zqD0eQrj0djrc9TJdQPlEUjaTFXuDWyE-1795626511.9519882-1.0.1.1-YIBv.2QKj1fS39DtGpul.mAySbn2swhrGwTFQn1FdZgRiS6bt_g7Bo5cMMQrHXLJkEYgdHaWCqphic0zRILX_WX1vHo1RtgNtDZ7EMtEU.VgQzb49MTPayrV4hJkLaXk; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Wed, 25 Nov 2026 17:38:31 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

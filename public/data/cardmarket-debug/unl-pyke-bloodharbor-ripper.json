@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Unleashed/Pyke-Bloodharbor-Ripper?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a56c7fb30ad52c2d-SJC",
+      "cf-ray": "a60242acbad3d459-SEA",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Sat, 07 Nov 2026 12:56:35 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Wed, 25 Nov 2026 17:09:19 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
       "server-timing": "cfEdge;dur=1,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=QZDbhcD9DRKW6HBaj1S58J8VaP8aFEmkqbRSP.njEK4-1794056195.0456128-1.0.1.1-eoUVnuYvyhHPxUe.8GhSMr6OmrxHCegpmnoLB24bYHKWUVL_aZAQZ1Bd6uR27yO4P49r0KuLhI7WT2y6.pobyAk4nAvI28Wa3MuYPbaLht2I61JvfSHsiyCAbC.53j.g; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Sat, 07 Nov 2026 13:26:35 GMT",
-      "transfer-encoding": "chunked",
+      "set-cookie": "__cf_bm=lJIWee9k_Haqyg1JE0v33Vir0U5m477yPeQ_w7021x4-1795626559.476591-1.0.1.1-LkaXCYUaJmjsHjv6DdN5TEJuo.tD9pofhLZGZuWdPKCVH8ysCGu8nJc0jgMojX7xEDP8QKI9jhUH532.jlXqzVTnnT8qZR8PCRuBDQaffdiEw6Z4We5Nk.ZTH59AnOB9; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Wed, 25 Nov 2026 17:39:19 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

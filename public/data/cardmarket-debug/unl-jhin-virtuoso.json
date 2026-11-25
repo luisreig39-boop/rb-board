@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Unleashed/Jhin-Virtuoso?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a56c7f803d37e678-SJC",
+      "cf-ray": "a60242794e0430be-SEA",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Sat, 07 Nov 2026 12:56:26 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Wed, 25 Nov 2026 17:09:11 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
-      "server-timing": "cfEdge;dur=1,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=Lr6cJ3DMd1lbh3YAXM7whZzTWDgPaAcPw.4eXGXWA70-1794056186.9123268-1.0.1.1-GNnucPpadSONe9k7S.pKpFWbmUQl8qug3J9u3ncFCEg1zz5wee00vqKAjrgMIC8jufdbU3TBg3yqnTXRycPRhyXBfA6m17yU7m5xJmdrUFpn6RGcBUXvtmDeCEYlph8U; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Sat, 07 Nov 2026 13:26:26 GMT",
-      "transfer-encoding": "chunked",
+      "server-timing": "cfEdge;dur=4,cfOrigin;dur=0",
+      "set-cookie": "__cf_bm=renOLBXDYR8xaH4ExbB2Ex8Y45mOVp4JD_dRBuHSNMY-1795626551.2497456-1.0.1.1-Xl5kqy.iyus2hBKA1GXqwhq.U.9UIq3VzzTQqCaEmnlX3BRwram5DNNXSkMi7ORkTNoP84d9MTj2b0fiQfqKS4sfo0c6wuQwuBtIxkAj7r7cXg1LwngUTt4HfpRqSe_c; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Wed, 25 Nov 2026 17:39:11 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

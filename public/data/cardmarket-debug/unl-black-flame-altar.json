@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Unleashed/Black-Flame-Altar?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a56c80f249d0e678-SJC",
+      "cf-ray": "a60243f12d6430be-SEA",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Sat, 07 Nov 2026 12:57:26 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Wed, 25 Nov 2026 17:10:11 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
-      "server-timing": "cfEdge;dur=1,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=hYQxSq.2XNhtrzAnkcsRQ8rXdQ2mIIpU53vaivs11I0-1794056246.12146-1.0.1.1-BBudj87O4pwIxHscZqlKN1A6GrO7KYqo5A8OdFd6Eazu1p33OWVZco7VOOjN.FyPZQPLmAW_M5jL8yC3o50xUcZZWO26ESF9uOY0EMEcOp1NARPRmb3SOVdnq3fuQZcM; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Sat, 07 Nov 2026 13:27:26 GMT",
-      "transfer-encoding": "chunked",
+      "server-timing": "cfEdge;dur=3,cfOrigin;dur=0",
+      "set-cookie": "__cf_bm=IQm7ygkhcTJKE0079BqgvcI09bNgo6_cmG5FQqrLNGM-1795626611.3882625-1.0.1.1-.eKueuSNJlNsZYlPcuwxsO16MdOooGyteP8S4TWMgyrOrLPpQtAruIUu3DoTKWk0ZX1vEUhSCWUzh1QeVfXLdbILGFx0D08B97hFnD1Zb_9o4SHLBHsRe1Ah3niwADcd; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Wed, 25 Nov 2026 17:40:11 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

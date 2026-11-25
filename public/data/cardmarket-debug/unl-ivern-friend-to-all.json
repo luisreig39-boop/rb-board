@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Unleashed/Ivern-Friend-to-All?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a56c7f1b7ab667a6-SJC",
+      "cf-ray": "a60242171f78d459-SEA",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Sat, 07 Nov 2026 12:56:10 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Wed, 25 Nov 2026 17:08:55 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
-      "server-timing": "cfEdge;dur=5,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=4u79bqHw7BfWXhUBnQ0E8N3mmnjn4zfrMPGemF.WclQ-1794056170.7975543-1.0.1.1-oRh2oK1M2ycHgXPDWG8R9Y3P2gOvxZOo4i3OF_gzRvozQVR_4ZdqysN3.YWIPURobgfaEveOxF7TcoHb12nVkfWEPaVr85SXHwMiBVHg972uxX.8E.mjFLHAr.rkj1XP; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Sat, 07 Nov 2026 13:26:10 GMT",
-      "transfer-encoding": "chunked",
+      "server-timing": "cfEdge;dur=1,cfOrigin;dur=0",
+      "set-cookie": "__cf_bm=AMVfHimeDRHSxknSb5m7KS84pQKJzRfk2vciG34EwyA-1795626535.5415092-1.0.1.1-G.FMajcF2.AiusTkn2fJwXRp_t.9C9_F3WZmEL4v_16no624ga4RoEF6btUXizVvWuyH0iW7UYS5TMwh8qdpac.swYV20qbRPJALD9xOLSZeWcYdN2lRr3WNUZGNLpX0; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Wed, 25 Nov 2026 17:38:55 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

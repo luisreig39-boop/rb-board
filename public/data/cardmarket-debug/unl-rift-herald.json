@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Unleashed/Rift-Herald?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a56c7f49397c67a6-SJC",
+      "cf-ray": "a602424929b130be-SEA",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Sat, 07 Nov 2026 12:56:18 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Wed, 25 Nov 2026 17:09:03 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
-      "server-timing": "cfEdge;dur=3,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=.jPdqmroGQ0QSTjZUZveeshQnCKdsMOQMotiaVVEL_I-1794056178.1183937-1.0.1.1-Y.d9orbpPxSwcGp35m9It7cbdW64UU7FEOj1bpyX9DBk9e95GjIsz3pxxL.9fm9ELPihkBWuQ2usFg2wIAeDe2FJ_piYWD_L3tFmqbNWY4mU7lm1IyAZaDHcVbRzRJNw; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Sat, 07 Nov 2026 13:26:18 GMT",
-      "transfer-encoding": "chunked",
+      "server-timing": "cfEdge;dur=2,cfOrigin;dur=0",
+      "set-cookie": "__cf_bm=Lb3xWLAMuEsffryDRnTNUW1aXT1_eNcDsHTj5cCuM0w-1795626543.5503538-1.0.1.1-1fi_HPnQlQWvEQ20EWGO.XYX3phIQD8e.8aBi7_bWJL1TMV1stGBurSXtE0UvIJ8UFeoWu7UolQ.0Sfo0XU.g9td8uUYo_PBhve4JAT6_udBl0i_CGLs.RAwKzH3btie; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Wed, 25 Nov 2026 17:39:03 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

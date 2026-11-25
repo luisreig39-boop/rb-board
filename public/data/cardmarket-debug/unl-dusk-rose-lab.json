@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Unleashed/Dusk-Rose-Lab?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a56c810dd99e2700-SJC",
+      "cf-ray": "a602440b28cad459-SEA",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Sat, 07 Nov 2026 12:57:30 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Wed, 25 Nov 2026 17:10:15 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
       "server-timing": "cfEdge;dur=1,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=wSPXfCwAffiAWitZFfHk1jt5vzRc5NFGn_R9V9dej2k-1794056250.5332575-1.0.1.1-oeC8y3Ltd0.sHjqWoS9MF98R75UvwebNlrsrU1MlKXc2knJ800akodCNSLy8EnXrizZjRulRstVjxv_GUchVGUPFe3dXtn5q7H31mgH_yxz6QSlCWjVv2QyW4BD025Dq; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Sat, 07 Nov 2026 13:27:30 GMT",
-      "transfer-encoding": "chunked",
+      "set-cookie": "__cf_bm=NlZf_B0doegDTW93y7PsMnmKR6Xg6QfC1AnDazqRB2s-1795626615.5427387-1.0.1.1-YilsYy.teiXNi8x5bKLgm3WCYlRABT8XXRBn4WqrIotMUcADOAZJt7GRnk485Qz0vIoWMowIpGnwrIKcIpJM8gc9wIWw6pO_Lr2pOkiIVSzndrtwg48HabRxYPukisT9; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Wed, 25 Nov 2026 17:40:15 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Unleashed/Master-Yi-Wuju-Master?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a56c7fff9a1be678-SJC",
+      "cf-ray": "a60242f4df76d8d8-SEA",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Sat, 07 Nov 2026 12:56:47 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Wed, 25 Nov 2026 17:09:31 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
-      "server-timing": "cfEdge;dur=1,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=VfRFIApDqn7WASqcECfa6611E3RauB5KrA.RW7mcV3I-1794056207.2949064-1.0.1.1-FsgHhziCz.PyLwiSxikc4GiF5m9kcOV8aPJ0BhN1klGItwMzcBVek8hPuw5Cg0vp1hDa5eocirkuZBnsytVC.db2IWHftfIu_MkuAf_wPafpd.jIi9w1YPCCk_m9d01N; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Sat, 07 Nov 2026 13:26:47 GMT",
-      "transfer-encoding": "chunked",
+      "server-timing": "cfEdge;dur=2,cfOrigin;dur=0",
+      "set-cookie": "__cf_bm=9eEYgPtYa2T5HdZwyzKw3QBODTpSHLPCDZEEjrUAOm0-1795626571.0164437-1.0.1.1-Cv1hobH77DCqM1sDhIILrQVB.0WkZ4Hnx6Z9vmz4diGgxj_dz.d5onVDxOxf818EVUG1UMW.RTkvgP.55CWWKo_vKGtFDerI3vEOXCHadKuIQACH71A5Das3DDTiuKW3; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Wed, 25 Nov 2026 17:39:31 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

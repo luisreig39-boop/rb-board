@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Unleashed/Vex-Gloomist?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a56c80174e69e678-SJC",
+      "cf-ray": "a602430cda51d8d8-SEA",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Sat, 07 Nov 2026 12:56:51 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Wed, 25 Nov 2026 17:09:34 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
       "server-timing": "cfEdge;dur=1,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=I3ZBojFehlECyJFVnGN.iWR_N56iGNaasjkwMPhR3Cg-1794056211.0857832-1.0.1.1-OyMvaLZhwwkvGn2RUTSNIyXi.P7t2gcuku0Rr2GfR9Tx6jHZQchSC54D5gsy6H60MLV9W5GXOp5W3J.Vd1m_ptmwEO053ooFMFsFnLnyV2jMHd5hAZcJOyMAk2tl7JnP; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Sat, 07 Nov 2026 13:26:51 GMT",
-      "transfer-encoding": "chunked",
+      "set-cookie": "__cf_bm=BrDACHGX1IXmDPIt_8rHiQo6tbYtAQzoFnH534AaHWc-1795626574.8598437-1.0.1.1-1jKVsMFIQ_DRrfBPa6IcfrUzJWojCVsThYCShpFsIEH8mjgtlIb437_tayjVqLZFgDHUnK27r.rknRjIEq3QidQHILXzAEM42EZASQ0PRPlChlkNfrm.ZjTqhJ5hPVsX; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Wed, 25 Nov 2026 17:39:34 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

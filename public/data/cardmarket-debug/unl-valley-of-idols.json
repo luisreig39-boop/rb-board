@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Unleashed/Valley-of-Idols?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a56c81f23a4e2700-SJC",
+      "cf-ray": "a60244ed9c3f30be-SEA",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Sat, 07 Nov 2026 12:58:07 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Wed, 25 Nov 2026 17:10:51 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
       "server-timing": "cfEdge;dur=1,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=eYF8oBT2uymML7yKRpHNJGKe8P7nrSWnFm5eZOtbBN0-1794056287.0800674-1.0.1.1-uClDn1yAComvLV75zo6zlwbQDMvD3p6IRgTK3ActzPuyp9142grBmSigyXb0KE2eIQgAAhLR9_k6TXo4KBOs7D.LsdH9_v2cfvREs2tJHhzP_OBzQU4DM6wTOMrvK91k; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Sat, 07 Nov 2026 13:28:07 GMT",
-      "transfer-encoding": "chunked",
+      "set-cookie": "__cf_bm=c9guCkSiSG3leM.py5IMK9Uyea1ttI_h4oOz9.m2SXw-1795626651.7823572-1.0.1.1-5sD38upjN_sNJcYe1RzYDsyWn7Y9bibiGTg.VwB2WDjewcqlUnGFq3P9dQqsHqvyvgAniXuqEPbPITNJslm1srSR4KVllGImuahG.pSddaxLRI0wF.E3kmUOC4Jffz_o; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Wed, 25 Nov 2026 17:40:51 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Unleashed/Poppy-Defender-of-the-Meek?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a56c7f3229fa67a6-SJC",
+      "cf-ray": "a602422d9f94d459-SEA",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Sat, 07 Nov 2026 12:56:14 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Wed, 25 Nov 2026 17:08:59 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
       "server-timing": "cfEdge;dur=1,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=xI1AX4mh4XfO27iC_QEsGM0JEsLHt_.YqSj3UDQHHLg-1794056174.428258-1.0.1.1-JlpOdBIVuIPRRsl52UKDX6dBD6KwzLr5FqY8gdVxtwicOukWbyZ4G.Jm8CpdxL66tZGnh7d0Sy8o14rcfevm51idYystaQt_0yOHbs8t5qtkoOrazDfmMlJCiqWr0_mn; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Sat, 07 Nov 2026 13:26:14 GMT",
-      "transfer-encoding": "chunked",
+      "set-cookie": "__cf_bm=sWSW.XJlJCoSWnnCaWeXwvEoYikfoKJTrVdq5KZBa3s-1795626539.1367998-1.0.1.1-_kr_3utZ_T1q7Hb5_IbR7nfcV6vxykgTv0Vvot3.bZ74sd5nABgm3l8bbZ4RpsO.OJwYADg1Nhv5y0g5uCytZ9tUlbQKk0FM61vU.2mkuDfndlPcpDe3AD6Ijkdu90JI; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Wed, 25 Nov 2026 17:38:59 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

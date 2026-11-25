@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Unleashed/Diana-Scorn-of-the-Moon?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a56c80491e302c2d-SJC",
+      "cf-ray": "a602433e78e47dd8-SEA",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Sat, 07 Nov 2026 12:56:59 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Wed, 25 Nov 2026 17:09:42 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
-      "server-timing": "cfEdge;dur=3,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=qrONqmTznssNBCodztAYs3ibuyQiGvLcTtierq_I7Ho-1794056219.0566287-1.0.1.1-PPUl4bh2j08NKYzpSfy2SYxLwFZIzB5_cw01973ZuK2zIQZM1sEdt7jbnu9neUu6jd.tVOhrVAmlMtBbewpj2G_DYne98g7hY3wW_irzyCxMFGw4C2bsXCJc0s7xc3Qq; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Sat, 07 Nov 2026 13:26:59 GMT",
-      "transfer-encoding": "chunked",
+      "server-timing": "cfEdge;dur=1,cfOrigin;dur=0",
+      "set-cookie": "__cf_bm=WEr54LqWsHtsP5dlVgnEzvPAz5T79GBsRDrrQ3kPgh0-1795626582.7947452-1.0.1.1-6._5u853YXtZ7tDsuvImR5.hKqNaHvZF0YGX4ktVyGba0UDZc_sVT5m8sYkpav6KbqwVqEq6gAVP66_O_VwiUJtRUBBB5bh72nSA4h4DayuJmZmSqPBXAoSkHRS.d9tq; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Wed, 25 Nov 2026 17:39:42 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Unleashed/Ivern-Green-Father?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a56c802f9ebfe678-SJC",
+      "cf-ray": "a60243264da17dd8-SEA",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Sat, 07 Nov 2026 12:56:54 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Wed, 25 Nov 2026 17:09:38 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
-      "server-timing": "cfEdge;dur=5,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=MFl4tHXZqYh5._UWOP6mDh8B0ff6YQmQu9f6VxqRiaw-1794056214.9787505-1.0.1.1-zFeginiRlFvz2myNuULNqkfx6uqQ8HWsjjeQh9Lu3yfLQZq7zDFn.xYsekfGQz0UGdedmVoZ4Hh0PiNSoiWBCDyl4c3kcyjYwWhbOP7he_hYgsbvIWuKryV0wcWBQAtK; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Sat, 07 Nov 2026 13:26:54 GMT",
-      "transfer-encoding": "chunked",
+      "server-timing": "cfEdge;dur=2,cfOrigin;dur=0",
+      "set-cookie": "__cf_bm=S93s6qyypFme0MPIn5WMEmJOydM3S.GA892ubVJ_1RA-1795626578.9306052-1.0.1.1-g3nc2gjAE9LM7fSIDt9o.8K65kFGb2yr.RE_5.zpLQ6ddBz8gnFZ.hWGFjCYUk1YHBhSNOPdG.vsl68NoQBd_hl7E4oX2OjceZK.PqJX5QewfGcK37vinyXob2vS2uue; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Wed, 25 Nov 2026 17:39:38 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

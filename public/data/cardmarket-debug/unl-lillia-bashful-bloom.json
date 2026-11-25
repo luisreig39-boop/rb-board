@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Unleashed/Lillia-Bashful-Bloom?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a56c7fe7dea5e678-SJC",
+      "cf-ray": "a60242de3f56d8d8-SEA",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Sat, 07 Nov 2026 12:56:43 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Wed, 25 Nov 2026 17:09:27 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
-      "server-timing": "cfEdge;dur=1,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=vbWPcJABO3ImUPAZdwGozdIez5zO7.zfBgMIlU_yX88-1794056203.4998958-1.0.1.1-d55G7DVEYG68jNgg4xvjyrMIPSZ3ImvXpwrVUcRoxJZaQDBRY59QbgG643eJT8bu_mhX68N1xMehwYAVQ020DboFtry8YMTsYrX88Oi.EtUoyKSY9h44I_AkLgTqGWQW; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Sat, 07 Nov 2026 13:26:43 GMT",
-      "transfer-encoding": "chunked",
+      "server-timing": "cfEdge;dur=2,cfOrigin;dur=0",
+      "set-cookie": "__cf_bm=sSInAqLTnLM4bqhdPb_BFhgqEqe3dJYeLepALwCWvxk-1795626567.3943093-1.0.1.1-9F4EzOGYwt4_1DQPSo7JJ.HscMbOZNE6I7bB6hnSsid468elXF9kosl0eOrsZwKR.7KaLNdTErG..C1taI0VfIQO92HxnNQIhl7sAzJQF5VUQ6c6quXLQKUajurNq_Ak; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Wed, 25 Nov 2026 17:39:27 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

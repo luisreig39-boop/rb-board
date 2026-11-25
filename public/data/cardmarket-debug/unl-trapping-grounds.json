@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Unleashed/Trapping-Grounds?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a56c81d7094ee678-SJC",
+      "cf-ray": "a60244d30b687e58-SEA",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Sat, 07 Nov 2026 12:58:02 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Wed, 25 Nov 2026 17:10:47 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
-      "server-timing": "cfEdge;dur=5,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=gNyTZoxooU7hiB9ofEccrOAUbRTo3fi3K8tDmPVjF7Q-1794056282.7265353-1.0.1.1-dHmB7mDDIC0Naw4pwHhd9iKRSydvwwSWRYj6A5yGZ7iMyA1JlcQQjntPFGvp6gknktTO3gUgbCXMlV3nQX.IBRQjPa._DApkzpU1UHGFUxbZSHid0kp4vAfqPUbdT.MD; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Sat, 07 Nov 2026 13:28:02 GMT",
-      "transfer-encoding": "chunked",
+      "server-timing": "cfEdge;dur=3,cfOrigin;dur=0",
+      "set-cookie": "__cf_bm=JCNDXsH7rkxqZQ8uCd1pVVpJkSL1.rsuETidtuEPJKw-1795626647.5276053-1.0.1.1-5ckb6CIpE8GqKkuJaSDQopKY8GX2rc2xt9WzmlBK4A7lD.iimssCPJ1jTOv5CtwEtd.1I8yNnLLoZNf3ADpPthkk3MmHIpeJzrsh1GxfmEiI26wqHN93Owx4BaTi8gk5; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Wed, 25 Nov 2026 17:40:47 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }
