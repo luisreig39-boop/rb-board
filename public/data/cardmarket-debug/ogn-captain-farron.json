@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Captain-Farron?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a574de17eb78b4b8-ORD",
+      "cf-ray": "a60a6471e9142c7d-LAX",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Sun, 08 Nov 2026 13:19:07 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Thu, 26 Nov 2026 16:50:28 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
       "server-timing": "cfEdge;dur=3,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=Drsw5_EB1QJpysj.KlxilQHLcdq7XVA.ri0X.JD80tw-1794143947.501483-1.0.1.1-5lpCJfnT_l41zikJAHcXWSAN6nXcLqBMGPhZnaDuwg.88BOJnfeC5T53f6eaYNt.tzvPqgBikIo2xTACzRptm3gcRWZXGwkVaGITod1qfVZv0qH_5mzEePYHKJZbN04W; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Sun, 08 Nov 2026 13:49:07 GMT",
-      "transfer-encoding": "chunked",
+      "set-cookie": "__cf_bm=laknJo62jCxCBKGn2Ci97bYnEy_cvoeMJNZfphpVoPE-1795711828.7904778-1.0.1.1-mdq2rybyX8VE8Y1SjO_Z0QsTgpx25EhgP6sHnls0zwJvyvWB7ZtvFpVkN8I4jSTOrwalKqI.hgzCMan.U9Q4tEfIXF8cmlxM2F1IHuznXTK2PlHeN0ejzwBbfjpCy9zZ; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Thu, 26 Nov 2026 17:20:28 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

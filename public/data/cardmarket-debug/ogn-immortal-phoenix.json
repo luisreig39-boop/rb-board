@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Immortal-Phoenix?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a574e0454cb30012-ORD",
+      "cf-ray": "a60a66a51d7a4d9f-LAX",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Sun, 08 Nov 2026 13:20:36 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Thu, 26 Nov 2026 16:51:58 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
-      "server-timing": "cfEdge;dur=4,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=ticXghK3sj5qj93iMjpiHcoCijY1t76e0UfOMk2Odlw-1794144036.690231-1.0.1.1-Tewy__LGyrERgszhW8tG_VB7EaC6v.4l6ppbzArT_dUZIJ8aDMKnzvCcI1L.bOdoXRthuxkonmwDIY6dWazM9T9z3Sj5nfv6NU1hcHjapbILrGNAzTEhApLwg1suQZKf; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Sun, 08 Nov 2026 13:50:36 GMT",
-      "transfer-encoding": "chunked",
+      "server-timing": "cfEdge;dur=3,cfOrigin;dur=0",
+      "set-cookie": "__cf_bm=bvLmmi.bzL_qgwFsypfKuprFTDx3IAk.pgSPlb0TAg4-1795711918.892792-1.0.1.1-J9DKwniJUnbnGU33qRqukX1TNls2OEOVi7UoUYqV93b3dvw__WfVLzpvLGJnSidbZikXJllOdOGhw9fNB.6J6PCogR6AgUw1iV3QgzQeeQDpNfmOHheh1jNJJcWLSAeJ; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Thu, 26 Nov 2026 17:21:58 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

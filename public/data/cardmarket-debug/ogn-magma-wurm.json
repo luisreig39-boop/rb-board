@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Magma-Wurm?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a574ddba1d7eb4b8-ORD",
+      "cf-ray": "a60a640e5ecdd0c6-LAX",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Sun, 08 Nov 2026 13:18:52 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Thu, 26 Nov 2026 16:50:12 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
-      "server-timing": "cfEdge;dur=2,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=LpjjS9GD0lbzLP1Mo0r0wY0QsTsBjjz7W8xR721_KCU-1794143932.5012-1.0.1.1-u_ODVcWN7N121talNQdRMTnLjqECI_VwT1Rg9hvZvszmVFsVWR8kO6He0nWRZC4PxSoTmVKH0i6cXhMeG8vP04s0M84CyLoPIYRlhF9ykynI3_HjQKWk8axwyMDp3Xbo; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Sun, 08 Nov 2026 13:48:52 GMT",
-      "transfer-encoding": "chunked",
+      "server-timing": "cfEdge;dur=5,cfOrigin;dur=0",
+      "set-cookie": "__cf_bm=1KGFJHQjMwwMirxFHYDD3cDNdWQfg.np7uzmo7nziM4-1795711812.857596-1.0.1.1-Z3PQC2ecK6mBIjTTMq4mQo4xYyrG.mkQP8a9sv78JYyhCcLw3ttDcDf8BdHCM0cBicbOhYLyFHFuedn5yemhoalr9ON1MZr6nVRf5m56r69HRgZe5GeE41zMJ3ket7MZ; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Thu, 26 Nov 2026 17:20:12 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Raging-Soul?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a574de7a493be81e-ORD",
+      "cf-ray": "a60a64d479a3d098-LAX",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Sun, 08 Nov 2026 13:19:23 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Thu, 26 Nov 2026 16:50:44 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
-      "server-timing": "cfEdge;dur=1,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=IFXHjYef1vScymv_neopM3yHnZ4aaruDt7TNOEHPRFA-1794143963.2453198-1.0.1.1-6wtIYK3zI5eVTGepI0pZBcSw3_zdEikgeQVWLVKvCO241.DtAv5BIS8Xm4h0aG6N85lYHJDrzghbVNYsyZpN74ngqqCwDoJzgQeNtk34BNHym5fP2g11bXRim.B9biGq; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Sun, 08 Nov 2026 13:49:23 GMT",
-      "transfer-encoding": "chunked",
+      "server-timing": "cfEdge;dur=5,cfOrigin;dur=0",
+      "set-cookie": "__cf_bm=50jdj2NAH2qGx4Ps.8sD6ArPHLwa6dV75bbjSKZCTbA-1795711844.5522358-1.0.1.1-zeAHQXDoQMx66OOa_5Fs4nO1SbPnMFtPcvuUPQuWHUWMRCSyeVpS8ejXdVFgX76UUF0DIbRsSscl6QZbjzY_pX5.4AUpYixeeCHQbB9E7dk435tZ55mxXB.LPMGvrDME; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Thu, 26 Nov 2026 17:20:44 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

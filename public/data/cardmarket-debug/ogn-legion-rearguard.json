@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Legion-Rearguard?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a574dd9f9ee86689-ORD",
+      "cf-ray": "a60a63f33dd68ad4-LAX",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Sun, 08 Nov 2026 13:18:48 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Thu, 26 Nov 2026 16:50:08 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
-      "server-timing": "cfEdge;dur=1,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=JeEwWgQ_oNRVVP_L0pPrwIKhdeRA8P6mqJsvM25wA6g-1794143928.2539108-1.0.1.1-h0rN2gSJaKx5IpTgYMc_bnJwmcfUnFfv..JJMVY4H0OwJxfSKKFeWbKmRsqAG2_g7gMQ8YoCYNhtrZeYVQcjO6GDhfcM4QG0Zq11K0kAV2sBpFKoISHQZF6ZlaPhg9I7; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Sun, 08 Nov 2026 13:48:48 GMT",
-      "transfer-encoding": "chunked",
+      "server-timing": "cfEdge;dur=3,cfOrigin;dur=0",
+      "set-cookie": "__cf_bm=gF.YI3mZ_og99I0rGHVH4Y4ZGhxmB9ta9bk2XHPuwsA-1795711808.5158925-1.0.1.1-L_lRk9Z2eYN.OOIoRhLmQbnN_lpaYvzV9vkt_t_0YRNm.PJxX3cLlYCRK69vO7C_.A7A7i.hjNiOjlgW8NY_s2pE1BFiXsmuHpVCVi.laNxKuBcSQDCEJF1jqA_KKTxi; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Thu, 26 Nov 2026 17:20:08 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

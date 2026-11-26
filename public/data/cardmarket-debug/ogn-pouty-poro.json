@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Pouty-Poro?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a574ddea7fdfb4b8-ORD",
+      "cf-ray": "a60a6441ead12c7d-LAX",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Sun, 08 Nov 2026 13:19:00 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Thu, 26 Nov 2026 16:50:21 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
-      "server-timing": "cfEdge;dur=4,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=j6ZLYd4nEOmFc0YmpmEttI1ufSWN4q9aQ8M.mzpHpzg-1794143940.2394302-1.0.1.1-vL7HbTgZwM984XgVmlvqWw6SP4XjO0KAPoAZ8860pQeC6q3IgZMZkqMPEzMAdVnWXxOjevw.zn2Fpq2FT3oi9lmncp45OkA4Rfw471_Hr9_MzaT.W9j3EauZaHKmZ5Pb; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Sun, 08 Nov 2026 13:49:00 GMT",
-      "transfer-encoding": "chunked",
+      "server-timing": "cfEdge;dur=6,cfOrigin;dur=0",
+      "set-cookie": "__cf_bm=fxVYJeyA_r7jKHAGwMqpqi4uNG0MMsaPRiQe.PufPMA-1795711821.103057-1.0.1.1-KRL6PcWKMyuCAwwdUWrvDrpkn0dpf1TPBxDTO2jXr8Mj7uN2uVSaLs34yw54DSKXUkhY8y78R2.sN2M8jLkXyfUihvvRd3kbMdGKPL7GosjJtJu7c7eChGPqaAuotcXN; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Thu, 26 Nov 2026 17:20:21 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

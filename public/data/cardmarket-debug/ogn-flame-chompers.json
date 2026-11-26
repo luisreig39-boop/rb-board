@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Flame-Chompers?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a574dd3e8cad6689-ORD",
+      "cf-ray": "a60a6391bbdc3f13-LAX",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Sun, 08 Nov 2026 13:18:32 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Thu, 26 Nov 2026 16:49:52 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
-      "server-timing": "cfEdge;dur=5,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=WSYn90uVweYn8lxvAdXWT3cOz4uEoMr2_JpApf2Xfrs-1794143912.7221375-1.0.1.1-eagi7hmFL05ItqhFndg3qQDZMci.OoDUcH6K3VCPaplHnc3V6L0NTh.j_.bo1QmeQqNi5_jNCLMb5Zk1tCdlfF36OsUB3QtbHJ.A8bi0d2JHaMiGLXTbPW3DytiKDEZK; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Sun, 08 Nov 2026 13:48:32 GMT",
-      "transfer-encoding": "chunked",
+      "server-timing": "cfEdge;dur=4,cfOrigin;dur=0",
+      "set-cookie": "__cf_bm=X8I_sSJuN8YCZJiZa_jHzoNGKcDzB0jpPOZrhx6syI8-1795711792.921903-1.0.1.1-1CP6YZLfaP1Uza6MXmcvZEZcMQhhx.iz9XGEmBL4jd.vuywjjvgAArmzizmwSpODkctbYj0pI9H672rk293gqZ._XLw.W6v87yQQRbR3HDWNo25LaCVuuJymwKgqRMWM; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Thu, 26 Nov 2026 17:19:52 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

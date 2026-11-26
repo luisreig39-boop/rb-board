@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Fury-Rune?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a574dd5748aa6689-ORD",
+      "cf-ray": "a60a63a9c8be3f13-LAX",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Sun, 08 Nov 2026 13:18:36 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Thu, 26 Nov 2026 16:49:56 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
-      "server-timing": "cfEdge;dur=2,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=W6ck8VvkEGKj.phidT0AhE.WtPxbTWzCuZOsOP7tkY8-1794143916.686345-1.0.1.1-mFpy585PXOGDaG.CfKuSgws6Lx6CWW8HcBlhI__pXWcPfisi20altV1ZiYYx_MbCpNUBQCVCNwj12._Rrzdq2TpIM1I0.AGJJeY9qgippHJ_bnVxsFEK65hKPb6F2ZA9; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Sun, 08 Nov 2026 13:48:36 GMT",
-      "transfer-encoding": "chunked",
+      "server-timing": "cfEdge;dur=3,cfOrigin;dur=0",
+      "set-cookie": "__cf_bm=A0XpAUll9B6_J_wNcFg30Ge9nF0EmA7J47UdBuWWnL4-1795711796.7697613-1.0.1.1-UfrzDI1CdqHsDTg053laxIUOPx3RbI91Ke8g4MDZ5DqdwQvNjdzQVFKjT1ouqYkWyJHP8IMbqxQygRqWdTwI_8ODt61Z96LIt6bx0OnxOCm3gvqARrHN6SvHBGGSaqfz; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Thu, 26 Nov 2026 17:19:56 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

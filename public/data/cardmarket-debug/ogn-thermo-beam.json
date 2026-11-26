@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Thermo-Beam?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a574decb891410a5-ORD",
+      "cf-ray": "a60a65217ce78ad4-LAX",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Sun, 08 Nov 2026 13:19:36 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Thu, 26 Nov 2026 16:50:56 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
-      "server-timing": "cfEdge;dur=1,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=cJF6DLkpmkmZWXb3QubllGhiLid5HoY6ZeaCHVgiqJs-1794143976.24479-1.0.1.1-LdsxRfvVWFNPwvEWgHA0MsldIJgfOv9PviMKM6lx6RMyZYdzMH.5KOWAdvjvp_VkrDUtZCIWS_BHTr7WZiKNBcJLif5ND9oAlbqZsAO6QPAsDUojwNywP.5z.lDf.SOS; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Sun, 08 Nov 2026 13:49:36 GMT",
-      "transfer-encoding": "chunked",
+      "server-timing": "cfEdge;dur=8,cfOrigin;dur=0",
+      "set-cookie": "__cf_bm=Mpubv5zDaGZr1VahdOcQV.pKK0bitegCOBKdUBGPS90-1795711856.8729753-1.0.1.1-ttGDDAW2flOM157zh6_rwE8gXdpM3y.TLEXa9YRlFs5.NNzr8QZq65qDL8E_bK.AgasIznL38ZfX0i2VOrTwoJsF_BhvGfb5A7muD1k_N76fJa4qp3kfKtNdtc_ns73Z; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Thu, 26 Nov 2026 17:20:56 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

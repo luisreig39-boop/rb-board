@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Raging-Firebrand?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a574dfadafb90012-ORD",
+      "cf-ray": "a60a66066dd68ad4-LAX",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Sun, 08 Nov 2026 13:20:12 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Thu, 26 Nov 2026 16:51:33 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
       "server-timing": "cfEdge;dur=1,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=72e1rd38jjTJ8vhn7iV1xfspkqeaAbf9uQoPJnnqOho-1794144012.4240525-1.0.1.1-ji6B2M4K7M6fLt7qAwRrahi.d3Y00LtstprbjC5K96XZBa6xKqa2wWavpfyj8uXx7ykD29_LcEAq7EtRYJA7RFPDTUvGdorHFP.XnHU3h4AzbjoEGUh0dCn0USqD1goY; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Sun, 08 Nov 2026 13:50:12 GMT",
-      "transfer-encoding": "chunked",
+      "set-cookie": "__cf_bm=gGZJltikBJ6Bqn.3_MpDXaTz2edab.q.2hRjthapGck-1795711893.5039802-1.0.1.1-L.GMUFLPKoTb0vxThrfNuVGSlAk3NH41wbcQCjiPmvVdomp0p9ph.4jXRQIZws6R_E4d4d2zgmllhDo3sdr3zYBgATr2UqH7k9mkA_0Nv.61ziN2Dn1ZhW2R4myKpI_y; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Thu, 26 Nov 2026 17:21:33 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

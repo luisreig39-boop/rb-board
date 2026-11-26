@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Vayne-Hunter?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a574e017187a0012-ORD",
+      "cf-ray": "a60a6671af3bd098-LAX",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Sun, 08 Nov 2026 13:20:29 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Thu, 26 Nov 2026 16:51:50 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
-      "server-timing": "cfEdge;dur=1,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=59qfHtc43ZehZlumrELG.p.qef.DaaPXbgH1rG96QEw-1794144029.2942338-1.0.1.1-qz4mzOhA2PrwXGOVflnTMQ9M1HOYYb1nJqQyNMgCyt1_zFCL13MnJxYBFJUEA_m9RPpSzLmLRD38S90Mj.ruP5pwozmxThX.7vdAZhUX4qgT_aXpO27pKdnmerxd7h23; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Sun, 08 Nov 2026 13:50:29 GMT",
-      "transfer-encoding": "chunked",
+      "server-timing": "cfEdge;dur=3,cfOrigin;dur=0",
+      "set-cookie": "__cf_bm=UjxT1IhDjF3CITflMgxXNOCLWJHjI0XWV2S7bHeIvQE-1795711910.6692052-1.0.1.1-7l_PZXWIQqF9bDN6rdVQyDl4w.sWmgu1FA90MuuIJGU8qTwVd22BbKOZLFafZl4TtVJEt3X93nhbR6oK0vUwP3PDoVdaMxQn6wUn9FPyDV2HPEfMBYHgKcy4PbbDnWzV; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Thu, 26 Nov 2026 17:21:50 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

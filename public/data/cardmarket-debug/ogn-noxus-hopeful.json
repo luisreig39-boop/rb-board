@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Noxus-Hopeful?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a574ddd30eebb4b8-ORD",
+      "cf-ray": "a60a64288aac4d9f-LAX",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Sun, 08 Nov 2026 13:18:56 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Thu, 26 Nov 2026 16:50:17 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
-      "server-timing": "cfEdge;dur=1,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=hvtTpfm9eKRNa6uIcVZcmCZCM33IeFpCi3SobRkKxA8-1794143936.484822-1.0.1.1-thcmx5TE5v.TwWFf95fHZrzkJlKBlagVa7z0S6zgu0PxWpQoIAQpUz3rjcaV.Y9AFvc5SLgR_02j3ht9HzNthhSJS1Zfznyj10o25oLPTx0nuzwnfP93A.qGHvsKOjLo; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Sun, 08 Nov 2026 13:48:56 GMT",
-      "transfer-encoding": "chunked",
+      "server-timing": "cfEdge;dur=3,cfOrigin;dur=0",
+      "set-cookie": "__cf_bm=F40NOBXwhhbIHKO5DAxt.Axz_yLkdscjZcFe7iOq8yY-1795711817.0429564-1.0.1.1-gfAr3OCZrxaX1hTA6pBYdj7SRttnXoGf.MMqB6dvLLLD1Y3NnZ.N60k0EHpeS7f5eVIhj1epjlHPER5BPIeprIS0dZK_KoXERUa1NSqMkKlZqNXRQREvzpj1wVs8bgNW; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Thu, 26 Nov 2026 17:20:17 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

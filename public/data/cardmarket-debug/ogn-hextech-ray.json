@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Hextech-Ray?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a574dd87db466689-ORD",
+      "cf-ray": "a60a63db6e568ad4-LAX",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Sun, 08 Nov 2026 13:18:44 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Thu, 26 Nov 2026 16:50:04 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
-      "server-timing": "cfEdge;dur=1,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=6e.YY5ndakkFXPEmSDe1cnISEAM_bCjbqshPOqxLnyI-1794143924.4584315-1.0.1.1-Kh580IG__XOdCHpHjl4XU3TYX2NV3H8tH.Hv1n8KxQ5kF2M8mbrsT1kaOzaCnSA_59sR2o7SH4ldZdQKxMW8JqliFrSVE2WvfTky4Q29.y4kmX4SE.kKWtrtJrQFT.Mz; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Sun, 08 Nov 2026 13:48:44 GMT",
-      "transfer-encoding": "chunked",
+      "server-timing": "cfEdge;dur=3,cfOrigin;dur=0",
+      "set-cookie": "__cf_bm=twqlZB8JJvgLTE4mbWQ1Zuq3rWZ0i6yTA8tFoeXRaBQ-1795711804.7050872-1.0.1.1-CzM2dIjPUysIaPY5xxVSONVDrk_Gtp5W.qBBbqTMrJVwLtCdG4zQX4HSBUYXGU4RdFalp.m2M8Ib90I__9_qLAzt0olDwekq.o__wJVL98KkOzI34FoEQIvBcCkOsTr3; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Thu, 26 Nov 2026 17:20:04 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

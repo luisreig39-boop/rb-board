@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Chemtech-Enforcer?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a574dcf33a9013e7-ORD",
+      "cf-ray": "a60a6345dbe84aba-LAX",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Sun, 08 Nov 2026 13:18:20 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Thu, 26 Nov 2026 16:49:40 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
-      "server-timing": "cfEdge;dur=3,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=FN7hgMUD_lHsW5Ga6BN1QtIZTK1ax9UABCDXIFOSgCg-1794143900.6754909-1.0.1.1-V0nenbf2Lf4HspevBvRcGmW9F7KzPADKzQ36TKUQSuxHxxb8_uOTIKTnAqekP1oCAMcDBBwKXEh69Nd_JPEdoKnO6wPaZo4HEpz9Dr5eAM571gtMUdAizWhPdgFuYNJu; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Sun, 08 Nov 2026 13:48:20 GMT",
-      "transfer-encoding": "chunked",
+      "server-timing": "cfEdge;dur=1,cfOrigin;dur=0",
+      "set-cookie": "__cf_bm=INCd3FTb1Ez4i6wSbGLGF_7PXOpR2R7_x3.yP6wPMQQ-1795711780.7799659-1.0.1.1-XioLDGMlOeXRJ0S8xnxqo9wY0lEG52GHvgmIUHTV7n1veiUg3S.JZzjciN506b9GgZsRot7rfvdbwiGYAyrFEQfNRTZEOWPRNV9CeNvbQf58jDv3jNivjSDQ0oFFfEUu; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Thu, 26 Nov 2026 17:19:40 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

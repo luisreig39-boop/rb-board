@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Draven-Showboat?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a574df65ede50a26-ORD",
+      "cf-ray": "a60a65bdd8a4f7bf-LAX",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Sun, 08 Nov 2026 13:20:00 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Thu, 26 Nov 2026 16:51:21 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
       "server-timing": "cfEdge;dur=3,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=CdC4o8U2rNtY0zBH1L32x.rVzrA72Lt9ApPCstyXQ6E-1794144000.9447646-1.0.1.1-BxMGl3rn2PnIQ_7BiaCHgIMAZkVPns9af_VTG7HA1wpYWN.5AW.42Y3v5zZFqclc2XTO6DcwbOrHbF5o2rO9yOmdtaU10DjVr0lUr_8ypTF9lIOkVvdSo64gVFflXQDL; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Sun, 08 Nov 2026 13:50:00 GMT",
-      "transfer-encoding": "chunked",
+      "set-cookie": "__cf_bm=B9jJ7eGA50L81de752jRtx5xNcBR2XeYX_76FJ9pvCE-1795711881.8942742-1.0.1.1-0Nlr4Y6Jchw7Uw1EvWraRGYgzOmUY53dv2Uw82lsgmtT81XOI.SCX45EDhPI7mf2AcoV8Ws_dsVZkesuoyQufWqfbuVzJH.BJKvL_tvmq38BGHBBMKrUKWRnze5QQxEe; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Thu, 26 Nov 2026 17:21:21 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

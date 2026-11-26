@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Darius-Trifarian?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a574df4af8601923-ORD",
+      "cf-ray": "a60a65a2f9d54d9f-LAX",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Sun, 08 Nov 2026 13:19:56 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Thu, 26 Nov 2026 16:51:17 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
-      "server-timing": "cfEdge;dur=3,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=UZNcsyGDDk8_REK9s_0lWqVzV_TdmxH_hN9h7Z.V9Kc-1794143996.6328042-1.0.1.1-1xtF4qjBLcbb7z_VNxh39U990eqGtyE.w2vjvFhPNcYyHYK1IrtGfwNkl3.gisN.ANx9qQFzQ0I0LfIOBw6OtEUzSf0PM2e7Ot67k.8rdKA8Pk.kGIKBOvTQYZB41LNw; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Sun, 08 Nov 2026 13:49:56 GMT",
-      "transfer-encoding": "chunked",
+      "server-timing": "cfEdge;dur=1,cfOrigin;dur=0",
+      "set-cookie": "__cf_bm=GOQVacxbkxKaoxzRTlpPrDhltCOVNNrwDbqpU2NSqd4-1795711877.5948205-1.0.1.1-.pPODV3.RWz6NrF5sWDJ2ZKagVS7EvIdnOeqPfcpJ9ibpMxVP3t.8T90zrjUW4qAjsEJbL2D4.FnPaulwCKXe8pHwPrFXQEr7HyP8neE3jR343uH05pZGqYAbjN2TZw0; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Thu, 26 Nov 2026 17:21:17 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

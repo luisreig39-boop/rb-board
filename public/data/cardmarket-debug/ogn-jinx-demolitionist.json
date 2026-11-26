@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Jinx-Demolitionist?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a574df970dec0012-ORD",
+      "cf-ray": "a60a65eee9578ad4-LAX",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Sun, 08 Nov 2026 13:20:08 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Thu, 26 Nov 2026 16:51:29 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
-      "server-timing": "cfEdge;dur=6,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=O6u7waoOF8UuLxvRAN2XX.AMR35igw.ADN_I1UTUZBE-1794144008.8067727-1.0.1.1-g5bB4rMwgb5S8Ocn1Ardd4S8ipwgTLJ1tUk3hSMW_v_7rJnRqA5jY1qbyp5Gil2aGG_LKcjIkVS1o3L4PNpjfJn5OHSPlCP4DD77v38yv0U8e6mcWxi2UdPlK0ycFjPA; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Sun, 08 Nov 2026 13:50:08 GMT",
-      "transfer-encoding": "chunked",
+      "server-timing": "cfEdge;dur=4,cfOrigin;dur=0",
+      "set-cookie": "__cf_bm=cV2DXUxtrhiFdjhwY6rEOeIpTCz6fgniNFOXLkrMM8w-1795711889.749542-1.0.1.1-epWqncHcj7pKvzzuSCQsoKE9qH9Oc7ur_6RTTPnstn7wsrj8ELNTICPJbRqs_8iNWB6mr3Oc07A6qZyjNishI7RAx5mutJYT3HmIsEdXIv6rK8x5jHT_VgcYnzHbj.uw; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Thu, 26 Nov 2026 17:21:29 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

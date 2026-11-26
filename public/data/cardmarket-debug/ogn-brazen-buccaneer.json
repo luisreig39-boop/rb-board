@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Brazen-Buccaneer?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a574dcd93abcf60f-ORD",
+      "cf-ray": "a60a632cdc8c4aba-LAX",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Sun, 08 Nov 2026 13:18:16 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Thu, 26 Nov 2026 16:49:36 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
-      "server-timing": "cfEdge;dur=3,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=jpypB0Pou2mc9LcdheMada_0fSxlRe2uWi0SicLkw4Y-1794143896.5152397-1.0.1.1-AK0vW9egFA_p4Nn8qjdHuUtfmkdZ57HaL76g11qwyfIKguksPmXZICqgT7VSHyFp9sarIw2kidSeSD8X_eajWjEedAj0S_rzAS3fA6rKKygTWil1c3avKb4wyOiV4txS; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Sun, 08 Nov 2026 13:48:16 GMT",
-      "transfer-encoding": "chunked",
+      "server-timing": "cfEdge;dur=4,cfOrigin;dur=0",
+      "set-cookie": "__cf_bm=EJjD6sl4.jJ_Oz6IO1KGBHcs9qiP7xW_RoW7168A_kI-1795711776.776059-1.0.1.1-272.76L296BXvCoI5D2t2Ub4.UBgJa3sE.srKxZtDK7FTvqEJ6GOgHuY6WbwORJC_XC8_9ED8aB8x9Vumcj7Qi2MSeXvuJYFimbJkbnI3gN.oxpOJ1YFf3wxZFeSvJTr; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Thu, 26 Nov 2026 17:19:36 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

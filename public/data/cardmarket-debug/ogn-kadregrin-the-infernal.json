@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Kadregrin-the-Infernal?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a574e05c78230012-ORD",
+      "cf-ray": "a60a66c01910d0c6-LAX",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Sun, 08 Nov 2026 13:20:40 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Thu, 26 Nov 2026 16:52:03 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
-      "server-timing": "cfEdge;dur=8,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=YhXqcG0NDQs8vmYNbUcEv7FANKOKPgLjIXZy9s2Foj0-1794144040.3983407-1.0.1.1-jYfO7pTFLC.Nr8saMirBN5shz68q7bBBUQRqpRCXsUCN6ajWXWGLg5_.15SKZEC0TKM826J9xgWXFfSSr34.Y6kd5FISti8hAFh6Wgd93c27OJkgBmSCiwFk8KJERypm; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Sun, 08 Nov 2026 13:50:40 GMT",
-      "transfer-encoding": "chunked",
+      "server-timing": "cfEdge;dur=2,cfOrigin;dur=0",
+      "set-cookie": "__cf_bm=g8GgefFc1JDx0Z2zA.OZW1Qejp0pkC2taGSy.nEbvNo-1795711923.2131011-1.0.1.1-mZOpWF.3riXTJwlWSUI7R_yubbqvqeUSFs2ciMestl2UY4E.N7xOlsKGcuMj5MF6kcJFdSDfcIK.T2XhvTcM1sG3FmhntgUTAAoLrHHw4mNvlaBhd7fjKhDLqujXX2a7; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Thu, 26 Nov 2026 17:22:03 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

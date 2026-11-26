@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Scrapyard-Champion?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a574de95eee113e7-ORD",
+      "cf-ray": "a60a64efbbb47e62-LAX",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Sun, 08 Nov 2026 13:19:27 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Thu, 26 Nov 2026 16:50:48 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
-      "server-timing": "cfEdge;dur=2,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=cxQxLSlcYjl5q.UrbFqQ5xK6AemX2oqsgy8idOe3CX8-1794143967.6702397-1.0.1.1-bYuickSlKtX7aSo_hxyxBmKCgD_r4IXMojzZMrY7fJMYbvwg8IITg1XY48HD9_ok.Hwvqqy4qg5Uy9AH_9n.hTXz50JpUXsY13.HFDZuOZXsIYWdeosc79lZwbdGJxz9; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Sun, 08 Nov 2026 13:49:27 GMT",
-      "transfer-encoding": "chunked",
+      "server-timing": "cfEdge;dur=1,cfOrigin;dur=0",
+      "set-cookie": "__cf_bm=DUXSTnY3iAALr7HYlnEQeNnHaOI91C4mxqDZVIIa2f4-1795711848.9208467-1.0.1.1-__gow3kv4_2YZ3.3RNEU6Ko0XrjquAutltW.sgLHT.TJwpw6jhBDGSlElGDor2W7uYw9tP6ep6tQFkvmf8ctDPOOHzfyhCpu3EGDfyK6CPAvXBr57Q5fsVbi42sdmVxO; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Thu, 26 Nov 2026 17:20:48 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

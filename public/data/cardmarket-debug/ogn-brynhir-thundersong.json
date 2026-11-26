@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Brynhir-Thundersong?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a574df2fea3513e7-ORD",
+      "cf-ray": "a60a6587df72d0c6-LAX",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Sun, 08 Nov 2026 13:19:52 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Thu, 26 Nov 2026 16:51:13 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
-      "server-timing": "cfEdge;dur=1,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=Tr6UhemGTWtdFw8oYe9.q.5Ekjhat8JyPoyvFo_yvaQ-1794143992.3059626-1.0.1.1-iy4diCzesDg5xQ9fIzJmj0_si_Fzegmm_5l4TK7jt70k.jI2ko9lPTHzKQ2LQnzZt1fx7Z9t2w31JmLp64Dr63uun1dfoBbAh2HikhMZyaWlw0M430UK3uv7UjEidEVC; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Sun, 08 Nov 2026 13:49:52 GMT",
-      "transfer-encoding": "chunked",
+      "server-timing": "cfEdge;dur=2,cfOrigin;dur=0",
+      "set-cookie": "__cf_bm=HGYnsuQCWwaIVPlSqqiLylzT_ZG0SZCxsgdpc6anOWc-1795711873.2589607-1.0.1.1-97rLekif6r_a5vCIFu4yYoUspOKohMt4ekdCJzJjdp74gMibub0KAA3y9p4r29QNYqqayB0z0S8210itAIUwFDKL4bW5fP0Apz1FHX22fahPL3OkGazoibkCw4xgLFnf; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Thu, 26 Nov 2026 17:21:13 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

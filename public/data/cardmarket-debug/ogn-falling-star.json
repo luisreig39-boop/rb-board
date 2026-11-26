@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Falling-Star?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a574df7d29470a26-ORD",
+      "cf-ray": "a60a65d828b28ad4-LAX",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Sun, 08 Nov 2026 13:20:04 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Thu, 26 Nov 2026 16:51:26 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
-      "server-timing": "cfEdge;dur=1,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=ZicgSMJExdDFd.npC64hvorwYx_iv9FqrMZreCdhMeY-1794144004.6694655-1.0.1.1-D4pUPdKVqORAnMGDQk9TOiLyX21PlNAuzpvWgCGDSE.5aRx72X3kYndHZudm3MRfKAi7SqrcOS.b4Ae6FNp5KkMkZ1T80Om3Br32t.KXFIR64ym8Pwjfm7ik_ok6z414; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Sun, 08 Nov 2026 13:50:04 GMT",
-      "transfer-encoding": "chunked",
+      "server-timing": "cfEdge;dur=2,cfOrigin;dur=0",
+      "set-cookie": "__cf_bm=XEDXwjh745mB1mvUmI_EU8hl53ocGJtgMWUXJ3Dan48-1795711886.1064286-1.0.1.1-tPMeE2027DOorPvLCX9GctcccrknndEYo4zmvGsSJTfINiCDOEcBrfF9udCP9HV..lC0aBDpz9Km1OAhtANsr9ZtTy1yQN8WPHMJIkTxsU5y4DIfZjBHXtrc8vCED8XA; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Thu, 26 Nov 2026 17:21:26 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

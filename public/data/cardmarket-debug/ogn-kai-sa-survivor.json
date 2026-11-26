@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/KaiSa-Survivor?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a574e074acca0012-ORD",
+      "cf-ray": "a60a66d79d18d0c6-LAX",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Sun, 08 Nov 2026 13:20:44 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Thu, 26 Nov 2026 16:52:06 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
       "server-timing": "cfEdge;dur=1,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=HhlTtX4OeM7dnPFjPY3AZ5u.4ajdsefz4ox4OxSSEX8-1794144044.2701588-1.0.1.1-tlQcjTPdTGNJ4gqGwalRuZz0QgOebw8DGS_hBUWIVma4Nxf1JWfGbjYO_hvmgwEkylSIukAbyo1n9dea9pgHbTbFRE5HWSgI0hdVj3CnKAZP.D0XkF6_k55wie6_KZEH; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Sun, 08 Nov 2026 13:50:44 GMT",
-      "transfer-encoding": "chunked",
+      "set-cookie": "__cf_bm=N_shlzAxrIfMWjcNeKvdwLc6.vUcrcZ3w5CHtYlDRYw-1795711926.9792445-1.0.1.1-bVWCIacjRMqDFm0LvaPvBgB2PYxRNGwiue7fc04RUPBABHZUpdiVsAPT374WbM2Y3QB03na6dRF6y_zq4qwezovxTZGzf2BUZxg9YV7J8ZDkFNvrkHBZ4Iis_I7RV7aW; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Thu, 26 Nov 2026 17:22:06 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }
