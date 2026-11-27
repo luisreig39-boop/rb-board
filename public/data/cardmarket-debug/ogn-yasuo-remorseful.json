@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Yasuo-Remorseful?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a57e19dc2ad66825-IAD",
+      "cf-ray": "a6128e80e9f44c94-MSP",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Mon, 09 Nov 2026 16:12:47 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Fri, 27 Nov 2026 16:37:17 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
-      "server-timing": "cfEdge;dur=2,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=eO6WCGSZGYlc5bOu.WuA1x8UO6MMX9hNL8R7uWi4gd8-1794240767.3871279-1.0.1.1-W6XNn6kERhiVMdTYzTJktSOR8Pm5s0JEf_w5AB5MmxLND2mQLejmm9Nw1WpQ1xkAS.QhHunv_FjTzYAoDP68vGGx1DHQkih5.ynk81C3ZzahQarbtOSo84Ndup9AlISD; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Mon, 09 Nov 2026 16:42:47 GMT",
-      "transfer-encoding": "chunked",
+      "server-timing": "cfEdge;dur=1,cfOrigin;dur=0",
+      "set-cookie": "__cf_bm=eWkCzFe9iBJB9SfWQe_cykz5KGIXX5Y.o_eWZMyJm4w-1795797437.5865645-1.0.1.1-7_7DxgnrQFBItmxWgdAEWWPFurPYAPBvE5ZBYOQE8UuKjObKDLWJ6994eOyZ43FkGmQLmH9jhzexB10cmXD2PSJRN6J8fQrLm3QMyauW5FwGh_Ap5M7oXOQXciDuzL5Q; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Fri, 27 Nov 2026 17:07:17 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

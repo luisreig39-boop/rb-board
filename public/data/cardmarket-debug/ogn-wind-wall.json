@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Wind-Wall?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a57e18a91f87d69b-IAD",
+      "cf-ray": "a6128d4fda9b502f-MSP",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Mon, 09 Nov 2026 16:11:58 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Fri, 27 Nov 2026 16:36:28 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
       "server-timing": "cfEdge;dur=1,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=kFQkaUin16iMnna_jU8K5hnqE_X_I4P.jVxjKwIfdHk-1794240718.2529793-1.0.1.1-i7R4eKji4x4vIfA2vnX8mq2qQJia5Q0kPYHRmzN5qL1gV_B.Ilrmxjkyc3UbfljXWvtibyYV7l4E_A74xz2e_FF.VIKpishKjbeMPhYDPcl4QGl2s5R722PmcATLobYL; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Mon, 09 Nov 2026 16:41:58 GMT",
-      "transfer-encoding": "chunked",
+      "set-cookie": "__cf_bm=zQilJmMCkWOa4vt3yG3MnCHSSFJ.gdJDp3FbEkI0BRk-1795797388.78217-1.0.1.1-K8_sNkwe0jm0gqGP.XFusOmTj4eaSN9zBdZSj6XLUnPvvx0G.qIh6pSbn3fXRxuqBtjz7_4BDgXrlSJt53yDBMyUFaBwuP2jLbt83OssOFBriX.MpH4tuUWl7p5FHKFT; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Fri, 27 Nov 2026 17:06:28 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

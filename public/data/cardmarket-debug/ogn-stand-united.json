@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Stand-United?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a57e179d584c898c-IAD",
+      "cf-ray": "a6128c34a8594cbe-MSP",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Mon, 09 Nov 2026 16:11:15 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Fri, 27 Nov 2026 16:35:43 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
-      "server-timing": "cfEdge;dur=2,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=z.BVqjDn3zAxwlBrxAlSnP4Pm_UM3KUUY4zc4Xpg4qk-1794240675.4160287-1.0.1.1-3qIU_2X7ey9oOXiI9f7cyN5J_te20j8thfbciMWazkRkToThjhoVFlw_USCxXhStpcj96qO.1N392e1v2erzkCPHAxmtdu6iVlqKmDNDbn1rYVuCYYcYBphO3.aIWY9T; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Mon, 09 Nov 2026 16:41:15 GMT",
-      "transfer-encoding": "chunked",
+      "server-timing": "cfEdge;dur=13,cfOrigin;dur=0",
+      "set-cookie": "__cf_bm=mtM1G.HNxKTdNLBaHAIsKW0wdMRz4bVdqRo5ETrm6Xs-1795797343.4671733-1.0.1.1-BHeyEhYXUOR2RlUZUJZknlZ5lxIfDSsNpVf_JGNiXWq5AgEFutR9_T3kdQUZiPfL3v5FOa_DMkzRjbL4U4m0zYRGYUbfoHhEZINYGLRoC7hcbvEhXWXtGk4sO3UvVZmD; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Fri, 27 Nov 2026 17:05:43 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

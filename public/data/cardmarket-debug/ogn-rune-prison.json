@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Rune-Prison?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a57e174f3cbd6825-IAD",
+      "cf-ray": "a6128bee38694cbe-MSP",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Mon, 09 Nov 2026 16:11:02 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Fri, 27 Nov 2026 16:35:32 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
-      "server-timing": "cfEdge;dur=2,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=J.JCozAZGdMuKXoEwLtRprM72tE1372KtKpi8ZE4G_Q-1794240662.9199638-1.0.1.1-2zyGI.eznWLnFv4cuOTGWUNP.F1KAHQZxdDZWWDwDJAX93P2gXU6HhYOZd1IqMu44EJpF_vn5qUVnZcakbBzPUDBIImBlMX8vf6bJeUsbXJoCMKIs3KO79HPb99Ftv00; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Mon, 09 Nov 2026 16:41:02 GMT",
-      "transfer-encoding": "chunked",
+      "server-timing": "cfEdge;dur=5,cfOrigin;dur=0",
+      "set-cookie": "__cf_bm=Aw9oJh42ks9wAegm1EQFWjUK0ncoOcirVZxvuQC9SjQ-1795797332.194986-1.0.1.1-8pDHQaTJU_mmbnimaSgFbRs.2I52z9FuaACZT7H7e0OLoa6u9dsRpkm6nup7omhj45AKXrPAdbSdZDynZlYMMf3NWR4Z9UrFaORFFrEmyDImvOarHW4FYLaESmSCdLYH; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Fri, 27 Nov 2026 17:05:32 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

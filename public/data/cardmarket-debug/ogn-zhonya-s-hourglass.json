@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Zhonyas-Hourglass?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a57e19f5d9bd898c-IAD",
+      "cf-ray": "a6128e9c4dbd9181-MSP",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Mon, 09 Nov 2026 16:12:51 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Fri, 27 Nov 2026 16:37:21 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
-      "server-timing": "cfEdge;dur=1,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=SyVnx_bMrHhIFOkkv2cwdMajANwU6sPUX5GRbgAI3IA-1794240771.4998198-1.0.1.1-WLUDPqlQyHLhbo9SUKrwuTuCP3BbsBriCLnfkCVPt2LMMYbfJBn3njd7Uqvpuyn4MVnHo1xD6AZQ_ZnavuDIyK7diQ7nHL34RvDP0XkmD3uEJO.3cm7xmIqmMCIWo0yV; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Mon, 09 Nov 2026 16:42:51 GMT",
-      "transfer-encoding": "chunked",
+      "server-timing": "cfEdge;dur=2,cfOrigin;dur=0",
+      "set-cookie": "__cf_bm=4_.CtyrrWA67.g94wlWRIalMY.GPYT16.rJ3F0.1DA8-1795797441.964076-1.0.1.1-rlqjGIjCgTXg_06h9YX70MTkuAEW2PR.ByYnIV7H46L5txwuZU0pTut4eNSUOH5zCrlubLcPMkA6bWZoFspc8IEEEx.EeqSC2TtE7bqiPEFX0BRHrKd5ycKwBd1bmVqI; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Fri, 27 Nov 2026 17:07:21 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

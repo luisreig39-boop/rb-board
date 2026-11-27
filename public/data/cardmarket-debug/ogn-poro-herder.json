@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Poro-Herder?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a57e185ffc4dd69b-IAD",
+      "cf-ray": "a6128d05889afb43-MSP",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Mon, 09 Nov 2026 16:11:46 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Fri, 27 Nov 2026 16:36:16 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
-      "server-timing": "cfEdge;dur=1,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=wCy8EmTk15OcJB94lWTyNFHgg4haAyNc_trdVb6kydU-1794240706.5581713-1.0.1.1-aErbwOAuWrMzKhJ_LoOGyIbqVeyKDbCXcYrdzHBLA26A7HyMvPQN_hQwrWDWbhZL5lfWInCMXYWvf_kPDNVneqGO_0Lu3WFT9Z2QzH.Fevj9QEDFJX6teBTOilljDgdT; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Mon, 09 Nov 2026 16:41:46 GMT",
-      "transfer-encoding": "chunked",
+      "server-timing": "cfEdge;dur=3,cfOrigin;dur=0",
+      "set-cookie": "__cf_bm=cv.J8G8k70hdTdPQPsNz2MDKpoLH4s40iTdETeKbml8-1795797376.8877535-1.0.1.1-Qdbs1BnZgNa0Y_VSlDvPxQHheqjkcGpK1Vmqi71OE0WLxc4gTFsf8SleYUBQvSYtFc1I3zN8sEVHfkA4_mzLQOjYHx5f7sl3efpPgmwqywoWR84Bp7GNS1IklAB9anI6; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Fri, 27 Nov 2026 17:06:16 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

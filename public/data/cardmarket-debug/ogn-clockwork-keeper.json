@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Clockwork-Keeper?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a57e16b99ae66825-IAD",
+      "cf-ray": "a6128b4cdef2393c-MSP",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Mon, 09 Nov 2026 16:10:38 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Fri, 27 Nov 2026 16:35:06 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
       "server-timing": "cfEdge;dur=1,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=64vMxeQqHjM7Mw8fA1p8kv9wnNPqihckGIPNEKjTlag-1794240638.9756699-1.0.1.1-lzHcVjyFeMZQCadeNOLYj8SrpVRJaV1S61rhJCmoTaHanr0wDU38QvLT8bKhZay16.3DIgj1zW4WJMJf6icuNe2eSaMociBr53ljrO9tsq4dphFDA1GOG5MvzxRLM7Zb; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Mon, 09 Nov 2026 16:40:38 GMT",
-      "transfer-encoding": "chunked",
+      "set-cookie": "__cf_bm=objGNzPOu3jpa8E9.pOPuD9Fh.cf_.IEnCPEotzcJJQ-1795797306.3827295-1.0.1.1-UYkhqX_ZFr0YnkBocG4ihd7bgRQpCcqmYmCCKq5kWp3.nsRr8aO760cs23XAjiuOxQOk5g18IobC48FS9upxiOAdroimYNSfFWC8z5oQCUszd42H3lSHSS7q_ZzHnVp6; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Fri, 27 Nov 2026 17:05:06 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

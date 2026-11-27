@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Wielder-of-Water?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a57e17d0effcd69b-IAD",
+      "cf-ray": "a6128c678a469b4f-MSP",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Mon, 09 Nov 2026 16:11:23 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Fri, 27 Nov 2026 16:35:51 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
       "server-timing": "cfEdge;dur=1,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=.SXlpAtvZmsUyV9vPATW_ol386ep.6griYZN38_12O4-1794240683.6670766-1.0.1.1-P7qKUjOselD4Ps02oaCs4ahPr9oYtxW45Ih9P8wnR_m1fZZh85EROdg_jncMsrnGFXqRqQjflTcVePpd2RtjDc2wZH_uBeDfFnloxU4aM3ZM1YWLzRXmw51VttTzSxFG; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Mon, 09 Nov 2026 16:41:23 GMT",
-      "transfer-encoding": "chunked",
+      "set-cookie": "__cf_bm=5wrA9E3E31xF751R4b_npfceCJfFAZupRqdiJquj2AY-1795797351.614116-1.0.1.1-bOfaze4C05cdO1TAymqlSif_byv5ogvQ3.kgQXyGInlVcK0MFBPN0x6_FPvZPHrWffatnkNDf_5XD3TT93XDef9kpywSECvNHnZic1b_FbboRgbpL6fWtRsQYtJ_fGAI; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Fri, 27 Nov 2026 17:05:51 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

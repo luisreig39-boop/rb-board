@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Lee-Sin-Ascetic?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a57e1a0e2db1898c-IAD",
+      "cf-ray": "a6128eb75bd05756-MSP",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Mon, 09 Nov 2026 16:12:55 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Fri, 27 Nov 2026 16:37:26 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
-      "server-timing": "cfEdge;dur=1,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=2jwKx8L2UVoLrpu8VRdwN4ytbj86Yk4QfQl1WmyEC30-1794240775.3873177-1.0.1.1-UZNiK8vaRvoz9wNs3XtXW5iyBB_0WwN8sG3JfJWBoc3hVdVBUEw92VklLlu0_m_Te1eqbiYwxeb88BvfKVbQZkaHKQQ48p1kNbFiNZsV5q8YAiN.38qd12ImZAmyzGPB; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Mon, 09 Nov 2026 16:42:55 GMT",
-      "transfer-encoding": "chunked",
+      "server-timing": "cfEdge;dur=2,cfOrigin;dur=0",
+      "set-cookie": "__cf_bm=vRS2ZWhaNlXZn8__XhkrNw.XH5WMwfk9Qj55rKUn3dQ-1795797446.2976527-1.0.1.1-mpUGCqwnJQ8OYPQuuHCgieKQocYt0MCLOxu.GQYoddLsXGoWZ1gHeGNjtNE5JiZVfD0KPBAt9.LydsmmrKQTFgJ4RO3TZ4K6PDnU2unql2HVZGWTScUrd8uawzmcb1xI; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Fri, 27 Nov 2026 17:07:26 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

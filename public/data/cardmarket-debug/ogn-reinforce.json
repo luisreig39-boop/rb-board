@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Reinforce?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a57e1877edd1d69b-IAD",
+      "cf-ray": "a6128d1e2b15fb43-MSP",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Mon, 09 Nov 2026 16:11:50 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Fri, 27 Nov 2026 16:36:20 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
-      "server-timing": "cfEdge;dur=1,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=80nYuocU_CX_7GV.eF9rzbxPo.XQNcWsZSVYEl78dPQ-1794240710.383914-1.0.1.1-qOwLF.L.doa8G7bBnPyGe8YBqa_y7BIGfYybor0Dd47rM5.z9uW.AWM.67FSP_Xzqi3NF3Sd4HzmjCki_7vxGvFq0vpbBkc4NQkXAsGTIzgiz1g96IdJqXsFjnvDIgNL; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Mon, 09 Nov 2026 16:41:50 GMT",
-      "transfer-encoding": "chunked",
+      "server-timing": "cfEdge;dur=2,cfOrigin;dur=0",
+      "set-cookie": "__cf_bm=QH9iBkLiMpCe4ZHLGrTx50wpMwpV_TQEmDrMGuXJd8c-1795797380.8272069-1.0.1.1-I5A_bojM3L2gE1woWbB.0nfR.qpzcaZDkGEX9C32MuUnHOtuCbMXOOXBy0XHER2NkZL0zcztYfJD1YcBShsEAcJjJ4BlStNklnKwcppmNX2poxaWot6jfqoZihtpOPqI; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Fri, 27 Nov 2026 17:06:20 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

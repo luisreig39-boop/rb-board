@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Spirits-Refuge?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a57e1890a850d69b-IAD",
+      "cf-ray": "a6128d398d1a502f-MSP",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Mon, 09 Nov 2026 16:11:54 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Fri, 27 Nov 2026 16:36:25 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
       "server-timing": "cfEdge;dur=1,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=_My8x3yVOD_H9jGtLTS22ohiICfJ.X2OS3QZAEXJKSs-1794240714.3486056-1.0.1.1-yw3IUA.XfUhaxv0.4tU7_1LZrhFahsIEe0yqRRCP2cre.bGXdbFD3gWc3kjxndfG3a9zA6s7xW_JbZhDBHMEINc0He28ILOkjqBxtzV4yUmClXl1ybvgFhP.lyMkZ4sm; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Mon, 09 Nov 2026 16:41:54 GMT",
-      "transfer-encoding": "chunked",
+      "set-cookie": "__cf_bm=IGbuebMz46mjIwVJBFIg5mwY919bwgjNA8hWcJPGKX4-1795797385.2090826-1.0.1.1-WEclPCGUSS_Uk8dVkqRC5HVSVv_QUUvHBHwFPDI2dRyG4q7kF8VrdZtpnviraArgnOZi.ftZGia1eGe7QyTyVst52aqGdNaygx5UA4IXP0cH1hr3wFZfatXa8LJg.Etn; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Fri, 27 Nov 2026 17:06:25 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

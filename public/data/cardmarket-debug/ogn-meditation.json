@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Meditation?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a57e171f8d3a6825-IAD",
+      "cf-ray": "a6128bb8cf829b4f-MSP",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Mon, 09 Nov 2026 16:10:55 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Fri, 27 Nov 2026 16:35:23 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
-      "server-timing": "cfEdge;dur=1,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=irTZWAQpOR2QGAkj0aULAFhbZSNmQ_TXfLRsgmVPTDw-1794240655.2904744-1.0.1.1-gUhT5TvFT2Ft8KjYc9m51ri9K5tQLtYqAOmOLQtHXUS8IxCmxXLRcLsO7zoSOvVK6RvA4JU0IJo8BaZBvQnc_frNjCKWi.tf6d0wiuYmpLCuM48BpDhEg1Mqg2QWs7n6; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Mon, 09 Nov 2026 16:40:55 GMT",
-      "transfer-encoding": "chunked",
+      "server-timing": "cfEdge;dur=8,cfOrigin;dur=0",
+      "set-cookie": "__cf_bm=eK31LYxTWxQREM5d3aWf_yJueScrcj4EXAvzoERFpq8-1795797323.653696-1.0.1.1-0ZHsvfsneJ3kjyhuyOQEZGdR1LPJup4QZ2BWjlTl1ZAINejyRAfQ28jryxLYyc2yjmNYpCX8R1VxaRG.3ji0VRcf8.l2kDc2kvDuX4ALVB1v7yps_s8Oxu6I_WSSii.L; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Fri, 27 Nov 2026 17:05:23 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Playful-Phantom?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a57e1738881d6825-IAD",
+      "cf-ray": "a6128bd208999b4f-MSP",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Mon, 09 Nov 2026 16:10:59 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Fri, 27 Nov 2026 16:35:27 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
-      "server-timing": "cfEdge;dur=1,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=UOWVbN1n9u2yyUrtBXxJLgtyVaSQXISjLljfCppjBhM-1794240659.2840226-1.0.1.1-GWqwxx_fiaHToD76m3l5qDBk3G5KWrKz2v8fi5WT7Sbh.SXxq1SsMHoepMdD1vtiLAOFV2qfm09syB0arNsh.jXA.DqojRC47G2S_fUxzchdKNvOgy3e0b8WnmIMptn_; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Mon, 09 Nov 2026 16:40:59 GMT",
-      "transfer-encoding": "chunked",
+      "server-timing": "cfEdge;dur=4,cfOrigin;dur=0",
+      "set-cookie": "__cf_bm=zvKgChZBSRix8W6mR15jamXOZ41_mAt.lZ3Z6O8hYYo-1795797327.6849074-1.0.1.1-DbbGSdd4xoIq9PF9xphHd3DS_vgueEnbSzELB_z1OooQ.m4_2mOa8R8LCYVqAhbi9ORpHVah0j8pKbMYkZlLmOYVsw6zqCqdBXlnLaSMkOjlopWS81lni9EjDosLWOwA; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Fri, 27 Nov 2026 17:05:27 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Mystic-Reversal?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a57e1a3faa1c898c-IAD",
+      "cf-ray": "a6128eebcfa4a213-MSP",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Mon, 09 Nov 2026 16:13:03 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Fri, 27 Nov 2026 16:37:34 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
       "server-timing": "cfEdge;dur=1,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=H9MB6_3eFjhQC_3Jv2amj_euyswt2_.YzvZk0yUYd74-1794240783.3022203-1.0.1.1-mz7Nni.NT1wD1SkvT4ziqeEFWpxb0jLQrEsQw075s61PsEeHswL8UY83sIzYSzjZkds6RTzmp69AHdCM7aG.xf4KvGndzav0XUDhd3hPYL_jtqpquvVxO0vaVGjyj5y6; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Mon, 09 Nov 2026 16:43:03 GMT",
-      "transfer-encoding": "chunked",
+      "set-cookie": "__cf_bm=3m6rpcKK.CPenc0uGNb5USmE9Oeqte0.F6McNhh.9V8-1795797454.6916413-1.0.1.1-gHpoUD62PNyR8eyzYiMXZzvdBRU.oSmpdaTU0BX4ZNWYr6hyx.N.ZNJUK2x3xtVUb2bFX6dKmEHKuYdbXUBhtKaH_lGLJ9SuZcqPJ7vwn5r7fFiTniWBJ_ga51ftREnM; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Fri, 27 Nov 2026 17:07:34 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

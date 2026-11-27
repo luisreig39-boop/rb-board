@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Stalwart-Poro?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a57e1781cd9e20a6-IAD",
+      "cf-ray": "a6128c1da8f44cbe-MSP",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Mon, 09 Nov 2026 16:11:11 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Fri, 27 Nov 2026 16:35:39 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
-      "server-timing": "cfEdge;dur=17,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=Z_l87gN52.Sa4wkCjcJIGGk6WcS2pMPgrxDPbHQ_jzc-1794240671.0133147-1.0.1.1-HNyr95DsAt5kuknCw6Q2DTZ4dpafpWWRJKizCSO5eum8VQpz4NW4bjMeGemy8NeQjLDvOb_TIEFt2JrBGr2o4hb69DZ9j7lp5NYQjhUVy0T1Z0Wr1k61RHZF0uqfOIlV; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Mon, 09 Nov 2026 16:41:11 GMT",
-      "transfer-encoding": "chunked",
+      "server-timing": "cfEdge;dur=2,cfOrigin;dur=0",
+      "set-cookie": "__cf_bm=4oFUy9JBf4jNeXlLwCkWlcUfqS4U84jTzZGfSDOwA6E-1795797339.785991-1.0.1.1-N37QZtDQdoSaI9PeB2st8OqDXhh8LVrDABlA_KRvz568dHItPzTry9So5QcNuF4qGwVq_5h_PYF8H8AYxzR05HYq.SfTyj3z.QVX9WcErtKUpJCvPvW26VvhgHHXq2d9; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Fri, 27 Nov 2026 17:05:39 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

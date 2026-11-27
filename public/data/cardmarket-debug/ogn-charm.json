@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Charm?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a57e16a1098b6825-IAD",
+      "cf-ray": "a6128b331b7b502f-MSP",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Mon, 09 Nov 2026 16:10:35 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Fri, 27 Nov 2026 16:35:02 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
-      "server-timing": "cfEdge;dur=2,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=e.Z_t_w41uU.5uD5Zclkf90Y9Fge_3oB3l0W2_zBd_w-1794240635.0508795-1.0.1.1-bcz87Xf8QaXqXV3lCsCdl12AQDCdboFltxuRcjvDjIrf84IZApjv4HcW9iPRR0nwQptrC.CkRbhdEyZVHVuMlmPdv_I4pMf_A_VGsgVbrRCtqhTGkeLWTnP8pmx_rGzP; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Mon, 09 Nov 2026 16:40:35 GMT",
-      "transfer-encoding": "chunked",
+      "server-timing": "cfEdge;dur=5,cfOrigin;dur=0",
+      "set-cookie": "__cf_bm=o_oGNUtBSuumCXfnCED90x7XWK29RINPwGGxiW0kPsM-1795797302.261437-1.0.1.1-uYCWr8W.JZ.UPB7dRGDkTKILU1W5IuTwGb5ViD1aK8aUkRSBmsWKFJpw.HCtkVIKpMEG1d0RJnvGsaK1MaCw41U6gutrkMb.aWlMmMmKMcThTgIJYSqCIBY4v6_hfiw6; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Fri, 27 Nov 2026 17:05:02 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

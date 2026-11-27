@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Tasty-Faefolk?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a57e19c069e5d69b-IAD",
+      "cf-ray": "a6128e673fff502f-MSP",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Mon, 09 Nov 2026 16:12:42 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Fri, 27 Nov 2026 16:37:13 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
       "server-timing": "cfEdge;dur=1,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=r5MsYcGLE3wxo8kkYjr0mSqumbtDfvITZiQOP1yIpEg-1794240762.9522235-1.0.1.1-ae8xkwlHwmAOS6FI6lz36N2Wl3jqvHAJvKn3zE.RhB3bYJbSXmfFtvznIUZavnQY1xGeGlB.TUIx6gzl9k8hZLt4v8qWgElWfMg_C_YYmgQx.9cDLfR9fJlfErODaJX7; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Mon, 09 Nov 2026 16:42:42 GMT",
-      "transfer-encoding": "chunked",
+      "set-cookie": "__cf_bm=7EmvdmJVyNe.3euH7mPKJQx5XkI1R6m.7H10QgmHeKc-1795797433.4794288-1.0.1.1-CptkQQQTvSv_vDXLTWdtelR8Z.xSApVZDybZf0_zurdPU0dt.LNFg_18uA8wB3nD4r3RAXyd5Rf7Skf9B0AmfQNV4a_XFQHrR9FNn_VI9Jn5UnZ9fQ7sbtJOAlYald3Q; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Fri, 27 Nov 2026 17:07:13 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

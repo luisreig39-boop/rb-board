@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Volibear-Furious?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a57e166d6dbb898c-IAD",
+      "cf-ray": "a6128b00791f1ee8-MSP",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Mon, 09 Nov 2026 16:10:26 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Fri, 27 Nov 2026 16:34:54 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
-      "server-timing": "cfEdge;dur=3,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=JswnVuIcDsVckQg72XqZmaZuv9JoU.YVGbtxAo.qDiY-1794240626.790936-1.0.1.1-Rv5ts6VpHiL8lyQzBolFLX8yUj4AL0rtpoZRHap8FlobQiMKS6HhO3smVqhvpsU.l2w8x7QkeRUdNVaVanIk8vNXenAkZcsiImO2nOZmXOXOfwkepLzuV_Mmljw2i8xB; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Mon, 09 Nov 2026 16:40:26 GMT",
-      "transfer-encoding": "chunked",
+      "server-timing": "cfEdge;dur=6,cfOrigin;dur=0",
+      "set-cookie": "__cf_bm=oi13nhVb36kc.QmKo.WCwYhh_cK45qazQNJHEH.GGY4-1795797294.1531923-1.0.1.1-H_jVT4hGTLsVL_gOBfkbXOFeW27_DsA_McHI23pyquJi9jgaLHxR_XFfL3CS1izNEytovv.qzTlb18nln2Me2VIAlHL_zuizVlrmbTmva1lBUqBdxxS.sSbYclaxJuMq; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Fri, 27 Nov 2026 17:04:54 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

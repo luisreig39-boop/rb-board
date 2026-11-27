@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Solari-Shieldbearer?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a57e176b2fae20a6-IAD",
+      "cf-ray": "a6128c06685c4cbe-MSP",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Mon, 09 Nov 2026 16:11:07 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Fri, 27 Nov 2026 16:35:36 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
-      "server-timing": "cfEdge;dur=4,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=4BNN7WFwZyiQfz4kwHSsb9qoIXXLhGgZbLtNt6vuBDc-1794240667.3930879-1.0.1.1-.Xt7EsCWEIcS33aAMxcKY70wyGTvFqF7JCDVp6MNqy6HmFyn0laHRYQjRVzetXJSXPUATz.ZvTB2pnBehHHcK9QCdxBM3gvGiLvhJgtj4XBfqlxIQMegv.6ehE3cpGD.; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Mon, 09 Nov 2026 16:41:07 GMT",
-      "transfer-encoding": "chunked",
+      "server-timing": "cfEdge;dur=6,cfOrigin;dur=0",
+      "set-cookie": "__cf_bm=dYahM47dKBDFQBi1dXKNvwAWUyNqyOHG.3SImf.UFUM-1795797336.068097-1.0.1.1-qxxQT2SNqydNaPnOXh3IM5UFs8M8h.aCWixgQQhUHavUCmczzWRJcs3LoWsIiH.6uF70Tp1oDqm3Xdp0c3FJRPuvO611Av_4k8d06T3jG1cAy1ot175gtqW6ZB6L3Wcl; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Fri, 27 Nov 2026 17:05:36 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

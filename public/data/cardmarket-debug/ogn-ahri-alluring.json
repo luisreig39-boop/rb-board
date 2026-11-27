@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Ahri-Alluring?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a57e18da9f706825-IAD",
+      "cf-ray": "a6128d7f1f17502f-MSP",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Mon, 09 Nov 2026 16:12:06 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Fri, 27 Nov 2026 16:36:36 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
-      "server-timing": "cfEdge;dur=1,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=gISA8OlHGzNxLSOglUiVai6livlhCNvxYLN1YxVDk10-1794240726.1745665-1.0.1.1-_nN2w6U5eslNc.JINBJAE2APqeAEqQ84qewv4YqkUFqVCUVPW_42nfOBqt1o9kWWwb1IuMHFpWLL5blEN1BT5XsgK13zmSK9ExyqNi5mPCLDNuILz2fQFs5MORISxlqb; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Mon, 09 Nov 2026 16:42:06 GMT",
-      "transfer-encoding": "chunked",
+      "server-timing": "cfEdge;dur=4,cfOrigin;dur=0",
+      "set-cookie": "__cf_bm=cFHS6epEEJ9yi0pBs3pGuzTs_ILY7MkEAlEh0rsarcs-1795797396.3360252-1.0.1.1-ZBTW59KW3pKvFTLriOnZ3QvTSe6JI11pFE_3UhJfmBitdfVUcZtwik4EldDswJHLt78R3l9acqpb93TSxz3ykl2pCoO3RZVtQRPKiOyJJz_cUBDGfRBPwfTijpaN6O3f; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Fri, 27 Nov 2026 17:06:36 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Mageseeker-Warden?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a57e193e9b876825-IAD",
+      "cf-ray": "a6128de178b15116-MSP",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Mon, 09 Nov 2026 16:12:22 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Fri, 27 Nov 2026 16:36:52 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
-      "server-timing": "cfEdge;dur=1,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=ETwP4bExC_HEJmm_ZcFeNHho3YPdMF0OcIPYA3jVudc-1794240742.1792483-1.0.1.1-KKAsaMIjMPIfOWCSR47ggrnmQTEGfYgkkdHgWMwMMd8p8lheEIAS.o0txDu4xqqjUoPkZNQV6ZqmNGj8z4eGIeWUAV98dexQMS157po8JQxnviIJZgN82hlHX_Dc5aAv; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Mon, 09 Nov 2026 16:42:22 GMT",
-      "transfer-encoding": "chunked",
+      "server-timing": "cfEdge;dur=8,cfOrigin;dur=0",
+      "set-cookie": "__cf_bm=KnkzNXZnuLygF1iCUQISlfHd2.k_u_Vb_1n1SAIfi8o-1795797412.0805185-1.0.1.1-T63EY3VeivtirObhki2I1n8l8SJIlMgH90Oh6slgMNtdHwlyAAkg0Bm63OBMrvTonTCxcI6uD_R5_LIS5kNxOGvQNuEFrGddT.nX60bchCbECWlXtNuuIosa02va_j29; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Fri, 27 Nov 2026 17:06:52 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

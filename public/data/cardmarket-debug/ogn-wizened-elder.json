@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Wizened-Elder?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a57e18c0fd27d69b-IAD",
+      "cf-ray": "a6128d681804502f-MSP",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Mon, 09 Nov 2026 16:12:02 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Fri, 27 Nov 2026 16:36:32 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
       "server-timing": "cfEdge;dur=1,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=Z6iJabsVMXHtB3tmg55TvWclVqTQEAptyXrWdh.kve0-1794240722.076719-1.0.1.1-yaRqhpJRxHkuzbL6lWgaetvWwegw_..FZvj9WveEwnc.q2Unx4ZOfStN6CiSXFMygO3V2nRT0Eu1i9D8Begd6A1poq_DiadZ7xzhc7NUcWIOl2g.l7CSBiWlJ._NczB5; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Mon, 09 Nov 2026 16:42:02 GMT",
-      "transfer-encoding": "chunked",
+      "set-cookie": "__cf_bm=u.NLKQEM4M6MDikZzUG4WjpEYkLRQ6hnyndU0erOx9Q-1795797392.6549864-1.0.1.1-85_WwLwUd24KDRmo8hBYICtBtQLByxpb0RrGO7Unqp4l.dOa2zTQy.9_uZkJMv9dty6ddc9rQyc7D4ySpJRCVyWXbaL0bCkQu4LtG7L9G0szTwk8hQcmDCh.3kyP.29k; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Fri, 27 Nov 2026 17:06:32 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

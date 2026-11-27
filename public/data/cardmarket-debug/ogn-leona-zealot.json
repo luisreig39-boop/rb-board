@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Leona-Zealot?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a57e1a270c83898c-IAD",
+      "cf-ray": "a6128ed03e4b5756-MSP",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Mon, 09 Nov 2026 16:12:59 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Fri, 27 Nov 2026 16:37:30 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
-      "server-timing": "cfEdge;dur=1,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=zdTQxBIp56i0xB4cBx91Oa3n1u1Ieb1nw1zM8PaIvE0-1794240779.366919-1.0.1.1-lpuWnMnh1BOzvci1Z1Chaa13dt7nVZrlVCOSHbm7r0FlJdbx.RT5lV6lSfHuYif7ent68cqIhtLCrC_AFpXmg9Q1kME2lipTfWxiltOvzqJJoFaadeOBBcPoHxBxYcZp; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Mon, 09 Nov 2026 16:42:59 GMT",
-      "transfer-encoding": "chunked",
+      "server-timing": "cfEdge;dur=2,cfOrigin;dur=0",
+      "set-cookie": "__cf_bm=3t7ScffxvBOgkU_g41ZiRNNqilwCz1YsYJ4.RkDPTLc-1795797450.2799053-1.0.1.1-Z_s8b9Xz2qN56K53ELza2rLkXFn.a_xtIANUzAgD29vNHqTSfch7YUtXyzsMJ9SGpEVHo94A9cMV21VQb41z08HzbN_AR3UxtiPcSthS_33Qt8.YLBHRldzgvfrTat8L; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Fri, 27 Nov 2026 17:07:30 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

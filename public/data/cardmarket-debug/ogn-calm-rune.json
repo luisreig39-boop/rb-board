@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Calm-Rune?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a57e1689cc196825-IAD",
+      "cf-ray": "a6128b174d371ee8-MSP",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Mon, 09 Nov 2026 16:10:31 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Fri, 27 Nov 2026 16:34:57 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
       "server-timing": "cfEdge;dur=2,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=CskEQnlb_xXP1yWV1y5kM3jfmQPF6iCuKsjmI7giyVc-1794240631.331236-1.0.1.1-tvKEz.COlEo4kuLMaBdIzYddhBCE7kotVwmARQXPpDPl1r1_ynC4HTG16_G0vZk2vZ1N7HiPbRamjsvZOLkjcPLFH5QFBy8azpuu2INHwf8TPZSVmrBOiA.kMVKrlHiR; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Mon, 09 Nov 2026 16:40:31 GMT",
-      "transfer-encoding": "chunked",
+      "set-cookie": "__cf_bm=y5F5Du9RbYTNBUWMcwhZEAI0gIyChIAUYKiqbUi9oo0-1795797297.8092566-1.0.1.1-fCG2H7TfAUxG3oX3AWsJDMGqzJPbwBGhYpdEmp05MLx9nIRygIyCc0Z1nYl2cttSAgKWusrMKv3u2Z6EQsSsxQoQ2BXrRd8WLSg59HMg_.6LhDLi0nfXswWw7JdiRkPo; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Fri, 27 Nov 2026 17:04:57 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

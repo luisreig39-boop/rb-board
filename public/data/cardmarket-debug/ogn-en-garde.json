@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/En-Garde?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a57e16ed9d3b898c-IAD",
+      "cf-ray": "a6128b822df44cbe-MSP",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Mon, 09 Nov 2026 16:10:47 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Fri, 27 Nov 2026 16:35:14 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
-      "server-timing": "cfEdge;dur=3,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=ycMxu1r4yGg8ZQ0Pkv3NU.Y8QNNQYwvNm05JbaLxkkM-1794240647.2974186-1.0.1.1-71Po5mHEv2mBVP0I6vgm2X9awy3y.fD9um8gzGcMERejRv2L9QTlwe8QgtpCSoTKiNmjswA3T_ZWt2iGN0QIUDOp.myE8EtHGkGDuuYIfMF.Tz0Q1wocuvMn5fiyEt76; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Mon, 09 Nov 2026 16:40:47 GMT",
-      "transfer-encoding": "chunked",
+      "server-timing": "cfEdge;dur=7,cfOrigin;dur=0",
+      "set-cookie": "__cf_bm=_Zsl_W5vOMHfEe7jXEPw0bSLS4kgvRO3QX9jXD16v9g-1795797314.9050515-1.0.1.1-PVfjuRrKjx7I_pYzvJLjxT2PL0fCUqDobCR_jsj6ADXawvtB4d.Z_sJ5SwcTgYpKPjxmMJk2VQg90B.ogzPtUGnUSvb0ejZzP5K0.GO.UWFCgG_91EJ3Z4yA.I0VA95K; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Fri, 27 Nov 2026 17:05:14 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

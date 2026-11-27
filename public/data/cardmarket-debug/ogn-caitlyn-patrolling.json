@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Caitlyn-Patrolling?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a57e190b6e56898c-IAD",
+      "cf-ray": "a6128dac4984502f-MSP",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Mon, 09 Nov 2026 16:12:14 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Fri, 27 Nov 2026 16:36:43 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
-      "server-timing": "cfEdge;dur=3,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=tvftEdZJfs6D.H8wGmq3r541YVhop4tXNhFEOTLdHsc-1794240733.9928665-1.0.1.1-sPk.MsnHlckdlVsFPoiSIrUqeby1M6ATVU4ej4FlCb7HOwtNoNh14AHZ546B7OdlkN8vZfxDH_aV4CqMjqc0rqqn5tMdBYWusUb2oF3k1mbnv6srwdeWTY9.TwId.gKE; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Mon, 09 Nov 2026 16:42:13 GMT",
-      "transfer-encoding": "chunked",
+      "server-timing": "cfEdge;dur=26,cfOrigin;dur=0",
+      "set-cookie": "__cf_bm=EiPj1eZZm5hcGqjgGwPaIpQYJVxnbk.QgKzl_U8djwI-1795797403.564471-1.0.1.1-Ctxj89fWRqYDAGUYxoRXl55hfav_9afMVM33JLlT_0E6c3ye50Lf_7hEKdyAPIvqg5pDEFd1cjtbHGcMBNwkdPRaVBGLVQWBpcLXKUQ6ktlQGZlD1fT5w.QJkrxZFfpS; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Fri, 27 Nov 2026 17:06:43 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

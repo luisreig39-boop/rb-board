@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Blitzcrank-Impassive?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a57e18f13ff86825-IAD",
+      "cf-ray": "a6128d959bb9502f-MSP",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Mon, 09 Nov 2026 16:12:09 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Fri, 27 Nov 2026 16:36:39 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
       "server-timing": "cfEdge;dur=1,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=0Nkzxs5FjeSXXzZwdmQ23z12pcda_hc5l3_oSAen6v0-1794240729.8022318-1.0.1.1-PYTkMNgcF4E6etCuACC7Hq0tRBD4VyiuwlNi4Utj18OMVoy5osnoiHHYMlIu8iETE2sA9ON8FNzPNA3T5YtQzUpe9q.mrDzuoWBv9G1CDGfyyDvoQgK9gGBrvdFt_Q6_; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Mon, 09 Nov 2026 16:42:09 GMT",
-      "transfer-encoding": "chunked",
+      "set-cookie": "__cf_bm=0xrB2WBACG.QxCiqc9f0iQ74JOx4dcv.rWnsrdXx1Zc-1795797399.9374363-1.0.1.1-p83E48RtfVykBUBhbKT03IH08djy.ah3tobX74tNcD98UB_9ShpaYtfEG4dz9hlCRQxF31jplJ12DIrYTN5UPw.JsvmRuJiP3QevT8KVEDIZ3GOWv8WLgI6d7sCJe5OC; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Fri, 27 Nov 2026 17:06:39 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Sona-Harmonious?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a57e198e7905898c-IAD",
+      "cf-ray": "a6128e331ccb5756-MSP",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Mon, 09 Nov 2026 16:12:34 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Fri, 27 Nov 2026 16:37:05 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
-      "server-timing": "cfEdge;dur=3,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=Sycm7eLxuUAXllkbCxLuz6T07oYo.PM1SBB0YJ_Hpsw-1794240754.9545588-1.0.1.1-jwbesfR0_6YWn6dYk50J2Hej3dQVWs78Qx07AgWw_.pin5bwl6t6ZbsFUc3U831nN3P0j9Xx1f8BsveoNxdTksNHfauNjwqiIctTDLs5UDDaj1YH1ZE3JGpHZn5D4Pcw; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Mon, 09 Nov 2026 16:42:34 GMT",
-      "transfer-encoding": "chunked",
+      "server-timing": "cfEdge;dur=2,cfOrigin;dur=0",
+      "set-cookie": "__cf_bm=dmCDKlTPU7VwrekOgCeLnlxY3zmKiKqjgtHjdRxABIk-1795797425.1375258-1.0.1.1-c.oJLpw7DUtcceIswDJsjKStLTkx.ij7Q1r9UbfE8OJ19KnpbrAcpHm4b9Zk2feABKOT_Mnv9Uzji7Znxy4g5cVuB3mLH6Q_SZX1hYrteVjhfvPuqmGlT4RKSGbGs3a_; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Fri, 27 Nov 2026 17:07:05 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }
