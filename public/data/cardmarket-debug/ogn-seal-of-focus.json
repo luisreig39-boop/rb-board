@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Seal-of-Focus?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a585dc1c8e2d1421-SEA",
+      "cf-ray": "a61a6579fae9d8a7-SJC",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Tue, 10 Nov 2026 14:48:44 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Sat, 28 Nov 2026 15:27:23 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
       "server-timing": "cfEdge;dur=5,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=Cj5vBmxhOSQkapSWjdVy59fzWzw98KZU9VJG7ZsGJ8M-1794322124.2442265-1.0.1.1-MVYEgiERpGCoVkTloMYmMpATaWVF6ivw2nC4K9A1uCvmj7iNmzuPqfDMM821xrEbzPtYpZTGcT4qqQgZj1wtCfHgCeFMzI1lVzvlxDQzVOf9Hm_rg9upA8yHakBBB5KO; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Tue, 10 Nov 2026 15:18:44 GMT",
-      "transfer-encoding": "chunked",
+      "set-cookie": "__cf_bm=C5PpIRHy1snQuZjo1o7kkI7FuofSr5WJianoSDWZNKw-1795879643.1955771-1.0.1.1-Xeap.R98SYRZShEdMeH.9vSayMnQNp2kbFAQTg7aS.wzBfhSlTe7h7hacen9b2Af0L4pEl.gEnYaNk1PMrLbzGT0Qgh9EvbSbI6zHuxFhotymw3MbkG0KaDQy.3X9OWX; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Sat, 28 Nov 2026 15:57:23 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

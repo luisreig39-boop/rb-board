@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Mushroom-Pouch?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a585de1cda9e372b-SEA",
+      "cf-ray": "a61a6769abe96dd5-SJC",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Tue, 10 Nov 2026 14:50:06 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Sat, 28 Nov 2026 15:28:42 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
       "server-timing": "cfEdge;dur=1,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=N7kefTpNzwJpv01EiRyaulatpzBkeZjF9pYGN1ScgbM-1794322206.213029-1.0.1.1-b7v.EdA86Iq158SMgZSo7oZkMz1EMMLWy9rdCsrlhmkhKySYp6Q57cqBoexWTfiBAjyFmBIvMVxJHgHk17guoQ4AoQrmFIAv3py_O4Zu0cw8xN0XO1VaSBWtnF1BuKwv; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Tue, 10 Nov 2026 15:20:06 GMT",
-      "transfer-encoding": "chunked",
+      "set-cookie": "__cf_bm=q0L8qTVdZH2CkEqFrZnYrUbhGDRE8ikbp7zeeQ2rbtg-1795879722.5036793-1.0.1.1-1oZ1KO8QlXGMDs2iZcpjYKk0iHNH2LyqXTjbngwvfXKqf6gcskEK_ZhFc1OHlKDwthjrc4eiEH5BIhz1vc9guwhoQD_7efsrSaCzgdtMM8.zjlrZNJRt3VW2xKU0Y06c; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Sat, 28 Nov 2026 15:58:42 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

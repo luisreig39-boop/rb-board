@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Ahri-Inquisitive?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a585dfe13c3f1421-SEA",
+      "cf-ray": "a61a692fbe0dd8a7-SJC",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Tue, 10 Nov 2026 14:51:18 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Sat, 28 Nov 2026 15:29:55 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
-      "server-timing": "cfEdge;dur=1,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=foZj4N2JmbTSvjOYt91PmUIcsAYz11bM3HFqozUGzfM-1794322278.6013129-1.0.1.1-eyoAczKGvGnowWrIc5sWbkljZdyC7Qn4I8xo.WLNBCrcFZl9wrfIhBCXpAkMBk3vD0ORPmmAUtMQrClHK3hHt7UxDxfxtyJa4USVeEXugdSwKRKd796UbeiZJfexxREn; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Tue, 10 Nov 2026 15:21:18 GMT",
-      "transfer-encoding": "chunked",
+      "server-timing": "cfEdge;dur=4,cfOrigin;dur=0",
+      "set-cookie": "__cf_bm=H3o8YipOScv4Mpk13w87mRBYW4JH76SJX4ul_2nK3VQ-1795879795.153769-1.0.1.1-0NZSHaKRtN3Ue_A48wF2JitBXbgFZ_FeILTLHnpgCdCuOjAjYswS9Xzu_MEKzxlmT5bjiKecC_S3kcKm0BuhGSszitochxIROq_8mImzE.NnKXXBP0B_WV7RGlNX7J0c; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Sat, 28 Nov 2026 15:59:55 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

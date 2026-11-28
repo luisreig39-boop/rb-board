@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Mega-Mech?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a585dcd05ac41421-SEA",
+      "cf-ray": "a61a662949fde678-SJC",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Tue, 10 Nov 2026 14:49:13 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Sat, 28 Nov 2026 15:27:51 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
-      "server-timing": "cfEdge;dur=1,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=T2NnbfmGg.1imB9gKWF_3uvzBMVQ93cDceyiMUyDZCg-1794322153.016162-1.0.1.1-E4qt3_R7UNJzwcJt_ZyNNbmEVJM8TkDmbvz3LZxGHrach8TV.NGcMV_tK3bRdhIgq5q2R7YTl0idEp5amyZGXDkfX.Ps9FLRLSgxj3aQpTIR_EtRBFq_Jf_VgWzqzdCJ; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Tue, 10 Nov 2026 15:19:13 GMT",
-      "transfer-encoding": "chunked",
+      "server-timing": "cfEdge;dur=3,cfOrigin;dur=0",
+      "set-cookie": "__cf_bm=ceI5cv10pOz_eEeBhuJCb82q4jUdS3H2aI0UBrK9qH8-1795879671.2462518-1.0.1.1-7RWvD388fgC_9xQLqWWfnuJaB8UvsnV8g2P9FXuv9gzDO5hg4H55.UYFq7Q7srpJ4uRR1lJ5o7Gjzv3hem0dDnpfnmyTGnsF5w3x_0_vKjsUqDtSgRuWIVwolUr7xf7H; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Sat, 28 Nov 2026 15:57:51 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

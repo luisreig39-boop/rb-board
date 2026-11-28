@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Smoke-Screen?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a585dd551c8d372b-SEA",
+      "cf-ray": "a61a66a30c2d172a-SJC",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Tue, 10 Nov 2026 14:49:34 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Sat, 28 Nov 2026 15:28:10 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
       "server-timing": "cfEdge;dur=1,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=rBUA8onWHMFmW_4SQ4HbVu.9bYJFWmCw0m_djOSlfz8-1794322174.2602577-1.0.1.1-HDO5Sl9pU5PVISnGzYLfnGPfC_y0U4Ha8PdYG5jAaWS_5Y77kIaClI5do1zSOzm_gzaR6t0CUOgICCRevKPRMHU9BX_bQ.7GxLKqBtbEwqLq3Qp2uCPw33BnEkRonV0_; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Tue, 10 Nov 2026 15:19:34 GMT",
-      "transfer-encoding": "chunked",
+      "set-cookie": "__cf_bm=o_9voN9AdzTMgtYWvOlZ2D6HQWZRgzjYZEXg7PdXiB8-1795879690.726095-1.0.1.1-mj.buQloNcwTVc_rT8YFt4gRvfbouxgPjoiB1V0yxCeSnN6NL33f_KCCnn_2HBz_ZLUNF70tHGaILuftLqDbL4J3vwKesqDG.2y4c59IKoT7WubntBoJzQtZ5HX9B4zV; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Sat, 28 Nov 2026 15:58:10 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

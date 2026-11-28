@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Lecturing-Yordle?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a585dcb84a611421-SEA",
+      "cf-ray": "a61a6610c823e678-SJC",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Tue, 10 Nov 2026 14:49:09 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Sat, 28 Nov 2026 15:27:47 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
-      "server-timing": "cfEdge;dur=5,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=RwOBoU9JIuT3B27IHCD6DtYvnJqtqcGNgQ2fsUdEjPc-1794322149.1711972-1.0.1.1-xFkzzCntNb8vEr3xh5HVdR2PMgL63jo.jIJGl5CsSOqGNwTSmAaUk.3nnHtuChMSVc38DsjFqgr_3lsUGy4F9DmiDle7_j3IPlN5dvaDjDz_30CnzAbYtP4I9rsuV5r9; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Tue, 10 Nov 2026 15:19:09 GMT",
-      "transfer-encoding": "chunked",
+      "server-timing": "cfEdge;dur=7,cfOrigin;dur=0",
+      "set-cookie": "__cf_bm=uVv61EociWmOpF41yE4SN9_zQYAUJkfrZ0ecwXVlMOo-1795879667.3288977-1.0.1.1-qYXP3KywyP29vXgeUKyTe6uThyEuVGQDSgOJsoletWGa4ED0zqZWuT7fLgVaCbjGII.5SRpvkdJb0NaB54AJbsbe_DNsa_jGzSEDl2j9ejZkrvRpboD7.EuiG2.OgVFU; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Sat, 28 Nov 2026 15:57:47 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

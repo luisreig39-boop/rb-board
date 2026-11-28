@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Energy-Conduit?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a585ddd5ee76372b-SEA",
+      "cf-ray": "a61a671e7de0d8a7-SJC",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Tue, 10 Nov 2026 14:49:54 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Sat, 28 Nov 2026 15:28:30 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
       "server-timing": "cfEdge;dur=1,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=zLg7MZAaf.HfF5qviDZIW1bM1AsXCtHw6mNMlQ74ZSU-1794322194.8640776-1.0.1.1-Rwn94WievzD4joF.Lhu1jfPbSZX1uGQjNx5RtD1qsstp2WCZaiaTMW38XX9bvAMd273O4iRnmjOwLSKXjdbEoUxOFwfRCXs3RySrnzcVRRB7VWkULIPMt1ELksP_5NyV; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Tue, 10 Nov 2026 15:19:54 GMT",
-      "transfer-encoding": "chunked",
+      "set-cookie": "__cf_bm=rSWtj.TrsiOKueYmSHAdWLhTEwoegzLbgzlaO93QtRI-1795879710.480378-1.0.1.1-Jx_MPIWlpspuuRTG7AFPdTIaCoYLocWLQnVx5MqbRsmj5ojeR27Uk0_lOh2kVQFptcUYGUw0ZqXAYdazXdUENOkpe2qiFOtB.RrY4mKLik6w5iVxdOfPpPadqX88i_z5; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Sat, 28 Nov 2026 15:58:30 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/KaiSa-Evolutionary?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a585df2b5fb41421-SEA",
+      "cf-ray": "a61a6881efa0e678-SJC",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Tue, 10 Nov 2026 14:50:49 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Sat, 28 Nov 2026 15:29:27 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
       "server-timing": "cfEdge;dur=1,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=j3a0YjtaRzJoo7al8tokmBeo55K8uLO64Gohnr1C65g-1794322249.4921536-1.0.1.1-rQWvKupA4TeCgOC8_T0zIJ.UlSEJ3vLv9uLmSD.7Lidq._brrFgf2ftEpqFbVKieD7Kpr7N2NTbBIybwM7KGblTiiH4RYomekm_83Dw9dKrt41rhy.9kih2oX0tWFfH.; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Tue, 10 Nov 2026 15:20:49 GMT",
-      "transfer-encoding": "chunked",
+      "set-cookie": "__cf_bm=.PI_bCXF2.023x063WU0y27lU6g0e.y8Noz2gVDAc1w-1795879767.3509233-1.0.1.1-DhEwZjxTl8S.MirQ6wWATpxkoe5FyLO6zblIZeipdC9E7.UVgwhRuMi3hIBOr6SjkE1.nVKDQfrma9UMvfbyYzJsVnXa_TEWZElI6WjKBNS7LGly2rz2r43Nt3t8jE4J; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Sat, 28 Nov 2026 15:59:27 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

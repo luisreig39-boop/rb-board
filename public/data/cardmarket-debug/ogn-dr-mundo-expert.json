@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Dr-Mundo-Expert?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a585dee369fe1421-SEA",
+      "cf-ray": "a61a68394cbbe678-SJC",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Tue, 10 Nov 2026 14:50:37 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Sat, 28 Nov 2026 15:29:15 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
-      "server-timing": "cfEdge;dur=7,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=R25QPZB_hkcm1MkXb6kfyvi8zAXOGnqxQJrRbXXoOyI-1794322237.9863515-1.0.1.1-HAo2grwBzBda2FHPV577OIEwizCPHXxqZ5eAcFSfiSnilaiRafcvOqeuXUb6.YEHfHnc1cl.k2dtU9bLocyQi4DZ1FLjIl41Ac2uTlFcluP.QjRgkERVNSfSVgB4plvS; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Tue, 10 Nov 2026 15:20:37 GMT",
-      "transfer-encoding": "chunked",
+      "server-timing": "cfEdge;dur=1,cfOrigin;dur=0",
+      "set-cookie": "__cf_bm=BRp9CLowdAAS5v2AqdRSAyFIzWU2Yj_.Ueh6AuCTDk8-1795879755.7258756-1.0.1.1-a4EPGi3R6b0PpXbWCftvbvtHSleWwcoXMJMZjoVxTxXMb0wQ8cXoWTLCTLquGvR1TagjZP7ffitdEVCb_bsJfVbXBb7jMFLPt0tSV7bbEdGnDeE1MoKyPAg69K3fbbnJ; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Sat, 28 Nov 2026 15:59:15 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Viktor-Innovator?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a585dfae5a820999-SEA",
+      "cf-ray": "a61a68ffdacee678-SJC",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Tue, 10 Nov 2026 14:51:10 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Sat, 28 Nov 2026 15:29:47 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
-      "server-timing": "cfEdge;dur=2,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=gWzUGxRKD1SNENi0Pt3t2IEGi7t6hYcf65yzuqqwJfY-1794322270.4587412-1.0.1.1-aP9.nsOXbgSz4opL50aY1YckvBXn.xPRdfqDcuYAA0IozFm_yh4ZQzmf8ij3kS4qJWRKzV_98Wyp25svRJ_JKMS6i0n1cuAMqSH664rwgSfyBph7tuYcaya24WyhPin5; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Tue, 10 Nov 2026 15:21:10 GMT",
-      "transfer-encoding": "chunked",
+      "server-timing": "cfEdge;dur=1,cfOrigin;dur=0",
+      "set-cookie": "__cf_bm=vranlKhpDYi90QEeB3GUKemdM78c95HibAZEFbIy.nM-1795879787.4956222-1.0.1.1-txHt2QIwlMygxELIvPGaT2N_Dhr5tOrNHUHR0VS5_g1g9.TELMr1hxBtQnSsqw.p.7nrGkp4wrEzBxjj5aAv4DJYbQ9PseVmeO6R1zsJH8xEiG.oYijtSWmhR3cR6_Bp; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Sat, 28 Nov 2026 15:59:47 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

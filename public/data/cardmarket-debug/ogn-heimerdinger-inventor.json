@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Heimerdinger-Inventor?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a585df133ead1421-SEA",
+      "cf-ray": "a61a68697f11e678-SJC",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Tue, 10 Nov 2026 14:50:45 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Sat, 28 Nov 2026 15:29:23 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
       "server-timing": "cfEdge;dur=1,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=0wQVLV3GFAjKxQK_mhrMS6nMOBH3U56vzXQcw2dqbVg-1794322245.6330183-1.0.1.1-OFsMKukYmFIXfLdVGXtBhvFdpkJ3Dg1Se3vmNMpAUzLM_A90Vz.QnaF_pVkwovz53EDdYFOqsmhG1QAG4MLODXiPJENnoFzFLp_zlSuXEenNKzAoy2CFfxfv_VoqoNaC; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Tue, 10 Nov 2026 15:20:45 GMT",
-      "transfer-encoding": "chunked",
+      "set-cookie": "__cf_bm=s3qGY6VeGn7KF6ybRT5e9corLqoFTLypCt.I8kIRnLQ-1795879763.4400256-1.0.1.1-SD9lD_BOblzo3RI3SeDlSYRCI9BqjqLRqqcGXus.BqJV_IWhkKXWNDVdKvnATvZjbyOa1hQVgKEgHF.CkAHFICDOdwsvWhnZy.ridV5IJHedwCGRh83fJ1YVZi6RbJiy; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Sat, 28 Nov 2026 15:59:23 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

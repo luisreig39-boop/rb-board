@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Jeweled-Colossus?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a585dc9f9f4b1421-SEA",
+      "cf-ray": "a61a65f799e2fbec-SJC",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Tue, 10 Nov 2026 14:49:05 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Sat, 28 Nov 2026 15:27:43 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
-      "server-timing": "cfEdge;dur=2,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=JHpfQKnxush6S9zDbPXeLTCYgb39hmc.AtPHDgzkhEc-1794322145.218841-1.0.1.1-G.zaH1SA3oLDrJp1Q2cNgyEw7pPyrdqYab2gGfQaApdI7m.w8AkJ3Ip7jhtGs.f13v25ZTu2KfM.Wr0x15V1aRrykeaeCh7NnhWUzYJlKv1bHmOQa.52IjdKlvM14NEa; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Tue, 10 Nov 2026 15:19:05 GMT",
-      "transfer-encoding": "chunked",
+      "server-timing": "cfEdge;dur=1,cfOrigin;dur=0",
+      "set-cookie": "__cf_bm=jREtuxGX2xeSHgsZarT0w.e9xFTd0HVzVJ.RKyB04JI-1795879663.2917454-1.0.1.1-t0UIbLphuSl92lfhA30nRbP5ADwagbpy4egm9HFS68goJKZH72NOvZzpv7YPX5tfnFLEcWiG_QY8bV4btx6YZmnmrumgXNmNYFb1Bqpag.cvZLICmZBoltn3DL8.XHrc; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Sat, 28 Nov 2026 15:57:43 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Thousand-Tailed-Watcher?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a585df95da300999-SEA",
+      "cf-ray": "a61a68e41d986dd5-SJC",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Tue, 10 Nov 2026 14:51:06 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Sat, 28 Nov 2026 15:29:43 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
-      "server-timing": "cfEdge;dur=22,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=kRwnbQm4YMti6ngV82q6nY_iEEtt3ewvUuLh.o6rYzY-1794322266.5399709-1.0.1.1-tUP37rIiZpLGnzz8Iv3KNLSx70wGtcWvjlGepOi3kX15vO3LR16rlqelwEBmfOBQcyhNZArxtUcQP1DEQO_q4QD56qTXtjQB.5kgNEVWGfrEI2cF9s6EiaqSTO0K6YHJ; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Tue, 10 Nov 2026 15:21:06 GMT",
-      "transfer-encoding": "chunked",
+      "server-timing": "cfEdge;dur=1,cfOrigin;dur=0",
+      "set-cookie": "__cf_bm=OdXUf3poZOTL7iP8HIV72fCcgBmT7a_WYoAitdE3qlc-1795879783.0579164-1.0.1.1-NAeQt1hjJSSfJqheGPtIHGQEPFwXLx9E0rYIcaqP03JvYMnM0bEHXdTrKn0lzF9o7OyVzFpVfb8ls6my9kIsJSvcZP6N.8kZFxcwFBjiN8UBk5FYu0VyR59YcyWjdV5X; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Sat, 28 Nov 2026 15:59:43 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

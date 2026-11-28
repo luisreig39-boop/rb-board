@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Stupefy?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a585dd856ff6372b-SEA",
+      "cf-ray": "a61a66d6e8156dd5-SJC",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Tue, 10 Nov 2026 14:49:42 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Sat, 28 Nov 2026 15:28:19 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
-      "server-timing": "cfEdge;dur=1,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=PagAB7t_5N6VNOFRa49OhrEP7hzSX655bMpb7OUSvx8-1794322182.1374307-1.0.1.1-JW.zMzkCnI4sJqr1cx4UzUE5jR0EwvV16.gnseeaMplfVmC82dMdL7Yoc043dqgzim0sNwdrbC.IR7bJp5.7hREC.rpSIz4f6r7rr_4hrybj7GaE6xp7TkJzSwVUvNXF; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Tue, 10 Nov 2026 15:19:42 GMT",
-      "transfer-encoding": "chunked",
+      "server-timing": "cfEdge;dur=2,cfOrigin;dur=0",
+      "set-cookie": "__cf_bm=2o9Ef50XsyGrNjwC8nkiaQOopm84Fl3D7jNzztfldSQ-1795879699.0226636-1.0.1.1-HwjRqfbDF9dcGcCK5jt9JcuBiXSV0bg3xlty6roS5ypjMYqaAFZuBCjJLwd99ON4PWAn7fuzTrAlJsIawkDbPCQ1AWZNrdHe6X8ZyYPC6tZTkHMIKrd4IqkkmKubK2Pw; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Sat, 28 Nov 2026 15:58:19 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

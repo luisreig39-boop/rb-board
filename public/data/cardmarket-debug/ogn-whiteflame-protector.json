@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Whiteflame-Protector?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a585dc376c80372b-SEA",
+      "cf-ray": "a61a65944ecf172a-SJC",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Tue, 10 Nov 2026 14:48:48 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Sat, 28 Nov 2026 15:27:27 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
-      "server-timing": "cfEdge;dur=4,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=Ya87mR.F.yL_7csn_AL2YEn0zwBLc_tsOnSFe7EszJY-1794322128.5500576-1.0.1.1-IS8rkluZ6KstRLfxIqeBEoYTSrdgq_u83a6blmaW5VAdjskt.nFN_V6ICkzrT8LK_rDQFoBFQ.1_QbNzkyJDqWjdfwDHf90x.qTkW_eyqV02MZdAGsuKvCfPNIZFsoLd; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Tue, 10 Nov 2026 15:18:48 GMT",
-      "transfer-encoding": "chunked",
+      "server-timing": "cfEdge;dur=2,cfOrigin;dur=0",
+      "set-cookie": "__cf_bm=wj8siI4n4nscYNtePFw4Aikz4u5tadu6gX9pC82qn3w-1795879647.408305-1.0.1.1-cVnVeKjQYNdLt15gpJERJFkVsbi2vvAlPLfBybNwEc1rWYuTgZPabBSBBeqHVU2lvDh5sQPv9uUqCkq49zQ1dqWNBWaMqrV5GJDTUdh_FqY5slRe1lQNNy_zAoOvkHy.; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Sat, 28 Nov 2026 15:57:27 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

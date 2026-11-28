@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Gemcraft-Seer?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a585de048a37372b-SEA",
+      "cf-ray": "a61a674e1d2fd8a7-SJC",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Tue, 10 Nov 2026 14:50:02 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Sat, 28 Nov 2026 15:28:38 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
-      "server-timing": "cfEdge;dur=2,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=VGr8Q7oXm8gZScV76mSFqnNJRWWcG3mx61fq1Ob.jj4-1794322202.3277438-1.0.1.1-1QxhJ2SrdVHm.J16qYw3w9peF2VT3WCnyM.rorpvQgQspnNijKLroy29iqA94QRfdtr8yE4FQg04iOmRHw9Hvay1OQ13SNx2bWHl8TTwnWJkr.xms1miIrkqztK.LENQ; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Tue, 10 Nov 2026 15:20:02 GMT",
-      "transfer-encoding": "chunked",
+      "server-timing": "cfEdge;dur=1,cfOrigin;dur=0",
+      "set-cookie": "__cf_bm=NhrXV7aLzVIb8dRr9Q64mfv5sw3OZPQQ8Ziyls3UMJo-1795879718.09804-1.0.1.1-X6I.fb8TiGsaQ3MXvakJCWcQemQbg0d.Uv4ncsxXh.fnn2NIvELH3EfrwKaiTnZISLL1ppCVNbCSdpH9C9AyEiL7HzVDRT01IhVNTsqgdgIMlKSi5zXReZkMTGmR7.zu; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Sat, 28 Nov 2026 15:58:38 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Mind-Rune?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a585dce9dae8372b-SEA",
+      "cf-ray": "a61a6641eca0e678-SJC",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Tue, 10 Nov 2026 14:49:17 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Sat, 28 Nov 2026 15:27:55 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
-      "server-timing": "cfEdge;dur=2,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=gHNEwsqCb6xCk6_8cfHvWhLTqKZLT2JzX9iB.HejpWA-1794322157.0930228-1.0.1.1-LMENSJoI7oJk63IxTGLraFksHhT0n1Sfcf6cA7M4txfQZlYJJ1VVU3o8T8FwWtGpKslY2Qk6Z0d04A5pt6uJ8FkwTNYB5BhrtX.g1iRb6mr_lFgrWPXP7iicpmQv7K1W; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Tue, 10 Nov 2026 15:19:17 GMT",
-      "transfer-encoding": "chunked",
+      "server-timing": "cfEdge;dur=1,cfOrigin;dur=0",
+      "set-cookie": "__cf_bm=QQTATjNbePVe6sx7i80X0h9QychVmfPElMmAUrc6m38-1795879675.1818516-1.0.1.1-zJpKVWUx3i3A.dav3tvrut7OFUfKvIDDvBYTRyZVRP8lQXwo_o62aIxfDp5idbt.sxPY2VoAD9KX7MFSXccb1eW6FnyLd.ovXepm58DvnQqQsYrcayvL2ai8jwkkSjy4; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Sat, 28 Nov 2026 15:57:55 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

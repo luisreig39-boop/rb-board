@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Sprite-Call?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a585dd6d6a0e372b-SEA",
+      "cf-ray": "a61a66be0f866dd5-SJC",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Tue, 10 Nov 2026 14:49:38 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Sat, 28 Nov 2026 15:28:15 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
-      "server-timing": "cfEdge;dur=8,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=0h9bCC1Dto7ZSL6J3LLDhEYgf6tFBr1bvGARxWfKfNQ-1794322178.1481078-1.0.1.1-ipcxgt_N3nJGTedyu1tssDfKPgynFmbo2le.7KDoP8w0gGRNYNh__SN7VtMR5.gDO_fMyzdf2iyKdVVw.wROVQ_9lzZ.jBKnrOyZqKL_UWFWx2_AqPUXgFpRtgyBrdpN; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Tue, 10 Nov 2026 15:19:38 GMT",
-      "transfer-encoding": "chunked",
+      "server-timing": "cfEdge;dur=1,cfOrigin;dur=0",
+      "set-cookie": "__cf_bm=FcD1LdgDicuQGF9Us0d8KOUqo6gp48ua7sev7whYmk0-1795879695.0522-1.0.1.1-ogxLzVHxhGWDOsCwXIP0.NzcrCLQxFJBD1nyqJMKKgDPAtIfJ1aMxk_wDG2amMRb5UcIoBNj3UuYadAgAbUq_djlCfCaaaQTstPRYI2lJiM_wiBSfPEEoNWIpK3F4BRq; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Sat, 28 Nov 2026 15:58:15 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }

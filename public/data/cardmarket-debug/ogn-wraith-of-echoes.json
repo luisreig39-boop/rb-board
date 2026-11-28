@@ -12,21 +12,20 @@
   },
   "url": "https://www.cardmarket.com/es/Riftbound/Products/Singles/Origins/Wraith-of-Echoes?sellerCountry=10&language=1&minCondition=2&isFoil=Y",
   "parsed": {
-    "status": 403,
+    "status": 401,
     "ok": false,
     "headers": {
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-      "cf-ray": "a585dfc68fa20999-SEA",
+      "cf-ray": "a61a69198f64d8a7-SJC",
       "connection": "keep-alive",
-      "content-encoding": "br",
-      "content-type": "text/html; charset=UTF-8",
-      "date": "Tue, 10 Nov 2026 14:51:14 GMT",
+      "content-length": "24",
+      "content-type": "text/plain",
+      "date": "Sat, 28 Nov 2026 15:29:51 GMT",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "referrer-policy": "same-origin",
       "server": "cloudflare",
       "server-timing": "cfEdge;dur=1,cfOrigin;dur=0",
-      "set-cookie": "__cf_bm=G47z5AFUcwbtfIy5zDu4cJDQIjxc_hXGM_GRLfyFloQ-1794322274.3248863-1.0.1.1-8A086hqj9WEXQ2EmBUAPJQ5SyIR_BllWgAzAeo5CNhJo4w1urVsyT7DYXjXtiEvwq0n13zWOTsd5J5c3ecVS2b5_qh4cA2fgyfGFE.5X76m4NeOzW0jz.gX53H86UOtr; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Tue, 10 Nov 2026 15:21:14 GMT",
-      "transfer-encoding": "chunked",
+      "set-cookie": "__cf_bm=7fV34mh5AtMXaMvgXJyCwffi4Xq2F8pWTax0On8SEEM-1795879791.6017656-1.0.1.1-JYY3zNb_s7rPlJhbhgEzWU1jc7zd7cQ_xnpyX9rYuFWhnfilTjVtujlIm58xLr677XjVzKfAc0rBL5csmV5QmZRxOnPtNXdwprxTujwOPjqy3ntFgVZem850LvlfWhW9; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=cardmarket.com; Expires=Sat, 28 Nov 2026 15:59:51 GMT",
       "vary": "accept-encoding",
       "x-frame-options": "SAMEORIGIN"
     }
